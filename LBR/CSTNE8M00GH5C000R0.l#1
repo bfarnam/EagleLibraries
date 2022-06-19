@@ -1144,7 +1144,7 @@ Source: &lt;a href="https://www.murata.com/en-eu/products/productdata/8801161773
 </device>
 </devices>
 </deviceset>
-<deviceset name="FY0800057Q" prefix="Y" uservalue="yes">
+<deviceset name="FY0800057Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CRYSTAL-4P" x="0" y="0"/>
 </gates>
