@@ -148,8 +148,8 @@
 <pin name="GND" x="20.32" y="-5.08" length="middle" direction="pas" rot="R180"/>
 <pin name="VCC" x="20.32" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="VO" x="20.32" y="0" length="middle" direction="pwr" rot="R180"/>
-<text x="-15.24" y="8.255" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-15.24" y="-10.16" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-15.24" y="8.255" size="1.778" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-15.24" y="-10.16" size="1.778" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -167,27 +167,13 @@
 <connect gate="A" pin="VO" pad="5"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="INVERTING" value=""/>
-<attribute name="ISOLATION_V" value=""/>
-<attribute name="LED_IF" value=""/>
-<attribute name="LED_VREV" value=""/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value=""/>
-<attribute name="OUTPUT_CURRENT" value=""/>
-<attribute name="OUTPUT_POWER_DISSAPATION" value=""/>
-<attribute name="PACKAGE_TYPE" value=""/>
-<attribute name="TYPE" value=""/>
-<attribute name="VALUE" value=""/>
-<attribute name="VCC" value=""/>
-<attribute name="VOUT" value=""/>
-</technology>
 <technology name="04">
 <attribute name="INVERTING" value="YES"/>
 <attribute name="ISOLATION_V" value="3750 Vrms"/>
 <attribute name="LED_IF" value="25 mA @ 25°C / 15 mA @ 125°C"/>
 <attribute name="LED_VREV" value="5 V"/>
-<attribute name="MPN" value="TLX9304" constant="no"/>
+<attribute name="MFG" value="Toshiba"/>
+<attribute name="MPN" value="TLX9304"/>
 <attribute name="OPERATING_TEMP" value="-40°C to +125°C"/>
 <attribute name="OUTPUT_CURRENT" value="15 mA max @ 25°C / 10 mA typ @ 25°C"/>
 <attribute name="OUTPUT_POWER_DISSAPATION" value="100 mW @ 25°C / 26.8 mW @ 125°C"/>
@@ -202,7 +188,8 @@
 <attribute name="ISOLATION_V" value="3750 Vrms"/>
 <attribute name="LED_IF" value="15 mA @ 25°C / 7.3 mA @ 125°C"/>
 <attribute name="LED_VREV" value="5 V"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MFG" value="Toshiba"/>
+<attribute name="MPN" value="TLX9309"/>
 <attribute name="OPERATING_TEMP" value="-40°C to +125°C"/>
 <attribute name="OUTPUT_CURRENT" value="25 mA max @ 25°C"/>
 <attribute name="OUTPUT_POWER_DISSAPATION" value="100 mW @ 25°C / 1 mW @ 125°C"/>
@@ -217,7 +204,8 @@
 <attribute name="ISOLATION_V" value="3750 Vrms"/>
 <attribute name="LED_IF" value="8 mA @ 25°C / 7 mA @ 105°C"/>
 <attribute name="LED_VREV" value="5V"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MFG" value="Toshiba"/>
+<attribute name="MPN" value="TLX9310"/>
 <attribute name="OPERATING_TEMP" value="-40°C to +105°C"/>
 <attribute name="OUTPUT_CURRENT" value="10 mA max @ 25°C"/>
 <attribute name="OUTPUT_POWER_DISSAPATION" value="20 mW max @ 25°C"/>
@@ -232,7 +220,8 @@
 <attribute name="ISOLATION_V" value="3750 Vrms"/>
 <attribute name="LED_IF" value="25 mA @ 25°C / 15 mA @ 125°C"/>
 <attribute name="LED_VREV" value="5V"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MFG" value="Toshiba"/>
+<attribute name="MPN" value="TLX9376"/>
 <attribute name="OPERATING_TEMP" value="-40°C to +125°C"/>
 <attribute name="OUTPUT_CURRENT" value="10 mA max @ 25°C / 4.5 mA min @ 25°C"/>
 <attribute name="OUTPUT_POWER_DISSAPATION" value="40 mW @ 25°C / 8.95 mW @ 125°C"/>
@@ -247,7 +236,8 @@
 <attribute name="ISOLATION_V" value="3750 Vrms"/>
 <attribute name="LED_IF" value="25 mA @ 25°C / 15 mA @ 125°C"/>
 <attribute name="LED_VREV" value="5V"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MFG" value="Toshiba"/>
+<attribute name="MPN" value="TLX9378"/>
 <attribute name="OPERATING_TEMP" value="-40°C to +125°C"/>
 <attribute name="OUTPUT_CURRENT" value="25 mA max @ 25°C"/>
 <attribute name="OUTPUT_POWER_DISSAPATION" value="40 mW max @ 25°C"/>

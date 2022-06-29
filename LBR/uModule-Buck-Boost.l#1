@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -43,6 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -65,9 +66,13 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="CONFIDENTIAL" color="59" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -2230,8 +2235,9 @@ J3-9  K3-9  L5-8</text>
 <text x="-10.16" y="20.32" size="1.016" layer="97" font="vector">G10-11 H10-11
 J10-11 K10-11
 L10-11</text>
-<text x="-25.4" y="27.94" size="2.54" layer="95">&gt;NAME</text>
-<text x="-25.4" y="-30.48" size="2.54" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.86" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="-30.48" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 <symbol name="LTM8055EY-1#PBF">
 <wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
@@ -2480,7 +2486,7 @@ L10-11</text>
 <pin name="MODE(G2)" x="-27.94" y="-17.78" length="short"/>
 <pin name="GND(L1)" x="27.94" y="-17.78" length="short" rot="R180"/>
 <pin name="RT(H1)" x="-27.94" y="7.62" length="short"/>
-<pin name="FB(J1)" x="27.94" y="12.7" length="short" rot="R180"/>
+<pin name="FB(J1)" x="27.94" y="7.62" length="short" rot="R180"/>
 <pin name="GND(BANK1)" x="27.94" y="-22.86" length="short" rot="R180"/>
 <text x="3.81" y="22.86" size="1.27" layer="97" font="vector" ratio="10" align="center-left">A1-5
 B1-5</text>
@@ -2490,8 +2496,9 @@ J3-6  K3-6  L5</text>
 <text x="-10.16" y="22.225" size="1.27" layer="97" font="vector" ratio="10" align="center-left">J7-8
 K7-8
 L7-8</text>
-<text x="-25.4" y="27.94" size="2.54" layer="95">&gt;NAME</text>
-<text x="-25.4" y="-30.48" size="2.54" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.86" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="-30.48" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2523,40 +2530,54 @@ L7-8</text>
 <connect gate="G$1" pin="V_OUT(BANK2)" pad="A1 A2 A3 A4 A5 A6 B1 B2 B3 B4 B5 B6 C1 C2 C3 C4 C5 C6"/>
 </connects>
 <technologies>
-<technology name="EY">
-<attribute name="COMPENSATION" value="Internal"/>
-<attribute name="MFE" value="Analog Devices"/>
-<attribute name="MPN" value="LTM8055EY" constant="no"/>
+<technology name="EY#PBF">
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MPN" value="LTM8055EY#PBF"/>
 <attribute name="OPERATING_TEMPERATURE" value="0 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-40 to +125C"/>
+<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
-<technology name="EY-1">
-<attribute name="COMPENSATION" value="External"/>
-<attribute name="MFE" value="Analog Devices"/>
-<attribute name="MPN" value="LTM8055EY-1"/>
+<technology name="EY-1#PBF">
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MPN" value="LTM8055EY-1#PBF"/>
 <attribute name="OPERATING_TEMPERATURE" value="0 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-40 to +125C"/>
+<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="IY">
-<attribute name="COMPENSATION" value="Internal"/>
-<attribute name="MFE" value="Analog Devices"/>
+<attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-40 to +125C"/>
+<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
-<technology name="IY-1">
-<attribute name="COMPENSATION" value="External"/>
-<attribute name="MFE" value="Analog Devices"/>
-<attribute name="MPN" value="LTM8055IY-1"/>
+<technology name="IY#PBF">
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MPN" value="LTM8055IY#PBF"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-40 to +125C"/>
+<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
+</technology>
+<technology name="IY-1#PBF">
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MPN" value="LTM8055IY-1#PBF"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40 to +125C"/>
+<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="MPY">
-<attribute name="COMPENSATION" value="Internal"/>
-<attribute name="MFE" value="Analog Devices"/>
+<attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055MPY"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55 to +125C"/>
 <attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
+</technology>
+<technology name="MPY#PBF">
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MPN" value="LTM8055MPY#PNF"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55 to +125C"/>
+<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 </technologies>
 </device>
@@ -2591,29 +2612,34 @@ L7-8</text>
 </connects>
 <technologies>
 <technology name="EY#PBF">
-<attribute name="MFR_NAME" value="Analog Devices Inc"/>
+<attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054EY#PBF"/>
 <attribute name="OP_TEMP" value="0°C to 125°C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="IY">
-<attribute name="MFR_NAME" value="Analog Devices Inc"/>
+<attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054IY"/>
 <attribute name="OP_TEMP" value="–40°C to 125°C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="IY#PBF">
-<attribute name="MFR_NAME" value="Analog Devices Inc"/>
+<attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054IY#PBF"/>
 <attribute name="OP_TEMP" value="–40°C to 125°C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="MPY">
-<attribute name="MFR_NAME" value="Analog Devices Inc"/>
-<attribute name="MPN" value="LTM8054MPY#PBF"/>
-<attribute name="OP_TEMP" value="–55°C to 125°C"/>
-</technology>
-<technology name="MPY#PBF">
-<attribute name="MFR_NAME" value="Analog Devices Inc"/>
+<attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054MPY"/>
 <attribute name="OP_TEMP" value="–55°C to 125°C"/>
+<attribute name="VALUE" value="Power Supply"/>
+</technology>
+<technology name="MPY#PBF">
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MPN" value="LTM8054MPY#PBF"/>
+<attribute name="OP_TEMP" value="–55°C to 125°C"/>
+<attribute name="VALUE" value="Power Supply"/>
 </technology>
 </technologies>
 </device>

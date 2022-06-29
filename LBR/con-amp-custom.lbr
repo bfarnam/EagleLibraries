@@ -57,8 +57,12 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -68,6 +72,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="CONFIDENTIAL" color="59" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>&lt;TERM BLK 4 POS 3.81MM PCB VERT&lt;/b&gt;&lt;p&gt;
@@ -137,6 +142,7 @@
 <pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="8" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<text x="16.51" y="-12.7" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 <symbol name="KL-2">
 <wire x1="-2.54" y1="0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
@@ -153,6 +159,7 @@
 <pin name="-2" x="-7.62" y="-2.54" visible="pin" length="short" direction="pas"/>
 <pin name="B-2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 <pin name="B-1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<text x="-5.08" y="-8.89" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 <symbol name="KL-4">
 <wire x1="-2.54" y1="2.794" x2="-2.54" y2="2.286" width="0.254" layer="94"/>
@@ -181,6 +188,7 @@
 <pin name="B-1" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
 <pin name="B-2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="B-3" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<text x="-5.08" y="-11.43" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -213,7 +221,7 @@ Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/18/btyqF7joFIRm-1379697
 </device>
 </devices>
 </deviceset>
-<deviceset name="HA0470500000G" prefix="J">
+<deviceset name="HA0470500000G" prefix="J" uservalue="yes">
 <description>&lt;b&gt;TERM BLK 4 POS 3.81MM PCB VERT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/18/btyqF7joFIRm-1379697.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -236,13 +244,13 @@ Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/18/btyqF7joFIRm-1379697
 <attribute name="DESCRIPTION" value="TERM BLK 4 POS 3.81MM PCB VERT" constant="no"/>
 <attribute name="MFG" value="Amphenol" constant="no"/>
 <attribute name="MPN" value="HA0470500000G" constant="no"/>
-<attribute name="VALUE" value="HA0470500000G" constant="no"/>
+<attribute name="VALUE" value="Term Block" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HA0270500000G" prefix="J">
+<deviceset name="HA0270500000G" prefix="J" uservalue="yes">
 <description>&lt;b&gt;TERM BLK 2 POS 3.81MM PCB VERT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/18/btyqF7joFIRm-1379697.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -261,7 +269,7 @@ Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/18/btyqF7joFIRm-1379697
 <attribute name="DESCRIPTION" value="TERM BLK 4 POS 3.81MM PCB VERT" constant="no"/>
 <attribute name="MFG" value="Amphenol" constant="no"/>
 <attribute name="MPN" value="HA0270500000G" constant="no"/>
-<attribute name="VALUE" value="HA0270500000G" constant="no"/>
+<attribute name="VALUE" value="Term Block"/>
 </technology>
 </technologies>
 </device>

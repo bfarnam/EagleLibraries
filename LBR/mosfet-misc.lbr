@@ -178,8 +178,9 @@
 </connects>
 <technologies>
 <technology name=",215">
-<attribute name="MFG" value="Nexperia" constant="no"/>
-<attribute name="MPN" value="BSS84AK,215" constant="no"/>
+<attribute name="MFG" value="Nexperia"/>
+<attribute name="MPN" value="BSS84AK,215"/>
+<attribute name="VALUE" value="BSS84"/>
 </technology>
 </technologies>
 </device>
@@ -193,6 +194,7 @@
 <technology name="HZGT116">
 <attribute name="MFG" value="ROHM"/>
 <attribute name="MPN" value="BSS84AHZGT116"/>
+<attribute name="VALUE" value="BSS84"/>
 </technology>
 </technologies>
 </device>
@@ -206,6 +208,7 @@
 <technology name="HZGG2CR">
 <attribute name="MFG" value="ROHM"/>
 <attribute name="MPN" value="BSS84XHZGG2CR"/>
+<attribute name="VALUE" value="BSS84"/>
 </technology>
 </technologies>
 </device>
