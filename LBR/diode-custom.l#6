@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
@@ -602,8 +602,8 @@
 </description>
 <smd name="1" x="0" y="2.2" dx="2" dy="1.4" layer="1"/>
 <smd name="2" x="0" y="-2.2" dx="2" dy="1.4" layer="1"/>
-<text x="-3.81" y="0" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="3.81" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <wire x1="-1.25" y1="1.85" x2="1.25" y2="1.85" width="0.1" layer="51"/>
 <wire x1="1.25" y1="1.85" x2="1.25" y2="-1.85" width="0.1" layer="51"/>
 <wire x1="1.25" y1="-1.85" x2="-1.25" y2="-1.85" width="0.1" layer="51"/>
@@ -1404,6 +1404,84 @@
 <rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
 <rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
 </package>
+<package name="SOT23">
+<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOT323-R">
+<description>&lt;b&gt;SOT323 Reflow soldering&lt;/b&gt;&lt;p&gt;
+Philips SC01_Mounting_1996.pdf</description>
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.4604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="-0.4604" x2="-0.9224" y2="-0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="-0.4604" x2="-0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.4604" width="0.1524" layer="21"/>
+<wire x1="0.9224" y1="-0.4604" x2="-0.9224" y2="-0.4604" width="0.1524" layer="21"/>
+<wire x1="-0.9224" y1="-0.4604" x2="-0.9224" y2="0.4604" width="0.1524" layer="21"/>
+<wire x1="-0.9224" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="21"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
+<text x="-1" y="1.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.5" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.5" layer="51"/>
+<rectangle x1="-0.15" y1="0.5" x2="0.15" y2="1.1" layer="51"/>
+</package>
+<package name="SOT323">
+<description>&lt;b&gt;SOT-323 (SC-70 3 Lead)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet &lt;/a&gt;</description>
+<wire x1="1.0474" y1="0.6229" x2="1.0474" y2="-0.6229" width="0.1524" layer="51"/>
+<wire x1="1.0474" y1="-0.6229" x2="-1.0474" y2="-0.6229" width="0.1524" layer="51"/>
+<wire x1="-1.0474" y1="-0.6229" x2="-1.0474" y2="0.6229" width="0.1524" layer="51"/>
+<wire x1="-1.0474" y1="0.6229" x2="1.0474" y2="0.6229" width="0.1524" layer="51"/>
+<wire x1="1.0474" y1="0.6229" x2="1.0474" y2="-0.4729" width="0.1524" layer="21"/>
+<wire x1="0.1646" y1="-0.6229" x2="-0.1646" y2="-0.6229" width="0.1524" layer="21"/>
+<wire x1="-1.0474" y1="-0.4729" x2="-1.0474" y2="0.6229" width="0.1524" layer="21"/>
+<wire x1="-1.0474" y1="0.6229" x2="-0.6229" y2="0.6229" width="0.1524" layer="21"/>
+<wire x1="0.6229" y1="0.6229" x2="1.0474" y2="0.6229" width="0.1524" layer="21"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
+<text x="-1" y="1.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
+<rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
+<rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
+</package>
+<package name="DFN1006-2A">
+<wire x1="-0.5" y1="0.35" x2="-0.5" y2="-0.35" width="0.127" layer="21"/>
+<smd name="1@1" x="-0.35" y="0" dx="0.3" dy="0.55" layer="1"/>
+<smd name="1@2" x="-0.6" y="0" dx="0.2" dy="0.3" layer="1"/>
+<smd name="2@1" x="0.35" y="0" dx="0.3" dy="0.55" layer="1"/>
+<wire x1="0.5" y1="0.35" x2="0.5" y2="-0.35" width="0.127" layer="21"/>
+<smd name="2@2" x="0.6" y="0" dx="0.2" dy="0.3" layer="1"/>
+<wire x1="-0.5" y1="0.3" x2="0.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.3" x2="0.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.3" x2="0.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.3" x2="-0.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.2" x2="0" y2="0.2" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0" x2="0" y2="0.2" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0" x2="0" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="0.3" y1="-0.2" x2="0.3" y2="0.2" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.35" x2="0.5" y2="0.35" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-0.35" x2="0.5" y2="-0.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LABELED-NMOS">
@@ -1543,6 +1621,7 @@ Diode with low voltage drop</description>
 <vertex x="1.27" y="0"/>
 <vertex x="-1.27" y="-1.27"/>
 </polygon>
+<text x="-2.54" y="-4.572" size="1.778" layer="253" align="top-left">&gt;MPN</text>
 </symbol>
 <symbol name="RBR3MM60BTFTR">
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -1873,7 +1952,7 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 <attribute name="HEIGHT" value="0.95mm" constant="no"/>
 <attribute name="MFG" value="ROHM Semiconductor" constant="no"/>
 <attribute name="MPN" value="RB088LAM100TF"/>
-<attribute name="VALUE" value="RB088LAM100TF"/>
+<attribute name="VALUE" value="Schottky Barrier"/>
 </technology>
 </technologies>
 </device>
@@ -2131,17 +2210,87 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 <technology name="BF">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS521BF"/>
-<attribute name="VALUE" value="BAS521BF"/>
+<attribute name="VALUE" value="BAS521"/>
 </technology>
 <technology name="BX">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS521BX"/>
-<attribute name="VALUE" value="BAS521BX"/>
+<attribute name="VALUE" value="BAS521"/>
 </technology>
 <technology name="Q">
 <attribute name="MFG" value="Diodes, Inc."/>
 <attribute name="MPN" value="BAS521Q-13 "/>
-<attribute name="VALUE" value="BAS521Q"/>
+<attribute name="VALUE" value="BAS521"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS40" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W-AU" package="SOT323">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q101" value="Y"/>
+<attribute name="IF" value="200mA"/>
+<attribute name="MARKING" value="S40"/>
+<attribute name="MFG" value="Panjit International"/>
+<attribute name="MPN" value="BAS40W-AU_R1_000A1"/>
+<attribute name="OP_TEMP" value="-55 to 150C"/>
+<attribute name="PD" value="mW"/>
+<attribute name="VALUE" value="BAS40"/>
+<attribute name="VF_125C" value="0.55V @ 40mA"/>
+<attribute name="VF_25C" value="1V @ 40mA"/>
+<attribute name="VR" value="40V"/>
+</technology>
+</technologies>
+</device>
+<device name="-06E6433" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q101" value="Y"/>
+<attribute name="IF" value="120mA"/>
+<attribute name="MARKING" value="43s"/>
+<attribute name="MFG" value="Infineon"/>
+<attribute name="MPN" value="BAS40-06 E6433"/>
+<attribute name="OP_TEMP" value="-55 to 150C"/>
+<attribute name="PD" value="250mW"/>
+<attribute name="VALUE" value="BAS40"/>
+<attribute name="VF_125C" value="0.610V @ 40mA"/>
+<attribute name="VF_25C" value="0.720V @ 40mA"/>
+<attribute name="VR" value="40V"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q101" value="N"/>
+<attribute name="IF" value="200mA"/>
+<attribute name="MARKING" value="43"/>
+<attribute name="MFG" value="Diotec"/>
+<attribute name="MPN" value="BAS40"/>
+<attribute name="OP_TEMP" value="-55 to 125C"/>
+<attribute name="PD" value="310mW"/>
+<attribute name="VALUE" value="BAS40"/>
+<attribute name="VF_125C" value=""/>
+<attribute name="VF_25C" value="1.0V @ 40mA"/>
+<attribute name="VR" value="40V"/>
 </technology>
 </technologies>
 </device>

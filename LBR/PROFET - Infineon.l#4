@@ -60,6 +60,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="CONFIDENTIAL" color="59" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -3838,6 +3839,7 @@ Max Component Height - 1.15mm</description>
 <text x="-7.62" y="8.89" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-7.62" y="-10.16" size="1.778" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <pin name="NC" x="15.24" y="0" length="middle" direction="nc" rot="R180"/>
+<text x="-8.89" y="1.778" size="1.778" layer="253" ratio="10" rot="SR0">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6490,7 +6492,9 @@ SOP65P600X105-15N-1-V</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
+<attribute name="MFG" value="Infineon"/>
+<attribute name="MPN" value="BTS7004-1EPP"/>
+<attribute name="VALUE" value="BTS7004"/>
 </technology>
 </technologies>
 </device>
@@ -7084,8 +7088,8 @@ Quad Channel Smart High-Side Power Switch</description>
 &lt;a href="https://www.infineon.com/cms/en/product/power/smart-low-side-high-side-switches/high-side-switches/profet-plus-24v-automotive-smart-high-side-switch/"&gt;PROFET™ + 24V | Automotive Smart High-Side Switch&lt;/a&gt;</description>
 <gates>
 <gate name="-0" symbol="BTT6XXX-1/2" x="0" y="-12.7" swaplevel="1"/>
-<gate name="-1" symbol="BTT6XXX-1/2" x="0" y="-22.86" swaplevel="1"/>
-<gate name="-" symbol="BTT6XXX-0" x="0" y="2.54"/>
+<gate name="-1" symbol="BTT6XXX-1/2" x="0" y="-25.4" swaplevel="1"/>
+<gate name="-" symbol="BTT6XXX-0" x="0" y="5.08"/>
 </gates>
 <devices>
 <device name="2ERA" package="PG-TDSO-14-PROFET-MULTI-DEV-2CH">
