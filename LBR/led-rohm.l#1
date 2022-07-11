@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1121,8 +1121,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="0.45" y1="0.3" x2="0.45" y2="-0.3" width="0.1016" layer="51"/>
 <wire x1="-0.2" y1="0.35" x2="0.2" y2="0.35" width="0.1016" layer="21"/>
 <wire x1="-0.2" y1="-0.35" x2="0.2" y2="-0.35" width="0.1016" layer="21"/>
-<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C" x="-0.75" y="0" dx="0.9" dy="1.1" layer="1"/>
+<smd name="A" x="0.75" y="0" dx="0.9" dy="1.1" layer="1"/>
 <text x="-1" y="1" size="1.016" layer="25" font="vector" ratio="19">&gt;NAME</text>
 <text x="-1" y="-2" size="1.016" layer="27" font="vector" ratio="19">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.175" x2="0" y2="0.4" layer="51"/>
@@ -1135,6 +1135,10 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-0.15875" y1="0.15875" x2="-0.15875" y2="-0.15875" width="0.127" layer="51"/>
 <wire x1="-0.3175" y1="0" x2="0.3175" y2="0" width="0.127" layer="51"/>
 <text x="-2.54" y="-0.47625" size="1.016" layer="48" font="vector" ratio="19">K</text>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.8" x2="-1.4" y2="0.8" width="0.127" layer="21"/>
 </package>
 <package name="R0603">
 <description>&lt;b&gt;SMD RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -1642,97 +1646,133 @@ Source: www.kingbright.com</description>
 <technology name="2D8W">
 <attribute name="AEC-Q100" value=""/>
 <attribute name="DESCRIPTION" value="LED ORANGE DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="VALUE" value="Orange"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value="605"/>
 </technology>
 <technology name="2FW">
 <attribute name="AEC-Q100" value=""/>
 <attribute name="DESCRIPTION" value="LED GREEN DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="VALUE" value="Green"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2M1W">
 <attribute name="AEC-Q100" value=""/>
 <attribute name="DESCRIPTION" value="LED YLW/GREEN DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="VALUE" value="Yle/Grn"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2M8W">
 <attribute name="AEC-Q100" value="Y"/>
 <attribute name="DESCRIPTION" value="LED GREEN DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12M8WT86C"/>
 <attribute name="VALUE" value="Green"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value="572 nm"/>
 </technology>
 <technology name="2P8W">
 <attribute name="AEC-Q100" value="Y"/>
 <attribute name="DESCRIPTION" value="LED GREEN DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12P8WT86C"/>
 <attribute name="VALUE" value="Green"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value="560 nm"/>
 </technology>
 <technology name="2U1W">
 <attribute name="AEC-Q100" value=""/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="VALUE" value="Red"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2U8W">
 <attribute name="AEC-Q100" value="Y"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12U8WT86C"/>
 <attribute name="VALUE" value="Red"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value="620 nm"/>
 </technology>
 <technology name="2V1W">
 <attribute name="AEC-Q100" value=""/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="VALUE" value="Red"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2V8W">
 <attribute name="AEC-Q100" value="Y"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
+<attribute name="I" value="20 mA"/>
+<attribute name="MCD" value="40 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12V8WT86C"/>
 <attribute name="VALUE" value="Red"/>
+<attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="630 nm"/>
 </technology>
 <technology name="2W8W">
 <attribute name="AEC-Q100" value="Y"/>
 <attribute name="DESCRIPTION" value="LED YELLOW"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12W8WT86C"/>
 <attribute name="VALUE" value="Yellow"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value="588 nm"/>
 </technology>
 <technology name="2Y1W">
 <attribute name="AEC-Q100" value=""/>
 <attribute name="DESCRIPTION" value="LED YELLOW DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="VALUE" value="Yellow"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2Y8W">
 <attribute name="AEC-Q100" value="Y"/>
 <attribute name="DESCRIPTION" value="LED YELLOW DIFFUSED"/>
+<attribute name="I" value="" constant="no"/>
+<attribute name="MCD" value="" constant="no"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12Y8WT86C"/>
 <attribute name="VALUE" value="Yellow"/>
+<attribute name="VF" value="" constant="no"/>
 <attribute name="WAVELENGTH" value="590 nm"/>
 </technology>
 </technologies>

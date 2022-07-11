@@ -1,0 +1,81 @@
+# Library Script
+#
+# PCB Libraries
+SET WIRE_BEND 2;
+Layer 1 Top;
+Layer 16 Bottom;
+Layer 17 Pads;
+Layer 18 Vias;
+Layer 19 Unrouted;
+Layer 20 Dimension;
+Layer 21 tPlace;
+Layer 22 bPlace;
+Layer 23 tOrigins;
+Layer 24 bOrigins;
+Layer 25 tNames;
+Layer 26 bNames;
+Layer 27 tValues;
+Layer 28 bValues;
+Layer 29 tStop;
+Layer 30 bStop;
+Layer 31 tCream;
+Layer 32 bCream;
+Layer 33 tFinish;
+Layer 34 bFinish;
+Layer 35 tGlue;
+Layer 36 bGlue;
+Layer 37 tTest;
+Layer 38 bTest;
+Layer 39 tKeepout;
+Layer 40 bKeepout;
+Layer 41 tRestrict;
+Layer 42 bRestrict;
+Layer 43 vRestrict;
+Layer 44 Drills;
+Layer 45 Holes;
+Layer 46 Milling;
+Layer 47 Measures;
+Layer 48 Document;
+Layer 49 Reference;
+Layer 51 tDocu;
+Layer 52 bDocu;
+
+Grid mm;
+
+Edit RESC100X50X40L25_MOST_DENSITY.pac;
+Description 'Resistor, Chip; 1.00 mm L X 0.50 mm W X 0.40 mm H body<p><i>PCB Libraries Packages</i>';
+Layer 1;
+SMD '1' 0.61 0.7 -0 R180 (-0.495 0);
+SMD '2' 0.61 0.7 -0 R0 (0.495 0);
+Layer 51;
+Wire 0.025 (-0.25 0.25) (-0.25 -0.25) (-0.5 -0.25) (-0.5 0.25)\
+           (-0.25 0.25);
+Wire 0.025 (0.25 -0.25) (0.25 0.25) (0.5 0.25) (0.5 -0.25)\
+           (0.25 -0.25);
+Wire 0.025 (-0.5 -0.25) (-0.5 0.25) (0.5 0.25) (0.5 -0.25)\
+           (-0.5 -0.25);
+Wire 0.12 (-0.5 -0.25) (-0.5 0.25) (0.5 0.25) (0.5 -0.25)\
+          (-0.5 -0.25);
+Layer 39;
+Wire 0.05 (-1 -0.55) (-1 0.55) (1 0.55) (1 -0.55)\
+          (-1 -0.55);
+Circle 0.05 (0 0) (0.2155 0);
+Wire 0.05 (0.288 0) (-0.288 0);
+Wire 0.05 (0 0.288) (0 -0.288);
+Layer 21;
+Wire 0.15 (-0.342 -0.575) (-1.025 -0.575) (-1.025 0.575) (-0.342 0.575);
+Wire 0.15 (0.342 -0.575) (1.025 -0.575) (1.025 0.575) (0.342 0.575);
+Layer 51;
+Change Size .5;
+Change Ratio 10;
+Change Font Vector;
+Text '>NAME' R0 (0 0);
+Change Size 1.2;
+Change Ratio 10;
+Change Font Vector;
+Text '>VALUE' R0 (0 0);
+Layer 25;
+Change Size 1.5;
+Change Ratio 10;
+Change Font Vector;
+Text '>NAME' R0 (0 0);
