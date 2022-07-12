@@ -2797,7 +2797,7 @@ SOIC127P1030X265-20N-1</description>
 <technology name="">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BSS806NH6327XTSA1"/>
-<attribute name="VALUE" value="N-MOSFET"/>
+<attribute name="VALUE" value="BSS806"/>
 </technology>
 </technologies>
 </device>

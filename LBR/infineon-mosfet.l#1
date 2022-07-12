@@ -2818,12 +2818,12 @@ SOIC127P1030X265-20N-1</description>
 <technology name="N3">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="IPB027N10N3G "/>
-<attribute name="VALUE" value="N-MOSFET"/>
+<attribute name="VALUE" value="IPB027"/>
 </technology>
 <technology name="N5">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="IPB027N10N5"/>
-<attribute name="VALUE" value="N-MOSFET"/>
+<attribute name="VALUE" value="IPB027"/>
 </technology>
 </technologies>
 </device>

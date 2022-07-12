@@ -350,7 +350,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_NAME" value="Bourns"/>
+<attribute name="MFG" value="Bourns"/>
 </technology>
 </technologies>
 </device>
@@ -1334,7 +1334,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_NAME" value="Bourns"/>
+<attribute name="MFG" value="Bourns"/>
 </technology>
 </technologies>
 </device>

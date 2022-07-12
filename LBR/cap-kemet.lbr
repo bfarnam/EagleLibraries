@@ -47,7 +47,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -71,8 +71,8 @@
 </description>
 <smd name="1" x="-4.3" y="0" dx="4.05" dy="2.1" layer="1"/>
 <smd name="2" x="4.3" y="0" dx="4.05" dy="2.1" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="25" font="vector" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" ratio="19">&gt;VALUE</text>
 <wire x1="-6.825" y1="5.75" x2="6.825" y2="5.75" width="0.05" layer="51"/>
 <wire x1="6.825" y1="5.75" x2="6.825" y2="-5.75" width="0.05" layer="51"/>
 <wire x1="6.825" y1="-5.75" x2="-6.825" y2="-5.75" width="0.05" layer="51"/>
@@ -91,8 +91,8 @@
 </description>
 <smd name="1@1" x="-7.07" y="0" dx="7.9" dy="2.4" layer="1"/>
 <smd name="2@1" x="7.07" y="0" dx="7.9" dy="2.4" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="25" font="vector" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" ratio="19">&gt;VALUE</text>
 <wire x1="-10.55" y1="9.55" x2="10.55" y2="9.55" width="0.05" layer="51"/>
 <wire x1="10.55" y1="9.55" x2="10.55" y2="-9.55" width="0.05" layer="51"/>
 <wire x1="10.55" y1="-9.55" x2="-10.55" y2="-9.55" width="0.05" layer="51"/>
@@ -117,8 +117,8 @@
 <smd name="2" x="5.4" y="0" dx="6.3" dy="2.5" layer="1"/>
 <smd name="NC@2" x="0.25" y="4.9" dx="5" dy="4.2" layer="1"/>
 <smd name="NC@1" x="0.25" y="-4.9" dx="5" dy="4.2" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="25" font="vector" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" ratio="19">&gt;VALUE</text>
 <wire x1="-9.55" y1="8" x2="9.55" y2="8" width="0.1" layer="51"/>
 <wire x1="9.55" y1="8" x2="9.55" y2="-8" width="0.1" layer="51"/>
 <wire x1="9.55" y1="-8" x2="-9.55" y2="-8" width="0.1" layer="51"/>
@@ -153,8 +153,8 @@
 <circle x="0" y="0" radius="5" width="0.2032" layer="51"/>
 <smd name="+" x="-4.45" y="0" dx="4.4" dy="4.6" layer="1"/>
 <smd name="-" x="4.45" y="0" dx="4.4" dy="4.6" layer="1"/>
-<text x="-6.095" y="6.965" size="1.016" layer="25" ratio="14">&gt;NAME</text>
-<text x="-2.905" y="-3.98" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.095" y="6.965" size="1.016" layer="25" font="vector" ratio="19">&gt;NAME</text>
+<text x="-2.905" y="-3.98" size="1.016" layer="27" font="vector" ratio="19">&gt;VALUE</text>
 <rectangle x1="-6.032" y1="-0.6" x2="-4.9207" y2="0.6" layer="51"/>
 <rectangle x1="4.9213" y1="-0.6" x2="6.0326" y2="0.6" layer="51"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
@@ -213,7 +213,7 @@
 <smd name="+@1" x="-4.15" y="0" dx="4.4" dy="2.5" layer="1"/>
 <smd name="-@1" x="4.15" y="0" dx="4.4" dy="2.5" layer="1"/>
 <text x="-5.715" y="1.905" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
-<text x="-1.905" y="1.27" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="1.27" size="1.016" layer="27" font="vector" ratio="19">&gt;VALUE</text>
 <rectangle x1="-6.032" y1="-0.4763" x2="-4.9207" y2="0.4763" layer="51"/>
 <rectangle x1="4.9213" y1="-0.4763" x2="6.0326" y2="0.4763" layer="51"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
@@ -272,228 +272,228 @@ Series A768 Anti-Vibration</description>
 </connects>
 <technologies>
 <technology name="1000UF-16V-15ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS108M1CLAV015"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="16V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="1000uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS108M1CLAV015" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="16 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="1000uF" constant="yes"/>
 </technology>
 <technology name="100UF-50V-24ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS107M1HLAV24 "/>
-<attribute name="MPN" value="A768MS107M1HLAV024"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="50V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="100uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="80-A768MS107M1HLAV24" constant="yes"/>
+<attribute name="MPN" value="A768MS107M1HLAV024" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="50 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="100uF" constant="yes"/>
 </technology>
 <technology name="100UF-63V-27ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS107M1JLAV27 "/>
-<attribute name="MPN" value="A768MS107M1JLAV027"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="63V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="100uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="80-A768MS107M1JLAV27" constant="yes"/>
+<attribute name="MPN" value="A768MS107M1JLAV027" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="63 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="100uF" constant="yes"/>
 </technology>
 <technology name="120UF-50V-24ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value="399-A768MS127M1HLAV024DKR-ND"/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS127M1HLAV24 "/>
-<attribute name="MPN" value="A768MS127M1HLAV024"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="50V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="120uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="399-A768MS127M1HLAV024DKR-ND" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="80-A768MS127M1HLAV24" constant="yes"/>
+<attribute name="MPN" value="A768MS127M1HLAV024" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="50 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="120uF" constant="yes"/>
 </technology>
 <technology name="150UF-50V-24ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value="399-A768MS157M1HLAV024DKR-ND"/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS157M1HLAV24 "/>
-<attribute name="MPN" value="A768MS157M1HLAV024"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="50V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value="A768MS157M1HLAV024"/>
-<attribute name="VALUE" value="150uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="399-A768MS157M1HLAV024DKR-ND" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="80-A768MS157M1HLAV24" constant="yes"/>
+<attribute name="MPN" value="A768MS157M1HLAV024" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="50 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="A768MS157M1HLAV024" constant="yes"/>
+<attribute name="VALUE" value="150uF" constant="yes"/>
 </technology>
 <technology name="220UF-40V-22ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS227M1GLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="40V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value="A768MS227M1GLAV022"/>
-<attribute name="VALUE" value="220uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS227M1GLAV022" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="40 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="A768MS227M1GLAV022" constant="yes"/>
+<attribute name="VALUE" value="220uF" constant="yes"/>
 </technology>
 <technology name="270UF-35V-22ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS277M1VLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="35V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="270uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS277M1VLAV022" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="35 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="270uF" constant="yes"/>
 </technology>
 <technology name="270UF-40V-22ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS277M1GLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="40V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value="A768MS277M1VLAV022"/>
-<attribute name="VALUE" value="270uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS277M1GLAV022" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="40 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="A768MS277M1VLAV022" constant="yes"/>
+<attribute name="VALUE" value="270uF" constant="yes"/>
 </technology>
 <technology name="330UF-35V-22ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS337M1VLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="35V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="330uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS337M1VLAV022" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="35 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="330uF" constant="yes"/>
 </technology>
 <technology name="470UF-25V-17ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS477M1ELAV017"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="25V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value="A768MS477M1ELAV017"/>
-<attribute name="VALUE" value="470uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS477M1ELAV017" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="25 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="A768MS477M1ELAV017" constant="yes"/>
+<attribute name="VALUE" value="470uF" constant="yes"/>
 </technology>
 <technology name="47UF-80V-34ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="N"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS476M1KLAV034"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="80V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="47uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="N" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS476M1KLAV034" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="80 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="47uF" constant="yes"/>
 </technology>
 <technology name="560UF-25V-17ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS567M1ELAV017"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="25V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="560uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS567M1ELAV017" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="25 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="560uF" constant="yes"/>
 </technology>
 <technology name="56UF-80V-34ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="N"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS566M1KLAV034"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="80V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="56uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="N" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS566M1KLAV034" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="80 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="56uF" constant="yes"/>
 </technology>
 <technology name="680UF-16V-15ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS687M1CLAV015"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="16V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="680uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS687M1CLAV015" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="16 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="680uF" constant="yes"/>
 </technology>
 <technology name="680UF-20V-15ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS687M1DLAV015"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="20V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="TTI_PN" value=""/>
-<attribute name="VALUE" value="680uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS687M1DLAV015" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="20 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="TTI_PN" value="" constant="yes"/>
+<attribute name="VALUE" value="680uF" constant="yes"/>
 </technology>
 <technology name="82UF-63V-27ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="2000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A768MS826M1JLAV027"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="63V"/>
-<attribute name="TOLERANCE" value="20%"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="2000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A768MS826M1JLAV027" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="63 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
 <attribute name="TTI_PN" value="A768MS826M1JLAV027"/>
-<attribute name="VALUE" value="82uF"/>
+<attribute name="VALUE" value="82uF" constant="yes"/>
 </technology>
 </technologies>
 </device>
@@ -513,82 +513,82 @@ Series A780 Anti-Vibration</description>
 </connects>
 <technologies>
 <technology name="100UF-63V-30ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="3000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A780MS107M1JLAV030"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="63V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VALUE" value="100uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="3000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A780MS107M1JLAV030" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="63 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="VALUE" value="100uF" constant="yes"/>
 </technology>
 <technology name="150UF-50V-25ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="3000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A780MS157M1HLAV025"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="50V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VALUE" value="150uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="3000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A780MS157M1HLAV025" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="50 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="VALUE" value="150uF" constant="yes"/>
 </technology>
 <technology name="270UF-35V-22ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="3000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A780MS277M1VLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="35V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VALUE" value="270uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="3000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A780MS277M1VLAV022" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="35 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="VALUE" value="270uF" constant="yes"/>
 </technology>
 <technology name="330UF-35V-20ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="3000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A780MS337M1VLAV020"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="35V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VALUE" value="330uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="3000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A780MS337M1VLAV020" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="35 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="VALUE" value="330uF" constant="yes"/>
 </technology>
 <technology name="560UF-25V-22ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="3000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A780MS567M1ELAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="25V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VALUE" value="560uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="3000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A780MS567M1ELAV022" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="25 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="VALUE" value="560uF" constant="yes"/>
 </technology>
 <technology name="56UF-63V-30ESR-125C-MS-AV">
-<attribute name="ANTI-VIBRATION" value="Y"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
-<attribute name="DIGIKEY_PN" value=""/>
-<attribute name="HOURS" value="3000"/>
-<attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value=""/>
-<attribute name="MPN" value="A780MS566M1JLAV030"/>
-<attribute name="OPERATING_TEMP" value="−55 to +125C"/>
-<attribute name="RATED_V" value="63V"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VALUE" value="56uF"/>
+<attribute name="ANTI-VIBRATION" value="Y" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="DIGIKEY_PN" value="" constant="yes"/>
+<attribute name="HOURS" value="3000" constant="yes"/>
+<attribute name="MFG" value="KEMET" constant="yes"/>
+<attribute name="MOUSER_PN" value="" constant="yes"/>
+<attribute name="MPN" value="A780MS566M1JLAV030" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="yes"/>
+<attribute name="RATED_V" value="63 V" constant="yes"/>
+<attribute name="TOLERANCE" value="20%" constant="yes"/>
+<attribute name="VALUE" value="56uF" constant="yes"/>
 </technology>
 </technologies>
 </device>

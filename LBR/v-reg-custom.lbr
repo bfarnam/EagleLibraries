@@ -889,7 +889,7 @@ https://www.onsemi.com/pdf/datasheet/lm317-d.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="OUTPUT" value="ADJ" constant="no"/>
+<attribute name="OUTPUT" value="ADJ"/>
 </technology>
 </technologies>
 </device>
@@ -910,7 +910,7 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 </connects>
 <technologies>
 <technology name="15ATMA1">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -918,12 +918,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="2.9V"/>
 <attribute name="MPN" value="TLE4284DX15ATMA1"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="1.5V"/>
 <attribute name="V_OUT" value="1.5V"/>
 </technology>
 <technology name="15XT">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS &amp; 100%"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -931,12 +931,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="2.9V"/>
 <attribute name="MPN" value="TLE4284DX15XT"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="1.5V"/>
 <attribute name="V_OUT" value="1.5V"/>
 </technology>
 <technology name="18ATMA1">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -944,12 +944,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="3.2V"/>
 <attribute name="MPN" value="TLE4284DX18ATMA1"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="1.8V"/>
 <attribute name="V_OUT" value="1.8V"/>
 </technology>
 <technology name="18XT">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS &amp; 100%"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -957,12 +957,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="3.2V"/>
 <attribute name="MPN" value="TLE4284DX18XT"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="1.8V"/>
 <attribute name="V_OUT" value="1.8V"/>
 </technology>
 <technology name="26ATMA1">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -970,12 +970,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="4V"/>
 <attribute name="MPN" value="TLE4284DX26ATMA1"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="2.6V"/>
 <attribute name="V_OUT" value="2.6V"/>
 </technology>
 <technology name="26XT">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS &amp; 100%"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -983,12 +983,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="4V"/>
 <attribute name="MPN" value="TLE4284DX26XT"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="2.6V"/>
 <attribute name="V_OUT" value="2.6V"/>
 </technology>
 <technology name="33ATMA1">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -996,12 +996,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="4.7V"/>
 <attribute name="MPN" value="TLE4284DX33ATMA1"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="3.3V"/>
 <attribute name="V_OUT" value="3.3V"/>
 </technology>
 <technology name="33XT">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS &amp; 100%"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -1009,12 +1009,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="4.7V"/>
 <attribute name="MPN" value="TLE4284DX33XT"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="3.3V"/>
 <attribute name="V_OUT" value="3.3V"/>
 </technology>
 <technology name="50ATMA1">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -1022,12 +1022,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="6.4V"/>
 <attribute name="MPN" value="TLE4284DX50ATMA1"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="5V"/>
 <attribute name="V_OUT" value="5V"/>
 </technology>
 <technology name="50XT">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS &amp; 100%"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -1035,12 +1035,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="6.4V"/>
 <attribute name="MPN" value="TLE4284DX50XT"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="5V"/>
 <attribute name="V_OUT" value="5V"/>
 </technology>
 <technology name="ATMA1">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -1048,12 +1048,12 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="1.4V"/>
 <attribute name="MPN" value="TLE4284DXATMA1"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="ADJ"/>
 <attribute name="V_OUT" value="1.6 TO 38V"/>
 </technology>
 <technology name="XT">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DROPOUT" value="&lt;1.4V"/>
 <attribute name="LEAD_FREE" value="ROHS &amp; 100%"/>
 <attribute name="MAX_V" value="40 V"/>
@@ -1061,7 +1061,7 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 <attribute name="MIN_V" value="1.4V"/>
 <attribute name="MPN" value="TLE4284DXXT"/>
 <attribute name="OPERATING_TEMP" value="-40 to +150C"/>
-<attribute name="OUTPUT" value="1A" constant="no"/>
+<attribute name="OUTPUT" value="1A"/>
 <attribute name="VALUE" value="ADJ"/>
 <attribute name="V_OUT" value="1.6 TO 38V"/>
 </technology>
@@ -1085,9 +1085,9 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="TL2575HV-33QKTTRQ1" constant="no"/>
-<attribute name="VALUE" value="TL2575HV-33QKTTRQ1" constant="no"/>
+<attribute name="MFG" value="Texas Instruments"/>
+<attribute name="MPN" value="TL2575HV-33QKTTRQ1"/>
+<attribute name="VALUE" value="TL2575HV-33QKTTRQ1"/>
 </technology>
 </technologies>
 </device>
@@ -1102,9 +1102,9 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TL2575HV-33QKTTRQ1" constant="no"/>
-<attribute name="MFR_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Texas Instruments"/>
+<attribute name="MPN" value="TL2575HV-33QKTTRQ1"/>
 </technology>
 </technologies>
 </device>
@@ -1119,9 +1119,9 @@ https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d4625
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TL2575HV-33QKTTRQ1" constant="no"/>
-<attribute name="MFR_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Texas Instruments"/>
+<attribute name="MPN" value="TL2575HV-33QKTTRQ1"/>
 </technology>
 </technologies>
 </device>
@@ -1154,11 +1154,11 @@ Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-TLS4125D0EP V33-DataS
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="+/-1.5% feedback voltage accuracy in PWM mode" constant="no"/>
-<attribute name="HEIGHT" value="1.15mm" constant="no"/>
-<attribute name="MFG" value="Infineon" constant="no"/>
+<attribute name="DESCRIPTION" value="+/-1.5% feedback voltage accuracy in PWM mode"/>
+<attribute name="HEIGHT" value="1.15mm"/>
+<attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="TLS4125D0EPV33XUMA1"/>
-<attribute name="VALUE" value="TLS4120 3.3V" constant="no"/>
+<attribute name="VALUE" value="TLS4120 3.3V"/>
 </technology>
 </technologies>
 </device>
@@ -1193,6 +1193,7 @@ Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-S6BP203A_ASSP_42V_2.4
 </connects>
 <technologies>
 <technology name="">
+<attribute name="ARROW_PN" value="S6BP203A8FST2B000"/>
 <attribute name="AUTOMOTIVE" value="AEC-Q100 Grade 1"/>
 <attribute name="DESCRIPTION" value="Conv DC-DC 2.5V to 42V Synchronous Step Down Single-Out 3.3V 2.4A Automotive 16-Pin TSSOP EP T/R"/>
 <attribute name="FREQUENCY" value="200 KHz to 2.1 MHz"/>
@@ -1201,9 +1202,9 @@ Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-S6BP203A_ASSP_42V_2.4
 <attribute name="MFG" value="Cypress Semiconductor / Nexperia"/>
 <attribute name="MPN" value="S6BP203A8FST2B000"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
-<attribute name="PACKAGE" value="PG-TSSOP-16 "/>
+<attribute name="PACKAGE" value="PG-TSSOP-16"/>
 <attribute name="TOPOLOGY" value="Buck-Boost DC/DC"/>
-<attribute name="VALUE" value="S6BP203 3.3v"/>
+<attribute name="VALUE" value="S6BP203 3.3V"/>
 <attribute name="V_IN" value="2.5V to 42V"/>
 <attribute name="V_OUT" value="3.3V"/>
 </technology>

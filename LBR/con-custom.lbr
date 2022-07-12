@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1646,9 +1646,11 @@ Source: 3M</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DESCRIPTION" value="10 Pin male shrouded header"/>
 <attribute name="MFG" value="SAMTEC"/>
+<attribute name="MOUSER_PN" value="200-HTST10501LDVPTR"/>
 <attribute name="MPN" value="HTST-105-01-L-DV-P-TR"/>
-<attribute name="VALUE" value="10 Pin male shrouded header" constant="no"/>
+<attribute name="VALUE" value="HEADER"/>
 </technology>
 </technologies>
 </device>

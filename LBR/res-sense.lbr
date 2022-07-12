@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -555,235 +555,235 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </connects>
 <technologies>
 <technology name="R004">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR004FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.004 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR004FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.004 Ohm" constant="yes"/>
 </technology>
 <technology name="R005">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR005FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.005 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR005FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.005 Ohm" constant="yes"/>
 </technology>
 <technology name="R006">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR006FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.006 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR006FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.006 Ohm" constant="yes"/>
 </technology>
 <technology name="R007">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR007FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.007 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR007FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.007 Ohm" constant="yes"/>
 </technology>
 <technology name="R008">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR008FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.008 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR008FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.008 Ohm" constant="yes"/>
 </technology>
 <technology name="R009">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR009FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.009 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR009FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.009 Ohm" constant="yes"/>
 </technology>
 <technology name="R015">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR015FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR015FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
 <attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.015 Ohm"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.015 Ohm" constant="yes"/>
 </technology>
 <technology name="R018">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR018FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.018 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR018FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.018 Ohm" constant="yes"/>
 </technology>
 <technology name="R020">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR020FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.020 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR020FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.020 Ohm" constant="yes"/>
 </technology>
 <technology name="R025">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR025FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.025 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR025FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.025 Ohm" constant="yes"/>
 </technology>
 <technology name="R030">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR030FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.030 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR030FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.030 Ohm" constant="yes"/>
 </technology>
 <technology name="R035">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR035FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.035 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR035FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.035 Ohm" constant="yes"/>
 </technology>
 <technology name="R040">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR040FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.040 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR040FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.040 Ohm" constant="yes"/>
 </technology>
 <technology name="R050">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR050FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.050 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR050FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.050 Ohm" constant="yes"/>
 </technology>
 <technology name="R060">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR060FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.060 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR060FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.060 Ohm" constant="yes"/>
 </technology>
 <technology name="R070">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR070FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.070 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR070FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.070 Ohm" constant="yes"/>
 </technology>
 <technology name="R082">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR082FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.082 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR082FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.082 Ohm" constant="yes"/>
 </technology>
 <technology name="R090">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR090FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.090 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR090FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.090 Ohm" constant="yes"/>
 </technology>
 <technology name="R091">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR091FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.091 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR091FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.091 Ohm" constant="yes"/>
 </technology>
 <technology name="R150">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR150FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.150 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR150FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.150 Ohm" constant="yes"/>
 </technology>
 <technology name="R180">
-<attribute name="AEC-Q200" value="Y"/>
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="MPN" value="TLRP3A30DR180FTE"/>
-<attribute name="OP_TEMP" value="-55°C ~ 170°C"/>
-<attribute name="PACKAGE" value="2512"/>
-<attribute name="POWER" value="3W"/>
-<attribute name="TEMP_COEF" value="±50ppm/°C"/>
-<attribute name="TOL" value="1%"/>
-<attribute name="VALUE" value="0.180 Ohm"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
+<attribute name="MFG" value="TE Connectivity" constant="yes"/>
+<attribute name="MPN" value="TLRP3A30DR180FTE" constant="yes"/>
+<attribute name="OPERATING_TEMP" value="-55 to 170C" constant="yes"/>
+<attribute name="PACKAGE" value="2512" constant="yes"/>
+<attribute name="POWER" value="3W" constant="yes"/>
+<attribute name="TEMP_COEF" value="+/-50ppm / C" constant="yes"/>
+<attribute name="TOL" value="1%" constant="yes"/>
+<attribute name="VALUE" value="0.180 Ohm" constant="yes"/>
 </technology>
 </technologies>
 </device>
