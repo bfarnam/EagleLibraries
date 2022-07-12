@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -275,6 +275,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER_NAME" value="Bourns"/>
 <attribute name="PROD_ID" value="SWCH-13065"/>
 </technology>
 </technologies>
@@ -326,46 +327,54 @@
 </connects>
 <technologies>
 <technology name="000">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="1.65 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="MPN" value="7914G-1-000" constant="no"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914G-1-000E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
+<attribute name="VALUE" value="7914G-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="024">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.08 mm (flush)"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="MPN" value="7914G-1-024" constant="no"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914G-1-024E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
+<attribute name="VALUE" value="7914G-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="032">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.89 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="MPN" value="7914G-1-032" constant="no"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914G-1-032E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
+<attribute name="VALUE" value="7914G-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="050">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="2.67 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="MPN" value="7914G-1-050" constant="no"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914G-1-050E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
+<attribute name="VALUE" value="7914G-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
@@ -380,54 +389,58 @@
 </connects>
 <technologies>
 <technology name="000">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="1.65 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="DESCRIPTION" value="DPST 1.65mm Button"/>
 <attribute name="MFG" value="Bourns"/>
-<attribute name="MPN" value="7914J-1-000"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MPN" value="7914J-1-000E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="DPST 1.65mm Button"/>
+<attribute name="VALUE" value="7914J-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="024">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.08 mm (flush)"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="DESCRIPTION" value="DPST 0.08mm Button (Flush)"/>
 <attribute name="MFG" value="Bourns"/>
-<attribute name="MPN" value="7914J-1-024"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MPN" value="7914J-1-024E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="DPST 0.08mm Button (Flush)"/>
+<attribute name="VALUE" value="7914J-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="032">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.89 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="DESCRIPTION" value="DPST 0.89mm Button"/>
 <attribute name="MFG" value="Bourns"/>
-<attribute name="MPN" value="7914J-1-032"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MPN" value="7914J-1-032E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="DPST 0.89mm Button"/>
+<attribute name="VALUE" value="7914J-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="050">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="2.67 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="DESCRIPTION" value="DPST 2.67mm Button"/>
 <attribute name="MFG" value="Bourns"/>
-<attribute name="MPN" value="7914J-1-050"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MPN" value="7914J-1-050E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="DPST 2.67mm Button"/>
+<attribute name="VALUE" value="7914J-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
@@ -442,46 +455,54 @@
 </connects>
 <technologies>
 <technology name="000">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="1.65 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914S-1-000E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914S-1-000" constant="no"/>
+<attribute name="VALUE" value="7914S-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="024">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.08 mm (flush)"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914S-1-024E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914S-1-024" constant="no"/>
+<attribute name="VALUE" value="7914S-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="032">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.89 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914S-1-032E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914S-1-032" constant="no"/>
+<attribute name="VALUE" value="7914S-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="050">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="2.67 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914S-1-050E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914S-1-050" constant="no"/>
+<attribute name="VALUE" value="7914S-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
@@ -496,46 +517,54 @@
 </connects>
 <technologies>
 <technology name="000">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="1.65 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914H-1-000E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914H-1-000" constant="no"/>
+<attribute name="VALUE" value="7914H-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="024">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.08 mm (flush)"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914H-1-024E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914H-1-024" constant="no"/>
+<attribute name="VALUE" value="7914H-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="032">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="0.89 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914H-1-032E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914H-1-032" constant="no"/>
+<attribute name="VALUE" value="7914H-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
 <technology name="050">
-<attribute name="ACTUATOR_FORCE" value="300 ± 100 g"/>
+<attribute name="ACTUATOR_FORCE" value="300 +/- 100 g"/>
 <attribute name="BUTTON_HEIGHT" value="2.67 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
-<attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914H-1-050E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914H-1-050" constant="no"/>
+<attribute name="VALUE" value="7914H-1"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>

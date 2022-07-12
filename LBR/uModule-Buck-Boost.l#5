@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2128,12 +2128,6 @@ Source: xcv100_fg256.bsd; fg256.pdf</description>
 <vertex x="-3.81" y="-7.62"/>
 <vertex x="-3.81" y="-5.715"/>
 <vertex x="-5.715" y="-5.715"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="1.27" y="-7.62"/>
-<vertex x="1.27" y="-5.715"/>
-<vertex x="2.54" y="-5.715"/>
-<vertex x="2.54" y="-7.62"/>
 </polygon>
 <wire x1="-5.625" y1="7.5" x2="5.625" y2="7.5" width="0.127" layer="25"/>
 <wire x1="-5.625" y1="-7.5" x2="5.625" y2="-7.5" width="0.127" layer="25"/>

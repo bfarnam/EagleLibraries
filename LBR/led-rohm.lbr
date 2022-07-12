@@ -1644,7 +1644,7 @@ Source: www.kingbright.com</description>
 </connects>
 <technologies>
 <technology name="2D8W">
-<attribute name="AEC-Q100" value="N"/>
+<attribute name="AUTOMOTIVE" value="N"/>
 <attribute name="DESCRIPTION" value="LED ORANGE DIFFUSED"/>
 <attribute name="I" value="20 mA"/>
 <attribute name="MCD" value="100 mcd"/>
@@ -1652,10 +1652,10 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" value="SML-D12D8WT86"/>
 <attribute name="VALUE" value="Orange"/>
 <attribute name="VF" value="2.2 V"/>
-<attribute name="WAVELENGTH" value="605"/>
+<attribute name="WAVELENGTH" value="605 nm"/>
 </technology>
 <technology name="2FW">
-<attribute name="AEC-Q100" value="N"/>
+<attribute name="AUTOMOTIVE" value="N"/>
 <attribute name="DESCRIPTION" value="LED GREEN DIFFUSED"/>
 <attribute name="I" value=""/>
 <attribute name="MCD" value=""/>
@@ -1666,7 +1666,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2M1W">
-<attribute name="AEC-Q100" value="N"/>
+<attribute name="AUTOMOTIVE" value="N"/>
 <attribute name="DESCRIPTION" value="LED YLW/GREEN DIFFUSED"/>
 <attribute name="I" value=""/>
 <attribute name="MCD" value=""/>
@@ -1677,7 +1677,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2M8W">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DESCRIPTION" value="LED GREEN DIFFUSED"/>
 <attribute name="I" value="20 mA"/>
 <attribute name="MCD" value="25 mcd"/>
@@ -1688,7 +1688,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value="572 nm"/>
 </technology>
 <technology name="2P8W">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DESCRIPTION" value="LED GREEN DIFFUSED"/>
 <attribute name="I" value="20 mA"/>
 <attribute name="MCD" value="6.3 mcd"/>
@@ -1699,7 +1699,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value="560 nm"/>
 </technology>
 <technology name="2U1W">
-<attribute name="AEC-Q100" value="N"/>
+<attribute name="AUTOMOTIVE" value="N"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
 <attribute name="I" value=""/>
 <attribute name="MCD" value=""/>
@@ -1710,7 +1710,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2U8W">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
 <attribute name="I" value="20 mA"/>
 <attribute name="MCD" value="60 mcd"/>
@@ -1721,7 +1721,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value="620 nm"/>
 </technology>
 <technology name="2V1W">
-<attribute name="AEC-Q100" value="N"/>
+<attribute name="AUTOMOTIVE" value="N"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
 <attribute name="I" value=""/>
 <attribute name="MCD" value=""/>
@@ -1732,7 +1732,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2V8W">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED"/>
 <attribute name="I" value="20 mA"/>
 <attribute name="MCD" value="40 mcd"/>
@@ -1743,7 +1743,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value="630 nm"/>
 </technology>
 <technology name="2W8W">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DESCRIPTION" value="LED YELLOW"/>
 <attribute name="I" value="2 mA"/>
 <attribute name="MCD" value="7.1 mcd"/>
@@ -1754,7 +1754,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value="588 nm"/>
 </technology>
 <technology name="2Y1W">
-<attribute name="AEC-Q100" value="N"/>
+<attribute name="AUTOMOTIVE" value="N"/>
 <attribute name="DESCRIPTION" value="LED YELLOW DIFFUSED"/>
 <attribute name="I" value=""/>
 <attribute name="MCD" value=""/>
@@ -1765,7 +1765,7 @@ Source: www.kingbright.com</description>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
 <technology name="2Y8W">
-<attribute name="AEC-Q100" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q100"/>
 <attribute name="DESCRIPTION" value="LED YELLOW DIFFUSED"/>
 <attribute name="I" value="20 mA"/>
 <attribute name="MCD" value="63 mcd"/>

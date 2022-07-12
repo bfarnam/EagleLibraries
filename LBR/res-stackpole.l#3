@@ -1623,6 +1623,189 @@ tPlace - Generic silkscreen polarity symbol</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RMCP-?-J-*" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR_R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0201" package="R0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="-" constant="no"/>
+<attribute name="MAX_V" value="50 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP0201ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="1.0 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="25 V" constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="100 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP0402ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="1.5 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="50 V" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="150 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP0603ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="2.0 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="75 V" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="300 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP0805ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="2.5 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="150 V" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="400 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP1206ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="3.5 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="200 V" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1210" package="R1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="400 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP1210ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="5.0 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="200 V" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2010" package="R2010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="400 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP2010ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="6.0 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="200 V" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2512" package="R2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0R">
+<attribute name="AEC-Q200" value="Grade 0" constant="no"/>
+<attribute name="MAX_V" value="400 V" constant="no"/>
+<attribute name="MFG" value="Stackpole" constant="no"/>
+<attribute name="MPN" value="RMCP2512ZT0R00" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +155 C" constant="no"/>
+<attribute name="PKG_CODE" value="0R00" constant="no"/>
+<attribute name="POWER_W" value="7.0 A max @ 70 C" constant="no"/>
+<attribute name="RCWV" value="200 V" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="TCR" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

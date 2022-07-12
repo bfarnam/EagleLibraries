@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -119,73 +119,73 @@ Source: &lt;a href="https://www.arrow.com/en/products/mf-nsht016kx-2/bourns"&gt;
 </connects>
 <technologies>
 <technology name="010">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="HEIGHT" value="0.85mm"/>
 <attribute name="I_HOLD" value="0.10A @ 23C"/>
 <attribute name="I_TRIP" value="0.50A @ 23C"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="MF-NSHT010KX-2"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="R_MIN" value="1 Ohm @ 23C"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="100 mA"/>
 </technology>
 <technology name="016">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="HEIGHT" value="0.85mm"/>
 <attribute name="I_HOLD" value="0.16A @ 23C"/>
 <attribute name="I_TRIP" value="0.80A @ 23C"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="MF-NSHT016KX-2"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="R_MIN" value="0.70 Ohm @ 23C"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="160 mA"/>
 </technology>
 <technology name="020">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="HEIGHT" value="0.85mm"/>
 <attribute name="I_HOLD" value="0.20A @ 23C"/>
 <attribute name="I_TRIP" value="1.00A @ 23C"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="MF-NSHT020KX-2"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="R_MIN" value="0.60 Ohm @ 23C"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="200 mA"/>
 </technology>
 <technology name="035">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="HEIGHT" value="0.85mm"/>
 <attribute name="I_HOLD" value="0.35A @ 23C"/>
 <attribute name="I_TRIP" value="1.75A @ 23C"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="MF-NSHT035KX-2"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="R_MIN" value="0.40 Ohm @ 23C"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="350 mA"/>
 </technology>
 <technology name="050">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="HEIGHT" value="1.20mm"/>
 <attribute name="I_HOLD" value="0.50A @ 23C"/>
 <attribute name="I_TRIP" value="2.50A @ 23C"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="MF-NSHT050KX-2"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="R_MIN" value="0.17 Ohm @ 23C"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="500 mA"/>
 </technology>
 <technology name="075">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="HEIGHT" value="1.20mm"/>
 <attribute name="I_HOLD" value="0.75A @ 23C"/>
 <attribute name="I_TRIP" value="3.00A @ 23C"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="MF-NSHT075KX-2"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="R_MIN" value="0.08 Ohm @ 23C"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="750 mA"/>

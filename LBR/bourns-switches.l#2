@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -75,6 +75,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="CONFIDENTIAL" color="59" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -229,12 +230,13 @@
 <wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
 <circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
 <circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0" y="4.826" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
 <pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<text x="-7.62" y="-7.62" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -273,6 +275,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER_NAME" value="Bourns"/>
 <attribute name="PROD_ID" value="SWCH-13065"/>
 </technology>
 </technologies>
@@ -328,6 +331,7 @@
 <attribute name="BUTTON_HEIGHT" value="1.65 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns"/>
 <attribute name="MPN" value="7914G-1-000" constant="no"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
@@ -339,6 +343,7 @@
 <attribute name="BUTTON_HEIGHT" value="0.08 mm (flush)"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns"/>
 <attribute name="MPN" value="7914G-1-024" constant="no"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
@@ -350,6 +355,7 @@
 <attribute name="BUTTON_HEIGHT" value="0.89 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns"/>
 <attribute name="MPN" value="7914G-1-032" constant="no"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
@@ -361,6 +367,7 @@
 <attribute name="BUTTON_HEIGHT" value="2.67 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns"/>
 <attribute name="MPN" value="7914G-1-050" constant="no"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
@@ -382,9 +389,11 @@
 <attribute name="BUTTON_HEIGHT" value="1.65 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914J-1-000"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914J-1-000" constant="no"/>
+<attribute name="VALUE" value="DPST 1.65mm Button"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
@@ -393,9 +402,11 @@
 <attribute name="BUTTON_HEIGHT" value="0.08 mm (flush)"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914J-1-024"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914J-1-024" constant="no"/>
+<attribute name="VALUE" value="DPST 0.08mm Button (Flush)"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
@@ -404,9 +415,11 @@
 <attribute name="BUTTON_HEIGHT" value="0.89 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914J-1-032"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914J-1-032" constant="no"/>
+<attribute name="VALUE" value="DPST 0.89mm Button"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>
@@ -415,9 +428,11 @@
 <attribute name="BUTTON_HEIGHT" value="2.67 mm"/>
 <attribute name="COVER" value="Stainless Steel"/>
 <attribute name="CURRENT" value="100 mA"/>
+<attribute name="MFG" value="Bourns"/>
+<attribute name="MPN" value="7914J-1-050"/>
 <attribute name="OP_TEMP" value="-55 °C to +125 °C"/>
 <attribute name="SHOCK" value="100 G"/>
-<attribute name="VALUE" value="7914J-1-050" constant="no"/>
+<attribute name="VALUE" value="DPST 2.67mm Button"/>
 <attribute name="VIBRATION" value="20 G"/>
 <attribute name="VOLTAGE" value="16 V"/>
 </technology>

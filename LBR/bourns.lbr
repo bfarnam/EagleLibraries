@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -232,548 +232,626 @@
 </connects>
 <technologies>
 <technology name="1000">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1000J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="100 R"/>
 </technology>
 <technology name="1001">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1001J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="1.0 K"/>
 </technology>
 <technology name="1002">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1002J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="10 K"/>
 </technology>
 <technology name="1003">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1003J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="100 K"/>
 </technology>
 <technology name="10R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-10R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="10 R"/>
 </technology>
 <technology name="1153">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1153J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="115 K"/>
 </technology>
 <technology name="1200">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1200J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="120 R"/>
 </technology>
 <technology name="1203">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1203J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="120 K"/>
 </technology>
 <technology name="1253">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1253J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="125 K"/>
 </technology>
 <technology name="12R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-12R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="12 R"/>
 </technology>
 <technology name="1303">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1303J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="130 K"/>
 </technology>
 <technology name="1500">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1500J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="150 R"/>
 </technology>
 <technology name="1501">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1501J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="1.5 K"/>
 </technology>
 <technology name="1502">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1502J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="15 K"/>
 </technology>
 <technology name="15R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-15R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="15 R"/>
 </technology>
 <technology name="1R00">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1R00J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="1 R"/>
 </technology>
 <technology name="1R50">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-1R50J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="1.5 R"/>
 </technology>
 <technology name="2000">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2000J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="200 R"/>
 </technology>
 <technology name="2001">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2001J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="2.0 K"/>
 </technology>
 <technology name="2002">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2002J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="20 K"/>
 </technology>
 <technology name="20R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-20R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="20 R"/>
 </technology>
 <technology name="2500">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2500J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="250 R"/>
 </technology>
 <technology name="2501">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2501J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="2.5 K"/>
 </technology>
 <technology name="2502">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2502J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="25 K"/>
 </technology>
 <technology name="25R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-25R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="25 R"/>
 </technology>
 <technology name="27R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-27R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="27 R"/>
 </technology>
 <technology name="2R00">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2R00J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="2 R"/>
 </technology>
 <technology name="2R50">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-2R50J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="2.5 R"/>
 </technology>
 <technology name="3000">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3000J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="300 R"/>
 </technology>
 <technology name="3001">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3001J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="3.0 K"/>
 </technology>
 <technology name="3002">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3002J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="30 K"/>
 </technology>
 <technology name="30R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-30R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="30 R"/>
 </technology>
 <technology name="3300">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3300J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="330 R"/>
 </technology>
 <technology name="3301">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3301J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="3.3 K"/>
 </technology>
 <technology name="3302">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3302J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="33 K"/>
 </technology>
 <technology name="33R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-33R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="33 R"/>
 </technology>
 <technology name="3R00">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3R00J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="3 R"/>
 </technology>
 <technology name="3R30">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-3R30J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="3.3 R"/>
 </technology>
 <technology name="4000">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-4000J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="400 R"/>
 </technology>
 <technology name="4001">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-4001J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="4.0 K"/>
 </technology>
 <technology name="4002">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-4002J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="40 K"/>
 </technology>
 <technology name="40R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-40R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="40 R"/>
 </technology>
 <technology name="4700">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-4700J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="470 R"/>
 </technology>
 <technology name="4702">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-4702J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="47 K"/>
 </technology>
 <technology name="47R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-47R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="47 R"/>
 </technology>
 <technology name="4R00">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-4R00J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="4 R"/>
 </technology>
 <technology name="5000">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-5000J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="500 R"/>
 </technology>
 <technology name="5001">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-5001J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="5.0 K"/>
 </technology>
 <technology name="5002">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-5002J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="50 K"/>
 </technology>
 <technology name="50R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-50R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="50 R"/>
 </technology>
 <technology name="5600">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-5600J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="560 R"/>
 </technology>
 <technology name="5602">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-5602J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="56 K"/>
 </technology>
 <technology name="56R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-56R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="56 R"/>
 </technology>
 <technology name="5R00">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-5R00J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="5 R"/>
 </technology>
 <technology name="6802">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-6802J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="68 K"/>
 </technology>
 <technology name="7500">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-7500J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="750 R"/>
 </technology>
 <technology name="7501">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-7501J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="7.5 K"/>
 </technology>
 <technology name="7502">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-7502J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="75 K"/>
 </technology>
 <technology name="75R0">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-75R0J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="75 R"/>
 </technology>
 <technology name="7R50">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-7R50J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="7.5 R"/>
 </technology>
 <technology name="8202">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-8202J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="82 K"/>
 </technology>
 <technology name="8R00">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-8R00J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="8 R"/>
 </technology>
 <technology name="R020">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R020J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.02 R"/>
 </technology>
 <technology name="R025">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R025J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.025 R"/>
 </technology>
 <technology name="R030">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R030J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.03 R"/>
 </technology>
 <technology name="R033">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R033J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.033 R"/>
 </technology>
 <technology name="R040">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R040J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.04 R"/>
 </technology>
 <technology name="R050">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R050J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.05 R"/>
 </technology>
 <technology name="R075">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R075J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.075 R"/>
 </technology>
 <technology name="R100">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R100J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.1 R"/>
 </technology>
 <technology name="R150">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R150J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.15 R"/>
 </technology>
 <technology name="R200">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R200J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.2 R"/>
 </technology>
 <technology name="R250">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R250J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.25 R"/>
 </technology>
 <technology name="R300">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R300J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.3 R"/>
 </technology>
 <technology name="R330">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R330J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.33 R"/>
 </technology>
 <technology name="R400">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R400J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.4 R"/>
 </technology>
 <technology name="R500">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R500J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.5 R"/>
 </technology>
 <technology name="R750">
+<attribute name="AUTOMOTIVE" value=""/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="PWR263S-35-R750J"/>
-<attribute name="OP_TEMP" value="-55 to 155 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to 155C"/>
 <attribute name="POWER" value="35 W"/>
 <attribute name="VALUE" value="0.75 R"/>
 </technology>

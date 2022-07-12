@@ -5788,6 +5788,8 @@ chip</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="445-174690-6-ND" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
 <attribute name="MPN" value="CKG57KX7R1E476M335JJ" constant="no"/>
+<attribute name="RATED_V" value="25V" constant="no"/>
+<attribute name="SIZE" value="SMD J-LEAD" constant="no"/>
 <attribute name="VALUE" value="47 uF" constant="no"/>
 </technology>
 </technologies>

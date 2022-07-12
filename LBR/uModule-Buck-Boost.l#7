@@ -2533,50 +2533,50 @@ L7-8</text>
 <technology name="EY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055EY#PBF"/>
-<attribute name="OPERATING_TEMPERATURE" value="0 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="OP_TEMP" value="0 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="EY-1#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055EY-1#PBF"/>
-<attribute name="OPERATING_TEMPERATURE" value="0 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="OP_TEMP" value="0 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="IY">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="IY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY#PBF"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="IY-1#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY-1#PBF"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="MPY">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055MPY"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="OP_TEMP" value="-55 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 <technology name="MPY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
-<attribute name="MPN" value="LTM8055MPY#PNF"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55 to +125C"/>
-<attribute name="TEMPERATURE_RANGE" value="-55 to +125C"/>
+<attribute name="MPN" value="LTM8055MPY#PBF"/>
+<attribute name="OP_TEMP" value="-55 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="Power Supply"/>
 </technology>
 </technologies>

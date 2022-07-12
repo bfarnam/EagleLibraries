@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -684,6 +684,7 @@
 <attribute name="MPN" value="ACPL-M71T-500E"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
 <attribute name="PROPEGATION_DELAY" value="35 nS HL / 35 nS LH"/>
+<attribute name="VALUE" value="ACPL-M71T"/>
 <attribute name="VF" value="1.5 V"/>
 <attribute name="V_ISOLATION" value="4000 Vrms"/>
 <attribute name="V_SUPPLY" value="3.0 to 5.5 V"/>
@@ -697,6 +698,7 @@
 <attribute name="MPN" value="ACPL-M72T-500E"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
 <attribute name="PROPEGATION_DELAY" value="100 nS HL / 100 nS LH"/>
+<attribute name="VALUE" value="ACPL-M72T"/>
 <attribute name="VF" value="1.5 V"/>
 <attribute name="V_ISOLATION" value="4000 Vrms"/>
 <attribute name="V_SUPPLY" value="3.0 to 5.5 V"/>

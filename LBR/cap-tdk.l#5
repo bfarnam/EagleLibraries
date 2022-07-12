@@ -103,8 +103,8 @@
 <wire x1="1.115" y1="0.665" x2="1.115" y2="-0.665" width="0.2032" layer="21"/>
 <wire x1="1.115" y1="-0.665" x2="-1.115" y2="-0.665" width="0.2032" layer="21"/>
 <wire x1="-1.115" y1="-0.665" x2="-1.115" y2="0.665" width="0.2032" layer="21"/>
-<smd name="1" x="-0.4762" y="0" dx="0.6" dy="0.7" layer="1"/>
-<smd name="2" x="0.4762" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="1" x="-0.4762" y="0" dx="0.68" dy="0.72" layer="1"/>
+<smd name="2" x="0.4762" y="0" dx="0.68" dy="0.72" layer="1"/>
 <text x="-0.9525" y="0.7939" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-0.9525" y="-1.5876" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>

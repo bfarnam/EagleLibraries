@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2698,51 +2698,51 @@ L7-8</text>
 <technology name="EY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055EY#PBF"/>
-<attribute name="OP_TEMP" value="0 to +125C"/>
+<attribute name="OPERATING_TEMP" value="0 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 <technology name="EY-1#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055EY-1#PBF"/>
-<attribute name="OP_TEMP" value="0 to +125C"/>
+<attribute name="OPERATING_TEMP" value="0 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 <technology name="IY">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 <technology name="IY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY#PBF"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 <technology name="IY-1#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY-1#PBF"/>
-<attribute name="OP_TEMP" value="-40 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 <technology name="MPY">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055MPY"/>
-<attribute name="OP_TEMP" value="-55 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 <technology name="MPY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055MPY#PBF"/>
-<attribute name="OP_TEMP" value="-55 to +125C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="VALUE" value="LTM8055"/>
 </technology>
 </technologies>
 </device>
@@ -2779,32 +2779,37 @@ L7-8</text>
 <technology name="EY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054EY3PBF"/>
-<attribute name="OP_TEMP" value="0°C to 125°C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="OPERATING_TEMP" value="0 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="LTM8054"/>
 </technology>
 <technology name="IY">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054IY"/>
-<attribute name="OP_TEMP" value="–40°C to 125°C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="LTM8054"/>
 </technology>
 <technology name="IY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054IY#PBF"/>
-<attribute name="OP_TEMP" value="–40°C to 125°C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="LTM8054"/>
 </technology>
 <technology name="MPY">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054MPY"/>
-<attribute name="OP_TEMP" value="–55°C to 125°C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="LTM8054"/>
 </technology>
 <technology name="MPY#PBF">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054MPY#PBF"/>
-<attribute name="OP_TEMP" value="–55°C to 125°C"/>
-<attribute name="VALUE" value="Power Supply"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="TEMP_RANGE" value="-55 to +125C"/>
+<attribute name="VALUE" value="LTM8054"/>
 </technology>
 </technologies>
 </device>

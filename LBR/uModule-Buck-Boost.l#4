@@ -13,8 +13,8 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="58" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -400,6 +400,18 @@
 <wire x1="0.635" y1="-4.445" x2="0.635" y2="-5.715" width="0.05" layer="51"/>
 <wire x1="0.635" y1="-5.715" x2="-0.635" y2="-5.715" width="0.05" layer="51"/>
 <wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-7.3025" width="0.05" layer="51"/>
+<polygon width="0.127" layer="39">
+<vertex x="-0.635" y="-7.62"/>
+<vertex x="-0.635" y="-5.715"/>
+<vertex x="0.635" y="-5.715"/>
+<vertex x="0.635" y="-4.445"/>
+<vertex x="5.715" y="-4.445"/>
+<vertex x="5.715" y="-1.905"/>
+<vertex x="7.62" y="-1.905"/>
+<vertex x="7.62" y="-5.715"/>
+<vertex x="5.715" y="-5.715"/>
+<vertex x="5.715" y="-7.62"/>
+</polygon>
 </package>
 <package name="FG256">
 <description>&lt;b&gt;Fine Pitch BGA (FG256)&lt;/b&gt;&lt;p&gt;

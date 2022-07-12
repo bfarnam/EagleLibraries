@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -23,22 +23,22 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -47,27 +47,27 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="88" name="SimResults" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="yes"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="yes"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="yes"/>
+<layer number="88" name="SimResults" color="7" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -78,7 +78,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -169,7 +169,7 @@
 <wire x1="-0.3048" y1="1.8542" x2="-2.2352" y2="1.8542" width="0.1524" layer="51"/>
 <wire x1="-2.2352" y1="1.8542" x2="-2.2352" y2="-1.8542" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.8542" x2="-0.3048" y2="1.8542" width="0.1524" layer="51" curve="-180"/>
-<text x="-2.4384" y="0.508" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-2" y="0" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="-2.2352" y1="0" x2="-2.2352" y2="3.7592" width="0.1524" layer="47"/>
 <wire x1="-2.2352" y1="3.7592" x2="-2.2352" y2="4.1402" width="0.1524" layer="47"/>
 <wire x1="2.2352" y1="0" x2="2.2352" y2="3.7592" width="0.1524" layer="47"/>
@@ -229,10 +229,10 @@
 <wire x1="-2.3368" y1="-3.7592" x2="-2.0828" y2="-3.6322" width="0.1524" layer="47"/>
 <wire x1="-2.3368" y1="-3.7592" x2="-2.0828" y2="-3.8862" width="0.1524" layer="47"/>
 <wire x1="-2.0828" y1="-3.6322" x2="-2.0828" y2="-3.8862" width="0.1524" layer="47"/>
-<text x="-15.2146" y="-6.9342" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: RX67Y20D0T</text>
-<text x="-15.5702" y="-8.4582" size="1.27" layer="47" ratio="6" rot="SR0">Pin One Padstyle: RX67Y20D0T</text>
-<text x="-14.8082" y="-13.0302" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-14.5542" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
+<text x="-15.2146" y="-6.9342" size="1.27" layer="49" ratio="6" rot="SR0">Default Padstyle: RX67Y20D0T</text>
+<text x="-15.5702" y="-8.4582" size="1.27" layer="49" ratio="6" rot="SR0">Pin One Padstyle: RX67Y20D0T</text>
+<text x="-14.8082" y="-13.0302" size="1.27" layer="49" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
+<text x="-14.8082" y="-14.5542" size="1.27" layer="49" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
 <text x="-4.0386" y="4.2672" size="0.635" layer="47" ratio="4" rot="SR0">0.177in/4.496mm</text>
 <text x="-4.0386" y="6.1722" size="0.635" layer="47" ratio="4" rot="SR0">0.283in/7.188mm</text>
 <text x="5.2832" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
@@ -241,9 +241,9 @@
 <wire x1="-2.3876" y1="-1.9812" x2="2.3876" y2="-1.9812" width="0.1524" layer="21"/>
 <wire x1="2.3876" y1="1.9812" x2="-2.3876" y2="1.9812" width="0.1524" layer="21"/>
 <wire x1="-2.3876" y1="0.6858" x2="-2.3876" y2="-0.6858" width="0.1524" layer="21"/>
-<text x="-3.937" y="1.651" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-4" y="2" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-2.5" y="-3.5" size="1.016" layer="27" font="vector" ratio="19" rot="SR0">&gt;Value</text>
+<text x="-2.5" y="2.5" size="1.016" layer="27" font="vector" ratio="19" rot="SR0">&gt;Name</text>
 </package>
 <package name="SO_71T-500E_BRA-M">
 <smd name="1" x="-3.2004" y="1.27" dx="1.905" dy="0.508" layer="1"/>

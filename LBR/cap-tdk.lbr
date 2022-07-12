@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1145,133 +1145,133 @@ chip</description>
 </connects>
 <technologies>
 <technology name="100NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="104" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B3X7R1H104K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="10NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="103" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B3X7R1H103K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="10 nF" constant="no"/>
 </technology>
 <technology name="1NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="102" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B2X7R1H102K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 </technology>
 <technology name="2.2NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="222" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B2X7R1H222K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="220NF-16V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B2X7R1C224K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="220NF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B3X7R1E224K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="220NF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B1X7R1V224K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="22NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="223" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B3X7R1H223K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="4.7NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="472" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B2X7R1H472K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 </technology>
 <technology name="47NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
-<attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="473" constant="no"/>
-<attribute name="MFG" value="TDK" constant="no"/>
+<attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CGA2B3X7R1H473K050BE" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +125C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="SERIES" value="X7R" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="47 nF" constant="no"/>
 </technology>
 </technologies>
@@ -1283,7 +1283,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="100NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1296,7 +1296,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="10NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="103" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1309,7 +1309,7 @@ chip</description>
 <attribute name="VALUE" value="10 nF" constant="no"/>
 </technology>
 <technology name="10NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="103" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1322,7 +1322,7 @@ chip</description>
 <attribute name="VALUE" value="10 nF" constant="no"/>
 </technology>
 <technology name="1NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="102" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1335,7 +1335,7 @@ chip</description>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 </technology>
 <technology name="1NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="102" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1348,7 +1348,7 @@ chip</description>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 </technology>
 <technology name="1UF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1361,7 +1361,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="1UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1374,7 +1374,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="2.2NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="222" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1387,7 +1387,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="2.2NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="222" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1400,7 +1400,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="220NF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="224" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1413,7 +1413,7 @@ chip</description>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="220NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="224" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1426,7 +1426,7 @@ chip</description>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="22NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="223" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1439,7 +1439,7 @@ chip</description>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="22NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="223" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1452,7 +1452,7 @@ chip</description>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="4.7NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="472" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1465,7 +1465,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 </technology>
 <technology name="4.7NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="472" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1478,7 +1478,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 </technology>
 <technology name="470NF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1491,7 +1491,7 @@ chip</description>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 </technology>
 <technology name="470NF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1504,7 +1504,7 @@ chip</description>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 </technology>
 <technology name="470NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1517,7 +1517,7 @@ chip</description>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 </technology>
 <technology name="47NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="473" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1538,7 +1538,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="100NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1551,7 +1551,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="100NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1564,7 +1564,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="10NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="103" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1577,7 +1577,7 @@ chip</description>
 <attribute name="VALUE" value="10 nF" constant="no"/>
 </technology>
 <technology name="10NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="103" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1590,7 +1590,7 @@ chip</description>
 <attribute name="VALUE" value="10 nF" constant="no"/>
 </technology>
 <technology name="1NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="102" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1603,7 +1603,7 @@ chip</description>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 </technology>
 <technology name="1NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="102" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1616,7 +1616,7 @@ chip</description>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 </technology>
 <technology name="1UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1629,7 +1629,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="1UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1642,7 +1642,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="2.2NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="222" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1655,7 +1655,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="2.2NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="222" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1668,7 +1668,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="2.2UF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1681,7 +1681,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="2.2UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1694,7 +1694,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="2.2UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1707,7 +1707,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="220NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="224" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1720,7 +1720,7 @@ chip</description>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="22NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="223" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1733,7 +1733,7 @@ chip</description>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="22NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="223" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1746,7 +1746,7 @@ chip</description>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="4.7NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="472" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1759,7 +1759,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 </technology>
 <technology name="4.7NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="472" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1772,7 +1772,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 </technology>
 <technology name="4.7UF-16V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="475" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1785,7 +1785,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 uF" constant="no"/>
 </technology>
 <technology name="4.7UF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="475" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1798,7 +1798,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 uF" constant="no"/>
 </technology>
 <technology name="4.7UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="475" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1811,7 +1811,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 uF" constant="no"/>
 </technology>
 <technology name="4.7UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="475" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1824,7 +1824,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 uF" constant="no"/>
 </technology>
 <technology name="470NF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1837,7 +1837,7 @@ chip</description>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 </technology>
 <technology name="47NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="473" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1858,7 +1858,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="100NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1871,7 +1871,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="100NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1884,7 +1884,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="10NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="103" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1897,7 +1897,7 @@ chip</description>
 <attribute name="VALUE" value="10 nF" constant="no"/>
 </technology>
 <technology name="10UF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="106" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1910,7 +1910,7 @@ chip</description>
 <attribute name="VALUE" value="10 uF" constant="no"/>
 </technology>
 <technology name="10UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="106" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1923,7 +1923,7 @@ chip</description>
 <attribute name="VALUE" value="10 uF" constant="no"/>
 </technology>
 <technology name="10UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="106" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1936,7 +1936,7 @@ chip</description>
 <attribute name="VALUE" value="10 uF" constant="no"/>
 </technology>
 <technology name="1NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="102" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1949,7 +1949,7 @@ chip</description>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 </technology>
 <technology name="1UF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1962,7 +1962,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="1UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1975,7 +1975,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="2.2NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="222" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -1988,7 +1988,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="2.2UF-25V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2001,7 +2001,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="2.2UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2014,7 +2014,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="2.2UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2027,7 +2027,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="220NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="224" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2040,7 +2040,7 @@ chip</description>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="22NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="223" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2053,7 +2053,7 @@ chip</description>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="22NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="223" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2066,7 +2066,7 @@ chip</description>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 </technology>
 <technology name="3.3NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="332" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2079,7 +2079,7 @@ chip</description>
 <attribute name="VALUE" value="3.3 nF" constant="no"/>
 </technology>
 <technology name="33NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="333" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2092,7 +2092,7 @@ chip</description>
 <attribute name="VALUE" value="33 nF" constant="no"/>
 </technology>
 <technology name="4.7NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="472" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2105,7 +2105,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 </technology>
 <technology name="4.7UF-35V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="475" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2118,7 +2118,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 uF" constant="no"/>
 </technology>
 <technology name="4.7UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="475" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2131,7 +2131,7 @@ chip</description>
 <attribute name="VALUE" value="4.7 uF" constant="no"/>
 </technology>
 <technology name="470NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2144,7 +2144,7 @@ chip</description>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 </technology>
 <technology name="47NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="473" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2165,7 +2165,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="100NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2178,7 +2178,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="1UF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2191,7 +2191,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="1UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2204,7 +2204,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="2.2UF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2217,7 +2217,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="2.2UF-50V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="225" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2230,7 +2230,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 uF" constant="no"/>
 </technology>
 <technology name="220NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="224" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2243,7 +2243,7 @@ chip</description>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 </technology>
 <technology name="470NF-100V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2256,7 +2256,7 @@ chip</description>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 </technology>
 <technology name="47NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="473" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2269,7 +2269,7 @@ chip</description>
 <attribute name="VALUE" value="47 nF" constant="no"/>
 </technology>
 <technology name="68NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="683" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2290,7 +2290,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="1NF-2000V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="102" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2311,7 +2311,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="100NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="104" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2324,7 +2324,7 @@ chip</description>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 </technology>
 <technology name="2.2NF-2000V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="222" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2337,7 +2337,7 @@ chip</description>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 </technology>
 <technology name="470NF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="474" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2358,7 +2358,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="1UF-250V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="105" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>
@@ -2371,7 +2371,7 @@ chip</description>
 <attribute name="VALUE" value="1 uF" constant="no"/>
 </technology>
 <technology name="220NF-630V">
-<attribute name="AEC-Q200" value="Y" constant="no"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="COEFFICIENT" value="15% ppm/C" constant="no"/>
 <attribute name="MARKING" value="224" constant="no"/>
 <attribute name="MFG" value="TDK" constant="no"/>

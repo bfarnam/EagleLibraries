@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -244,7 +244,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -253,7 +255,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMG" package="SMBG">
@@ -262,7 +266,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMJ" package="SMBJ">
@@ -271,7 +277,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -280,7 +288,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -296,7 +306,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -305,7 +317,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBG" package="SMBG">
@@ -314,7 +328,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBJ" package="SMBJ">
@@ -323,7 +339,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -332,7 +350,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -349,7 +369,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -359,7 +381,7 @@
 </connects>
 <technologies>
 <technology name="10">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KXQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="5 uA"/>
@@ -370,7 +392,7 @@
 <attribute name="MAX_IPP_8-20US" value="176.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ10A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 10V / 17V"/>
 <attribute name="VBR_MAX" value="12.3 V"/>
@@ -378,7 +400,7 @@
 <attribute name="VRWM" value="10 V"/>
 </technology>
 <technology name="100">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NZQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -389,7 +411,7 @@
 <attribute name="MAX_IPP_8-20US" value="18.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ100A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 100V / 162V"/>
 <attribute name="VBR_MAX" value="123 V"/>
@@ -397,7 +419,7 @@
 <attribute name="VRWM" value="100 V"/>
 </technology>
 <technology name="11">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KZQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -408,7 +430,7 @@
 <attribute name="MAX_IPP_8-20US" value="165 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ11A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 11V / 18.2V"/>
 <attribute name="VBR_MAX" value="13.5 V"/>
@@ -416,7 +438,7 @@
 <attribute name="VRWM" value="11 V"/>
 </technology>
 <technology name="110">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PEQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -427,7 +449,7 @@
 <attribute name="MAX_IPP_8-20US" value="17 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ110A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 110V / 177V"/>
 <attribute name="VBR_MAX" value="135 V"/>
@@ -435,7 +457,7 @@
 <attribute name="VRWM" value="110 V"/>
 </technology>
 <technology name="12">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LEQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -446,7 +468,7 @@
 <attribute name="MAX_IPP_8-20US" value="151 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ12A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 12V / 19.9V"/>
 <attribute name="VBR_MAX" value="14.7 V"/>
@@ -454,7 +476,7 @@
 <attribute name="VRWM" value="12 V"/>
 </technology>
 <technology name="120">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PGQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -465,7 +487,7 @@
 <attribute name="MAX_IPP_8-20US" value="15.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ120A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 120V / 193V"/>
 <attribute name="VBR_MAX" value="147 V"/>
@@ -473,7 +495,7 @@
 <attribute name="VRWM" value="120 V"/>
 </technology>
 <technology name="13">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LGQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -484,7 +506,7 @@
 <attribute name="MAX_IPP_8-20US" value="140 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ13A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 13V / 21.5V"/>
 <attribute name="VBR_MAX" value="15.9 V"/>
@@ -492,7 +514,7 @@
 <attribute name="VRWM" value="13 V"/>
 </technology>
 <technology name="130">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PKQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -503,7 +525,7 @@
 <attribute name="MAX_IPP_8-20US" value="14.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ130A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 130V / 209V"/>
 <attribute name="VBR_MAX" value="159 V"/>
@@ -511,7 +533,7 @@
 <attribute name="VRWM" value="130 V"/>
 </technology>
 <technology name="14">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LKQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -522,7 +544,7 @@
 <attribute name="MAX_IPP_8-20US" value="129.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ14A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 14V / 23.2V"/>
 <attribute name="VBR_MAX" value="17.2 V"/>
@@ -530,7 +552,7 @@
 <attribute name="VRWM" value="14 V"/>
 </technology>
 <technology name="15">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LMQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -541,7 +563,7 @@
 <attribute name="MAX_IPP_8-20US" value="123 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ15A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 15V / 24.4V"/>
 <attribute name="VBR_MAX" value="18.5 V"/>
@@ -549,7 +571,7 @@
 <attribute name="VRWM" value="15 V"/>
 </technology>
 <technology name="150">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PMQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -560,7 +582,7 @@
 <attribute name="MAX_IPP_8-20US" value="12.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ150A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 150V / 243V"/>
 <attribute name="VBR_MAX" value="185 V"/>
@@ -568,7 +590,7 @@
 <attribute name="VRWM" value="150 V"/>
 </technology>
 <technology name="16">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LPQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -579,7 +601,7 @@
 <attribute name="MAX_IPP_8-20US" value="115.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ16A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 16V / 26V"/>
 <attribute name="VBR_MAX" value="19.7 V"/>
@@ -587,7 +609,7 @@
 <attribute name="VRWM" value="16 V"/>
 </technology>
 <technology name="160">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PPQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -598,7 +620,7 @@
 <attribute name="MAX_IPP_8-20US" value="11.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ160A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 160V / 259V"/>
 <attribute name="VBR_MAX" value="197 V"/>
@@ -606,7 +628,7 @@
 <attribute name="VRWM" value="160 V"/>
 </technology>
 <technology name="17">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LRQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -617,7 +639,7 @@
 <attribute name="MAX_IPP_8-20US" value="109 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ17A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 17V / 27.6V"/>
 <attribute name="VBR_MAX" value="20.9 V"/>
@@ -625,7 +647,7 @@
 <attribute name="VRWM" value="17 V"/>
 </technology>
 <technology name="170">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PRQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -636,7 +658,7 @@
 <attribute name="MAX_IPP_8-20US" value="11 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ170A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 170V / 275V"/>
 <attribute name="VBR_MAX" value="209 V"/>
@@ -644,7 +666,7 @@
 <attribute name="VRWM" value="170 V"/>
 </technology>
 <technology name="18">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LTQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -655,7 +677,7 @@
 <attribute name="MAX_IPP_8-20US" value="103 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ18A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 18V / 29.2V"/>
 <attribute name="VBR_MAX" value="22.1 V"/>
@@ -663,7 +685,7 @@
 <attribute name="VRWM" value="18 V"/>
 </technology>
 <technology name="180">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PTQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -674,7 +696,7 @@
 <attribute name="MAX_IPP_8-20US" value="10.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ180A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 180V / 292V"/>
 <attribute name="VBR_MAX" value="222 V"/>
@@ -682,7 +704,7 @@
 <attribute name="VRWM" value="180 V"/>
 </technology>
 <technology name="20">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LVQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -693,7 +715,7 @@
 <attribute name="MAX_IPP_8-20US" value="93 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ20A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 20V / 32.4V"/>
 <attribute name="VBR_MAX" value="24.5 V"/>
@@ -701,7 +723,7 @@
 <attribute name="VRWM" value="20 V"/>
 </technology>
 <technology name="200">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PVQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -712,7 +734,7 @@
 <attribute name="MAX_IPP_8-20US" value="9.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ200A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 200V / 324V"/>
 <attribute name="VBR_MAX" value="247 V"/>
@@ -720,7 +742,7 @@
 <attribute name="VRWM" value="200 V"/>
 </technology>
 <technology name="22">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LXQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -731,7 +753,7 @@
 <attribute name="MAX_IPP_8-20US" value="84.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ22A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 22V / 35.5V"/>
 <attribute name="VBR_MAX" value="26.9 V"/>
@@ -739,7 +761,7 @@
 <attribute name="VRWM" value="22 V"/>
 </technology>
 <technology name="220">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="PXQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -750,7 +772,7 @@
 <attribute name="MAX_IPP_8-20US" value="8.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ220A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 220V / 356V"/>
 <attribute name="VBR_MAX" value="272 V"/>
@@ -758,7 +780,7 @@
 <attribute name="VRWM" value="220 V"/>
 </technology>
 <technology name="24">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="LZQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -769,7 +791,7 @@
 <attribute name="MAX_IPP_8-20US" value="77.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ24A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 24V / 38.9V"/>
 <attribute name="VBR_MAX" value="29.5 V"/>
@@ -777,7 +799,7 @@
 <attribute name="VRWM" value="24 V"/>
 </technology>
 <technology name="26">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MEQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -788,7 +810,7 @@
 <attribute name="MAX_IPP_8-20US" value="71.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ26A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 26V / 42.1V"/>
 <attribute name="VBR_MAX" value="31.9 V"/>
@@ -796,7 +818,7 @@
 <attribute name="VRWM" value="26 V"/>
 </technology>
 <technology name="28">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MGQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -807,7 +829,7 @@
 <attribute name="MAX_IPP_8-20US" value="66.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ28A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 28V / 45.4V"/>
 <attribute name="VBR_MAX" value="34.4 V"/>
@@ -815,7 +837,7 @@
 <attribute name="VRWM" value="28 V"/>
 </technology>
 <technology name="30">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MKQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -826,7 +848,7 @@
 <attribute name="MAX_IPP_8-20US" value="62 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ30A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 30V / 48.4V"/>
 <attribute name="VBR_MAX" value="36.8 V"/>
@@ -834,7 +856,7 @@
 <attribute name="VRWM" value="30 V"/>
 </technology>
 <technology name="33">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MMQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -845,7 +867,7 @@
 <attribute name="MAX_IPP_8-20US" value="56.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ33A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 33V / 53.3V"/>
 <attribute name="VBR_MAX" value="40.6 V"/>
@@ -853,7 +875,7 @@
 <attribute name="VRWM" value="33 V"/>
 </technology>
 <technology name="36">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MPQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -864,7 +886,7 @@
 <attribute name="MAX_IPP_8-20US" value="52 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ36A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 36V / 58.1V"/>
 <attribute name="VBR_MAX" value="44.2 V"/>
@@ -872,7 +894,7 @@
 <attribute name="VRWM" value="36 V"/>
 </technology>
 <technology name="40">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MRQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -883,7 +905,7 @@
 <attribute name="MAX_IPP_8-20US" value="46.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ40A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 40V / 64.5V"/>
 <attribute name="VBR_MAX" value="49.1 V"/>
@@ -891,7 +913,7 @@
 <attribute name="VRWM" value="40 V"/>
 </technology>
 <technology name="43">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MTQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -902,7 +924,7 @@
 <attribute name="MAX_IPP_8-20US" value="43.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ43A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 43V / 69.4V"/>
 <attribute name="VBR_MAX" value="52.8 V"/>
@@ -910,7 +932,7 @@
 <attribute name="VRWM" value="43 V"/>
 </technology>
 <technology name="45">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MVQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -921,7 +943,7 @@
 <attribute name="MAX_IPP_8-20US" value="41.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ45A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 45V / 72.7V"/>
 <attribute name="VBR_MAX" value="55.3 V"/>
@@ -929,7 +951,7 @@
 <attribute name="VRWM" value="45 V"/>
 </technology>
 <technology name="48">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MXQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -940,7 +962,7 @@
 <attribute name="MAX_IPP_8-20US" value="39 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ48A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 48V / 77.4V"/>
 <attribute name="VBR_MAX" value="58.9 V"/>
@@ -948,7 +970,7 @@
 <attribute name="VRWM" value="48 V"/>
 </technology>
 <technology name="5.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KEQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="800 uA"/>
@@ -959,7 +981,7 @@
 <attribute name="MAX_IPP_8-20US" value="326.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ5.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 5V / 9.2V"/>
 <attribute name="VBR_MAX" value="7 V"/>
@@ -967,7 +989,7 @@
 <attribute name="VRWM" value="5 V"/>
 </technology>
 <technology name="51">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="MZQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -978,7 +1000,7 @@
 <attribute name="MAX_IPP_8-20US" value="36.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ51A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 51V / 82.4V"/>
 <attribute name="VBR_MAX" value="62.7 V"/>
@@ -986,7 +1008,7 @@
 <attribute name="VRWM" value="51 V"/>
 </technology>
 <technology name="54">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NEQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -997,7 +1019,7 @@
 <attribute name="MAX_IPP_8-20US" value="34.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ54A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 54V / 87.1V"/>
 <attribute name="VBR_MAX" value="66.3 V"/>
@@ -1005,7 +1027,7 @@
 <attribute name="VRWM" value="54 V"/>
 </technology>
 <technology name="58">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NGQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1016,7 +1038,7 @@
 <attribute name="MAX_IPP_8-20US" value="32.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ58A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 58V / 93.6V"/>
 <attribute name="VBR_MAX" value="71.2 V"/>
@@ -1024,7 +1046,7 @@
 <attribute name="VRWM" value="58 V"/>
 </technology>
 <technology name="6.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KGQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="800 uA"/>
@@ -1035,7 +1057,7 @@
 <attribute name="MAX_IPP_8-20US" value="291.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6V / 10.3V"/>
 <attribute name="VBR_MAX" value="7.37 V"/>
@@ -1043,7 +1065,7 @@
 <attribute name="VRWM" value="6 V"/>
 </technology>
 <technology name="6.5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KKQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="500 uA"/>
@@ -1054,7 +1076,7 @@
 <attribute name="MAX_IPP_8-20US" value="268 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.5A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6.5V / 11.2V"/>
 <attribute name="VBR_MAX" value="7.98 V"/>
@@ -1062,7 +1084,7 @@
 <attribute name="VRWM" value="6.5 V"/>
 </technology>
 <technology name="60">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NKQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1073,7 +1095,7 @@
 <attribute name="MAX_IPP_8-20US" value="31 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ60A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 60V / 96.8V"/>
 <attribute name="VBR_MAX" value="73.7 V"/>
@@ -1081,7 +1103,7 @@
 <attribute name="VRWM" value="60 V"/>
 </technology>
 <technology name="64">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NMQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1092,7 +1114,7 @@
 <attribute name="MAX_IPP_8-20US" value="29.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ64A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 64V / 103V"/>
 <attribute name="VBR_MAX" value="78.6 V"/>
@@ -1100,7 +1122,7 @@
 <attribute name="VRWM" value="64 V"/>
 </technology>
 <technology name="7.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KMQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="200 uA"/>
@@ -1111,7 +1133,7 @@
 <attribute name="MAX_IPP_8-20US" value="250 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7V / 12V"/>
 <attribute name="VBR_MAX" value="8.6 V"/>
@@ -1119,7 +1141,7 @@
 <attribute name="VRWM" value="7 V"/>
 </technology>
 <technology name="7.5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KPQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="100 uA"/>
@@ -1130,7 +1152,7 @@
 <attribute name="MAX_IPP_8-20US" value="233 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.5A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7.5V / 12.9V"/>
 <attribute name="VBR_MAX" value="9.21 V"/>
@@ -1138,7 +1160,7 @@
 <attribute name="VRWM" value="7.5 V"/>
 </technology>
 <technology name="70">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NPQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1149,7 +1171,7 @@
 <attribute name="MAX_IPP_8-20US" value="26.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ70A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 70V / 113V"/>
 <attribute name="VBR_MAX" value="86 V"/>
@@ -1157,7 +1179,7 @@
 <attribute name="VRWM" value="70 V"/>
 </technology>
 <technology name="75">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NRQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1168,7 +1190,7 @@
 <attribute name="MAX_IPP_8-20US" value="25 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ75A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 75V / 121V"/>
 <attribute name="VBR_MAX" value="92.1 V"/>
@@ -1176,7 +1198,7 @@
 <attribute name="VRWM" value="75 V"/>
 </technology>
 <technology name="78">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NTQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1187,7 +1209,7 @@
 <attribute name="MAX_IPP_8-20US" value="24 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ78A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 78V / 126V"/>
 <attribute name="VBR_MAX" value="95.8 V"/>
@@ -1195,7 +1217,7 @@
 <attribute name="VRWM" value="78 V"/>
 </technology>
 <technology name="8.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KRQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="50 uA"/>
@@ -1206,7 +1228,7 @@
 <attribute name="MAX_IPP_8-20US" value="221 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8V / 13.6V"/>
 <attribute name="VBR_MAX" value="9.83 V"/>
@@ -1214,7 +1236,7 @@
 <attribute name="VRWM" value="8 V"/>
 </technology>
 <technology name="8.5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KTQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="20 uA"/>
@@ -1225,7 +1247,7 @@
 <attribute name="MAX_IPP_8-20US" value="208.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.5A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8.5V / 14.4V"/>
 <attribute name="VBR_MAX" value="10.4 V"/>
@@ -1233,7 +1255,7 @@
 <attribute name="VRWM" value="8.5 V"/>
 </technology>
 <technology name="85">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NVQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1244,7 +1266,7 @@
 <attribute name="MAX_IPP_8-20US" value="22 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ85A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 85V / 137V"/>
 <attribute name="VBR_MAX" value="104 V"/>
@@ -1252,7 +1274,7 @@
 <attribute name="VRWM" value="85 V"/>
 </technology>
 <technology name="9.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="KVQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="10 uA"/>
@@ -1263,7 +1285,7 @@
 <attribute name="MAX_IPP_8-20US" value="195 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ9.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 9V / 15.4V"/>
 <attribute name="VBR_MAX" value="11.1 V"/>
@@ -1271,7 +1293,7 @@
 <attribute name="VRWM" value="9 V"/>
 </technology>
 <technology name="90">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="NXQ"/>
 <attribute name="DIRECTION" value="Unidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1282,7 +1304,7 @@
 <attribute name="MAX_IPP_8-20US" value="20.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ90A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 90V / 146V"/>
 <attribute name="VBR_MAX" value="111 V"/>
@@ -1297,7 +1319,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMJ" package="SMBJ">
@@ -1306,7 +1330,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -1315,7 +1341,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1331,7 +1359,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -1341,7 +1371,7 @@
 </connects>
 <technologies>
 <technology name="10">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AXQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="5 uA"/>
@@ -1352,7 +1382,7 @@
 <attribute name="MAX_IPP_8-20US" value="176.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ10CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 10V / 17V"/>
 <attribute name="VBR_MAX" value="12.3 V"/>
@@ -1360,7 +1390,7 @@
 <attribute name="VRWM" value="10 V"/>
 </technology>
 <technology name="100">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DZQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1371,7 +1401,7 @@
 <attribute name="MAX_IPP_8-20US" value="18.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ100CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 100V / 162V"/>
 <attribute name="VBR_MAX" value="123 V"/>
@@ -1379,7 +1409,7 @@
 <attribute name="VRWM" value="100 V"/>
 </technology>
 <technology name="11">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AZQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1390,7 +1420,7 @@
 <attribute name="MAX_IPP_8-20US" value="165 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ11CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 11V / 18.2V"/>
 <attribute name="VBR_MAX" value="13.5 V"/>
@@ -1398,7 +1428,7 @@
 <attribute name="VRWM" value="11 V"/>
 </technology>
 <technology name="110">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EEQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1409,7 +1439,7 @@
 <attribute name="MAX_IPP_8-20US" value="17 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ110CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 110V / 177V"/>
 <attribute name="VBR_MAX" value="135 V"/>
@@ -1417,7 +1447,7 @@
 <attribute name="VRWM" value="110 V"/>
 </technology>
 <technology name="12">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BEQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1428,7 +1458,7 @@
 <attribute name="MAX_IPP_8-20US" value="151 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ12CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 12V / 19.9V"/>
 <attribute name="VBR_MAX" value="14.7 V"/>
@@ -1436,7 +1466,7 @@
 <attribute name="VRWM" value="12 V"/>
 </technology>
 <technology name="120">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EGQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1447,7 +1477,7 @@
 <attribute name="MAX_IPP_8-20US" value="15.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ120CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 120V / 193V"/>
 <attribute name="VBR_MAX" value="147 V"/>
@@ -1455,7 +1485,7 @@
 <attribute name="VRWM" value="120 V"/>
 </technology>
 <technology name="13">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BGQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1466,7 +1496,7 @@
 <attribute name="MAX_IPP_8-20US" value="140 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ13CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 13V / 21.5V"/>
 <attribute name="VBR_MAX" value="15.9 V"/>
@@ -1474,7 +1504,7 @@
 <attribute name="VRWM" value="13 V"/>
 </technology>
 <technology name="130">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EKQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1485,7 +1515,7 @@
 <attribute name="MAX_IPP_8-20US" value="14.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ130CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 130V / 209V"/>
 <attribute name="VBR_MAX" value="159 V"/>
@@ -1493,7 +1523,7 @@
 <attribute name="VRWM" value="130 V"/>
 </technology>
 <technology name="14">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BKQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1504,7 +1534,7 @@
 <attribute name="MAX_IPP_8-20US" value="129.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ14CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 14V / 23.2V"/>
 <attribute name="VBR_MAX" value="17.2 V"/>
@@ -1512,7 +1542,7 @@
 <attribute name="VRWM" value="14 V"/>
 </technology>
 <technology name="15">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BMQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1523,7 +1553,7 @@
 <attribute name="MAX_IPP_8-20US" value="123 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ15CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 15V / 24.4V"/>
 <attribute name="VBR_MAX" value="18.5 V"/>
@@ -1531,7 +1561,7 @@
 <attribute name="VRWM" value="15 V"/>
 </technology>
 <technology name="150">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EMQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1542,7 +1572,7 @@
 <attribute name="MAX_IPP_8-20US" value="12.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ150CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 150V / 243V"/>
 <attribute name="VBR_MAX" value="185 V"/>
@@ -1550,7 +1580,7 @@
 <attribute name="VRWM" value="150 V"/>
 </technology>
 <technology name="16">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BPQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1561,7 +1591,7 @@
 <attribute name="MAX_IPP_8-20US" value="115.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ16CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 16V / 26V"/>
 <attribute name="VBR_MAX" value="19.7 V"/>
@@ -1569,7 +1599,7 @@
 <attribute name="VRWM" value="16 V"/>
 </technology>
 <technology name="160">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EPQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1580,7 +1610,7 @@
 <attribute name="MAX_IPP_8-20US" value="11.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ160CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 160V / 259V"/>
 <attribute name="VBR_MAX" value="197 V"/>
@@ -1588,7 +1618,7 @@
 <attribute name="VRWM" value="160 V"/>
 </technology>
 <technology name="17">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BRQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1599,7 +1629,7 @@
 <attribute name="MAX_IPP_8-20US" value="109 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ17CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 17V / 27.6V"/>
 <attribute name="VBR_MAX" value="20.9 V"/>
@@ -1607,7 +1637,7 @@
 <attribute name="VRWM" value="17 V"/>
 </technology>
 <technology name="170">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="ERQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1618,7 +1648,7 @@
 <attribute name="MAX_IPP_8-20US" value="11 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ170CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 170V / 275V"/>
 <attribute name="VBR_MAX" value="209 V"/>
@@ -1626,7 +1656,7 @@
 <attribute name="VRWM" value="170 V"/>
 </technology>
 <technology name="18">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BTQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1637,7 +1667,7 @@
 <attribute name="MAX_IPP_8-20US" value="103 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ18CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 18V / 29.2V"/>
 <attribute name="VBR_MAX" value="22.1 V"/>
@@ -1645,7 +1675,7 @@
 <attribute name="VRWM" value="18 V"/>
 </technology>
 <technology name="180">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="ETQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1656,7 +1686,7 @@
 <attribute name="MAX_IPP_8-20US" value="10.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ180CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 180V / 292V"/>
 <attribute name="VBR_MAX" value="222 V"/>
@@ -1664,7 +1694,7 @@
 <attribute name="VRWM" value="180 V"/>
 </technology>
 <technology name="20">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BVQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1675,7 +1705,7 @@
 <attribute name="MAX_IPP_8-20US" value="93 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ20CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 20V / 32.4V"/>
 <attribute name="VBR_MAX" value="24.5 V"/>
@@ -1683,7 +1713,7 @@
 <attribute name="VRWM" value="20 V"/>
 </technology>
 <technology name="200">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EVQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1694,7 +1724,7 @@
 <attribute name="MAX_IPP_8-20US" value="9.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ200CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 200V / 324V"/>
 <attribute name="VBR_MAX" value="247 V"/>
@@ -1702,7 +1732,7 @@
 <attribute name="VRWM" value="200 V"/>
 </technology>
 <technology name="22">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BXQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1713,7 +1743,7 @@
 <attribute name="MAX_IPP_8-20US" value="84.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ22CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 22V / 35.5V"/>
 <attribute name="VBR_MAX" value="26.9 V"/>
@@ -1721,7 +1751,7 @@
 <attribute name="VRWM" value="22 V"/>
 </technology>
 <technology name="220">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="EXQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1732,7 +1762,7 @@
 <attribute name="MAX_IPP_8-20US" value="8.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ220CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 220V / 356V"/>
 <attribute name="VBR_MAX" value="272 V"/>
@@ -1740,7 +1770,7 @@
 <attribute name="VRWM" value="220 V"/>
 </technology>
 <technology name="24">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="BZQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1751,7 +1781,7 @@
 <attribute name="MAX_IPP_8-20US" value="77.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ24CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 24V / 38.9V"/>
 <attribute name="VBR_MAX" value="29.5 V"/>
@@ -1759,7 +1789,7 @@
 <attribute name="VRWM" value="24 V"/>
 </technology>
 <technology name="26">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CEQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1770,7 +1800,7 @@
 <attribute name="MAX_IPP_8-20US" value="71.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ26CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 26V / 42.1V"/>
 <attribute name="VBR_MAX" value="31.9 V"/>
@@ -1778,7 +1808,7 @@
 <attribute name="VRWM" value="26 V"/>
 </technology>
 <technology name="28">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CGQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1789,7 +1819,7 @@
 <attribute name="MAX_IPP_8-20US" value="66.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ28CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 28V / 45.4V"/>
 <attribute name="VBR_MAX" value="34.4 V"/>
@@ -1797,7 +1827,7 @@
 <attribute name="VRWM" value="28 V"/>
 </technology>
 <technology name="30">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CKQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1808,7 +1838,7 @@
 <attribute name="MAX_IPP_8-20US" value="62 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ30CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 30V / 48.4V"/>
 <attribute name="VBR_MAX" value="36.8 V"/>
@@ -1816,7 +1846,7 @@
 <attribute name="VRWM" value="30 V"/>
 </technology>
 <technology name="33">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CMQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1827,7 +1857,7 @@
 <attribute name="MAX_IPP_8-20US" value="56.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ33CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 33V / 53.3V"/>
 <attribute name="VBR_MAX" value="40.6 V"/>
@@ -1835,7 +1865,7 @@
 <attribute name="VRWM" value="33 V"/>
 </technology>
 <technology name="36">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CPQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1846,7 +1876,7 @@
 <attribute name="MAX_IPP_8-20US" value="52 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ36CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 36V / 58.1V"/>
 <attribute name="VBR_MAX" value="44.2 V"/>
@@ -1854,7 +1884,7 @@
 <attribute name="VRWM" value="36 V"/>
 </technology>
 <technology name="40">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CRQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1865,7 +1895,7 @@
 <attribute name="MAX_IPP_8-20US" value="46.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ40CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 40V / 64.5V"/>
 <attribute name="VBR_MAX" value="49.1 V"/>
@@ -1873,7 +1903,7 @@
 <attribute name="VRWM" value="40 V"/>
 </technology>
 <technology name="43">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CTQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1884,7 +1914,7 @@
 <attribute name="MAX_IPP_8-20US" value="43.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ43CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 43V / 69.4V"/>
 <attribute name="VBR_MAX" value="52.8 V"/>
@@ -1892,7 +1922,7 @@
 <attribute name="VRWM" value="43 V"/>
 </technology>
 <technology name="45">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CVQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1903,7 +1933,7 @@
 <attribute name="MAX_IPP_8-20US" value="41.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ45CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 45V / 72.7V"/>
 <attribute name="VBR_MAX" value="55.3 V"/>
@@ -1911,7 +1941,7 @@
 <attribute name="VRWM" value="45 V"/>
 </technology>
 <technology name="48">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CXQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1922,7 +1952,7 @@
 <attribute name="MAX_IPP_8-20US" value="39 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ48CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 48V / 77.4V"/>
 <attribute name="VBR_MAX" value="58.9 V"/>
@@ -1930,7 +1960,7 @@
 <attribute name="VRWM" value="48 V"/>
 </technology>
 <technology name="5.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AEQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="800 uA"/>
@@ -1941,7 +1971,7 @@
 <attribute name="MAX_IPP_8-20US" value="326.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ5.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 5V / 9.2V"/>
 <attribute name="VBR_MAX" value="7 V"/>
@@ -1949,7 +1979,7 @@
 <attribute name="VRWM" value="5 V"/>
 </technology>
 <technology name="51">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="CZQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1960,7 +1990,7 @@
 <attribute name="MAX_IPP_8-20US" value="36.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ51CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 51V / 82.4V"/>
 <attribute name="VBR_MAX" value="62.7 V"/>
@@ -1968,7 +1998,7 @@
 <attribute name="VRWM" value="51 V"/>
 </technology>
 <technology name="54">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DEQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1979,7 +2009,7 @@
 <attribute name="MAX_IPP_8-20US" value="34.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ54CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 54V / 87.1V"/>
 <attribute name="VBR_MAX" value="66.3 V"/>
@@ -1987,7 +2017,7 @@
 <attribute name="VRWM" value="54 V"/>
 </technology>
 <technology name="58">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DGQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -1998,7 +2028,7 @@
 <attribute name="MAX_IPP_8-20US" value="32.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ58CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 58V / 93.6V"/>
 <attribute name="VBR_MAX" value="71.2 V"/>
@@ -2006,7 +2036,7 @@
 <attribute name="VRWM" value="58 V"/>
 </technology>
 <technology name="6.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AGQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="800 uA"/>
@@ -2017,7 +2047,7 @@
 <attribute name="MAX_IPP_8-20US" value="291.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6V / 10.3V"/>
 <attribute name="VBR_MAX" value="7.37 V"/>
@@ -2025,7 +2055,7 @@
 <attribute name="VRWM" value="6 V"/>
 </technology>
 <technology name="6.5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AKQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="500 uA"/>
@@ -2036,7 +2066,7 @@
 <attribute name="MAX_IPP_8-20US" value="268 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.5CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6.5V / 11.2V"/>
 <attribute name="VBR_MAX" value="7.98 V"/>
@@ -2044,7 +2074,7 @@
 <attribute name="VRWM" value="6.5 V"/>
 </technology>
 <technology name="60">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DKQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2055,7 +2085,7 @@
 <attribute name="MAX_IPP_8-20US" value="31 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ60CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 60V / 96.8V"/>
 <attribute name="VBR_MAX" value="73.7 V"/>
@@ -2063,7 +2093,7 @@
 <attribute name="VRWM" value="60 V"/>
 </technology>
 <technology name="64">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DMQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2074,7 +2104,7 @@
 <attribute name="MAX_IPP_8-20US" value="29.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ64CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 64V / 103V"/>
 <attribute name="VBR_MAX" value="78.6 V"/>
@@ -2082,7 +2112,7 @@
 <attribute name="VRWM" value="64 V"/>
 </technology>
 <technology name="7.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AMQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="200 uA"/>
@@ -2093,7 +2123,7 @@
 <attribute name="MAX_IPP_8-20US" value="250 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7V / 12V"/>
 <attribute name="VBR_MAX" value="8.6 V"/>
@@ -2101,7 +2131,7 @@
 <attribute name="VRWM" value="7 V"/>
 </technology>
 <technology name="7.5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="APQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="100 uA"/>
@@ -2112,7 +2142,7 @@
 <attribute name="MAX_IPP_8-20US" value="233 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.5CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7.5V / 12.9V"/>
 <attribute name="VBR_MAX" value="9.21 V"/>
@@ -2120,7 +2150,7 @@
 <attribute name="VRWM" value="7.5 V"/>
 </technology>
 <technology name="70">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DPQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2131,7 +2161,7 @@
 <attribute name="MAX_IPP_8-20US" value="26.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ70CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 70V / 113V"/>
 <attribute name="VBR_MAX" value="86 V"/>
@@ -2139,7 +2169,7 @@
 <attribute name="VRWM" value="70 V"/>
 </technology>
 <technology name="75">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DRQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2150,7 +2180,7 @@
 <attribute name="MAX_IPP_8-20US" value="25 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ75CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 75V / 121V"/>
 <attribute name="VBR_MAX" value="92.1 V"/>
@@ -2158,7 +2188,7 @@
 <attribute name="VRWM" value="75 V"/>
 </technology>
 <technology name="78">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DTQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2169,7 +2199,7 @@
 <attribute name="MAX_IPP_8-20US" value="24 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ78CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 78V / 126V"/>
 <attribute name="VBR_MAX" value="95.8 V"/>
@@ -2177,7 +2207,7 @@
 <attribute name="VRWM" value="78 V"/>
 </technology>
 <technology name="8.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="ARQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="50 uA"/>
@@ -2188,7 +2218,7 @@
 <attribute name="MAX_IPP_8-20US" value="221 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8V / 13.6V"/>
 <attribute name="VBR_MAX" value="9.83 V"/>
@@ -2196,7 +2226,7 @@
 <attribute name="VRWM" value="8 V"/>
 </technology>
 <technology name="8.5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="ATQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="20 uA"/>
@@ -2207,7 +2237,7 @@
 <attribute name="MAX_IPP_8-20US" value="208.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.5CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8.5V / 14.4V"/>
 <attribute name="VBR_MAX" value="10.4 V"/>
@@ -2215,7 +2245,7 @@
 <attribute name="VRWM" value="8.5 V"/>
 </technology>
 <technology name="85">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DVQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2226,7 +2256,7 @@
 <attribute name="MAX_IPP_8-20US" value="22 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ85CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 85V / 137V"/>
 <attribute name="VBR_MAX" value="104 V"/>
@@ -2234,7 +2264,7 @@
 <attribute name="VRWM" value="85 V"/>
 </technology>
 <technology name="9.0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="AVQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="10 uA"/>
@@ -2245,7 +2275,7 @@
 <attribute name="MAX_IPP_8-20US" value="195 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ9.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 9V / 15.4V"/>
 <attribute name="VBR_MAX" value="11.1 V"/>
@@ -2253,7 +2283,7 @@
 <attribute name="VRWM" value="9 V"/>
 </technology>
 <technology name="90">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="CODE" value="DXQ"/>
 <attribute name="DIRECTION" value="Bidirectional"/>
 <attribute name="IR" value="1 uA"/>
@@ -2264,7 +2294,7 @@
 <attribute name="MAX_IPP_8-20US" value="20.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ90CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 90V / 146V"/>
 <attribute name="VBR_MAX" value="111 V"/>
@@ -2279,7 +2309,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBJ" package="SMBJ">
@@ -2288,7 +2320,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -2297,7 +2331,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>

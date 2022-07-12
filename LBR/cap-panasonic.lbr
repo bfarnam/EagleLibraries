@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1704,7 +1704,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="0603" package="0603">
@@ -1713,7 +1715,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="0805" package="0805">
@@ -1722,7 +1726,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="1206" package="1206">
@@ -1731,7 +1737,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="1210" package="1210">
@@ -1740,7 +1748,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="1812" package="1812">
@@ -1749,7 +1759,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="1812K" package="1812K">
@@ -1758,7 +1770,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="1825" package="1825">
@@ -1767,7 +1781,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="1825K" package="1825K">
@@ -1776,7 +1792,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="2012" package="2012">
@@ -1785,7 +1803,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="2220K" package="2220K">
@@ -1794,7 +1814,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="2225K" package="2225K">
@@ -1803,7 +1825,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3216" package="3216">
@@ -1812,7 +1836,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3225" package="3225">
@@ -1821,7 +1847,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="4532" package="4532">
@@ -1830,7 +1858,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="4564" package="4564">
@@ -1839,7 +1869,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1856,7 +1888,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3216-TE-A" package="3216-TE-A">
@@ -1865,7 +1899,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3258-TE-B" package="3528-TE-B">
@@ -1874,7 +1910,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="6032-TE-C" package="6032-TE-C">
@@ -1883,7 +1921,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-A" package="SV-A">
@@ -1892,7 +1932,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-B" package="SV-B">
@@ -1901,7 +1943,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-C" package="SV-C">
@@ -1910,7 +1954,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-D" package="SV-D">
@@ -1919,7 +1965,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-E/F" package="SV-E/F">
@@ -1928,7 +1976,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-G" package="SV-G">
@@ -1937,7 +1987,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3216" package="3216/T">
@@ -1946,7 +1998,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3216-18R" package="3216-18R/T">
@@ -1955,7 +2009,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3216-18W" package="3216-18W/T">
@@ -1964,7 +2020,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3528" package="3528/T">
@@ -1973,7 +2031,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3528-21R" package="3528-21R/T">
@@ -1982,7 +2042,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3528-21W" package="3528-21W/T">
@@ -1991,7 +2053,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="3225" package="3225">
@@ -2000,7 +2064,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="6032" package="6032/T">
@@ -2009,7 +2075,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="6032-28R" package="6032-28R/T">
@@ -2018,7 +2086,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="6032-28W" package="6032-28W/T">
@@ -2027,7 +2097,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="7343" package="7343/T">
@@ -2036,7 +2108,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="139CLL-2R" package="139CLL-2R">
@@ -2045,7 +2119,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="139CLL-2W" package="139CLL-2W">
@@ -2054,7 +2130,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="139CLL-3W" package="139CLL-3W">
@@ -2063,7 +2141,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="140CLH-0810" package="140CLH-0810">
@@ -2072,7 +2152,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="140CLH-1010" package="140CLH-1010">
@@ -2081,7 +2163,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="140CLH-1014" package="140CLH-1014">
@@ -2090,7 +2174,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="150CLZ-0810" package="150CLZ-0810">
@@ -2099,7 +2185,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="150CLZ-1010" package="150CLZ-1010">
@@ -2108,7 +2196,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="150CLZ-1014" package="150CLZ-1014">
@@ -2117,7 +2207,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-0405" package="153CLV-0405">
@@ -2126,7 +2218,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-0505" package="153CLV-0505">
@@ -2135,7 +2229,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-0605" package="153CLV-0605">
@@ -2144,7 +2240,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-0807" package="153CLV-0807">
@@ -2153,7 +2251,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-0810" package="153CLV-0810">
@@ -2162,7 +2262,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-1010" package="153CLV-1010">
@@ -2171,7 +2273,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-1012" package="153CLV-1012">
@@ -2180,7 +2284,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="153CLV-1014" package="153CLV-1014">
@@ -2189,7 +2295,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="175TMP-0808" package="175TMP-0808">
@@ -2198,7 +2306,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="175TMP-0810" package="175TMP-0810">
@@ -2207,7 +2317,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-H" package="SV-H">
@@ -2216,7 +2328,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-J" package="SV-J">
@@ -2225,7 +2339,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-K" package="SV-K">
@@ -2234,7 +2350,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2251,7 +2369,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-C" package="SV-C">
@@ -2260,7 +2380,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="SV-D" package="SV-D">
@@ -2269,7 +2391,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="G$1" pin="2" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2295,7 +2419,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="D" pin="2" pad="D2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 <device name="ECJ-1206" package="ECJ-1206">
@@ -2310,7 +2436,9 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 <connect gate="D" pin="2" pad="D2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Panasonic"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4936,36 +5064,36 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 </connects>
 <technologies>
 <technology name="100UF-16V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="450 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
-<attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
-<attribute name="MPN" value="EEETC1C101XV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="100 uF" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="450 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
+<attribute name="MARKING" value="101"/>
+<attribute name="MFG" value="Panasonic"/>
+<attribute name="MPN" value="EEETC1C101XV"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="100 uF"/>
 </technology>
 <technology name="47UF-35V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="450 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
-<attribute name="MARKING" value="470" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
-<attribute name="MPN" value="EEETC1V470XV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="47 uF" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="450 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
+<attribute name="MARKING" value="470"/>
+<attribute name="MFG" value="Panasonic"/>
+<attribute name="MPN" value="EEETC1V470XV"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="47 uF"/>
 </technology>
 </technologies>
 </device>
@@ -4976,99 +5104,99 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 </connects>
 <technologies>
 <technology name="100UF-16V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="200 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="200 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1C101V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="410 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="410 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="100 uF" constant="no"/>
 </technology>
 <technology name="100UF-25V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="200 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="200 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1E101V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="410 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="410 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="100 uF" constant="no"/>
 </technology>
 <technology name="100UF-35V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="200 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="200 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1V101V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="410 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="410 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="100 uF" constant="no"/>
 </technology>
 <technology name="220UF-10V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="200 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="200 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1A221V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="410 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="410 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="220UF-16V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="200 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="200 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1C221V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="410 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="410 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="47UF-35V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="200 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="200 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="470" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1V470V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="410 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="410 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="47 uF" constant="no"/>
 </technology>
 </technologies>
@@ -5080,115 +5208,115 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 </connects>
 <technologies>
 <technology name="220UF-25V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1E221V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="220UF-35V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1V221V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="330UF-10V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1A331V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="330UF-16V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1C331V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="330UF-25V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1E331V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="470UF-10V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="471" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1A471V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="470 uF" constant="no"/>
 </technology>
 <technology name="470UF-16V-125C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="150 mOhm" constant="no"/>
-<attribute name="HOURS" value="3000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="150 mOhm"/>
+<attribute name="HOURS" value="3000 h"/>
 <attribute name="MARKING" value="471" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEETC1C471V" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40 to +125C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="750 mA rms" constant="no"/>
-<attribute name="SERIES" value="TC" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="RIPPLE" value="750 mA rms"/>
+<attribute name="SERIES" value="TC"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="470 uF" constant="no"/>
 </technology>
 </technologies>
@@ -5808,292 +5936,292 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 </connects>
 <technologies>
 <technology name="100UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="101"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPC101XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="100 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="100 uF"/>
 </technology>
 <technology name="100UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="101"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPE101XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="100 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="100 uF"/>
 </technology>
 <technology name="100UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="101"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPV101XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="100 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="100 uF"/>
 </technology>
 <technology name="100UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="101"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP0J101AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="6.3V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="100 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="6.3V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="100 uF"/>
 </technology>
 <technology name="150UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="151" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="151"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1A151AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="150 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="10V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="150 uF"/>
 </technology>
 <technology name="150UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="151" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="151"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPC151XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="150 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="150 uF"/>
 </technology>
 <technology name="220UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="221"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPA221XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="220 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="10V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="220 uF"/>
 </technology>
 <technology name="220UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="221"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPC221XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="220 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="220 uF"/>
 </technology>
 <technology name="220UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="221"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP0J221AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="6.3V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="220 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="6.3V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="220 uF"/>
 </technology>
 <technology name="330UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="331"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPJ331XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="6.3V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="330 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="6.3V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="330 uF"/>
 </technology>
 <technology name="33UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="330" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="330"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E330AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="33 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="33 uF"/>
 </technology>
 <technology name="33UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="330" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="330"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1V330AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="33 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="33 uF"/>
 </technology>
 <technology name="47UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="470" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="470"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1C470AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="47 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="47 uF"/>
 </technology>
 <technology name="47UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="470" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="470"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E470AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="47 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="47 uF"/>
 </technology>
 <technology name="47UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="470" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="470"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1V470AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="47 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="47 uF"/>
 </technology>
 <technology name="68UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="680" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="680"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1C680AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="68 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="68 uF"/>
 </technology>
 <technology name="68UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="260 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="680" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="260 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="680"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E680AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="300 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="68 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="300 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="68 uF"/>
 </technology>
 <technology name="68UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="160 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
-<attribute name="MARKING" value="680" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="160 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
+<attribute name="MARKING" value="680"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPV680XAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="600 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="D8" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="68 uF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="600 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="D8"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="68 uF"/>
 </technology>
 </technologies>
 </device>
@@ -6104,227 +6232,227 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 </connects>
 <technologies>
 <technology name="1000UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="102" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP0J102AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="6.3V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="6.3V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="1000 uF" constant="no"/>
 </technology>
 <technology name="100UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1V101AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="100 uF" constant="no"/>
 </technology>
 <technology name="100UF-50V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="180 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="180 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="101" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1H101AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="50V" constant="no"/>
-<attribute name="RIPPLE" value="670 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="RIPPLE" value="670 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="100 uF" constant="no"/>
 </technology>
 <technology name="150UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="151" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E151AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="150 uF" constant="no"/>
 </technology>
 <technology name="150UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="151" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1V151AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="150 uF" constant="no"/>
 </technology>
 <technology name="220UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E221AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="220UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1V221AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="35V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="330UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1A331AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="10V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="330UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1C331AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="330UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E331AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="470UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="471" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1A471AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="10V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="470 uF" constant="no"/>
 </technology>
 <technology name="470UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="471" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1C471AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="16V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="470 uF" constant="no"/>
 </technology>
 <technology name="470UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="471" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP0J471AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="6.3V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="6.3V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="470 uF" constant="no"/>
 </technology>
 <technology name="680UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
-<attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="ESR" value="80 mOhm"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="681" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1A681AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
-<attribute name="RATED_V" value="10V" constant="no"/>
-<attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="F" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
+<attribute name="RATED_V" value="10V"/>
+<attribute name="RIPPLE" value="850 mA rms"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="F"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="680 uF" constant="no"/>
 </technology>
 </technologies>
@@ -6336,179 +6464,179 @@ High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 </connects>
 <technologies>
 <technology name="1000UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="60 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="102" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1A102AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="10V" constant="no"/>
 <attribute name="RIPPLE" value="1190 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="1000 uF" constant="no"/>
 </technology>
 <technology name="1200UF-10V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="122" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPA122UAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="10V" constant="no"/>
 <attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="1200 uF" constant="no"/>
 </technology>
 <technology name="1500UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="60 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="152" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP0J152AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="6.3V" constant="no"/>
 <attribute name="RIPPLE" value="1190 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="1500 uF" constant="no"/>
 </technology>
 <technology name="1800UF-6.3V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="182" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPJ182UAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="6.3V" constant="no"/>
 <attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="1800 uF" constant="no"/>
 </technology>
 <technology name="220UF-50V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="120 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="221" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1H221AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="50V" constant="no"/>
 <attribute name="RIPPLE" value="900 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
 </technology>
 <technology name="330UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="60 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="331" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1V331AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="35V" constant="no"/>
 <attribute name="RIPPLE" value="1190 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330 uF" constant="no"/>
 </technology>
 <technology name="390UF-35V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="391" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPV391UAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="35V" constant="no"/>
 <attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="390 uF" constant="no"/>
 </technology>
 <technology name="470UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="60 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="471" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1E471AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="25V" constant="no"/>
 <attribute name="RIPPLE" value="1190 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="470 uF" constant="no"/>
 </technology>
 <technology name="560UF-25V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="561" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPE561UAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="25V" constant="no"/>
 <attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="560 uF" constant="no"/>
 </technology>
 <technology name="680UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="60 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="681" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFP1C681AV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
 <attribute name="RIPPLE" value="1190 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="680 uF" constant="no"/>
 </technology>
 <technology name="820UF-16V-105C">
-<attribute name="ANTI-VIBRATION" value="Y" constant="no"/>
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="no"/>
+<attribute name="ANTI-VIBRATION" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="ESR" value="80 mOhm" constant="no"/>
-<attribute name="HOURS" value="2000 h" constant="no"/>
+<attribute name="HOURS" value="2000 h"/>
 <attribute name="MARKING" value="821" constant="no"/>
-<attribute name="MFG" value="Panasonic" constant="no"/>
+<attribute name="MFG" value="Panasonic"/>
 <attribute name="MPN" value="EEEFPC821UAV" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55 to +105C" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55 to +105C"/>
 <attribute name="RATED_V" value="16V" constant="no"/>
 <attribute name="RIPPLE" value="850 mA rms" constant="no"/>
-<attribute name="SERIES" value="FP" constant="no"/>
-<attribute name="SIZE" value="G" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="SERIES" value="FP"/>
+<attribute name="SIZE" value="G"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="820 uF" constant="no"/>
 </technology>
 </technologies>

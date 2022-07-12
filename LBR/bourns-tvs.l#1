@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -113,11 +113,11 @@
 <rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
 <rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
 <polygon width="0.254" layer="21">
-<vertex x="0.828" y="1"/>
-<vertex x="0.828" y="-1"/>
-<vertex x="-0.83" y="0"/>
+<vertex x="0.7" y="0.7"/>
+<vertex x="0.7" y="-0.7"/>
+<vertex x="-0.7" y="0"/>
 </polygon>
-<wire x1="-0.828" y1="1" x2="-0.828" y2="-1" width="0.254" layer="21"/>
+<wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.254" layer="21"/>
 </package>
 <package name="SMBG">
 <wire x1="2.24" y1="1.85" x2="2.24" y2="-1.85" width="0.1016" layer="21"/>
@@ -244,7 +244,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -253,7 +255,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMG" package="SMBG">
@@ -262,7 +266,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMJ" package="SMBJ">
@@ -271,7 +277,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -280,7 +288,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -296,7 +306,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -305,7 +317,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBG" package="SMBG">
@@ -314,7 +328,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBJ" package="SMBJ">
@@ -323,7 +339,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -332,7 +350,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -349,7 +369,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -370,7 +392,7 @@
 <attribute name="MAX_IPP_8-20US" value="176.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ10A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 10V / 17V"/>
 <attribute name="VBR_MAX" value="12.3 V"/>
@@ -389,7 +411,7 @@
 <attribute name="MAX_IPP_8-20US" value="18.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ100A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 100V / 162V"/>
 <attribute name="VBR_MAX" value="123 V"/>
@@ -408,7 +430,7 @@
 <attribute name="MAX_IPP_8-20US" value="165 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ11A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 11V / 18.2V"/>
 <attribute name="VBR_MAX" value="13.5 V"/>
@@ -427,7 +449,7 @@
 <attribute name="MAX_IPP_8-20US" value="17 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ110A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 110V / 177V"/>
 <attribute name="VBR_MAX" value="135 V"/>
@@ -446,7 +468,7 @@
 <attribute name="MAX_IPP_8-20US" value="151 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ12A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 12V / 19.9V"/>
 <attribute name="VBR_MAX" value="14.7 V"/>
@@ -465,7 +487,7 @@
 <attribute name="MAX_IPP_8-20US" value="15.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ120A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 120V / 193V"/>
 <attribute name="VBR_MAX" value="147 V"/>
@@ -484,7 +506,7 @@
 <attribute name="MAX_IPP_8-20US" value="140 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ13A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 13V / 21.5V"/>
 <attribute name="VBR_MAX" value="15.9 V"/>
@@ -503,7 +525,7 @@
 <attribute name="MAX_IPP_8-20US" value="14.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ130A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 130V / 209V"/>
 <attribute name="VBR_MAX" value="159 V"/>
@@ -522,7 +544,7 @@
 <attribute name="MAX_IPP_8-20US" value="129.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ14A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 14V / 23.2V"/>
 <attribute name="VBR_MAX" value="17.2 V"/>
@@ -541,7 +563,7 @@
 <attribute name="MAX_IPP_8-20US" value="123 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ15A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 15V / 24.4V"/>
 <attribute name="VBR_MAX" value="18.5 V"/>
@@ -560,7 +582,7 @@
 <attribute name="MAX_IPP_8-20US" value="12.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ150A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 150V / 243V"/>
 <attribute name="VBR_MAX" value="185 V"/>
@@ -579,7 +601,7 @@
 <attribute name="MAX_IPP_8-20US" value="115.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ16A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 16V / 26V"/>
 <attribute name="VBR_MAX" value="19.7 V"/>
@@ -598,7 +620,7 @@
 <attribute name="MAX_IPP_8-20US" value="11.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ160A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 160V / 259V"/>
 <attribute name="VBR_MAX" value="197 V"/>
@@ -617,7 +639,7 @@
 <attribute name="MAX_IPP_8-20US" value="109 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ17A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 17V / 27.6V"/>
 <attribute name="VBR_MAX" value="20.9 V"/>
@@ -636,7 +658,7 @@
 <attribute name="MAX_IPP_8-20US" value="11 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ170A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 170V / 275V"/>
 <attribute name="VBR_MAX" value="209 V"/>
@@ -655,7 +677,7 @@
 <attribute name="MAX_IPP_8-20US" value="103 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ18A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 18V / 29.2V"/>
 <attribute name="VBR_MAX" value="22.1 V"/>
@@ -674,7 +696,7 @@
 <attribute name="MAX_IPP_8-20US" value="10.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ180A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 180V / 292V"/>
 <attribute name="VBR_MAX" value="222 V"/>
@@ -693,7 +715,7 @@
 <attribute name="MAX_IPP_8-20US" value="93 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ20A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 20V / 32.4V"/>
 <attribute name="VBR_MAX" value="24.5 V"/>
@@ -712,7 +734,7 @@
 <attribute name="MAX_IPP_8-20US" value="9.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ200A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 200V / 324V"/>
 <attribute name="VBR_MAX" value="247 V"/>
@@ -731,7 +753,7 @@
 <attribute name="MAX_IPP_8-20US" value="84.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ22A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 22V / 35.5V"/>
 <attribute name="VBR_MAX" value="26.9 V"/>
@@ -750,7 +772,7 @@
 <attribute name="MAX_IPP_8-20US" value="8.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ220A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 220V / 356V"/>
 <attribute name="VBR_MAX" value="272 V"/>
@@ -769,7 +791,7 @@
 <attribute name="MAX_IPP_8-20US" value="77.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ24A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 24V / 38.9V"/>
 <attribute name="VBR_MAX" value="29.5 V"/>
@@ -788,7 +810,7 @@
 <attribute name="MAX_IPP_8-20US" value="71.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ26A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 26V / 42.1V"/>
 <attribute name="VBR_MAX" value="31.9 V"/>
@@ -807,7 +829,7 @@
 <attribute name="MAX_IPP_8-20US" value="66.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ28A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 28V / 45.4V"/>
 <attribute name="VBR_MAX" value="34.4 V"/>
@@ -826,7 +848,7 @@
 <attribute name="MAX_IPP_8-20US" value="62 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ30A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 30V / 48.4V"/>
 <attribute name="VBR_MAX" value="36.8 V"/>
@@ -845,7 +867,7 @@
 <attribute name="MAX_IPP_8-20US" value="56.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ33A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 33V / 53.3V"/>
 <attribute name="VBR_MAX" value="40.6 V"/>
@@ -864,7 +886,7 @@
 <attribute name="MAX_IPP_8-20US" value="52 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ36A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 36V / 58.1V"/>
 <attribute name="VBR_MAX" value="44.2 V"/>
@@ -883,7 +905,7 @@
 <attribute name="MAX_IPP_8-20US" value="46.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ40A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 40V / 64.5V"/>
 <attribute name="VBR_MAX" value="49.1 V"/>
@@ -902,7 +924,7 @@
 <attribute name="MAX_IPP_8-20US" value="43.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ43A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 43V / 69.4V"/>
 <attribute name="VBR_MAX" value="52.8 V"/>
@@ -921,7 +943,7 @@
 <attribute name="MAX_IPP_8-20US" value="41.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ45A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 45V / 72.7V"/>
 <attribute name="VBR_MAX" value="55.3 V"/>
@@ -940,7 +962,7 @@
 <attribute name="MAX_IPP_8-20US" value="39 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ48A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 48V / 77.4V"/>
 <attribute name="VBR_MAX" value="58.9 V"/>
@@ -959,7 +981,7 @@
 <attribute name="MAX_IPP_8-20US" value="326.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ5.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 5V / 9.2V"/>
 <attribute name="VBR_MAX" value="7 V"/>
@@ -978,7 +1000,7 @@
 <attribute name="MAX_IPP_8-20US" value="36.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ51A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 51V / 82.4V"/>
 <attribute name="VBR_MAX" value="62.7 V"/>
@@ -997,7 +1019,7 @@
 <attribute name="MAX_IPP_8-20US" value="34.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ54A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 54V / 87.1V"/>
 <attribute name="VBR_MAX" value="66.3 V"/>
@@ -1016,7 +1038,7 @@
 <attribute name="MAX_IPP_8-20US" value="32.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ58A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 58V / 93.6V"/>
 <attribute name="VBR_MAX" value="71.2 V"/>
@@ -1035,7 +1057,7 @@
 <attribute name="MAX_IPP_8-20US" value="291.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6V / 10.3V"/>
 <attribute name="VBR_MAX" value="7.37 V"/>
@@ -1054,7 +1076,7 @@
 <attribute name="MAX_IPP_8-20US" value="268 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.5A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6.5V / 11.2V"/>
 <attribute name="VBR_MAX" value="7.98 V"/>
@@ -1073,7 +1095,7 @@
 <attribute name="MAX_IPP_8-20US" value="31 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ60A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 60V / 96.8V"/>
 <attribute name="VBR_MAX" value="73.7 V"/>
@@ -1092,7 +1114,7 @@
 <attribute name="MAX_IPP_8-20US" value="29.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ64A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 64V / 103V"/>
 <attribute name="VBR_MAX" value="78.6 V"/>
@@ -1111,7 +1133,7 @@
 <attribute name="MAX_IPP_8-20US" value="250 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7V / 12V"/>
 <attribute name="VBR_MAX" value="8.6 V"/>
@@ -1130,7 +1152,7 @@
 <attribute name="MAX_IPP_8-20US" value="233 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.5A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7.5V / 12.9V"/>
 <attribute name="VBR_MAX" value="9.21 V"/>
@@ -1149,7 +1171,7 @@
 <attribute name="MAX_IPP_8-20US" value="26.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ70A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 70V / 113V"/>
 <attribute name="VBR_MAX" value="86 V"/>
@@ -1168,7 +1190,7 @@
 <attribute name="MAX_IPP_8-20US" value="25 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ75A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 75V / 121V"/>
 <attribute name="VBR_MAX" value="92.1 V"/>
@@ -1187,7 +1209,7 @@
 <attribute name="MAX_IPP_8-20US" value="24 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ78A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 78V / 126V"/>
 <attribute name="VBR_MAX" value="95.8 V"/>
@@ -1206,7 +1228,7 @@
 <attribute name="MAX_IPP_8-20US" value="221 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8V / 13.6V"/>
 <attribute name="VBR_MAX" value="9.83 V"/>
@@ -1225,7 +1247,7 @@
 <attribute name="MAX_IPP_8-20US" value="208.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.5A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8.5V / 14.4V"/>
 <attribute name="VBR_MAX" value="10.4 V"/>
@@ -1244,7 +1266,7 @@
 <attribute name="MAX_IPP_8-20US" value="22 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ85A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 85V / 137V"/>
 <attribute name="VBR_MAX" value="104 V"/>
@@ -1263,7 +1285,7 @@
 <attribute name="MAX_IPP_8-20US" value="195 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ9.0A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 9V / 15.4V"/>
 <attribute name="VBR_MAX" value="11.1 V"/>
@@ -1282,7 +1304,7 @@
 <attribute name="MAX_IPP_8-20US" value="20.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ90A-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 90V / 146V"/>
 <attribute name="VBR_MAX" value="111 V"/>
@@ -1297,7 +1319,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMJ" package="SMBJ">
@@ -1306,7 +1330,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -1315,7 +1341,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1331,7 +1359,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -1352,7 +1382,7 @@
 <attribute name="MAX_IPP_8-20US" value="176.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ10CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 10V / 17V"/>
 <attribute name="VBR_MAX" value="12.3 V"/>
@@ -1371,7 +1401,7 @@
 <attribute name="MAX_IPP_8-20US" value="18.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ100CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 100V / 162V"/>
 <attribute name="VBR_MAX" value="123 V"/>
@@ -1390,7 +1420,7 @@
 <attribute name="MAX_IPP_8-20US" value="165 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ11CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 11V / 18.2V"/>
 <attribute name="VBR_MAX" value="13.5 V"/>
@@ -1409,7 +1439,7 @@
 <attribute name="MAX_IPP_8-20US" value="17 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ110CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 110V / 177V"/>
 <attribute name="VBR_MAX" value="135 V"/>
@@ -1428,7 +1458,7 @@
 <attribute name="MAX_IPP_8-20US" value="151 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ12CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 12V / 19.9V"/>
 <attribute name="VBR_MAX" value="14.7 V"/>
@@ -1447,7 +1477,7 @@
 <attribute name="MAX_IPP_8-20US" value="15.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ120CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 120V / 193V"/>
 <attribute name="VBR_MAX" value="147 V"/>
@@ -1466,7 +1496,7 @@
 <attribute name="MAX_IPP_8-20US" value="140 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ13CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 13V / 21.5V"/>
 <attribute name="VBR_MAX" value="15.9 V"/>
@@ -1485,7 +1515,7 @@
 <attribute name="MAX_IPP_8-20US" value="14.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ130CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 130V / 209V"/>
 <attribute name="VBR_MAX" value="159 V"/>
@@ -1504,7 +1534,7 @@
 <attribute name="MAX_IPP_8-20US" value="129.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ14CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 14V / 23.2V"/>
 <attribute name="VBR_MAX" value="17.2 V"/>
@@ -1523,7 +1553,7 @@
 <attribute name="MAX_IPP_8-20US" value="123 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ15CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 15V / 24.4V"/>
 <attribute name="VBR_MAX" value="18.5 V"/>
@@ -1542,7 +1572,7 @@
 <attribute name="MAX_IPP_8-20US" value="12.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ150CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 150V / 243V"/>
 <attribute name="VBR_MAX" value="185 V"/>
@@ -1561,7 +1591,7 @@
 <attribute name="MAX_IPP_8-20US" value="115.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ16CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 16V / 26V"/>
 <attribute name="VBR_MAX" value="19.7 V"/>
@@ -1580,7 +1610,7 @@
 <attribute name="MAX_IPP_8-20US" value="11.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ160CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 160V / 259V"/>
 <attribute name="VBR_MAX" value="197 V"/>
@@ -1599,7 +1629,7 @@
 <attribute name="MAX_IPP_8-20US" value="109 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ17CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 17V / 27.6V"/>
 <attribute name="VBR_MAX" value="20.9 V"/>
@@ -1618,7 +1648,7 @@
 <attribute name="MAX_IPP_8-20US" value="11 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ170CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 170V / 275V"/>
 <attribute name="VBR_MAX" value="209 V"/>
@@ -1637,7 +1667,7 @@
 <attribute name="MAX_IPP_8-20US" value="103 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ18CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 18V / 29.2V"/>
 <attribute name="VBR_MAX" value="22.1 V"/>
@@ -1656,7 +1686,7 @@
 <attribute name="MAX_IPP_8-20US" value="10.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ180CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 180V / 292V"/>
 <attribute name="VBR_MAX" value="222 V"/>
@@ -1675,7 +1705,7 @@
 <attribute name="MAX_IPP_8-20US" value="93 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ20CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 20V / 32.4V"/>
 <attribute name="VBR_MAX" value="24.5 V"/>
@@ -1694,7 +1724,7 @@
 <attribute name="MAX_IPP_8-20US" value="9.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ200CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 200V / 324V"/>
 <attribute name="VBR_MAX" value="247 V"/>
@@ -1713,7 +1743,7 @@
 <attribute name="MAX_IPP_8-20US" value="84.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ22CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 22V / 35.5V"/>
 <attribute name="VBR_MAX" value="26.9 V"/>
@@ -1732,7 +1762,7 @@
 <attribute name="MAX_IPP_8-20US" value="8.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ220CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 220V / 356V"/>
 <attribute name="VBR_MAX" value="272 V"/>
@@ -1751,7 +1781,7 @@
 <attribute name="MAX_IPP_8-20US" value="77.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ24CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 24V / 38.9V"/>
 <attribute name="VBR_MAX" value="29.5 V"/>
@@ -1770,7 +1800,7 @@
 <attribute name="MAX_IPP_8-20US" value="71.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ26CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 26V / 42.1V"/>
 <attribute name="VBR_MAX" value="31.9 V"/>
@@ -1789,7 +1819,7 @@
 <attribute name="MAX_IPP_8-20US" value="66.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ28CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 28V / 45.4V"/>
 <attribute name="VBR_MAX" value="34.4 V"/>
@@ -1808,7 +1838,7 @@
 <attribute name="MAX_IPP_8-20US" value="62 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ30CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 30V / 48.4V"/>
 <attribute name="VBR_MAX" value="36.8 V"/>
@@ -1827,7 +1857,7 @@
 <attribute name="MAX_IPP_8-20US" value="56.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ33CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 33V / 53.3V"/>
 <attribute name="VBR_MAX" value="40.6 V"/>
@@ -1846,7 +1876,7 @@
 <attribute name="MAX_IPP_8-20US" value="52 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ36CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 36V / 58.1V"/>
 <attribute name="VBR_MAX" value="44.2 V"/>
@@ -1865,7 +1895,7 @@
 <attribute name="MAX_IPP_8-20US" value="46.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ40CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 40V / 64.5V"/>
 <attribute name="VBR_MAX" value="49.1 V"/>
@@ -1884,7 +1914,7 @@
 <attribute name="MAX_IPP_8-20US" value="43.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ43CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 43V / 69.4V"/>
 <attribute name="VBR_MAX" value="52.8 V"/>
@@ -1903,7 +1933,7 @@
 <attribute name="MAX_IPP_8-20US" value="41.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ45CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 45V / 72.7V"/>
 <attribute name="VBR_MAX" value="55.3 V"/>
@@ -1922,7 +1952,7 @@
 <attribute name="MAX_IPP_8-20US" value="39 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ48CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 48V / 77.4V"/>
 <attribute name="VBR_MAX" value="58.9 V"/>
@@ -1941,7 +1971,7 @@
 <attribute name="MAX_IPP_8-20US" value="326.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ5.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 5V / 9.2V"/>
 <attribute name="VBR_MAX" value="7 V"/>
@@ -1960,7 +1990,7 @@
 <attribute name="MAX_IPP_8-20US" value="36.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ51CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 51V / 82.4V"/>
 <attribute name="VBR_MAX" value="62.7 V"/>
@@ -1979,7 +2009,7 @@
 <attribute name="MAX_IPP_8-20US" value="34.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ54CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 54V / 87.1V"/>
 <attribute name="VBR_MAX" value="66.3 V"/>
@@ -1998,7 +2028,7 @@
 <attribute name="MAX_IPP_8-20US" value="32.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ58CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 58V / 93.6V"/>
 <attribute name="VBR_MAX" value="71.2 V"/>
@@ -2017,7 +2047,7 @@
 <attribute name="MAX_IPP_8-20US" value="291.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6V / 10.3V"/>
 <attribute name="VBR_MAX" value="7.37 V"/>
@@ -2036,7 +2066,7 @@
 <attribute name="MAX_IPP_8-20US" value="268 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.5CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6.5V / 11.2V"/>
 <attribute name="VBR_MAX" value="7.98 V"/>
@@ -2055,7 +2085,7 @@
 <attribute name="MAX_IPP_8-20US" value="31 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ60CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 60V / 96.8V"/>
 <attribute name="VBR_MAX" value="73.7 V"/>
@@ -2074,7 +2104,7 @@
 <attribute name="MAX_IPP_8-20US" value="29.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ64CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 64V / 103V"/>
 <attribute name="VBR_MAX" value="78.6 V"/>
@@ -2093,7 +2123,7 @@
 <attribute name="MAX_IPP_8-20US" value="250 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7V / 12V"/>
 <attribute name="VBR_MAX" value="8.6 V"/>
@@ -2112,7 +2142,7 @@
 <attribute name="MAX_IPP_8-20US" value="233 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.5CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7.5V / 12.9V"/>
 <attribute name="VBR_MAX" value="9.21 V"/>
@@ -2131,7 +2161,7 @@
 <attribute name="MAX_IPP_8-20US" value="26.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ70CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 70V / 113V"/>
 <attribute name="VBR_MAX" value="86 V"/>
@@ -2150,7 +2180,7 @@
 <attribute name="MAX_IPP_8-20US" value="25 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ75CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 75V / 121V"/>
 <attribute name="VBR_MAX" value="92.1 V"/>
@@ -2169,7 +2199,7 @@
 <attribute name="MAX_IPP_8-20US" value="24 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ78CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 78V / 126V"/>
 <attribute name="VBR_MAX" value="95.8 V"/>
@@ -2188,7 +2218,7 @@
 <attribute name="MAX_IPP_8-20US" value="221 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8V / 13.6V"/>
 <attribute name="VBR_MAX" value="9.83 V"/>
@@ -2207,7 +2237,7 @@
 <attribute name="MAX_IPP_8-20US" value="208.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.5CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8.5V / 14.4V"/>
 <attribute name="VBR_MAX" value="10.4 V"/>
@@ -2226,7 +2256,7 @@
 <attribute name="MAX_IPP_8-20US" value="22 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ85CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 85V / 137V"/>
 <attribute name="VBR_MAX" value="104 V"/>
@@ -2245,7 +2275,7 @@
 <attribute name="MAX_IPP_8-20US" value="195 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ9.0CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 9V / 15.4V"/>
 <attribute name="VBR_MAX" value="11.1 V"/>
@@ -2264,7 +2294,7 @@
 <attribute name="MAX_IPP_8-20US" value="20.5 A"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ90CA-Q"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
+<attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 90V / 146V"/>
 <attribute name="VBR_MAX" value="111 V"/>
@@ -2279,7 +2309,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBJ" package="SMBJ">
@@ -2288,7 +2320,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -2297,7 +2331,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
