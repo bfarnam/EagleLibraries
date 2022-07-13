@@ -1149,7 +1149,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="104"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B3X7R1H104K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1177,7 +1177,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="102"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B2X7R1H102K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1191,7 +1191,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="222"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B2X7R1H222K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1205,7 +1205,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B2X7R1C224K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="16V"/>
@@ -1219,7 +1219,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B3X7R1E224K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="25V"/>
@@ -1233,7 +1233,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B1X7R1V224K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="35V"/>
@@ -1247,7 +1247,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="223"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B3X7R1H223K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1261,7 +1261,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="472"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B2X7R1H472K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1275,7 +1275,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="473"/>
 <attribute name="MFG" value="TDK"/>
-<attribute name="MOUSER_PN" value="" constant="no"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA2B3X7R1H473K050BE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1297,6 +1297,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="104"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H104K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1310,6 +1311,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="103"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value="810-CGA3E2X7R2A103KA"/>
 <attribute name="MPN" value="CGA3E2X7R2A103K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="100V"/>
@@ -1323,6 +1325,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="103"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H103K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1336,6 +1339,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="102"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R2A102K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="100V"/>
@@ -1349,6 +1353,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="102"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H102K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1362,6 +1367,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="105"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E1X7R1E105K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="25V"/>
@@ -1375,6 +1381,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="105"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E1X7R1V105K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="35V"/>
@@ -1388,6 +1395,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="222"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R2A222K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="100V"/>
@@ -1401,6 +1409,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="222"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H222K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1414,6 +1423,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E3X7R1V224K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="35V"/>
@@ -1427,6 +1437,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="224"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E3X7R1H224K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1440,6 +1451,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="223"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R2A223K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="100V"/>
@@ -1453,6 +1465,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="223"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H223K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1466,6 +1479,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="472"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R2A472K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="100V"/>
@@ -1479,6 +1493,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="472"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H472K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1492,6 +1507,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="474"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E3X7R1E474K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="25V"/>
@@ -1505,6 +1521,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="474"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E1X7R1V474K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="35V"/>
@@ -1518,6 +1535,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="474"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E3X7R1H474K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -1531,6 +1549,7 @@ chip</description>
 <attribute name="COEFFICIENT" value="15% ppm/C"/>
 <attribute name="MARKING" value="473"/>
 <attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="CGA3E2X7R1H473K080AE"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -2392,6 +2411,126 @@ chip</description>
 <attribute name="SIZE" value="2220"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="220 nF"/>
+</technology>
+</technologies>
+</device>
+<device name="CNA5" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name="10UF-16V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="106"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA5L1X7R1E106K160AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10 uF"/>
+</technology>
+<technology name="10UF-25V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="106"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA5L1X7R1C106K160AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10 uF"/>
+</technology>
+<technology name="2.2UF-50V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="225"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA5L1X7R1H225K160AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="2.2 uF"/>
+</technology>
+<technology name="2.2UF-75V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="225"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA5L1X7R1N225K160AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="75V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="2.2 uF"/>
+</technology>
+<technology name="4.7UF-50V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="475"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA5L1X7R1H475K160AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="4.7 uF"/>
+</technology>
+</technologies>
+</device>
+<device name="CNA6" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="10UF-50V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="106"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA6P1X7R1H106K250AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1210"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10 uF"/>
+</technology>
+<technology name="4.7UF-100V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="475"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA6P1X7R2A475K250AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="100V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1210"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="4.7 uF"/>
+</technology>
+<technology name="4.7UF-50V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value="15% ppm/C"/>
+<attribute name="MARKING" value="475"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="CNA6P1X7R1H475K250AE"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1210"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="4.7 uF"/>
 </technology>
 </technologies>
 </device>
@@ -3678,7 +3817,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="22UF-25V">
-<attribute name="AEC-Q200" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
 <attribute name="MARKING" value="226"/>
 <attribute name="MFG" value="TDK"/>
 <attribute name="MPN" value="CNA6P1X7R1E226M250AE"/>
