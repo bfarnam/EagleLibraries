@@ -590,7 +590,6 @@ chip</description>
 <attribute name="COEFFICIENT" value=""/>
 <attribute name="MARKING" value="103"/>
 <attribute name="MFG" value="Kyocera AVX"/>
-<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="FS031C103K4Z2A"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="100V"/>
@@ -604,7 +603,6 @@ chip</description>
 <attribute name="COEFFICIENT" value=""/>
 <attribute name="MARKING" value="103"/>
 <attribute name="MFG" value="Kyocera AVX"/>
-<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="FS035C103K4Z2A"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>
@@ -618,7 +616,6 @@ chip</description>
 <attribute name="COEFFICIENT" value=""/>
 <attribute name="MARKING" value="223"/>
 <attribute name="MFG" value="Kyocera AVX"/>
-<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="FS035C223K4Z2A"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="RATED_V" value="50V"/>

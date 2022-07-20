@@ -256,6 +256,10 @@ Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/18/btyqF7joFIRm-1379697
 </gates>
 <devices>
 <device name="" package="SHDR8W100P762X381_2X2_1774X127">
+<connects>
+<connect gate="G$1" pin="-1" pad="1@1 1@2"/>
+<connect gate="G$1" pin="-2" pad="2@1 2@2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="TERM BLK 4 POS 3.81MM PCB VERT" constant="no"/>

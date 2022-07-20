@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -600,23 +600,28 @@
 <package name="RF071LAM4S">
 <description>&lt;b&gt;PMDTM (SOD-128)&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="0" y="2.2" dx="2" dy="1.4" layer="1"/>
-<smd name="2" x="0" y="-2.2" dx="2" dy="1.4" layer="1"/>
-<text x="-3.81" y="0" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="3.81" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="-1.25" y1="1.85" x2="1.25" y2="1.85" width="0.1" layer="51"/>
-<wire x1="1.25" y1="1.85" x2="1.25" y2="-1.85" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-1.85" x2="-1.25" y2="-1.85" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-1.85" x2="-1.25" y2="1.85" width="0.1" layer="51"/>
-<wire x1="-2.25" y1="3.9" x2="2.25" y2="3.9" width="0.1" layer="51"/>
-<wire x1="2.25" y1="3.9" x2="2.25" y2="-3.9" width="0.1" layer="51"/>
-<wire x1="2.25" y1="-3.9" x2="-2.25" y2="-3.9" width="0.1" layer="51"/>
-<wire x1="-2.25" y1="-3.9" x2="-2.25" y2="3.9" width="0.1" layer="51"/>
-<wire x1="0" y1="3.4" x2="-0.1" y2="3.4" width="0.1" layer="21" curve="180"/>
-<wire x1="-0.1" y1="3.4" x2="0" y2="3.4" width="0.1" layer="21" curve="180"/>
-<wire x1="1.25" y1="1.2" x2="1.25" y2="-1.2" width="0.2" layer="21"/>
-<wire x1="-1.25" y1="1.2" x2="-1.25" y2="-1.2" width="0.2" layer="21"/>
-<wire x1="-1.2" y1="1.29" x2="1.2" y2="1.29" width="0.2" layer="21"/>
+<smd name="C" x="-2.2" y="0" dx="2" dy="1.4" layer="1" rot="R90"/>
+<smd name="A" x="2.2" y="0" dx="2" dy="1.4" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.85" y1="-1.25" x2="-1.85" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="1.25" x2="1.85" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.85" y1="1.25" x2="1.85" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.85" y1="-1.25" x2="-1.85" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="-2.25" x2="-3.9" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="2.25" x2="3.9" y2="2.25" width="0.1" layer="51"/>
+<wire x1="3.9" y1="2.25" x2="3.9" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="3.9" y1="-2.25" x2="-3.9" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="1.27" x2="1.2" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="-1.27" x2="1.2" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-1.29" y1="-1.2" x2="-1.29" y2="1.2" width="0.2" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="0.7" y="0.7"/>
+<vertex x="0.7" y="-0.7"/>
+<vertex x="-0.7" y="0"/>
+</polygon>
+<wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.254" layer="21"/>
+<text x="-4.445" y="0" size="1.016" layer="21" font="vector" ratio="16" align="center-left">K</text>
 </package>
 <package name="SODFL3416X90N">
 <description>&lt;b&gt;RBR3MM60BTFTR&lt;/b&gt;&lt;br&gt;
@@ -1398,11 +1403,14 @@
 <wire x1="-0.59" y1="-0.4" x2="-0.59" y2="0.4" width="0.1016" layer="51"/>
 <smd name="A" x="0.7" y="0" dx="0.7" dy="0.5" layer="1"/>
 <smd name="C" x="-0.6" y="0" dx="0.7" dy="0.5" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.75" y1="-0.17" x2="-0.54" y2="0.17" layer="51"/>
 <rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
 <rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
+<text x="-1.905" y="0" size="1.016" layer="21" font="vector" ratio="16" align="center-left">K</text>
+<wire x1="-0.635" y1="0.508" x2="0.635" y2="0.508" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.508" x2="-0.635" y2="-0.508" width="0.127" layer="21"/>
 </package>
 <package name="SOT23">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
@@ -1458,8 +1466,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
 <smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
 <smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
-<text x="-1" y="1.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
 <rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
 <rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
@@ -1878,9 +1886,9 @@ Diode with low voltage drop</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STPS1045SFY" constant="no"/>
-<attribute name="MFR_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="STMicroelectronics"/>
+<attribute name="MPN" value="STPS1045SFY"/>
 </technology>
 </technologies>
 </device>
@@ -1892,9 +1900,9 @@ Diode with low voltage drop</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STPS1045SFY" constant="no"/>
-<attribute name="MFR_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="STMicroelectronics"/>
+<attribute name="MPN" value="STPS1045SFY"/>
 </technology>
 </technologies>
 </device>
@@ -1906,9 +1914,9 @@ Diode with low voltage drop</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STPS1045SFY" constant="no"/>
-<attribute name="MFR_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="STMicroelectronics"/>
+<attribute name="MPN" value="STPS1045SFY"/>
 </technology>
 </technologies>
 </device>
@@ -1927,8 +1935,8 @@ Diode with low voltage drop</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="STPS660CSFY" constant="no"/>
+<attribute name="MFG" value="STMicroelectronics"/>
+<attribute name="MPN" value="STPS660CSFY"/>
 </technology>
 </technologies>
 </device>
@@ -1943,14 +1951,14 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 <devices>
 <device name="" package="RF071LAM4S">
 <connects>
-<connect gate="D$" pin="A" pad="2"/>
-<connect gate="D$" pin="C" pad="1"/>
+<connect gate="D$" pin="A" pad="A"/>
+<connect gate="D$" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Super Low I&lt;sub&gt;R&lt;/sub&gt;, 100V, 5A, SOD-128, Schottky Barrier Diode for Automotive" constant="no"/>
-<attribute name="HEIGHT" value="0.95mm" constant="no"/>
-<attribute name="MFG" value="ROHM Semiconductor" constant="no"/>
+<attribute name="DESCRIPTION" value="Super Low I&lt;sub&gt;R&lt;/sub&gt;, 100V, 5A, SOD-128, Schottky Barrier Diode for Automotive"/>
+<attribute name="HEIGHT" value="0.95mm"/>
+<attribute name="MFG" value="ROHM Semiconductor"/>
 <attribute name="MPN" value="RB088LAM100TF"/>
 <attribute name="VALUE" value="Schottky Barrier"/>
 </technology>
@@ -1972,10 +1980,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="ROHM - RBR3MM60BTFTR - SCHOTTKY RECTIFIER, AEC-Q101, 3A, 60V" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MFG" value="ROHM Semiconductor" constant="no"/>
-<attribute name="MPN" value="RBR3MM60BTFTR" constant="no"/>
+<attribute name="DESCRIPTION" value="ROHM - RBR3MM60BTFTR - SCHOTTKY RECTIFIER, AEC-Q101, 3A, 60V"/>
+<attribute name="HEIGHT" value="0.9mm"/>
+<attribute name="MFG" value="ROHM Semiconductor"/>
+<attribute name="MPN" value="RBR3MM60BTFTR"/>
 </technology>
 </technologies>
 </device>
@@ -1995,14 +2003,14 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="B345AF-13" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/b345af-13/diodes-incorporated" constant="no"/>
-<attribute name="DESCRIPTION" value="Schottky Rectifier 45V 3A 0.5Vf SMAF" constant="no"/>
-<attribute name="HEIGHT" value="1.1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Diodes Inc." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B345AF-13" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="621-B345AF-13" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B345AF-13?qs=lqAf%2FiVYw9h1dOhPAkvL3w%3D%3D" constant="no"/>
+<attribute name="ARROW_PN" value="B345AF-13"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/b345af-13/diodes-incorporated"/>
+<attribute name="DESCRIPTION" value="Schottky Rectifier 45V 3A 0.5Vf SMAF"/>
+<attribute name="HEIGHT" value="1.1mm"/>
+<attribute name="MFG" value="Diodes Inc."/>
+<attribute name="MOUSER_PN" value="621-B345AF-13"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B345AF-13?qs=lqAf%2FiVYw9h1dOhPAkvL3w%3D%3D"/>
+<attribute name="MPN" value="B345AF-13"/>
 </technology>
 </technologies>
 </device>
@@ -2022,10 +2030,10 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Schottky Rectifier 60V 5A 0.66Vf SMAF-C" constant="no"/>
-<attribute name="MFG" value="Pankit" constant="no"/>
-<attribute name="MPN" value="SB56AFC-AU_R1_000A1" constant="no"/>
-<attribute name="VALUE" value="SB56AFC-AU" constant="no"/>
+<attribute name="DESCRIPTION" value="Schottky Rectifier 60V 5A 0.66Vf SMAF-C"/>
+<attribute name="MFG" value="Pankit"/>
+<attribute name="MPN" value="SB56AFC-AU_R1_000A1"/>
+<attribute name="VALUE" value="SB56AFC-AU"/>
 </technology>
 </technologies>
 </device>
@@ -2043,9 +2051,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="7447709101" constant="no"/>
-<attribute name="MFR_NAME" value="Wurth Electronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Wurth Electronics"/>
+<attribute name="MPN" value="7447709101"/>
 </technology>
 </technologies>
 </device>
@@ -2056,9 +2064,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="7447709101" constant="no"/>
-<attribute name="MFR_NAME" value="Wurth Electronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Wurth Electronics"/>
+<attribute name="MPN" value="7447709101"/>
 </technology>
 </technologies>
 </device>
@@ -2069,9 +2077,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="7447709101" constant="no"/>
-<attribute name="MFR_NAME" value="Wurth Electronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Wurth Electronics"/>
+<attribute name="MPN" value="7447709101"/>
 </technology>
 </technologies>
 </device>
@@ -2089,9 +2097,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG" value="Wurth Electronics" constant="no"/>
-<attribute name="MPN" value="7447709221" constant="no"/>
-<attribute name="VALUE" value="220uH" constant="no"/>
+<attribute name="MFG" value="Wurth Electronics"/>
+<attribute name="MPN" value="7447709221"/>
+<attribute name="VALUE" value="220uH"/>
 </technology>
 </technologies>
 </device>
@@ -2102,9 +2110,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="7447709101" constant="no"/>
-<attribute name="MFR_NAME" value="Wurth Electronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Wurth Electronics"/>
+<attribute name="MPN" value="7447709101"/>
 </technology>
 </technologies>
 </device>
@@ -2115,9 +2123,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="7447709101" constant="no"/>
-<attribute name="MFR_NAME" value="Wurth Electronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Wurth Electronics"/>
+<attribute name="MPN" value="7447709101"/>
 </technology>
 </technologies>
 </device>
@@ -2136,9 +2144,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SBRD10200TR" constant="no"/>
-<attribute name="MFR_NAME" value="Sangdest Microelectronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Sangdest Microelectronics"/>
+<attribute name="MPN" value="SBRD10200TR"/>
 </technology>
 </technologies>
 </device>
@@ -2150,9 +2158,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SBRD10200TR" constant="no"/>
-<attribute name="MFR_NAME" value="Sangdest Microelectronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Sangdest Microelectronics"/>
+<attribute name="MPN" value="SBRD10200TR"/>
 </technology>
 </technologies>
 </device>
@@ -2164,9 +2172,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/B340AF_B345AF.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SBRD10200TR" constant="no"/>
-<attribute name="MFR_NAME" value="Sangdest Microelectronics" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Sangdest Microelectronics"/>
+<attribute name="MPN" value="SBRD10200TR"/>
 </technology>
 </technologies>
 </device>
@@ -2187,7 +2195,7 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="SCHOTTKY RECTIFIER" constant="no"/>
+<attribute name="DESCRIPTION" value="SCHOTTKY RECTIFIER"/>
 <attribute name="MFG" value="SMC Diode Solutions"/>
 <attribute name="MPN" value="SBRD10200TR"/>
 <attribute name="VALUE" value="SBRD10200TR"/>
@@ -2238,12 +2246,12 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="IF" value="200mA"/>
 <attribute name="MARKING" value="S40"/>
 <attribute name="MFG" value="Panjit International"/>
 <attribute name="MPN" value="BAS40W-AU_R1_000A1"/>
-<attribute name="OP_TEMP" value="-55 to 150C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PD" value="mW"/>
 <attribute name="VALUE" value="BAS40"/>
 <attribute name="VF_125C" value="0.55V @ 40mA"/>
@@ -2259,12 +2267,12 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="IF" value="120mA"/>
 <attribute name="MARKING" value="43s"/>
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BAS40-06 E6433"/>
-<attribute name="OP_TEMP" value="-55 to 150C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
 <attribute name="PD" value="250mW"/>
 <attribute name="VALUE" value="BAS40"/>
 <attribute name="VF_125C" value="0.610V @ 40mA"/>
@@ -2280,12 +2288,12 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AEC-Q101" value="N"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
 <attribute name="IF" value="200mA"/>
 <attribute name="MARKING" value="43"/>
 <attribute name="MFG" value="Diotec"/>
 <attribute name="MPN" value="BAS40"/>
-<attribute name="OP_TEMP" value="-55 to 125C"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
 <attribute name="PD" value="310mW"/>
 <attribute name="VALUE" value="BAS40"/>
 <attribute name="VF_125C" value=""/>

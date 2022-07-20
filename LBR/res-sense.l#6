@@ -429,8 +429,8 @@
 <symbol name="RES">
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-7.6962" y="-5.5372" size="2.54" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<text x="-7.2644" y="2.0828" size="2.54" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-7.6962" y="-5.5372" size="1.778" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-7.2644" y="2.0828" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="-0.635" y1="-1.27" x2="0.635" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="0.635" y1="1.27" x2="1.905" y2="-1.27" width="0.2032" layer="94"/>

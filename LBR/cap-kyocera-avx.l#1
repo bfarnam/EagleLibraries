@@ -738,6 +738,27 @@ chip</description>
 </technology>
 </technologies>
 </device>
+<device name="1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="10UF-50V">
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="COEFFICIENT" value=""/>
+<attribute name="MARKING" value="106"/>
+<attribute name="MFG" value="Kyocera AVX"/>
+<attribute name="MPN" value="12105C106K4Z2A"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50V"/>
+<attribute name="SERIES" value="X7R"/>
+<attribute name="SIZE" value="1210"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10 uF"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="?-X7R-*-5%-EN" prefix="C" uservalue="yes">

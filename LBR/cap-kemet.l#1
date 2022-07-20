@@ -6,19 +6,30 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -45,9 +56,9 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -59,6 +70,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>&lt;h3&gt;KEMET Surface Mount Solid Polymer Aluminum Capacitors Anti-Vibration&lt;/h3&gt;
@@ -71,8 +83,8 @@
 </description>
 <smd name="1" x="-4.3" y="0" dx="4.05" dy="2.1" layer="1"/>
 <smd name="2" x="4.3" y="0" dx="4.05" dy="2.1" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;VALUE</text>
 <wire x1="-6.825" y1="5.75" x2="6.825" y2="5.75" width="0.05" layer="51"/>
 <wire x1="6.825" y1="5.75" x2="6.825" y2="-5.75" width="0.05" layer="51"/>
 <wire x1="6.825" y1="-5.75" x2="-6.825" y2="-5.75" width="0.05" layer="51"/>
@@ -91,8 +103,8 @@
 </description>
 <smd name="1@1" x="-7.07" y="0" dx="7.9" dy="2.4" layer="1"/>
 <smd name="2@1" x="7.07" y="0" dx="7.9" dy="2.4" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;VALUE</text>
 <wire x1="-10.55" y1="9.55" x2="10.55" y2="9.55" width="0.05" layer="51"/>
 <wire x1="10.55" y1="9.55" x2="10.55" y2="-9.55" width="0.05" layer="51"/>
 <wire x1="10.55" y1="-9.55" x2="-10.55" y2="-9.55" width="0.05" layer="51"/>
@@ -117,8 +129,8 @@
 <smd name="2" x="5.4" y="0" dx="6.3" dy="2.5" layer="1"/>
 <smd name="NC@2" x="0.25" y="4.9" dx="5" dy="4.2" layer="1"/>
 <smd name="NC@1" x="0.25" y="-4.9" dx="5" dy="4.2" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;VALUE</text>
 <wire x1="-9.55" y1="8" x2="9.55" y2="8" width="0.1" layer="51"/>
 <wire x1="9.55" y1="8" x2="9.55" y2="-8" width="0.1" layer="51"/>
 <wire x1="9.55" y1="-8" x2="-9.55" y2="-8" width="0.1" layer="51"/>
@@ -153,8 +165,8 @@
 <circle x="0" y="0" radius="5" width="0.2032" layer="51"/>
 <smd name="+" x="-4.45" y="0" dx="4.4" dy="4.6" layer="1"/>
 <smd name="-" x="4.45" y="0" dx="4.4" dy="4.6" layer="1"/>
-<text x="-6.095" y="6.965" size="1.016" layer="25" ratio="14">&gt;NAME</text>
-<text x="-2.905" y="-3.98" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;VALUE</text>
 <rectangle x1="-6.032" y1="-0.6" x2="-4.9207" y2="0.6" layer="51"/>
 <rectangle x1="4.9213" y1="-0.6" x2="6.0326" y2="0.6" layer="51"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
@@ -186,8 +198,8 @@
 <vertex x="5.5" y="-5.25"/>
 <vertex x="5.5" y="-2.5"/>
 </polygon>
-<wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="23"/>
-<wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="23"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.2032" layer="23"/>
+<wire x1="-1" y1="0" x2="1" y2="0" width="0.2032" layer="23"/>
 <wire x1="-5.5" y1="4.5" x2="-4.5" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="-5" y1="5" x2="-5" y2="4" width="0.2032" layer="21"/>
 <wire x1="-7.25" y1="6" x2="7.5" y2="6" width="0.2032" layer="39"/>
@@ -196,6 +208,7 @@
 <wire x1="-7.25" y1="-6" x2="-7.25" y2="6" width="0.2032" layer="39"/>
 <wire x1="-5.5" y1="-3.25" x2="-5.5" y2="-2.5" width="0.2032" layer="21"/>
 <wire x1="-5.5" y1="3.25" x2="-5.5" y2="2.5" width="0.2032" layer="21"/>
+<text x="-7.62" y="3.81" size="2.54" layer="21" font="vector" ratio="15" align="center-left">&gt;pos</text>
 </package>
 <package name="SV-G-AV">
 <description>&lt;b&gt;SMD ELECTROLYTIC&lt;/b&gt; - Panasonic G Anti-Vibration&lt;p&gt; 
@@ -212,8 +225,8 @@
 <circle x="0" y="0" radius="5" width="0.1016" layer="51"/>
 <smd name="+@1" x="-4.15" y="0" dx="4.4" dy="2.5" layer="1"/>
 <smd name="-@1" x="4.15" y="0" dx="4.4" dy="2.5" layer="1"/>
-<text x="-5.715" y="1.905" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
-<text x="-1.905" y="1.27" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="14">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;VALUE</text>
 <rectangle x1="-6.032" y1="-0.4763" x2="-4.9207" y2="0.4763" layer="51"/>
 <rectangle x1="4.9213" y1="-0.4763" x2="6.0326" y2="0.4763" layer="51"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
@@ -279,8 +292,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS108M1CLAV015"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="16V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="16 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="1000uF"/>
@@ -291,10 +304,10 @@ Series A768 Anti-Vibration</description>
 <attribute name="DIGIKEY_PN" value=""/>
 <attribute name="HOURS" value="2000"/>
 <attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS107M1HLAV24 "/>
+<attribute name="MOUSER_PN" value="80-A768MS107M1HLAV24"/>
 <attribute name="MPN" value="A768MS107M1HLAV024"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="50V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="100uF"/>
@@ -305,10 +318,10 @@ Series A768 Anti-Vibration</description>
 <attribute name="DIGIKEY_PN" value=""/>
 <attribute name="HOURS" value="2000"/>
 <attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS107M1JLAV27 "/>
+<attribute name="MOUSER_PN" value="80-A768MS107M1JLAV27"/>
 <attribute name="MPN" value="A768MS107M1JLAV027"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="63V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="63 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="100uF"/>
@@ -319,10 +332,10 @@ Series A768 Anti-Vibration</description>
 <attribute name="DIGIKEY_PN" value="399-A768MS127M1HLAV024DKR-ND"/>
 <attribute name="HOURS" value="2000"/>
 <attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS127M1HLAV24 "/>
+<attribute name="MOUSER_PN" value="80-A768MS127M1HLAV24"/>
 <attribute name="MPN" value="A768MS127M1HLAV024"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="50V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="120uF"/>
@@ -333,10 +346,10 @@ Series A768 Anti-Vibration</description>
 <attribute name="DIGIKEY_PN" value="399-A768MS157M1HLAV024DKR-ND"/>
 <attribute name="HOURS" value="2000"/>
 <attribute name="MFG" value="KEMET"/>
-<attribute name="MOUSER_PN" value="80-A768MS157M1HLAV24 "/>
+<attribute name="MOUSER_PN" value="80-A768MS157M1HLAV24"/>
 <attribute name="MPN" value="A768MS157M1HLAV024"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="50V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value="A768MS157M1HLAV024"/>
 <attribute name="VALUE" value="150uF"/>
@@ -349,8 +362,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS227M1GLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="40V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="40 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value="A768MS227M1GLAV022"/>
 <attribute name="VALUE" value="220uF"/>
@@ -363,8 +376,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS277M1VLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="35V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="35 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="270uF"/>
@@ -377,8 +390,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS277M1GLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="40V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="40 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value="A768MS277M1VLAV022"/>
 <attribute name="VALUE" value="270uF"/>
@@ -391,8 +404,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS337M1VLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="35V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="35 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="330uF"/>
@@ -405,8 +418,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS477M1ELAV017"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="25V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="25 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value="A768MS477M1ELAV017"/>
 <attribute name="VALUE" value="470uF"/>
@@ -419,8 +432,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS476M1KLAV034"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="80V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="80 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="47uF"/>
@@ -433,8 +446,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS567M1ELAV017"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="25V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="25 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="560uF"/>
@@ -447,8 +460,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS566M1KLAV034"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="80V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="80 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="56uF"/>
@@ -461,8 +474,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS687M1CLAV015"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="16V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="16 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="680uF"/>
@@ -475,8 +488,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS687M1DLAV015"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="20V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="20 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value=""/>
 <attribute name="VALUE" value="680uF"/>
@@ -489,8 +502,8 @@ Series A768 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A768MS826M1JLAV027"/>
-<attribute name="OPERATING_TEMP" value="−55°C to +125°C"/>
-<attribute name="RATED_V" value="63V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="63 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="TTI_PN" value="A768MS826M1JLAV027"/>
 <attribute name="VALUE" value="82uF"/>
@@ -520,8 +533,8 @@ Series A780 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A780MS107M1JLAV030"/>
-<attribute name="OPERATING_TEMP" value="−55 C to +125 C"/>
-<attribute name="RATED_V" value="63V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="63 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="100uF"/>
 </technology>
@@ -533,8 +546,8 @@ Series A780 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A780MS157M1HLAV025"/>
-<attribute name="OPERATING_TEMP" value="−55 C to +125 C"/>
-<attribute name="RATED_V" value="50V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="50 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="150uF"/>
 </technology>
@@ -546,8 +559,8 @@ Series A780 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A780MS277M1VLAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 C to +125 C"/>
-<attribute name="RATED_V" value="35V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="35 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="270uF"/>
 </technology>
@@ -559,8 +572,8 @@ Series A780 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A780MS337M1VLAV020"/>
-<attribute name="OPERATING_TEMP" value="−55 C to +125 C"/>
-<attribute name="RATED_V" value="35V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="35 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="330uF"/>
 </technology>
@@ -572,8 +585,8 @@ Series A780 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A780MS567M1ELAV022"/>
-<attribute name="OPERATING_TEMP" value="−55 C to +125 C"/>
-<attribute name="RATED_V" value="25V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="25 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="560uF"/>
 </technology>
@@ -585,8 +598,8 @@ Series A780 Anti-Vibration</description>
 <attribute name="MFG" value="KEMET"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="A780MS566M1JLAV030"/>
-<attribute name="OPERATING_TEMP" value="−55 C to +125 C"/>
-<attribute name="RATED_V" value="63V"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="RATED_V" value="63 V"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VALUE" value="56uF"/>
 </technology>

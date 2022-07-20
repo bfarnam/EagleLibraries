@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -557,23 +557,21 @@
 <package name="C7433">
 <smd name="1" x="-2.58329375" y="0" dx="2.49999375" dy="2.941396875" layer="1" rot="R90"/>
 <smd name="2" x="2.58329375" y="0" dx="2.49999375" dy="2.941396875" layer="1" rot="R90"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-4.94299375" y="-2.530996875"/>
-<vertex x="-4.94299375" y="2.530996875"/>
-<vertex x="4.94299375" y="2.530996875"/>
-<vertex x="4.94299375" y="-2.530996875"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.94299375" y="-2.030996875"/>
+<vertex x="-0.94299375" y="2.030996875"/>
+<vertex x="0.94299375" y="2.030996875"/>
+<vertex x="0.94299375" y="-2.030996875"/>
 </polygon>
-<wire x1="-5.6896" y1="0" x2="-6.4516" y2="0" width="0.1524" layer="21"/>
-<wire x1="-6.0706" y1="0.381" x2="-6.0706" y2="-0.381" width="0.1524" layer="21"/>
 <wire x1="-3.937" y1="-2.286" x2="3.937" y2="-2.286" width="0.1524" layer="21"/>
 <wire x1="3.937" y1="-2.286" x2="3.937" y2="-1.5748" width="0.1524" layer="21"/>
 <wire x1="3.937" y1="2.286" x2="-3.937" y2="2.286" width="0.1524" layer="21"/>
 <wire x1="-3.937" y1="2.286" x2="-3.937" y2="1.5748" width="0.1524" layer="21"/>
 <wire x1="-3.937" y1="-1.5748" x2="-3.937" y2="-2.286" width="0.1524" layer="21"/>
 <wire x1="3.937" y1="1.5748" x2="3.937" y2="2.286" width="0.1524" layer="21"/>
-<text x="-2.9972" y="-4.445" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-5.6896" y1="0" x2="-6.4516" y2="0" width="0.1524" layer="51"/>
-<wire x1="-6.0706" y1="0.381" x2="-6.0706" y2="-0.381" width="0.1524" layer="51"/>
+<text x="0" y="0" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-4.4196" y1="0" x2="-5.1816" y2="0" width="0.1524" layer="51"/>
+<wire x1="-4.8006" y1="0.381" x2="-4.8006" y2="-0.381" width="0.1524" layer="51"/>
 <wire x1="-3.81" y1="-2.159" x2="3.81" y2="-2.159" width="0.1524" layer="51"/>
 <wire x1="3.81" y1="-2.159" x2="3.81" y2="2.159" width="0.1524" layer="51"/>
 <wire x1="3.81" y1="2.159" x2="-3.81" y2="2.159" width="0.1524" layer="51"/>
@@ -584,9 +582,14 @@
 <vertex x="0.472796875" y="-0.792796875"/>
 <vertex x="-0.472796875" y="-0.792796875"/>
 </polygon>
-<text x="-2.0066" y="3.175" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <rectangle x1="-3.937" y1="1.524" x2="-2.54" y2="2.286" layer="21"/>
 <rectangle x1="-3.937" y1="-2.286" x2="-2.54" y2="-1.524" layer="21"/>
+<wire x1="-5" y1="2.530996875" x2="5" y2="2.530996875" width="0.127" layer="39"/>
+<wire x1="5" y1="2.530996875" x2="5" y2="-2.530996875" width="0.127" layer="39"/>
+<wire x1="5" y1="-2.530996875" x2="-5" y2="-2.530996875" width="0.127" layer="39"/>
+<wire x1="-5" y1="-2.530996875" x2="-5" y2="2.530996875" width="0.127" layer="39"/>
+<text x="-5.715" y="0" size="1.27" layer="21" font="vector" ratio="15" align="center-left">&gt;pol</text>
 </package>
 <package name="CAPPM7343X430N">
 <description>&lt;b&gt;Case Code E&lt;/b&gt;&lt;br&gt;
@@ -793,14 +796,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 50 Volts 220uF" constant="no"/>
-<attribute name="HEIGHT" value="14mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="United Chemi-Con" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EMVH500ARA221MKE0S" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="661-MVH50V221M" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=661-MVH50V221M" constant="no"/>
+<attribute name="ARROW_PN" value=""/>
+<attribute name="ARROW_PRICE-STOCK" value=""/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 50 Volts 220uF"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="MFG" value="United Chemi-Con"/>
+<attribute name="MOUSER_PN" value="661-MVH50V221M"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=661-MVH50V221M"/>
+<attribute name="MPN" value="EMVH500ARA221MKE0S"/>
 </technology>
 </technologies>
 </device>
@@ -820,11 +823,11 @@ Source: &lt;a href="https://www.vishay.com/docs/28405/160cla.pdf"&gt; Datasheet 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Vishay Extreme 220uF 50 V Aluminium Electrolytic Capacitor 1216, 160 CLA Series 1000  2000h 12.5 x 12.5 x 16mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MPN" value="MAL216099103E3" constant="no"/>
-<attribute name="RATED_V" value="50 V" constant="no"/>
-<attribute name="VALUE" value="220 uF" constant="no"/>
+<attribute name="DESCRIPTION" value="Vishay Extreme 220uF 50 V Aluminium Electrolytic Capacitor 1216, 160 CLA Series 1000  2000h 12.5 x 12.5 x 16mm"/>
+<attribute name="MFG" value="Vishay"/>
+<attribute name="MPN" value="MAL216099103E3"/>
+<attribute name="RATED_V" value="50 V"/>
+<attribute name="VALUE" value="220 uF"/>
 </technology>
 </technologies>
 </device>
@@ -840,14 +843,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <device name="" package="CAPAE1360X1450N">
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 63V 220UF 20%" constant="no"/>
-<attribute name="HEIGHT" value="14.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCZ1J221MNQ1MS" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCZ1J221MNQ1MS" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCZ1J221MNQ1MS" constant="no"/>
+<attribute name="ARROW_PN" value=""/>
+<attribute name="ARROW_PRICE-STOCK" value=""/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 63V 220UF 20%"/>
+<attribute name="HEIGHT" value="14.5mm"/>
+<attribute name="MFG" value="Nichicon"/>
+<attribute name="MOUSER_PN" value="647-UCZ1J221MNQ1MS"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCZ1J221MNQ1MS"/>
+<attribute name="MPN" value="UCZ1J221MNQ1MS"/>
 </technology>
 </technologies>
 </device>
@@ -867,13 +870,13 @@ Source: &lt;a href="http://www.mouser.com/ds/2/396/mlcc11_hq_e-541564.pdf"&gt; D
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 50V X7R +/-10% 1210 Flx AEC-Q200" constant="no"/>
-<attribute name="HEIGHT" value="2.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" constant="no"/>
-<attribute name="MPN" value="UMJ325KB7106KMHT" constant="no"/>
-<attribute name="RATED_V" value="100 V" constant="no"/>
-<attribute name="SIZE" value="1210" constant="no"/>
-<attribute name="VALUE" value="10 uF" constant="no"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 50V X7R +/-10% 1210 Flx AEC-Q200"/>
+<attribute name="HEIGHT" value="2.8mm"/>
+<attribute name="MFG" value="TAIYO YUDEN"/>
+<attribute name="MPN" value="UMJ325KB7106KMHT"/>
+<attribute name="RATED_V" value="100 V"/>
+<attribute name="SIZE" value="1210"/>
+<attribute name="VALUE" value="10 uF"/>
 </technology>
 </technologies>
 </device>
@@ -893,24 +896,24 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 63V 220UF 20%" constant="no"/>
-<attribute name="HEIGHT" value="14.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCZ1J221MNQ1MS" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCZ1J221MNQ1MS" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCZ1J221MNQ1MS" constant="no"/>
+<attribute name="ARROW_PN" value=""/>
+<attribute name="ARROW_PRICE-STOCK" value=""/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 63V 220UF 20%"/>
+<attribute name="HEIGHT" value="14.5mm"/>
+<attribute name="MFG" value="Nichicon"/>
+<attribute name="MOUSER_PN" value="647-UCZ1J221MNQ1MS"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCZ1J221MNQ1MS"/>
+<attribute name="MPN" value="UCZ1J221MNQ1MS"/>
 </technology>
 <technology name="221">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="HEIGHT" value="" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="ARROW_PN" value=""/>
+<attribute name="ARROW_PRICE-STOCK" value=""/>
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="HEIGHT" value=""/>
+<attribute name="MFG" value=""/>
+<attribute name="MOUSER_PN" value=""/>
+<attribute name="MOUSER_PRICE-STOCK" value=""/>
+<attribute name="MPN" value=""/>
 </technology>
 </technologies>
 </device>
@@ -921,10 +924,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </connects>
 <technologies>
 <technology name="221">
-<attribute name="MFG" value="Nichion" constant="no"/>
+<attribute name="MFG" value="Nichion"/>
 <attribute name="MPN" value="UCZ2A221MNS1MS"/>
-<attribute name="RATED_V" value="100 V" constant="no"/>
-<attribute name="VALUE" value="220 uF" constant="no"/>
+<attribute name="RATED_V" value="100 V"/>
+<attribute name="VALUE" value="220 uF"/>
 </technology>
 </technologies>
 </device>
@@ -944,11 +947,11 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GCJ188R72A10
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG" value="Murata" constant="no"/>
-<attribute name="MPN" value="GCJ188R72A104KA01D" constant="no"/>
-<attribute name="RATED_V" value="100 V" constant="no"/>
-<attribute name="SIZE" value="0603" constant="no"/>
-<attribute name="VALUE" value="100 nF" constant="no"/>
+<attribute name="MFG" value="Murata"/>
+<attribute name="MPN" value="GCJ188R72A104KA01D"/>
+<attribute name="RATED_V" value="100 V"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="VALUE" value="100 nF"/>
 </technology>
 </technologies>
 </device>
@@ -968,12 +971,12 @@ Source: &lt;a href="http://www.mouser.com/ds/2/396/mlcc11_hq_e-541564.pdf"&gt; D
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 50V X7R +/-10% 1210 Flx AEC-Q200" constant="no"/>
-<attribute name="MFG" value="TAIYO YUDEN" constant="no"/>
-<attribute name="MPN" value="UMJ325KB7106KMHP" constant="no"/>
-<attribute name="RATED_V" value="100 V" constant="no"/>
-<attribute name="SIZE" value="1210" constant="no"/>
-<attribute name="VALUE" value="10 uF" constant="no"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 50V X7R +/-10% 1210 Flx AEC-Q200"/>
+<attribute name="MFG" value="TAIYO YUDEN"/>
+<attribute name="MPN" value="UMJ325KB7106KMHP"/>
+<attribute name="RATED_V" value="100 V"/>
+<attribute name="SIZE" value="1210"/>
+<attribute name="VALUE" value="10 uF"/>
 </technology>
 </technologies>
 </device>
@@ -997,18 +1000,18 @@ Source: &lt;a href="http://www.mouser.com/ds/2/396/mlcc11_hq_e-541564.pdf"&gt; D
 <device name="CAPMP7.6X4.3_3.1N_KEM-M" package="CAPMP7.6X4.3_3.1N_KEM-M">
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T491D106K025AT" constant="no"/>
-<attribute name="MFR_NAME" value="Kemet" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Kemet"/>
+<attribute name="MPN" value="T491D106K025AT"/>
 </technology>
 </technologies>
 </device>
 <device name="CAPMP7.6X4.3_3.1N_KEM-L" package="CAPMP7.6X4.3_3.1N_KEM-L">
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T491D106K025AT" constant="no"/>
-<attribute name="MFR_NAME" value="Kemet" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved."/>
+<attribute name="MFG" value="Kemet"/>
+<attribute name="MPN" value="T491D106K025AT"/>
 </technology>
 </technologies>
 </device>
@@ -1028,7 +1031,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/396/mlcc11_hq_e-541564.pdf"&gt; D
 <technology name="">
 <attribute name="MFG" value="KYOCERA AVX"/>
 <attribute name="MPN" value="TCJE686M025R0050E"/>
-<attribute name="RATED_V" value="25V" constant="no"/>
+<attribute name="RATED_V" value="25V"/>
 <attribute name="VALUE" value="68uF"/>
 </technology>
 </technologies>

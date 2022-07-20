@@ -6,23 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -36,29 +36,29 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="9" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -85,11 +85,11 @@
 <package name="TO236">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 3-lead smd</description>
-<wire x1="-1.4" y1="1.15" x2="-0.7" y2="1.15" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="1.15" x2="-1.4" y2="-0.2" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="-1.15" x2="0.3" y2="-1.15" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.2" x2="1.4" y2="1.15" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="1.15" x2="0.7" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="1.15" x2="-0.7254" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="1.15" x2="-1.4" y2="-0.1746" width="0.2032" layer="21"/>
+<wire x1="-0.2746" y1="-1.15" x2="0.2746" y2="-1.15" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.1746" x2="1.4" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.15" x2="0.7254" y2="1.15" width="0.2032" layer="21"/>
 <wire x1="-0.7" y1="1.15" x2="0.7" y2="1.15" width="0.2032" layer="51"/>
 <wire x1="-1.4" y1="-0.2" x2="-1.4" y2="-1.15" width="0.2032" layer="51"/>
 <wire x1="-1.4" y1="-1.15" x2="-0.3" y2="-1.15" width="0.2032" layer="51"/>
@@ -98,11 +98,12 @@
 <smd name="C" x="0" y="1" dx="1" dy="1.2" layer="1"/>
 <smd name="A" x="-1" y="-1" dx="1" dy="1.2" layer="1"/>
 <smd name="NC" x="1" y="-1" dx="1" dy="1.2" layer="1"/>
-<text x="-1.397" y="1.794" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-3.064" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2" y1="0.6" x2="0.2" y2="1.25" layer="51"/>
 <rectangle x1="-1.2" y1="-1.25" x2="-0.8" y2="-0.6" layer="51"/>
 <rectangle x1="0.8" y1="-1.25" x2="1.2" y2="-0.6" layer="51"/>
+<text x="-1.27" y="1.905" size="1.016" layer="21" font="vector" ratio="16">&gt;K</text>
 </package>
 <package name="SOT23">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
@@ -129,14 +130,23 @@
 <wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
 <wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
-<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="21"/>
-<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="21"/>
 <smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
 <smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
+<text x="-2.54" y="0" size="1.016" layer="21" font="vector" ratio="16" align="center-left">K</text>
+<wire x1="-0.535" y1="0.4" x2="-0.535" y2="-0.4" width="0.1524" layer="21"/>
+<polygon width="0.1524" layer="21">
+<vertex x="0.1" y="0.4"/>
+<vertex x="0.1" y="-0.4"/>
+<vertex x="-0.5" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="51">
+<vertex x="0.1" y="0.4"/>
+<vertex x="0.1" y="-0.4"/>
+<vertex x="-0.5" y="0"/>
+</polygon>
 </package>
 <package name="SOD323-W">
 <description>&lt;b&gt;SOD323 Wave soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
@@ -306,14 +316,17 @@ Philips SC01_Mounting_1996.pdf</description>
 <package name="SOD123F-NEXPERIA">
 <smd name="C" x="-1.45" y="0" dx="1.22" dy="1.22" layer="1" rot="R90"/>
 <smd name="A" x="1.45" y="0" dx="1.22" dy="1.22" layer="1" rot="R90"/>
-<text x="-2.54" y="1.4986" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-0.635" y1="0.762" x2="-0.635" y2="-0.762" width="0.3048" layer="51"/>
 <wire x1="-1.35" y1="0.85" x2="1.35" y2="0.85" width="0.127" layer="21"/>
-<wire x1="1.35" y1="0.85" x2="1.35" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="1.35" y1="-0.85" x2="-1.35" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-1.35" y1="-0.85" x2="-1.35" y2="0.85" width="0.127" layer="21"/>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
+<text x="-4.445" y="0" size="1.27" layer="21" font="vector" ratio="16" align="center-left">&gt;K</text>
+<wire x1="-1.35" y1="0.7883" x2="-1.35" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.85" x2="-1.35" y2="-0.7883" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.85" x2="1.35" y2="0.7883" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.7883" x2="1.35" y2="-0.85" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -410,10 +423,13 @@ Philips SC01_Mounting_1996.pdf</description>
 </connects>
 <technologies>
 <technology name="A10">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A10"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -422,10 +438,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="10.0"/>
 </technology>
 <technology name="A11">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A11"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -434,10 +453,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="11.0"/>
 </technology>
 <technology name="A12">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A12"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -446,10 +468,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="12.0"/>
 </technology>
 <technology name="A13">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A13"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -458,10 +483,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="13.0"/>
 </technology>
 <technology name="A15">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A15"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -470,10 +498,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="15.0"/>
 </technology>
 <technology name="A16">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A16"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -482,10 +513,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="16.0"/>
 </technology>
 <technology name="A18">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A18"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -494,10 +528,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="18.0"/>
 </technology>
 <technology name="A20">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A20"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -506,10 +543,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="20.0"/>
 </technology>
 <technology name="A22">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A22"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -518,10 +558,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="22.0"/>
 </technology>
 <technology name="A24">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A24"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -530,10 +573,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="24.0"/>
 </technology>
 <technology name="A27">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A27"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -542,10 +588,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="27.0"/>
 </technology>
 <technology name="A2V4">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A2V4"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -554,10 +603,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="2.4"/>
 </technology>
 <technology name="A2V7">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A2V7"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -566,10 +618,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="2.7"/>
 </technology>
 <technology name="A30">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A30"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -578,10 +633,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="30.0"/>
 </technology>
 <technology name="A33">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A33"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -590,10 +648,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="33.0"/>
 </technology>
 <technology name="A36">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A36"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -602,10 +663,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="36.0"/>
 </technology>
 <technology name="A39">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A39"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -614,10 +678,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="39.0"/>
 </technology>
 <technology name="A3V0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A3V0"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -626,10 +693,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.0"/>
 </technology>
 <technology name="A3V3">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value="1727-5309-6-ND"/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value="771-BZX84-A3V3,215"/>
 <attribute name="MPN" value="BZX84-A3V3,215"/>
+<attribute name="NEWARK_PN" value="01AC1561"/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -638,10 +708,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.3"/>
 </technology>
 <technology name="A3V6">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A3V6"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -650,10 +723,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.6"/>
 </technology>
 <technology name="A3V9">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A3V9"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -662,10 +738,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.9"/>
 </technology>
 <technology name="A43">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A43"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -674,10 +753,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="43.0"/>
 </technology>
 <technology name="A4V3">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A4V3"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -686,10 +768,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="4.3"/>
 </technology>
 <technology name="A4V7">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A4V7"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -698,10 +783,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="4.7"/>
 </technology>
 <technology name="A51">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A51"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -710,10 +798,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="51.0"/>
 </technology>
 <technology name="A5V1">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A5V1"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -722,10 +813,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="5.1"/>
 </technology>
 <technology name="A5V6">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A5V6"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -734,10 +828,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="5.6"/>
 </technology>
 <technology name="A6V2">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A6V2"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -746,10 +843,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="6.2"/>
 </technology>
 <technology name="A6V8">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A6V8"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -758,10 +858,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="6.8"/>
 </technology>
 <technology name="A75">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A75"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -770,10 +873,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="75.0"/>
 </technology>
 <technology name="A7V5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A7V5"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -782,10 +888,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="7.5"/>
 </technology>
 <technology name="A8V2">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A8V2"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -794,10 +903,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="8.2"/>
 </technology>
 <technology name="A9V1">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-A9V1"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -806,10 +918,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="9.1"/>
 </technology>
 <technology name="B10">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B10"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -818,10 +933,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="10.0"/>
 </technology>
 <technology name="B11">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B11"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -830,10 +948,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="11.0"/>
 </technology>
 <technology name="B12">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B12"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -842,10 +963,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="12.0"/>
 </technology>
 <technology name="B13">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B13"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -854,10 +978,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="13.0"/>
 </technology>
 <technology name="B15">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B15"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -866,10 +993,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="15.0"/>
 </technology>
 <technology name="B16">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B16"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -878,10 +1008,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="16.0"/>
 </technology>
 <technology name="B18">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B18"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -890,10 +1023,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="18.0"/>
 </technology>
 <technology name="B20">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B20"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -902,10 +1038,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="20.0"/>
 </technology>
 <technology name="B22">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B22"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -914,10 +1053,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="22.0"/>
 </technology>
 <technology name="B24">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B24"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -926,10 +1068,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="24.0"/>
 </technology>
 <technology name="B27">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B27"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -938,10 +1083,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="27.0"/>
 </technology>
 <technology name="B2V4">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B2V4"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -950,10 +1098,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="2.4"/>
 </technology>
 <technology name="B2V7">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B2V7"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -962,10 +1113,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="2.7"/>
 </technology>
 <technology name="B30">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B30"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -974,10 +1128,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="30.0"/>
 </technology>
 <technology name="B33">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B33"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -986,10 +1143,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="33.0"/>
 </technology>
 <technology name="B36">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B36"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -998,10 +1158,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="36.0"/>
 </technology>
 <technology name="B39">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B39"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1010,10 +1173,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="39.0"/>
 </technology>
 <technology name="B3V0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B3V0"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1022,10 +1188,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.0"/>
 </technology>
 <technology name="B3V3">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B3V3,215"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1034,10 +1203,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.3"/>
 </technology>
 <technology name="B3V6">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B3V6"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1046,10 +1218,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.6"/>
 </technology>
 <technology name="B3V9">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B3V9"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1058,10 +1233,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.9"/>
 </technology>
 <technology name="B43">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B43"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1070,10 +1248,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="43.0"/>
 </technology>
 <technology name="B47">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B47"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1082,10 +1263,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="47.0"/>
 </technology>
 <technology name="B4V3">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B4V3"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1094,10 +1278,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="4.3"/>
 </technology>
 <technology name="B4V7">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B4V7"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1106,10 +1293,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="4.7"/>
 </technology>
 <technology name="B51">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B51"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1118,10 +1308,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="51.0"/>
 </technology>
 <technology name="B56">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B56"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1130,10 +1323,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="56.0"/>
 </technology>
 <technology name="B5V1">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B5V1"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1142,10 +1338,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="5.1"/>
 </technology>
 <technology name="B5V6">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B5V6"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1154,10 +1353,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="5.6"/>
 </technology>
 <technology name="B62">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B62"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1166,10 +1368,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="62.0"/>
 </technology>
 <technology name="B68">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B68"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1178,10 +1383,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="68.0"/>
 </technology>
 <technology name="B6V2">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B6V2"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1190,10 +1398,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="6.2"/>
 </technology>
 <technology name="B6V8">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B6V8"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1202,10 +1413,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="6.8"/>
 </technology>
 <technology name="B75">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B75"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1214,10 +1428,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="75.0"/>
 </technology>
 <technology name="B7V5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B7V5"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1226,10 +1443,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="7.5"/>
 </technology>
 <technology name="B8V2">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B8V2"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1238,10 +1458,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="8.2"/>
 </technology>
 <technology name="B9V1">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-B9V1"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1250,10 +1473,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="9.1"/>
 </technology>
 <technology name="C10">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C10"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1262,10 +1488,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="10.0"/>
 </technology>
 <technology name="C11">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C11"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1274,10 +1503,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="11.0"/>
 </technology>
 <technology name="C12">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C12"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1286,10 +1518,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="12.0"/>
 </technology>
 <technology name="C13">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C13"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1298,10 +1533,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="13.0"/>
 </technology>
 <technology name="C15">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C15"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1310,10 +1548,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="15.0"/>
 </technology>
 <technology name="C16">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C16"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1322,10 +1563,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="16.0"/>
 </technology>
 <technology name="C18">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C18"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1334,10 +1578,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="18.0"/>
 </technology>
 <technology name="C20">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C20"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1346,10 +1593,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="20.0"/>
 </technology>
 <technology name="C22">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C22"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1358,10 +1608,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="22.0"/>
 </technology>
 <technology name="C24">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C24"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1370,10 +1623,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="24.0"/>
 </technology>
 <technology name="C27">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C27"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1382,10 +1638,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="27.0"/>
 </technology>
 <technology name="C2V4">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C2V4"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1394,10 +1653,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="2.4"/>
 </technology>
 <technology name="C2V7">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C2V7"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1406,10 +1668,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="2.7"/>
 </technology>
 <technology name="C30">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C30"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1418,10 +1683,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="30.0"/>
 </technology>
 <technology name="C33">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C33"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1430,10 +1698,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="33.0"/>
 </technology>
 <technology name="C36">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C36"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1442,10 +1713,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="36.0"/>
 </technology>
 <technology name="C39">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C39"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1454,10 +1728,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="39.0"/>
 </technology>
 <technology name="C3V0">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C3V0"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1466,10 +1743,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.0"/>
 </technology>
 <technology name="C3V3">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C3V3,235"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1478,10 +1758,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.3"/>
 </technology>
 <technology name="C3V6">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C3V6"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1490,10 +1773,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.6"/>
 </technology>
 <technology name="C3V9">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C3V9"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1502,10 +1788,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="3.9"/>
 </technology>
 <technology name="C43">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C43"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1514,10 +1803,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="43.0"/>
 </technology>
 <technology name="C47">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C47"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1526,10 +1818,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="47.0"/>
 </technology>
 <technology name="C4V3">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C4V3"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1538,10 +1833,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="4.3"/>
 </technology>
 <technology name="C4V7">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C4V7"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1550,10 +1848,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="4.7"/>
 </technology>
 <technology name="C51">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C51"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1562,10 +1863,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="51.0"/>
 </technology>
 <technology name="C56">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C56"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1574,10 +1878,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="56.0"/>
 </technology>
 <technology name="C5V1">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C5V1"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1586,10 +1893,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="5.1"/>
 </technology>
 <technology name="C5V6">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C5V6"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1598,10 +1908,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="5.6"/>
 </technology>
 <technology name="C62">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C62"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1610,10 +1923,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="62.0"/>
 </technology>
 <technology name="C68">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C68"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1622,10 +1938,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="68.0"/>
 </technology>
 <technology name="C6V2">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C6V2"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1634,10 +1953,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="6.2"/>
 </technology>
 <technology name="C6V8">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C6V8"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1646,10 +1968,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="6.8"/>
 </technology>
 <technology name="C75">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C75"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1658,10 +1983,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="75.0"/>
 </technology>
 <technology name="C7V5">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C7V5"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1670,10 +1998,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="7.5"/>
 </technology>
 <technology name="C8V2">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C8V2"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
@@ -1682,10 +2013,13 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="VOLTAGE" value="8.2"/>
 </technology>
 <technology name="C9V1">
-<attribute name="AEC-Q101" value="Y"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q101"/>
+<attribute name="DIGIKEY_PN" value=""/>
 <attribute name="I_MAX" value="200 mA"/>
 <attribute name="MFG" value="Nexperia"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="BZX84-C9V1"/>
+<attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
 <attribute name="PACKAGE" value="SOT323"/>
 <attribute name="P_MAX" value="250mW"/>
