@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -217,7 +217,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <smd name="8" x="2.2606" y="0.975" dx="1.7018" dy="0.4826" layer="1"/>
 <wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="-1.1684" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="-0.7874" x2="1.5494" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-0.127" x2="1.5494" y2="0.127" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="0.508" x2="1.5494" y2="0.7874" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="1.1684" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="51"/>
@@ -229,7 +228,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <wire x1="-1.5494" y1="-1.1684" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.7526" y="0.2032" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.0988" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.0988" y="1.3208" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">&gt;pin1</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-1.5494" y1="0.7874" x2="-1.5494" y2="1.1684" width="0.1524" layer="51"/>
@@ -267,12 +266,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="-0.127" x2="1.5494" y2="0.127" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="0.7874" x2="-1.5494" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="0.508" x2="-1.5494" y2="-0.508" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.7526" y="0.2032" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="-1.6764" y1="-1.6764" x2="1.6764" y2="-1.6764" width="0.1524" layer="21"/>
 <wire x1="1.6764" y1="1.6764" x2="-1.6764" y2="1.6764" width="0.1524" layer="21"/>
-<text x="-3.0988" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
@@ -487,22 +485,28 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </connects>
 <technologies>
 <technology name="C">
-<attribute name="MANUFACTURER_NAME" value="Analog Devices"/>
+<attribute name="DIGIKEY_PN" value=""/>
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="LTC4359CMS8#PBF"/>
-<attribute name="OP_TEMP" value="0°C to 70°C"/>
-<attribute name="VALUE" value="Ideal Diode Controller"/>
+<attribute name="OPERATING_TEMP" value="0 to +70C"/>
+<attribute name="VALUE" value="LTC4359"/>
 </technology>
 <technology name="H">
-<attribute name="MANUFACTURER_NAME" value="Analog Devices"/>
+<attribute name="DIGIKEY_PN" value="505-LTC4359HMS8#TRPBFDKR-ND"/>
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MOUSER_PN" value="584-LTC4359HMS8#PBF"/>
 <attribute name="MPN" value="LTC4359HMS8#PBF"/>
-<attribute name="OP_TEMP" value="–40°C to 125°C"/>
-<attribute name="VALUE" value="Ideal Diode Controller"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="VALUE" value="LTC4359"/>
 </technology>
 <technology name="I">
-<attribute name="MANUFACTURER_NAME" value="Analog Devices"/>
+<attribute name="DIGIKEY_PN" value=""/>
+<attribute name="MFG" value="Analog Devices"/>
+<attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="LTC4359IMS8#PBF"/>
-<attribute name="OP_TEMP" value="–40°C to 85°C"/>
-<attribute name="VALUE" value="Ideal Diode Controller"/>
+<attribute name="OPERATING_TEMP" value="-40 to +85C"/>
+<attribute name="VALUE" value="LTC4359"/>
 </technology>
 </technologies>
 </device>

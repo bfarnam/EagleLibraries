@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="121" name="_tsilk" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="61" fill="1" visible="yes" active="yes"/>
@@ -296,11 +296,11 @@
 <wire x1="0.9525" y1="-0.635" x2="0.9525" y2="0.635" width="0.3048" layer="122" curve="-292.619865"/>
 </package>
 <package name="ARROW-LEFT">
-<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="121"/>
+<wire x1="0.635" y1="0" x2="3.81" y2="0" width="0.4064" layer="121"/>
 <polygon width="0.254" layer="121">
 <vertex x="0" y="0"/>
-<vertex x="0.635" y="0.3175"/>
-<vertex x="0.635" y="-0.3175"/>
+<vertex x="1.27" y="0.635"/>
+<vertex x="1.27" y="-0.635"/>
 </polygon>
 </package>
 <package name="ARROW-RIGHT">
@@ -310,12 +310,6 @@
 <vertex x="-0.635" y="-0.3175"/>
 <vertex x="-0.635" y="0.3175"/>
 </polygon>
-</package>
-<package name="100X50-SOLDER-STRIP">
-<smd name="P$1" x="0" y="0" dx="2.54" dy="1.27" layer="1" roundness="50" thermals="no"/>
-</package>
-<package name="200X100-SOLDER-STRIP">
-<smd name="P$1" x="0" y="0" dx="5.08" dy="2.54" layer="1" roundness="50" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -364,9 +358,6 @@
 <wire x1="10.16" y1="0" x2="12.7" y2="2.54" width="0.3048" layer="253"/>
 <text x="0" y="0" size="2.54" layer="253" align="center">&gt;VALUE</text>
 <text x="11.43" y="0" size="2.54" layer="253" rot="R180" align="center-right">&gt;NAME</text>
-</symbol>
-<symbol name="SOLDER_STRIP">
-<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -426,29 +417,6 @@
 <technology name="ON_LOW">
 <attribute name="VALUE" value="OFF   !ON!" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SOLDER-STRIP">
-<gates>
-<gate name="G$1" symbol="SOLDER_STRIP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="100X50" package="100X50-SOLDER-STRIP">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="200X100" package="200X100-SOLDER-STRIP">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>

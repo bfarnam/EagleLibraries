@@ -365,9 +365,6 @@
 <text x="0" y="0" size="2.54" layer="253" align="center">&gt;VALUE</text>
 <text x="11.43" y="0" size="2.54" layer="253" rot="R180" align="center-right">&gt;NAME</text>
 </symbol>
-<symbol name="SOLDER_STRIP">
-<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LOGIC_LEVEL_ON_OFF" uservalue="yes">
@@ -426,29 +423,6 @@
 <technology name="ON_LOW">
 <attribute name="VALUE" value="OFF   !ON!" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SOLDER-STRIP">
-<gates>
-<gate name="G$1" symbol="SOLDER_STRIP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="100X50" package="100X50-SOLDER-STRIP">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="200X100" package="200X100-SOLDER-STRIP">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>

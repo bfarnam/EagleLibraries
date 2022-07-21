@@ -242,8 +242,8 @@
 <wire x1="2.3876" y1="1.9812" x2="-2.3876" y2="1.9812" width="0.1524" layer="21"/>
 <wire x1="-2.3876" y1="0.6858" x2="-2.3876" y2="-0.6858" width="0.1524" layer="21"/>
 <text x="-4" y="2" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-2.5" y="-3.5" size="1.016" layer="27" font="vector" ratio="19" rot="SR0">&gt;Value</text>
-<text x="-2.5" y="2.5" size="1.016" layer="25" font="vector" ratio="19" rot="SR0">&gt;Name</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;Value</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;Name</text>
 </package>
 <package name="SO_71T-500E_BRA-M">
 <smd name="1" x="-3.2004" y="1.27" dx="1.905" dy="0.508" layer="1"/>

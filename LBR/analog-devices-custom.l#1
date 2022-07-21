@@ -217,7 +217,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <smd name="8" x="2.2606" y="0.975" dx="1.7018" dy="0.4826" layer="1"/>
 <wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="-1.1684" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="-0.7874" x2="1.5494" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-0.127" x2="1.5494" y2="0.127" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="0.508" x2="1.5494" y2="0.7874" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="1.1684" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="51"/>
@@ -229,7 +228,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <wire x1="-1.5494" y1="-1.1684" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.7526" y="0.2032" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.0988" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.0988" y="1.3208" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">&gt;pin1</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-1.5494" y1="0.7874" x2="-1.5494" y2="1.1684" width="0.1524" layer="51"/>
@@ -267,12 +266,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="1.5494" y1="-0.127" x2="1.5494" y2="0.127" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="0.7874" x2="-1.5494" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="0.508" x2="-1.5494" y2="-0.508" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.7526" y="0.2032" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="-1.6764" y1="-1.6764" x2="1.6764" y2="-1.6764" width="0.1524" layer="21"/>
 <wire x1="1.6764" y1="1.6764" x2="-1.6764" y2="1.6764" width="0.1524" layer="21"/>
-<text x="-3.0988" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
@@ -439,11 +437,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pin name="GATE" x="-17.78" y="7.62" length="middle" direction="out"/>
 <pin name="SOURCE" x="-17.78" y="2.54" length="middle" direction="pas"/>
 <pin name="NC_2" x="17.78" y="2.54" length="middle" direction="nc" rot="R180"/>
-<pin name="IN" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="IN" x="-17.78" y="-7.62" length="middle" direction="sup"/>
 <pin name="!SHDN" x="17.78" y="-7.62" length="middle" direction="in" rot="R180"/>
 <pin name="VSS" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="NC" x="-17.78" y="-2.54" length="middle" direction="nc"/>
-<pin name="OUT" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OUT" x="17.78" y="7.62" length="middle" direction="sup" rot="R180"/>
 <wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>

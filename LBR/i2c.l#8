@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -75,7 +75,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="253" name="CONFIDENTIAL" color="59" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -542,8 +541,8 @@ Source: PCA9534_3.pdf</description>
 <smd name="14" x="2.9" y="0.975" dx="0.45" dy="1.5" layer="1" rot="R270" cream="no"/>
 <smd name="15" x="2.9" y="1.625" dx="0.45" dy="1.5" layer="1" rot="R270" cream="no"/>
 <smd name="16" x="2.9" y="2.275" dx="0.45" dy="1.5" layer="1" rot="R270" cream="no"/>
-<text x="0" y="0" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.0828" y="2.8956" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.0828" y="-3.8862" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.2" y1="-2.375" x2="-2.2" y2="-2.175" layer="51"/>
 <rectangle x1="-3.2" y1="-1.725" x2="-2.2" y2="-1.525" layer="51"/>
 <rectangle x1="-3.2" y1="-1.075" x2="-2.2" y2="-0.875" layer="51"/>
@@ -560,7 +559,7 @@ Source: PCA9534_3.pdf</description>
 <rectangle x1="2.2" y1="2.175" x2="3.2" y2="2.375" layer="51"/>
 <rectangle x1="2.2" y1="1.525" x2="3.2" y2="1.725" layer="51"/>
 <rectangle x1="2.2" y1="0.875" x2="3.2" y2="1.075" layer="51"/>
-<circle x="-2.8" y="3.1" radius="0.15875" width="0.3" layer="25"/>
+<circle x="-2.8" y="3.1" radius="0.15875" width="0.3" layer="21"/>
 <rectangle x1="2.175" y1="0.125" x2="3.625" y2="0.525" layer="31"/>
 <rectangle x1="2.175" y1="0.775" x2="3.625" y2="1.175" layer="31"/>
 <rectangle x1="2.175" y1="-0.525" x2="3.625" y2="-0.125" layer="31"/>
@@ -1805,7 +1804,6 @@ SOURCE: https://www.nxp.com/docs/en/package-information/SOT758-1.pdf</descriptio
 <pin name="IO5" x="10.16" y="0" length="short" swaplevel="1" rot="R180"/>
 <pin name="IO6" x="10.16" y="2.54" length="short" swaplevel="1" rot="R180"/>
 <pin name="IO7" x="10.16" y="5.08" length="short" swaplevel="1" rot="R180"/>
-<text x="1.016" y="-13.97" size="1.778" layer="253" rot="R90">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
