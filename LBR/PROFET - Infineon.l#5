@@ -3822,7 +3822,7 @@ Max Component Height - 1.15mm</description>
 <pin name="IS" x="-15.24" y="0" length="middle" direction="out"/>
 <pin name="DSEL" x="-15.24" y="-5.08" length="middle" direction="in"/>
 <pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VS" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VS" x="15.24" y="5.08" length="middle" direction="sup" rot="R180"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>

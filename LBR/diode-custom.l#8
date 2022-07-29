@@ -1466,11 +1466,12 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
 <smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
 <smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
-<text x="-1" y="1.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
 <rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
 <rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
+<text x="0" y="1.905" size="1.016" layer="21" font="vector" ratio="16" align="bottom-center">K</text>
 </package>
 <package name="DFN1006-2A">
 <wire x1="-0.5" y1="0.35" x2="-0.5" y2="-0.35" width="0.127" layer="21"/>

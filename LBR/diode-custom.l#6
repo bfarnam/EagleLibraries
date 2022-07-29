@@ -621,7 +621,7 @@
 <vertex x="-0.7" y="0"/>
 </polygon>
 <wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.254" layer="21"/>
-<text x="-4.445" y="0" size="1.016" layer="21" font="vector" ratio="16" align="center-left">K</text>
+<text x="-4.445" y="0" size="1.016" layer="25" font="vector" ratio="16" align="center-left">K</text>
 </package>
 <package name="SODFL3416X90N">
 <description>&lt;b&gt;RBR3MM60BTFTR&lt;/b&gt;&lt;br&gt;
@@ -1471,7 +1471,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
 <rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
 <rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
-<text x="0" y="1.905" size="1.016" layer="21" font="vector" ratio="16" align="bottom-center">K</text>
+<text x="0" y="1.905" size="1.016" layer="25" font="vector" ratio="16" align="bottom-center">K</text>
 </package>
 <package name="DFN1006-2A">
 <wire x1="-0.5" y1="0.35" x2="-0.5" y2="-0.35" width="0.127" layer="21"/>
