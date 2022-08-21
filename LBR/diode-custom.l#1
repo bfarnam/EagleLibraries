@@ -1963,7 +1963,8 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 <attribute name="HEIGHT" value="0.95mm"/>
 <attribute name="MFG" value="ROHM Semiconductor"/>
 <attribute name="MPN" value="RB088LAM100TF"/>
-<attribute name="VALUE" value="Schottky Barrier"/>
+<attribute name="PACKAGE" value="SOD-128"/>
+<attribute name="VALUE" value="RB088"/>
 </technology>
 </technologies>
 </device>
@@ -2221,16 +2222,19 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 <technology name="BF">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS521BF"/>
+<attribute name="PACKAGE" value="SOD-523"/>
 <attribute name="VALUE" value="BAS521"/>
 </technology>
 <technology name="BX">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS521BX"/>
+<attribute name="PACKAGE" value="SOD-523"/>
 <attribute name="VALUE" value="BAS521"/>
 </technology>
 <technology name="Q">
 <attribute name="MFG" value="Diodes, Inc."/>
 <attribute name="MPN" value="BAS521Q-13 "/>
+<attribute name="PACKAGE" value="SOD-523"/>
 <attribute name="VALUE" value="BAS521"/>
 </technology>
 </technologies>
@@ -2321,7 +2325,7 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 <technology name="W,115">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS21W,115"/>
-<attribute name="VALUE" value="BAS21W,115"/>
+<attribute name="VALUE" value="BAS21"/>
 </technology>
 </technologies>
 </device>

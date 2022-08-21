@@ -6453,7 +6453,7 @@ SOP65P600X115-15N-V</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BTS7004-1EPP" prefix="U">
+<deviceset name="BTS7004-1EPP" prefix="U" uservalue="yes">
 <description>BTS7004-1EPP
 &lt;p&gt;
 Smart High-Side Power Switch, 1x4 mΩ
@@ -6485,6 +6485,8 @@ SOP65P600X105-15N-1-V</description>
 <technology name="">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTS7004-1EPP"/>
+<attribute name="PACKAGE" value="PG-TSDSO-14-22"/>
+<attribute name="SIZE" value="14-TSSOP"/>
 <attribute name="VALUE" value="BTS7004"/>
 </technology>
 </technologies>
@@ -7104,17 +7106,17 @@ Quad Channel Smart High-Side Power Switch</description>
 <technology name="030">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60302ERAXUMA1"/>
-<attribute name="VALUE" value="BTT6030-2ERA"/>
+<attribute name="VALUE" value="BTT6030-2"/>
 </technology>
 <technology name="050">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60502ERAXUMA1"/>
-<attribute name="VALUE" value="BTT6050-2ERA"/>
+<attribute name="VALUE" value="BTT6050-2"/>
 </technology>
 <technology name="100">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT61002ERAXUMA1"/>
-<attribute name="VALUE" value="BTT6100-2ERA"/>
+<attribute name="VALUE" value="BTT6100-2"/>
 </technology>
 </technologies>
 </device>

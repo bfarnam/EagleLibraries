@@ -245,7 +245,7 @@
 <text x="-3.81" y="1.905" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;Value</text>
 <text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;Name</text>
-<circle x="-3.175" y="2.54" radius="0.3175" width="0.635" layer="21"/>
+<circle x="-3.175" y="2.54" radius="0.127" width="0.381" layer="25"/>
 </package>
 <package name="SO_71T-500E_BRA-M">
 <smd name="1" x="-3.2004" y="1.27" dx="1.905" dy="0.508" layer="1"/>

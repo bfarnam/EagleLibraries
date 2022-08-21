@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1655,6 +1655,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="100 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12D8WT86"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Orange"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="605 nm"/>
@@ -1666,6 +1667,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value=""/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Green"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
@@ -1677,6 +1679,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value=""/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Yle/Grn"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
@@ -1688,6 +1691,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="25 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12M8WT86C"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Yellow / Green"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="572 nm"/>
@@ -1699,6 +1703,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="6.3 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12P8WT86C"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Green"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="560 nm"/>
@@ -1710,6 +1715,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value=""/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Red"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
@@ -1721,6 +1727,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="60 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12U8WT86C"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Red"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="620 nm"/>
@@ -1732,6 +1739,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value=""/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Red"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
@@ -1743,6 +1751,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="40 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12V8WT86C"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Red"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="630 nm"/>
@@ -1754,6 +1763,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="7.1 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12W8WT86C"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Yellow"/>
 <attribute name="VF" value="2.0 V"/>
 <attribute name="WAVELENGTH" value="588 nm"/>
@@ -1765,6 +1775,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value=""/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Yellow"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
@@ -1776,6 +1787,7 @@ Source: www.kingbright.com</description>
 <attribute name="MCD" value="63 mcd"/>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12Y8WT86C"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="Yellow"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="590 nm"/>

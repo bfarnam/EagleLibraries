@@ -172,14 +172,13 @@
 </package>
 <package name="INF-PG-TO252-3-313_M_1PRIMARY">
 <description>Original name &lt;b&gt;INF-PG-TO252-3-313_M&lt;/b&gt;&lt;p&gt;</description>
-<circle x="-4.445" y="3.81" radius="0.3175" width="0.635" layer="21"/>
 <wire x1="-2.05" y1="-3.325" x2="4.17" y2="-3.325" width="0.1" layer="51"/>
 <wire x1="4.17" y1="-3.325" x2="4.17" y2="3.325" width="0.1" layer="51"/>
 <wire x1="-2.05" y1="3.325" x2="4.17" y2="3.325" width="0.1" layer="51"/>
 <wire x1="-2.05" y1="-3.325" x2="-2.05" y2="3.325" width="0.1" layer="51"/>
 <wire x1="-6.3" y1="-3.825" x2="-6.3" y2="3.825" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="48"/>
-<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="48"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="23"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="23"/>
 <wire x1="-6.3" y1="3.825" x2="6.3" y2="3.825" width="0.127" layer="51"/>
 <wire x1="6.3" y1="-3.825" x2="6.3" y2="3.825" width="0.127" layer="51"/>
 <wire x1="-6.3" y1="-3.825" x2="6.3" y2="-3.825" width="0.127" layer="51"/>

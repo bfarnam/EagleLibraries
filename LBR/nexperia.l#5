@@ -103,7 +103,7 @@
 <rectangle x1="-0.2" y1="0.6" x2="0.2" y2="1.25" layer="51"/>
 <rectangle x1="-1.2" y1="-1.25" x2="-0.8" y2="-0.6" layer="51"/>
 <rectangle x1="0.8" y1="-1.25" x2="1.2" y2="-0.6" layer="51"/>
-<text x="-1.27" y="1.905" size="1.016" layer="25" font="vector" ratio="16">K</text>
+<text x="-1.27" y="1.905" size="1.016" layer="21" font="vector" ratio="16">&gt;K</text>
 </package>
 <package name="SOT23">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>

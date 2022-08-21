@@ -1134,7 +1134,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </polygon>
 <wire x1="-0.15875" y1="0.15875" x2="-0.15875" y2="-0.15875" width="0.127" layer="51"/>
 <wire x1="-0.3175" y1="0" x2="0.3175" y2="0" width="0.127" layer="51"/>
-<text x="-2.54" y="0" size="1.016" layer="25" font="vector" ratio="16" align="center-left">K</text>
+<text x="-2.54" y="0" size="1.016" layer="51" font="vector" ratio="16" align="center-left">K</text>
 <wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
 <wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>

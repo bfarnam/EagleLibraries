@@ -255,7 +255,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMG" package="SMBG">
@@ -264,7 +266,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMJ" package="SMBJ">
@@ -273,7 +277,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -282,7 +288,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -309,7 +317,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBG" package="SMBG">
@@ -318,7 +328,9 @@
 <connect gate="G$1" pin="C" pad="C1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMBJ" package="SMBJ">
@@ -327,7 +339,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -336,7 +350,9 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Bourns"/>
+</technology>
 </technologies>
 </device>
 </devices>

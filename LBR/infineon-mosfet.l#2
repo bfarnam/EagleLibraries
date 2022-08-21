@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -172,7 +172,6 @@
 </package>
 <package name="INF-PG-TO252-3-313_M_1PRIMARY">
 <description>Original name &lt;b&gt;INF-PG-TO252-3-313_M&lt;/b&gt;&lt;p&gt;</description>
-<circle x="-4.445" y="3.81" radius="0.3175" width="0.635" layer="21"/>
 <wire x1="-2.05" y1="-3.325" x2="4.17" y2="-3.325" width="0.1" layer="51"/>
 <wire x1="4.17" y1="-3.325" x2="4.17" y2="3.325" width="0.1" layer="51"/>
 <wire x1="-2.05" y1="3.325" x2="4.17" y2="3.325" width="0.1" layer="51"/>
@@ -1429,11 +1428,11 @@ reflow soldering</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 <rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
-<wire x1="-1.524" y1="0.762" x2="-0.6858" y2="0.762" width="0.254" layer="21"/>
-<wire x1="-1.524" y1="-0.1778" x2="-1.524" y2="0.762" width="0.254" layer="21"/>
-<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.1778" width="0.254" layer="21"/>
-<wire x1="0.254" y1="-0.762" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="0.6858" y1="0.762" x2="1.524" y2="0.762" width="0.254" layer="21"/>
+<wire x1="-1.524" y1="0.762" x2="-0.762" y2="0.762" width="0.254" layer="21"/>
+<wire x1="-1.524" y1="-0.1524" x2="-1.524" y2="0.762" width="0.254" layer="21"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.1524" width="0.254" layer="21"/>
+<wire x1="0.2032" y1="-0.762" x2="-0.2032" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="1.524" y2="0.762" width="0.254" layer="21"/>
 </package>
 <package name="SOT-23">
 <description>&lt;b&gt;SOT23&lt;/b&gt;</description>

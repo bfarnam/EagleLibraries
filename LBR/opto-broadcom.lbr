@@ -685,6 +685,7 @@
 <attribute name="MFG" value="Broadcom"/>
 <attribute name="MPN" value="ACPL-M71T-500E"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
+<attribute name="PACKAGE" value="6-SOIC (5-SO)"/>
 <attribute name="PROPEGATION_DELAY" value="35 nS HL / 35 nS LH"/>
 <attribute name="VALUE" value="ACPL-M71T"/>
 <attribute name="VF" value="1.5 V"/>
@@ -699,6 +700,7 @@
 <attribute name="MFG" value="Broadcom"/>
 <attribute name="MPN" value="ACPL-M72T-500E"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
+<attribute name="PACKAGE" value="6-SOIC (5-SO)"/>
 <attribute name="PROPEGATION_DELAY" value="100 nS HL / 100 nS LH"/>
 <attribute name="VALUE" value="ACPL-M72T"/>
 <attribute name="VF" value="1.5 V"/>

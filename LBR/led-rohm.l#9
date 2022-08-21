@@ -1188,7 +1188,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <vertex x="0.381" y="2.413"/>
 </polygon>
 <text x="-5.08" y="-6.35" size="1.778" layer="253">&gt;MPN</text>
-<text x="1.27" y="1.27" size="1.778" layer="97">A</text>
+<text x="1.27" y="1.27" size="1.778" layer="97">K</text>
 <polygon width="0.254" layer="94">
 <vertex x="-2.54" y="1.27"/>
 <vertex x="-2.54" y="-1.27"/>

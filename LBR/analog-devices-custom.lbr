@@ -490,6 +490,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="LTC4359CMS8#PBF"/>
 <attribute name="OPERATING_TEMP" value="0 to +70C"/>
+<attribute name="PACKAGE" value="8-MSOP"/>
 <attribute name="VALUE" value="LTC4359"/>
 </technology>
 <technology name="H">
@@ -498,6 +499,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <attribute name="MOUSER_PN" value="584-LTC4359HMS8#PBF"/>
 <attribute name="MPN" value="LTC4359HMS8#PBF"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="PACKAGE" value="8-MSOP"/>
 <attribute name="VALUE" value="LTC4359"/>
 </technology>
 <technology name="I">
@@ -506,6 +508,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="LTC4359IMS8#PBF"/>
 <attribute name="OPERATING_TEMP" value="-40 to +85C"/>
+<attribute name="PACKAGE" value="8-MSOP"/>
 <attribute name="VALUE" value="LTC4359"/>
 </technology>
 </technologies>

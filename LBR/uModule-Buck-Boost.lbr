@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -3232,6 +3232,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055EY#PBF"/>
 <attribute name="OPERATING_TEMP" value="0 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3239,6 +3240,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055EY-1#PBF"/>
 <attribute name="OPERATING_TEMP" value="0 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3246,6 +3248,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3253,6 +3256,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY#PBF"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3260,6 +3264,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055IY-1#PBF"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3267,6 +3272,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055MPY"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3274,6 +3280,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8055MPY#PBF"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="PACKAGE" value="BGA121"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8055"/>
 </technology>
@@ -3313,6 +3320,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054EY3PBF"/>
 <attribute name="OPERATING_TEMP" value="0 to +125C"/>
+<attribute name="PACKAGE" value="BGA88"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8054"/>
 </technology>
@@ -3320,6 +3328,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054IY"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="PACKAGE" value="BGA88"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8054"/>
 </technology>
@@ -3327,6 +3336,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054IY#PBF"/>
 <attribute name="OPERATING_TEMP" value="-40 to +125C"/>
+<attribute name="PACKAGE" value="BGA88"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8054"/>
 </technology>
@@ -3334,6 +3344,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054MPY"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="PACKAGE" value="BGA88"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8054"/>
 </technology>
@@ -3341,6 +3352,7 @@ L7-8</text>
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTM8054MPY#PBF"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125C"/>
+<attribute name="PACKAGE" value="BGA88"/>
 <attribute name="TEMP_RANGE" value="-55 to +125C"/>
 <attribute name="VALUE" value="LTM8054"/>
 </technology>

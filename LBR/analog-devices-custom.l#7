@@ -489,19 +489,19 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <technology name="C">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTC4359CMS8#PBF"/>
-<attribute name="OP_TEMP" value="0°C to 70°C"/>
+<attribute name="OPERATING_TEMP" value="0 to +70C"/>
 <attribute name="VALUE" value="LTC4359"/>
 </technology>
 <technology name="H">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTC4359HMS8#PBF"/>
-<attribute name="OP_TEMP" value="–40°C to 125°C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125C"/>
 <attribute name="VALUE" value="LTC4359"/>
 </technology>
 <technology name="I">
 <attribute name="MFG" value="Analog Devices"/>
 <attribute name="MPN" value="LTC4359IMS8#PBF"/>
-<attribute name="OP_TEMP" value="–40°C to 85°C"/>
+<attribute name="OPERATING_TEMP" value="-40 to +85C"/>
 <attribute name="VALUE" value="LTC4359"/>
 </technology>
 </technologies>
