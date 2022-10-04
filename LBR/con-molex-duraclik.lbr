@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -251,6 +251,14 @@
 <circle x="8.89" y="3.81" radius="0.3175" width="0.635" layer="51"/>
 <text x="10" y="7" size="1.27" layer="51" font="vector" ratio="16" rot="R180">1</text>
 <text x="10" y="7" size="1.27" layer="21" font="vector" ratio="16" rot="R180">1</text>
+<rectangle x1="0.4" y1="1.6" x2="1.6" y2="2.4" layer="51"/>
+<rectangle x1="-1.6" y1="1.6" x2="-0.4" y2="2.4" layer="51"/>
+<rectangle x1="-3.6" y1="1.6" x2="-2.4" y2="2.4" layer="51"/>
+<rectangle x1="2.4" y1="1.6" x2="3.6" y2="2.4" layer="51"/>
+<rectangle x1="4.4" y1="1.6" x2="5.6" y2="2.4" layer="51"/>
+<rectangle x1="-5.6" y1="1.6" x2="-4.4" y2="2.4" layer="51"/>
+<rectangle x1="-7.6" y1="1.6" x2="-6.4" y2="2.4" layer="51"/>
+<rectangle x1="6.4" y1="1.6" x2="7.6" y2="2.4" layer="51"/>
 </package>
 <package name="560020-09">
 <wire x1="-12.3" y1="4.8" x2="12.3" y2="4.8" width="0.127" layer="21"/>

@@ -118,7 +118,14 @@
 <vertex x="-0.7" y="0"/>
 </polygon>
 <wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.254" layer="21"/>
-<text x="-5.08" y="0" size="1.27" layer="25" font="vector" ratio="16" align="center-left">K</text>
+<text x="-5.08" y="0" size="1.27" layer="21" font="vector" ratio="16" align="center-left">&gt;K</text>
+<polygon width="0.3048" layer="51">
+<vertex x="0.7" y="0.7"/>
+<vertex x="0.7" y="-0.7"/>
+<vertex x="-0.7" y="0"/>
+</polygon>
+<wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.3048" layer="51"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.3048" layer="51"/>
 </package>
 <package name="SMBG">
 <wire x1="2.24" y1="1.85" x2="2.24" y2="-1.85" width="0.1016" layer="21"/>
@@ -1433,7 +1440,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ10CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 10V / 17V"/>
 <attribute name="VBR_MAX" value="12.3 V"/>
 <attribute name="VBR_MIN" value="11.1 V"/>
@@ -1452,7 +1459,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ100CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 100V / 162V"/>
 <attribute name="VBR_MAX" value="123 V"/>
 <attribute name="VBR_MIN" value="111 V"/>
@@ -1471,7 +1478,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ11CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 11V / 18.2V"/>
 <attribute name="VBR_MAX" value="13.5 V"/>
 <attribute name="VBR_MIN" value="12.2 V"/>
@@ -1490,7 +1497,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ110CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 110V / 177V"/>
 <attribute name="VBR_MAX" value="135 V"/>
 <attribute name="VBR_MIN" value="122 V"/>
@@ -1509,7 +1516,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ12CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 12V / 19.9V"/>
 <attribute name="VBR_MAX" value="14.7 V"/>
 <attribute name="VBR_MIN" value="13.3 V"/>
@@ -1528,7 +1535,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ120CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 120V / 193V"/>
 <attribute name="VBR_MAX" value="147 V"/>
 <attribute name="VBR_MIN" value="133 V"/>
@@ -1547,7 +1554,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ13CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 13V / 21.5V"/>
 <attribute name="VBR_MAX" value="15.9 V"/>
 <attribute name="VBR_MIN" value="14.4 V"/>
@@ -1566,7 +1573,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ130CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 130V / 209V"/>
 <attribute name="VBR_MAX" value="159 V"/>
 <attribute name="VBR_MIN" value="144 V"/>
@@ -1585,7 +1592,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ14CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 14V / 23.2V"/>
 <attribute name="VBR_MAX" value="17.2 V"/>
 <attribute name="VBR_MIN" value="15.6 V"/>
@@ -1604,7 +1611,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ15CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 15V / 24.4V"/>
 <attribute name="VBR_MAX" value="18.5 V"/>
 <attribute name="VBR_MIN" value="16.7 V"/>
@@ -1623,7 +1630,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ150CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 150V / 243V"/>
 <attribute name="VBR_MAX" value="185 V"/>
 <attribute name="VBR_MIN" value="167 V"/>
@@ -1642,7 +1649,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ16CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 16V / 26V"/>
 <attribute name="VBR_MAX" value="19.7 V"/>
 <attribute name="VBR_MIN" value="17.8 V"/>
@@ -1661,7 +1668,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ160CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 160V / 259V"/>
 <attribute name="VBR_MAX" value="197 V"/>
 <attribute name="VBR_MIN" value="178 V"/>
@@ -1680,7 +1687,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ17CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 17V / 27.6V"/>
 <attribute name="VBR_MAX" value="20.9 V"/>
 <attribute name="VBR_MIN" value="18.9 V"/>
@@ -1699,7 +1706,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ170CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 170V / 275V"/>
 <attribute name="VBR_MAX" value="209 V"/>
 <attribute name="VBR_MIN" value="189 V"/>
@@ -1718,7 +1725,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ18CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 18V / 29.2V"/>
 <attribute name="VBR_MAX" value="22.1 V"/>
 <attribute name="VBR_MIN" value="20 V"/>
@@ -1737,7 +1744,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ180CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 180V / 292V"/>
 <attribute name="VBR_MAX" value="222 V"/>
 <attribute name="VBR_MIN" value="201 V"/>
@@ -1756,7 +1763,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ20CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 20V / 32.4V"/>
 <attribute name="VBR_MAX" value="24.5 V"/>
 <attribute name="VBR_MIN" value="22.2 V"/>
@@ -1775,7 +1782,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ200CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 200V / 324V"/>
 <attribute name="VBR_MAX" value="247 V"/>
 <attribute name="VBR_MIN" value="224 V"/>
@@ -1794,7 +1801,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ22CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 22V / 35.5V"/>
 <attribute name="VBR_MAX" value="26.9 V"/>
 <attribute name="VBR_MIN" value="24.4 V"/>
@@ -1813,7 +1820,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ220CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 220V / 356V"/>
 <attribute name="VBR_MAX" value="272 V"/>
 <attribute name="VBR_MIN" value="246 V"/>
@@ -1832,7 +1839,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ24CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 24V / 38.9V"/>
 <attribute name="VBR_MAX" value="29.5 V"/>
 <attribute name="VBR_MIN" value="26.7 V"/>
@@ -1851,7 +1858,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ26CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 26V / 42.1V"/>
 <attribute name="VBR_MAX" value="31.9 V"/>
 <attribute name="VBR_MIN" value="28.9 V"/>
@@ -1870,7 +1877,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ28CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 28V / 45.4V"/>
 <attribute name="VBR_MAX" value="34.4 V"/>
 <attribute name="VBR_MIN" value="31.1 V"/>
@@ -1889,7 +1896,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ30CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 30V / 48.4V"/>
 <attribute name="VBR_MAX" value="36.8 V"/>
 <attribute name="VBR_MIN" value="33.3 V"/>
@@ -1908,7 +1915,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ33CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 33V / 53.3V"/>
 <attribute name="VBR_MAX" value="40.6 V"/>
 <attribute name="VBR_MIN" value="36.7 V"/>
@@ -1927,7 +1934,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ36CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 36V / 58.1V"/>
 <attribute name="VBR_MAX" value="44.2 V"/>
 <attribute name="VBR_MIN" value="40 V"/>
@@ -1946,7 +1953,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ40CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 40V / 64.5V"/>
 <attribute name="VBR_MAX" value="49.1 V"/>
 <attribute name="VBR_MIN" value="44.4 V"/>
@@ -1965,7 +1972,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ43CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 43V / 69.4V"/>
 <attribute name="VBR_MAX" value="52.8 V"/>
 <attribute name="VBR_MIN" value="47.8 V"/>
@@ -1984,7 +1991,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ45CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 45V / 72.7V"/>
 <attribute name="VBR_MAX" value="55.3 V"/>
 <attribute name="VBR_MIN" value="50 V"/>
@@ -2003,7 +2010,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ48CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 48V / 77.4V"/>
 <attribute name="VBR_MAX" value="58.9 V"/>
 <attribute name="VBR_MIN" value="53.3 V"/>
@@ -2022,7 +2029,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ5.0CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 5V / 9.2V"/>
 <attribute name="VBR_MAX" value="7 V"/>
 <attribute name="VBR_MIN" value="6.4 V"/>
@@ -2041,7 +2048,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ51CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 51V / 82.4V"/>
 <attribute name="VBR_MAX" value="62.7 V"/>
 <attribute name="VBR_MIN" value="56.7 V"/>
@@ -2060,7 +2067,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ54CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 54V / 87.1V"/>
 <attribute name="VBR_MAX" value="66.3 V"/>
 <attribute name="VBR_MIN" value="60 V"/>
@@ -2079,7 +2086,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ58CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 58V / 93.6V"/>
 <attribute name="VBR_MAX" value="71.2 V"/>
 <attribute name="VBR_MIN" value="64.4 V"/>
@@ -2098,7 +2105,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.0CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6V / 10.3V"/>
 <attribute name="VBR_MAX" value="7.37 V"/>
 <attribute name="VBR_MIN" value="6.67 V"/>
@@ -2117,7 +2124,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ6.5CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 6.5V / 11.2V"/>
 <attribute name="VBR_MAX" value="7.98 V"/>
 <attribute name="VBR_MIN" value="7.22 V"/>
@@ -2136,7 +2143,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ60CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 60V / 96.8V"/>
 <attribute name="VBR_MAX" value="73.7 V"/>
 <attribute name="VBR_MIN" value="66.7 V"/>
@@ -2155,7 +2162,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ64CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 64V / 103V"/>
 <attribute name="VBR_MAX" value="78.6 V"/>
 <attribute name="VBR_MIN" value="71.1 V"/>
@@ -2174,7 +2181,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.0CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7V / 12V"/>
 <attribute name="VBR_MAX" value="8.6 V"/>
 <attribute name="VBR_MIN" value="7.78 V"/>
@@ -2193,7 +2200,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ7.5CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 7.5V / 12.9V"/>
 <attribute name="VBR_MAX" value="9.21 V"/>
 <attribute name="VBR_MIN" value="8.33 V"/>
@@ -2212,7 +2219,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ70CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 70V / 113V"/>
 <attribute name="VBR_MAX" value="86 V"/>
 <attribute name="VBR_MIN" value="77.8 V"/>
@@ -2231,7 +2238,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ75CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 75V / 121V"/>
 <attribute name="VBR_MAX" value="92.1 V"/>
 <attribute name="VBR_MIN" value="83.3 V"/>
@@ -2250,7 +2257,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ78CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 78V / 126V"/>
 <attribute name="VBR_MAX" value="95.8 V"/>
 <attribute name="VBR_MIN" value="86.7 V"/>
@@ -2269,7 +2276,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.0CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8V / 13.6V"/>
 <attribute name="VBR_MAX" value="9.83 V"/>
 <attribute name="VBR_MIN" value="8.89 V"/>
@@ -2288,7 +2295,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ8.5CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 8.5V / 14.4V"/>
 <attribute name="VBR_MAX" value="10.4 V"/>
 <attribute name="VBR_MIN" value="9.44 V"/>
@@ -2307,7 +2314,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ85CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 85V / 137V"/>
 <attribute name="VBR_MAX" value="104 V"/>
 <attribute name="VBR_MIN" value="94.4 V"/>
@@ -2326,7 +2333,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ9.0CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 9V / 15.4V"/>
 <attribute name="VBR_MAX" value="11.1 V"/>
 <attribute name="VBR_MIN" value="10 V"/>
@@ -2345,7 +2352,7 @@
 <attribute name="MFG" value="Bourns"/>
 <attribute name="MPN" value="SMBJ90CA-Q"/>
 <attribute name="OPERATING_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="DO-214AA (SMB)"/>
+<attribute name="SIZE" value="DO-214AA (SMB)"/>
 <attribute name="VALUE" value="TVS 90V / 146V"/>
 <attribute name="VBR_MAX" value="111 V"/>
 <attribute name="VBR_MIN" value="100 V"/>

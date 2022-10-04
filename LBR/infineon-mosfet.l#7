@@ -192,6 +192,12 @@
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" ratio="13">&gt;VALUE</text>
 <circle x="-4.445" y="3.81" radius="0.3175" width="0.635" layer="51"/>
+<wire x1="0.49" y1="3.325" x2="1.63" y2="3.325" width="0.254" layer="21"/>
+<wire x1="0.49" y1="-3.325" x2="1.63" y2="-3.325" width="0.254" layer="21"/>
+<wire x1="3.03" y1="3.325" x2="4.17" y2="3.325" width="0.254" layer="21"/>
+<wire x1="3.03" y1="-3.325" x2="4.17" y2="-3.325" width="0.254" layer="21"/>
+<wire x1="4.17" y1="-3.071" x2="4.17" y2="-3.325" width="0.254" layer="21"/>
+<wire x1="4.17" y1="3.071" x2="4.17" y2="3.325" width="0.254" layer="21"/>
 </package>
 <package name="INF-SC74_L_1PRIMARY">
 <description>Original name &lt;b&gt;INF-SC74_L&lt;/b&gt;&lt;p&gt;</description>

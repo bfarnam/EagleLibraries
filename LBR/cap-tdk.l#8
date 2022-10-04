@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -70,6 +70,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
@@ -432,6 +433,14 @@ Source: AVX .. aphvc.pdf</description>
 <text x="0" y="0" size="1.27" layer="27" ratio="17">&gt;VALUE</text>
 <rectangle x1="-4.57" y1="-5.1" x2="-3.05" y2="5.1" layer="51"/>
 <rectangle x1="3.05" y1="-5.1" x2="4.5688" y2="5.1" layer="51"/>
+<wire x1="-6.35" y1="6.223" x2="6.35" y2="6.223" width="0.127" layer="39"/>
+<wire x1="6.35" y1="6.223" x2="6.35" y2="-6.223" width="0.127" layer="39"/>
+<wire x1="6.35" y1="-6.223" x2="-6.35" y2="-6.223" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="-6.223" x2="-6.35" y2="6.223" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="6.0325" x2="6.35" y2="6.0325" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="6.0325" x2="6.35" y2="-6.0325" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-6.0325" x2="-6.35" y2="-6.0325" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-6.0325" x2="-6.35" y2="6.0325" width="0.1524" layer="21"/>
 </package>
 <package name="C3025">
 <description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
@@ -457,55 +466,55 @@ chip</description>
 <package name="CAP_CKG57KX7R1E476M335JJ_TDK">
 <smd name="1" x="-2.1209" y="0" dx="5.5118" dy="2.5654" layer="1" rot="R90"/>
 <smd name="2" x="2.1209" y="0" dx="5.5118" dy="2.5654" layer="1" rot="R90"/>
-<wire x1="3.6576" y1="2.7432" x2="4.9276" y2="2.7432" width="0.1524" layer="49"/>
-<wire x1="3.6576" y1="-2.7432" x2="4.9276" y2="-2.7432" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="2.7432" x2="4.9276" y2="-2.7432" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="2.7432" x2="4.8006" y2="2.4892" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="2.7432" x2="5.0546" y2="2.4892" width="0.1524" layer="49"/>
-<wire x1="4.8006" y1="2.4892" x2="5.0546" y2="2.4892" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="-2.7432" x2="4.8006" y2="-2.4892" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="-2.7432" x2="5.0546" y2="-2.4892" width="0.1524" layer="49"/>
-<wire x1="4.8006" y1="-2.4892" x2="5.0546" y2="-2.4892" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="2.7432" x2="7.4676" y2="2.7432" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="2.7432" x2="7.8486" y2="2.7432" width="0.1524" layer="49"/>
-<wire x1="4.9276" y1="-2.7432" x2="7.4676" y2="-2.7432" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="-2.7432" x2="7.8486" y2="-2.7432" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="2.7432" x2="7.4676" y2="-2.7432" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="2.7432" x2="7.3406" y2="2.4892" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="2.7432" x2="7.5946" y2="2.4892" width="0.1524" layer="49"/>
-<wire x1="7.3406" y1="2.4892" x2="7.5946" y2="2.4892" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="-2.7432" x2="7.3406" y2="-2.4892" width="0.1524" layer="49"/>
-<wire x1="7.4676" y1="-2.7432" x2="7.5946" y2="-2.4892" width="0.1524" layer="49"/>
-<wire x1="7.3406" y1="-2.4892" x2="7.5946" y2="-2.4892" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-6.5532" x2="-3.2512" y2="-6.9596" width="0.1524" layer="49"/>
-<wire x1="3.2512" y1="0" x2="3.2512" y2="-6.5532" width="0.1524" layer="49"/>
-<wire x1="3.2512" y1="-6.5532" x2="3.2512" y2="-6.9596" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-6.5532" x2="3.2512" y2="-6.5532" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-6.5532" x2="-2.9972" y2="-6.4516" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-6.5532" x2="-2.9972" y2="-6.7056" width="0.1524" layer="49"/>
-<wire x1="-2.9972" y1="-6.4516" x2="-2.9972" y2="-6.7056" width="0.1524" layer="49"/>
-<wire x1="3.2512" y1="-6.5532" x2="2.9972" y2="-6.4516" width="0.1524" layer="49"/>
-<wire x1="3.2512" y1="-6.5532" x2="2.9972" y2="-6.7056" width="0.1524" layer="49"/>
-<wire x1="2.9972" y1="-6.4516" x2="2.9972" y2="-6.7056" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="0" x2="-3.2512" y2="-4.0132" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-4.0132" x2="-3.2512" y2="-6.5532" width="0.1524" layer="49"/>
-<wire x1="-1.3462" y1="0" x2="-1.3462" y2="-4.0132" width="0.1524" layer="49"/>
-<wire x1="-1.3462" y1="-4.0132" x2="-1.3462" y2="-4.4196" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-4.0132" x2="-4.5212" y2="-4.0132" width="0.1524" layer="49"/>
-<wire x1="-1.3462" y1="-4.0132" x2="-0.0762" y2="-4.0132" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-4.0132" x2="-3.5052" y2="-3.9116" width="0.1524" layer="49"/>
-<wire x1="-3.2512" y1="-4.0132" x2="-3.5052" y2="-4.1656" width="0.1524" layer="49"/>
-<wire x1="-3.5052" y1="-3.9116" x2="-3.5052" y2="-4.1656" width="0.1524" layer="49"/>
-<wire x1="-1.3462" y1="-4.0132" x2="-1.0922" y2="-3.9116" width="0.1524" layer="49"/>
-<wire x1="-1.3462" y1="-4.0132" x2="-1.0922" y2="-4.1656" width="0.1524" layer="49"/>
-<wire x1="-1.0922" y1="-3.9116" x2="-1.0922" y2="-4.1656" width="0.1524" layer="49"/>
-<text x="-16.3576" y="-9.7536" size="1.27" layer="49" ratio="6" rot="SR0">Default Padstyle: RX101Y217D0T</text>
-<text x="-14.8082" y="-11.6332" size="1.27" layer="49" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-13.5636" size="1.27" layer="49" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="5.4356" y="-0.3048" size="0.635" layer="49" ratio="4" rot="SR0">0.217in/5.512mm</text>
-<text x="7.9756" y="-0.3048" size="0.635" layer="49" ratio="4" rot="SR0">0.217in/5.512mm</text>
-<text x="-4.0386" y="-7.7216" size="0.635" layer="49" ratio="4" rot="SR0">0.256in/6.502mm</text>
-<text x="-6.35" y="-5.1816" size="0.635" layer="49" ratio="4" rot="SR0">0.075in/1.905mm</text>
+<wire x1="3.6576" y1="2.7432" x2="4.9276" y2="2.7432" width="0.1524" layer="150"/>
+<wire x1="3.6576" y1="-2.7432" x2="4.9276" y2="-2.7432" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="2.7432" x2="4.9276" y2="-2.7432" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="2.7432" x2="4.8006" y2="2.4892" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="2.7432" x2="5.0546" y2="2.4892" width="0.1524" layer="150"/>
+<wire x1="4.8006" y1="2.4892" x2="5.0546" y2="2.4892" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="-2.7432" x2="4.8006" y2="-2.4892" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="-2.7432" x2="5.0546" y2="-2.4892" width="0.1524" layer="150"/>
+<wire x1="4.8006" y1="-2.4892" x2="5.0546" y2="-2.4892" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="2.7432" x2="7.4676" y2="2.7432" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="2.7432" x2="7.8486" y2="2.7432" width="0.1524" layer="150"/>
+<wire x1="4.9276" y1="-2.7432" x2="7.4676" y2="-2.7432" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="-2.7432" x2="7.8486" y2="-2.7432" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="2.7432" x2="7.4676" y2="-2.7432" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="2.7432" x2="7.3406" y2="2.4892" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="2.7432" x2="7.5946" y2="2.4892" width="0.1524" layer="150"/>
+<wire x1="7.3406" y1="2.4892" x2="7.5946" y2="2.4892" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="-2.7432" x2="7.3406" y2="-2.4892" width="0.1524" layer="150"/>
+<wire x1="7.4676" y1="-2.7432" x2="7.5946" y2="-2.4892" width="0.1524" layer="150"/>
+<wire x1="7.3406" y1="-2.4892" x2="7.5946" y2="-2.4892" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-6.5532" x2="-3.2512" y2="-6.9596" width="0.1524" layer="150"/>
+<wire x1="3.2512" y1="0" x2="3.2512" y2="-6.5532" width="0.1524" layer="150"/>
+<wire x1="3.2512" y1="-6.5532" x2="3.2512" y2="-6.9596" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-6.5532" x2="3.2512" y2="-6.5532" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-6.5532" x2="-2.9972" y2="-6.4516" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-6.5532" x2="-2.9972" y2="-6.7056" width="0.1524" layer="150"/>
+<wire x1="-2.9972" y1="-6.4516" x2="-2.9972" y2="-6.7056" width="0.1524" layer="150"/>
+<wire x1="3.2512" y1="-6.5532" x2="2.9972" y2="-6.4516" width="0.1524" layer="150"/>
+<wire x1="3.2512" y1="-6.5532" x2="2.9972" y2="-6.7056" width="0.1524" layer="150"/>
+<wire x1="2.9972" y1="-6.4516" x2="2.9972" y2="-6.7056" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="0" x2="-3.2512" y2="-4.0132" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-4.0132" x2="-3.2512" y2="-6.5532" width="0.1524" layer="150"/>
+<wire x1="-1.3462" y1="0" x2="-1.3462" y2="-4.0132" width="0.1524" layer="150"/>
+<wire x1="-1.3462" y1="-4.0132" x2="-1.3462" y2="-4.4196" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-4.0132" x2="-4.5212" y2="-4.0132" width="0.1524" layer="150"/>
+<wire x1="-1.3462" y1="-4.0132" x2="-0.0762" y2="-4.0132" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-4.0132" x2="-3.5052" y2="-3.9116" width="0.1524" layer="150"/>
+<wire x1="-3.2512" y1="-4.0132" x2="-3.5052" y2="-4.1656" width="0.1524" layer="150"/>
+<wire x1="-3.5052" y1="-3.9116" x2="-3.5052" y2="-4.1656" width="0.1524" layer="150"/>
+<wire x1="-1.3462" y1="-4.0132" x2="-1.0922" y2="-3.9116" width="0.1524" layer="150"/>
+<wire x1="-1.3462" y1="-4.0132" x2="-1.0922" y2="-4.1656" width="0.1524" layer="150"/>
+<wire x1="-1.0922" y1="-3.9116" x2="-1.0922" y2="-4.1656" width="0.1524" layer="150"/>
+<text x="-16.3576" y="-9.7536" size="1.27" layer="150" ratio="6" rot="SR0">Default Padstyle: RX101Y217D0T</text>
+<text x="-14.8082" y="-11.6332" size="1.27" layer="150" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
+<text x="-14.8082" y="-13.5636" size="1.27" layer="150" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
+<text x="5.4356" y="-0.3048" size="0.635" layer="150" ratio="4" rot="SR0">0.217in/5.512mm</text>
+<text x="7.9756" y="-0.3048" size="0.635" layer="150" ratio="4" rot="SR0">0.217in/5.512mm</text>
+<text x="-4.0386" y="-7.7216" size="0.635" layer="150" ratio="4" rot="SR0">0.256in/6.502mm</text>
+<text x="-6.35" y="-5.1816" size="0.635" layer="150" ratio="4" rot="SR0">0.075in/1.905mm</text>
 <wire x1="-0.5334" y1="-2.8956" x2="0.5334" y2="-2.8956" width="0.1524" layer="21"/>
 <wire x1="0.5334" y1="2.8956" x2="-0.5334" y2="2.8956" width="0.1524" layer="21"/>
 <wire x1="-4.445" y1="0" x2="-4.5974" y2="0" width="0.1524" layer="21" curve="-180"/>

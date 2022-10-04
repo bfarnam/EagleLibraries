@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -604,14 +604,14 @@
 <smd name="A" x="2.2" y="0" dx="2" dy="1.4" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.85" y1="-1.25" x2="-1.85" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="1.25" x2="1.85" y2="1.25" width="0.1" layer="51"/>
-<wire x1="1.85" y1="1.25" x2="1.85" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="1.85" y1="-1.25" x2="-1.85" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-3.9" y1="-2.25" x2="-3.9" y2="2.25" width="0.1" layer="51"/>
-<wire x1="-3.9" y1="2.25" x2="3.9" y2="2.25" width="0.1" layer="51"/>
-<wire x1="3.9" y1="2.25" x2="3.9" y2="-2.25" width="0.1" layer="51"/>
-<wire x1="3.9" y1="-2.25" x2="-3.9" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="-1.25" x2="-1.85" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-1.85" y1="1.25" x2="1.85" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.85" y1="1.25" x2="1.85" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.85" y1="-1.25" x2="-1.85" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-3.9" y1="-2.25" x2="-3.9" y2="2.25" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-3.9" y1="2.25" x2="3.9" y2="2.25" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.9" y1="2.25" x2="3.9" y2="-2.25" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.9" y1="-2.25" x2="-3.9" y2="-2.25" width="0.127" layer="51" style="shortdash"/>
 <wire x1="-1.2" y1="1.27" x2="1.2" y2="1.27" width="0.254" layer="21"/>
 <wire x1="-1.2" y1="-1.27" x2="1.2" y2="-1.27" width="0.254" layer="21"/>
 <wire x1="-1.29" y1="-1.2" x2="-1.29" y2="1.2" width="0.2" layer="21"/>
@@ -1471,7 +1471,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
 <rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
 <rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
-<text x="0" y="1.905" size="1.016" layer="25" font="vector" ratio="16" align="bottom-center">K</text>
+<text x="0" y="1.905" size="1.016" layer="21" font="vector" ratio="16" align="bottom-center">K</text>
 </package>
 <package name="DFN1006-2A">
 <wire x1="-0.5" y1="0.35" x2="-0.5" y2="-0.35" width="0.127" layer="21"/>
@@ -2223,19 +2223,25 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS521BF"/>
 <attribute name="PACKAGE" value="SOD-523"/>
-<attribute name="VALUE" value="BAS521"/>
+<attribute name="VALUE" value="BAS521-1"/>
 </technology>
 <technology name="BX">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS521BX"/>
 <attribute name="PACKAGE" value="SOD-523"/>
-<attribute name="VALUE" value="BAS521"/>
+<attribute name="VALUE" value="BAS521-2"/>
+</technology>
+<technology name="HF">
+<attribute name="MFG" value="Comchip"/>
+<attribute name="MPN" value="BAS521-HF"/>
+<attribute name="PACKAGE" value="SOD-523"/>
+<attribute name="VALUE" value="BAS521-3"/>
 </technology>
 <technology name="Q">
 <attribute name="MFG" value="Diodes, Inc."/>
 <attribute name="MPN" value="BAS521Q-13 "/>
 <attribute name="PACKAGE" value="SOD-523"/>
-<attribute name="VALUE" value="BAS521"/>
+<attribute name="VALUE" value="BAS521-4"/>
 </technology>
 </technologies>
 </device>
@@ -2325,6 +2331,7 @@ Source: &lt;a href="http://www.smc-diodes.com/propdf/SBRD10200 N1314 REV.A.pdf"&
 <technology name="W,115">
 <attribute name="MFG" value="Nexperia"/>
 <attribute name="MPN" value="BAS21W,115"/>
+<attribute name="PACKAGE" value="SOT323"/>
 <attribute name="VALUE" value="BAS21"/>
 </technology>
 </technologies>

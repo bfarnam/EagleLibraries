@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -135,7 +135,7 @@
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
-<text x="-2.54" y="0" size="1.016" layer="21" font="vector" ratio="16" align="center-left">K</text>
+<text x="-2.54" y="0" size="1.016" layer="21" font="vector" ratio="20" align="center-left">&gt;K</text>
 <wire x1="-0.535" y1="0.4" x2="-0.535" y2="-0.4" width="0.1524" layer="21"/>
 <polygon width="0.1524" layer="21">
 <vertex x="0.1" y="0.4"/>

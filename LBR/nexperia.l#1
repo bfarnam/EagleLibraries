@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -431,7 +431,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A10"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="10.0 V"/>
@@ -446,7 +446,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A11"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="11.0 V"/>
@@ -461,7 +461,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A12"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="12.0 V"/>
@@ -476,7 +476,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A13"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="13.0 V"/>
@@ -491,7 +491,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A15"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="15.0 V"/>
@@ -506,7 +506,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A16"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="16.0 V"/>
@@ -521,7 +521,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A18"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="18.0 V"/>
@@ -536,7 +536,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A20"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="20.0 V"/>
@@ -551,7 +551,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A22"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="22.0 V"/>
@@ -566,7 +566,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A24"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="24.0 V"/>
@@ -581,7 +581,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A27"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="27.0 V"/>
@@ -596,7 +596,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A2V4"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="2.4 V"/>
@@ -611,7 +611,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A2V7"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="2.7 V"/>
@@ -626,7 +626,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A30"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="30.0 V"/>
@@ -641,7 +641,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A33"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="33.0 V"/>
@@ -656,7 +656,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A36"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="36.0 V"/>
@@ -671,7 +671,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A39"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="39.0 V"/>
@@ -686,7 +686,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A3V0"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="3.0 V"/>
@@ -701,7 +701,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A3V3,215"/>
 <attribute name="NEWARK_PN" value="01AC1561"/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="3.3 V"/>
@@ -716,7 +716,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A3V6"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="3.6 V"/>
@@ -731,7 +731,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A3V9"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="3.9 V"/>
@@ -746,7 +746,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A43"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="43.0 V"/>
@@ -761,7 +761,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A4V3"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="4.3 V"/>
@@ -776,7 +776,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A4V7"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="4.7 V"/>
@@ -791,7 +791,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A51"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="51.0 V"/>
@@ -806,7 +806,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A5V1"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="5.1 V"/>
@@ -821,7 +821,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A5V6"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="5.6 V"/>
@@ -836,7 +836,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A6V2"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="6.2 V"/>
@@ -851,7 +851,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A6V8"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="6.8 V"/>
@@ -866,7 +866,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A75"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="75.0 V"/>
@@ -881,7 +881,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A7V5"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="7.5 V"/>
@@ -896,7 +896,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A8V2"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="8.2 V"/>
@@ -911,7 +911,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-A9V1"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value="1 %"/>
 <attribute name="VALUE" value="9.1 V"/>
@@ -926,7 +926,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B10"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="10.0 V"/>
@@ -941,7 +941,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B11"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="11.0 V"/>
@@ -956,7 +956,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B12"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="12.0 V"/>
@@ -971,7 +971,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B13"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="13.0 V"/>
@@ -986,7 +986,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B15"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="15.0 V"/>
@@ -1001,7 +1001,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B16"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="16.0 V"/>
@@ -1016,7 +1016,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B18"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="18.0 V"/>
@@ -1031,7 +1031,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B20"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="20.0 V"/>
@@ -1046,7 +1046,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B22"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="22.0 V"/>
@@ -1061,7 +1061,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B24"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="24.0 V"/>
@@ -1076,7 +1076,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B27"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="27.0 V"/>
@@ -1091,7 +1091,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B2V4"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="2.4 V"/>
@@ -1106,7 +1106,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B2V7"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="2.7 V"/>
@@ -1121,7 +1121,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B30"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="30.0 V"/>
@@ -1136,7 +1136,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B33"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="33.0 V"/>
@@ -1151,7 +1151,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B36"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="36.0 V"/>
@@ -1166,7 +1166,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B39"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="39.0 V"/>
@@ -1181,7 +1181,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B3V0"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="3.0 V"/>
@@ -1196,7 +1196,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B3V3,215"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="3.3 V"/>
@@ -1211,7 +1211,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B3V6"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="3.6 V"/>
@@ -1226,7 +1226,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B3V9"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="3.9 V"/>
@@ -1241,7 +1241,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B43"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="43.0 V"/>
@@ -1256,7 +1256,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B47"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="47.0 V"/>
@@ -1271,7 +1271,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B4V3"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="4.3 V"/>
@@ -1286,7 +1286,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B4V7"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="4.7 V"/>
@@ -1301,7 +1301,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B51"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="51.0 V"/>
@@ -1316,7 +1316,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B56"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="56.0 V"/>
@@ -1331,7 +1331,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B5V1"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="5.1 V"/>
@@ -1346,7 +1346,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B5V6"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="5.6 V"/>
@@ -1361,7 +1361,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B62"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="62.0 V"/>
@@ -1376,7 +1376,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B68"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="68.0 V"/>
@@ -1391,7 +1391,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B6V2"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="6.2 V"/>
@@ -1406,7 +1406,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B6V8"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="6.8 V"/>
@@ -1421,7 +1421,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B75"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="75.0 V"/>
@@ -1436,7 +1436,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B7V5"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="7.5 V"/>
@@ -1451,7 +1451,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B8V2"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="8.2 V"/>
@@ -1466,7 +1466,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-B9V1"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 2 %"/>
 <attribute name="VALUE" value="9.1 V"/>
@@ -1481,7 +1481,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C10"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="10.0 V"/>
@@ -1496,7 +1496,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C11"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="11.0 V"/>
@@ -1511,7 +1511,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C12"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="12.0 V"/>
@@ -1526,7 +1526,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C13"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="13.0 V"/>
@@ -1541,7 +1541,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C15"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="15.0 V"/>
@@ -1556,7 +1556,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C16"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="16.0 V"/>
@@ -1571,7 +1571,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C18"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="18.0 V"/>
@@ -1586,7 +1586,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C20"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="20.0 V"/>
@@ -1601,7 +1601,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C22"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="22.0 V"/>
@@ -1616,7 +1616,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C24"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="24.0 V"/>
@@ -1631,7 +1631,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C27"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="27.0 V"/>
@@ -1646,7 +1646,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C2V4"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="2.4 V"/>
@@ -1661,7 +1661,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C2V7"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="2.7 V"/>
@@ -1676,7 +1676,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C30"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="30.0 V"/>
@@ -1691,7 +1691,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C33"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="33.0 V"/>
@@ -1706,7 +1706,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C36"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="36.0 V"/>
@@ -1721,7 +1721,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C39"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="39.0 V"/>
@@ -1736,7 +1736,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C3V0"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="3.0 V"/>
@@ -1751,7 +1751,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C3V3,235"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="3.3 V"/>
@@ -1766,7 +1766,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C3V6"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="3.6 V"/>
@@ -1781,7 +1781,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C3V9"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="3.9 V"/>
@@ -1796,7 +1796,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C43"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="43.0 V"/>
@@ -1811,7 +1811,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C47"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="47.0 V"/>
@@ -1826,7 +1826,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C4V3"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="4.3 V"/>
@@ -1841,7 +1841,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C4V7"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="4.7 V"/>
@@ -1856,7 +1856,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C51"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="51.0 V"/>
@@ -1871,7 +1871,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C56"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="56.0 V"/>
@@ -1886,7 +1886,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C5V1"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="5.1 V"/>
@@ -1901,7 +1901,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C5V6"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="5.6 V"/>
@@ -1916,7 +1916,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C62"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="62.0 V"/>
@@ -1931,7 +1931,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C68"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="68.0 V"/>
@@ -1946,7 +1946,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C6V2"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="6.2 V"/>
@@ -1961,7 +1961,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C6V8"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="6.8 V"/>
@@ -1976,7 +1976,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C75"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="75.0 V"/>
@@ -1991,7 +1991,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C7V5"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="7.5 V"/>
@@ -2006,7 +2006,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C8V2"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="8.2 V"/>
@@ -2021,7 +2021,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="MPN" value="BZX84-C9V1"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="OP_TEMP" value="-55 to +150 C"/>
-<attribute name="PACKAGE" value="SOT323"/>
+<attribute name="PACKAGE" value="SOT23 / TO236"/>
 <attribute name="P_MAX" value="250mW"/>
 <attribute name="TOLERANCE" value=" 5 %"/>
 <attribute name="VALUE" value="9.1 V"/>

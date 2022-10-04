@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -517,10 +517,8 @@ Source: MAX3223-MAX3243.pdf</description>
 <package name="TSSOP16">
 <description>&lt;b&gt;TSSOP16: plastic thin shrink small outline package; 16 leads; body width 4.4 mm&lt;/b&gt; SOT403-1 / PW0016A &lt;p&gt;
 Source: PCA9534_3.pdf</description>
-<wire x1="-2.2" y1="2.5" x2="-2.2" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="2.2" y1="-2.5" x2="2.2" y2="2.5" width="0.1524" layer="21"/>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1524" layer="21"/>
 <wire x1="-1.9542" y1="2.211" x2="-1.9542" y2="-2.211" width="0.127" layer="21"/>
 <wire x1="1.9542" y1="-2.211" x2="-1.9542" y2="-2.211" width="0.127" layer="21"/>
 <wire x1="1.9542" y1="-2.211" x2="1.9542" y2="2.211" width="0.127" layer="21"/>
@@ -577,6 +575,20 @@ Source: PCA9534_3.pdf</description>
 <rectangle x1="-3.625" y1="0.775" x2="-2.175" y2="1.175" layer="31"/>
 <rectangle x1="-3.625" y1="1.425" x2="-2.175" y2="1.825" layer="31"/>
 <rectangle x1="-3.625" y1="2.075" x2="-2.175" y2="2.475" layer="31"/>
+<wire x1="-2.2" y1="0.74" x2="-2.2" y2="0.56" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="-2.2" y1="1.39" x2="-2.2" y2="1.21" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="-2.2" y1="2.04" x2="-2.2" y2="1.86" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="-2.2" y1="0.09" x2="-2.2" y2="-0.09" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="-2.2" y1="-0.56" x2="-2.2" y2="-0.74" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="-2.2" y1="-1.21" x2="-2.2" y2="-1.39" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="-2.2" y1="-1.86" x2="-2.2" y2="-2.04" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="-1.86" x2="2.2" y2="-2.04" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="-1.21" x2="2.2" y2="-1.39" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="-0.56" x2="2.2" y2="-0.74" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="0.09" x2="2.2" y2="-0.09" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="0.74" x2="2.2" y2="0.56" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="1.39" x2="2.2" y2="1.21" width="0.1524" layer="21" curve="1" cap="flat"/>
+<wire x1="2.2" y1="2.04" x2="2.2" y2="1.86" width="0.1524" layer="21" curve="1" cap="flat"/>
 </package>
 <package name="HVQFN16(SOT629-1)">
 <description>&lt;b&gt;HVQFN16: plastic thermal enhanced very thin quad flat package; no leads; 16 terminals; body 4 x 4 x 0.85 mm&lt;/b&gt; SOT629-1&lt;p&gt;

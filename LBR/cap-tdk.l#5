@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -70,7 +70,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
@@ -517,40 +517,28 @@ chip</description>
 <text x="-6.35" y="-5.1816" size="0.635" layer="150" ratio="4" rot="SR0">0.075in/1.905mm</text>
 <wire x1="-0.5334" y1="-2.8956" x2="0.5334" y2="-2.8956" width="0.1524" layer="21"/>
 <wire x1="0.5334" y1="2.8956" x2="-0.5334" y2="2.8956" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0" x2="-4.5974" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.5974" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.016" layer="27" font="vector" ratio="17" rot="SR0">&gt;Value</text>
+<wire x1="-3.175" y1="0" x2="-3.3274" y2="0" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-3.3274" y1="0" x2="-3.175" y2="0" width="0.1524" layer="51" curve="-180"/>
+<text x="0" y="0" size="1.27" layer="27" ratio="17" rot="SR0">&gt;Value</text>
 <wire x1="-3.2512" y1="-2.7432" x2="3.2512" y2="-2.7432" width="0.1524" layer="51"/>
 <wire x1="3.2512" y1="-2.7432" x2="3.2512" y2="2.7432" width="0.1524" layer="51"/>
 <wire x1="3.2512" y1="2.7432" x2="-3.2512" y2="2.7432" width="0.1524" layer="51"/>
 <wire x1="-3.2512" y1="2.7432" x2="-3.2512" y2="-2.7432" width="0.1524" layer="51"/>
-<wire x1="-2.921" y1="0" x2="-3.0734" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-3.0734" y1="0" x2="-2.921" y2="0" width="0" layer="51" curve="-180"/>
 <polygon width="0.1524" layer="41">
-<vertex x="-0.7874" y="2.8067"/>
-<vertex x="0.7874" y="2.8067"/>
-<vertex x="0.7874" y="-2.8067"/>
-<vertex x="-0.7874" y="-2.8067"/>
+<vertex x="-0.635" y="2.54"/>
+<vertex x="0.635" y="2.54"/>
+<vertex x="0.635" y="-2.54"/>
+<vertex x="-0.635" y="-2.54"/>
 </polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.7874" y="2.8067"/>
-<vertex x="0.7874" y="2.8067"/>
-<vertex x="0.7874" y="-2.8067"/>
-<vertex x="-0.7874" y="-2.8067"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.2004" y="2.7051"/>
-<vertex x="3.2004" y="2.7051"/>
-<vertex x="3.2004" y="2.8067"/>
-<vertex x="-3.2004" y="2.8067"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.2004" y="-2.8067"/>
-<vertex x="3.2004" y="-2.8067"/>
-<vertex x="3.2004" y="-2.7051"/>
-<vertex x="-3.2004" y="-2.7051"/>
-</polygon>
-<text x="-4.5466" y="0.635" size="1.016" layer="25" font="vector" ratio="17" rot="SR0">&gt;Name</text>
+<text x="0" y="0" size="1.27" layer="25" ratio="17" rot="SR0">&gt;Name</text>
+<wire x1="3.81" y1="3.175" x2="-3.81" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="3.175" x2="-3.81" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-4.445" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.254" layer="51"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.254" layer="51"/>
 </package>
 <package name="CAP_CKG57KX7R1E476M335JJ_TDK-M">
 <smd name="1" x="-2.032" y="0" dx="5.5118" dy="2.9464" layer="1" rot="R90"/>

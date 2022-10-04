@@ -839,25 +839,25 @@
 <technologies>
 <technology name="20">
 <attribute name="COLOR" value="Natural"/>
-<attribute name="DIGIKEY_PN" value=""/>
+<attribute name="DIGIKEY_PN" value="WM10868DKR-ND"/>
 <attribute name="MFG" value="Molex"/>
-<attribute name="MOUSER_PN" value=""/>
+<attribute name="MOUSER_PN" value="538-560020-0820"/>
 <attribute name="MPN" value="560020-0820"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="PLATING" value="Sn"/>
 <attribute name="SERIES" value="DuraClick"/>
-<attribute name="VALUE" value="DuraClik"/>
+<attribute name="VALUE" value="DuraClik 8pos"/>
 </technology>
 <technology name="21">
 <attribute name="COLOR" value="Black"/>
-<attribute name="DIGIKEY_PN" value=""/>
+<attribute name="DIGIKEY_PN" value="900-5600200821DKR-ND"/>
 <attribute name="MFG" value="Molex"/>
 <attribute name="MOUSER_PN" value=""/>
 <attribute name="MPN" value="560020-0821"/>
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="PLATING" value="Sn"/>
 <attribute name="SERIES" value="DuraClick"/>
-<attribute name="VALUE" value="DuraClik"/>
+<attribute name="VALUE" value="DuraClik 8pos"/>
 </technology>
 <technology name="22">
 <attribute name="COLOR" value="Red"/>
@@ -868,7 +868,7 @@
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="PLATING" value="Sn"/>
 <attribute name="SERIES" value="DuraClick"/>
-<attribute name="VALUE" value="DuraClik"/>
+<attribute name="VALUE" value="DuraClik 8pos"/>
 </technology>
 <technology name="23">
 <attribute name="COLOR" value="Blue"/>
@@ -879,7 +879,7 @@
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="PLATING" value="Sn"/>
 <attribute name="SERIES" value="DuraClick"/>
-<attribute name="VALUE" value="DuraClik"/>
+<attribute name="VALUE" value="DuraClik 8pos"/>
 </technology>
 <technology name="30">
 <attribute name="COLOR" value="Natural"/>
@@ -890,7 +890,7 @@
 <attribute name="NEWARK_PN" value=""/>
 <attribute name="PLATING" value="Au"/>
 <attribute name="SERIES" value="DuraClick"/>
-<attribute name="VALUE" value="DuraClik"/>
+<attribute name="VALUE" value="DuraClik 8pos"/>
 </technology>
 </technologies>
 </device>

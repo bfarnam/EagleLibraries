@@ -685,10 +685,26 @@
 <attribute name="MFG" value="Broadcom"/>
 <attribute name="MPN" value="ACPL-M71T-500E"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
+<attribute name="PACKAGE" value="6-SOIC (5-SO)"/>
 <attribute name="PROPEGATION_DELAY" value="35 nS HL / 35 nS LH"/>
-<attribute name="VALUE" value="ACPL-M71T"/>
+<attribute name="VALUE" value="ACPL-M7x OPTOISO A"/>
 <attribute name="VF" value="1.5 V"/>
 <attribute name="V_ISOLATION" value="4000 Vrms"/>
+<attribute name="V_SUPPLY" value="3.0 to 5.5 V"/>
+</technology>
+<technology name="1U">
+<attribute name="AUTOMOTIVE" value="AEC-Q100 Grade 1"/>
+<attribute name="DELAY" value="26 nS @ If = 10 mA"/>
+<attribute name="IF" value="20 mA"/>
+<attribute name="INVERTING" value="YES"/>
+<attribute name="MFG" value="Broadcom"/>
+<attribute name="MPN" value="ACPL-M71U-500E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
+<attribute name="PACKAGE" value="6-SOIC (5-SO)"/>
+<attribute name="PROPEGATION_DELAY" value="35 nS HL / 35 nS LH"/>
+<attribute name="VALUE" value="ACPL-M7x OPTOISO C"/>
+<attribute name="VF" value="1.5 V"/>
+<attribute name="V_ISOLATION" value="3750 Vrms"/>
 <attribute name="V_SUPPLY" value="3.0 to 5.5 V"/>
 </technology>
 <technology name="2T">
@@ -699,10 +715,26 @@
 <attribute name="MFG" value="Broadcom"/>
 <attribute name="MPN" value="ACPL-M72T-500E"/>
 <attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
+<attribute name="PACKAGE" value="6-SOIC (5-SO)"/>
 <attribute name="PROPEGATION_DELAY" value="100 nS HL / 100 nS LH"/>
-<attribute name="VALUE" value="ACPL-M72T"/>
+<attribute name="VALUE" value="ACPL-M7x OPTOISO B"/>
 <attribute name="VF" value="1.5 V"/>
 <attribute name="V_ISOLATION" value="4000 Vrms"/>
+<attribute name="V_SUPPLY" value="3.0 to 5.5 V"/>
+</technology>
+<technology name="2U">
+<attribute name="AUTOMOTIVE" value="AEC-Q100 Grade 1"/>
+<attribute name="DELAY" value="60 nS @ If = 4 mA"/>
+<attribute name="IF" value="20 mA"/>
+<attribute name="INVERTING" value="YES"/>
+<attribute name="MFG" value="Broadcom"/>
+<attribute name="MPN" value="ACPL-M72U-500E"/>
+<attribute name="OPERATING_TEMP" value="-55 to +125 C"/>
+<attribute name="PACKAGE" value="6-SOIC (5-SO)"/>
+<attribute name="PROPEGATION_DELAY" value="100 nS HL / 100 nS LH"/>
+<attribute name="VALUE" value="ACPL-M7x OPTOISO D"/>
+<attribute name="VF" value="1.5 V"/>
+<attribute name="V_ISOLATION" value="3750 Vrms"/>
 <attribute name="V_SUPPLY" value="3.0 to 5.5 V"/>
 </technology>
 </technologies>

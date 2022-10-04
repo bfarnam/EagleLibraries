@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="9" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -77,6 +77,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -155,7 +156,7 @@
 <rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
-<circle x="-4.3" y="4.3" radius="0.3" width="0" layer="21"/>
+<circle x="-4.3" y="4.3" radius="0.4064" width="0" layer="21"/>
 <polygon width="0.0254" layer="21">
 <vertex x="-1.3905" y="5.229"/>
 <vertex x="-1.3905" y="5.483"/>
@@ -182,6 +183,7 @@
 <wire x1="3.683" y1="3.683" x2="3.3528" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-3.3528" y1="3.683" x2="-3.683" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-3.683" y1="3.683" x2="-3.683" y2="3.3528" width="0.1524" layer="21"/>
+<circle x="-2.7432" y="2.7432" radius="0.4064" width="0" layer="51"/>
 </package>
 <package name="VQFN32-3.25_PAD">
 <description>&lt;b&gt;Very Thin Quad Flat no Lead Package (VQFN)&lt;/b&gt;&lt;br&gt;
@@ -1973,6 +1975,7 @@ Symbol for Atmega328PB
 <pin name="PC6(!RESET)" x="-22.86" y="30.48" length="short" function="dot"/>
 <pin name="NC1(GND)" x="22.86" y="10.16" length="short" rot="R180"/>
 <pin name="NC2(VCC)" x="22.86" y="7.62" length="short" rot="R180"/>
+<text x="-20.32" y="-40.64" size="1.778" layer="253">&gt;MPN</text>
 </symbol>
 <symbol name="ATMEGA328(P)-28PIN">
 <description>&lt;b&gt;ATMEL ATMEGA328PB&lt;/b&gt;&lt;br&gt;
@@ -2063,34 +2066,39 @@ Symbol for Atmega328PB
 </connects>
 <technologies>
 <technology name="15AZ">
+<attribute name="MPN" value="ATMEGA328P-15AZ"/>
 <attribute name="OP_TEMP" value="-55C to +125C"/>
 <attribute name="PACKAGE_MEDIA" value="TAPE/REEL"/>
 <attribute name="PACKAGE_TYPE" value="TQFP"/>
-<attribute name="VALUE" value="ATMEGA328P-15AZ"/>
+<attribute name="VALUE" value="ATMEGA328P-1"/>
 </technology>
 <technology name="AN">
+<attribute name="MPN" value="ATMEGA328P-AN"/>
 <attribute name="OP_TEMP" value="-55C to +105C"/>
 <attribute name="PACKAGE_MEDIA" value="TRAY"/>
 <attribute name="PACKAGE_TYPE" value="TQFP"/>
-<attribute name="VALUE" value="ATMEGA328P-AN"/>
+<attribute name="VALUE" value="ATMEGA328P-2"/>
 </technology>
 <technology name="ANR">
+<attribute name="MPN" value="ATMEGA328P-ANR"/>
 <attribute name="OP_TEMP" value="-55C to +105C"/>
 <attribute name="PACKAGE_MEDIA" value="TAPE/REEL"/>
 <attribute name="PACKAGE_TYPE" value="TQFP"/>
-<attribute name="VALUE" value="ATMEGA328P-ANR"/>
+<attribute name="VALUE" value="ATMEGA328P-3"/>
 </technology>
 <technology name="AU">
+<attribute name="MPN" value="ATMEGA328P-AU"/>
 <attribute name="OP_TEMP" value="-55C to +85C"/>
 <attribute name="PACKAGE_MEDIA" value="TRAY"/>
 <attribute name="PACKAGE_TYPE" value="TQFP"/>
-<attribute name="VALUE" value="ATMEGA328P-AU"/>
+<attribute name="VALUE" value="ATMEGA328P-4"/>
 </technology>
 <technology name="AUR">
+<attribute name="MPN" value="ATMEGA328P-AUR"/>
 <attribute name="OP_TEMP" value="-55C to +85C"/>
 <attribute name="PACKAGE_MEDIA" value="TAPE/REEL"/>
 <attribute name="PACKAGE_TYPE" value="TQFP"/>
-<attribute name="VALUE" value="ATMEGA328P-AUR"/>
+<attribute name="VALUE" value="ATMEGA328P-5"/>
 </technology>
 </technologies>
 </device>

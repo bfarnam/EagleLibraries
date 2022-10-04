@@ -525,38 +525,19 @@ chip</description>
 <wire x1="3.2512" y1="2.7432" x2="-3.2512" y2="2.7432" width="0.1524" layer="51"/>
 <wire x1="-3.2512" y1="2.7432" x2="-3.2512" y2="-2.7432" width="0.1524" layer="51"/>
 <polygon width="0.1524" layer="41">
-<vertex x="-0.7874" y="2.8067"/>
-<vertex x="0.7874" y="2.8067"/>
-<vertex x="0.7874" y="-2.8067"/>
-<vertex x="-0.7874" y="-2.8067"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.7874" y="2.8067"/>
-<vertex x="0.7874" y="2.8067"/>
-<vertex x="0.7874" y="-2.8067"/>
-<vertex x="-0.7874" y="-2.8067"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.2004" y="2.7051"/>
-<vertex x="3.2004" y="2.7051"/>
-<vertex x="3.2004" y="2.8067"/>
-<vertex x="-3.2004" y="2.8067"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.2004" y="-2.8067"/>
-<vertex x="3.2004" y="-2.8067"/>
-<vertex x="3.2004" y="-2.7051"/>
-<vertex x="-3.2004" y="-2.7051"/>
+<vertex x="-0.635" y="2.54"/>
+<vertex x="0.635" y="2.54"/>
+<vertex x="0.635" y="-2.54"/>
+<vertex x="-0.635" y="-2.54"/>
 </polygon>
 <text x="0" y="0" size="1.27" layer="25" ratio="17" rot="SR0">&gt;Name</text>
 <wire x1="3.81" y1="3.175" x2="-3.81" y2="3.175" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="3.175" x2="3.81" y2="-3.175" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="3.175" x2="-3.81" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.254" layer="21"/>
 <wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.254" layer="51"/>
 <wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.254" layer="51"/>
+<text x="-5.08" y="-2.54" size="1.016" layer="21">&gt;pos</text>
 </package>
 <package name="CAP_CKG57KX7R1E476M335JJ_TDK-M">
 <smd name="1" x="-2.032" y="0" dx="5.5118" dy="2.9464" layer="1" rot="R90"/>

@@ -70,7 +70,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
@@ -518,12 +518,12 @@ chip</description>
 <wire x1="-0.5334" y1="-2.8956" x2="0.5334" y2="-2.8956" width="0.1524" layer="21"/>
 <wire x1="0.5334" y1="2.8956" x2="-0.5334" y2="2.8956" width="0.1524" layer="21"/>
 <wire x1="-3.175" y1="0" x2="-3.3274" y2="0" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-3.3274" y1="0" x2="-3.175" y2="0" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-3.3274" y1="0" x2="-3.175" y2="0" width="0.3048" layer="51" curve="-180"/>
 <text x="0" y="0" size="1.27" layer="27" ratio="17" rot="SR0">&gt;Value</text>
-<wire x1="-3.2512" y1="-2.7432" x2="3.2512" y2="-2.7432" width="0.1524" layer="51"/>
-<wire x1="3.2512" y1="-2.7432" x2="3.2512" y2="2.7432" width="0.1524" layer="51"/>
-<wire x1="3.2512" y1="2.7432" x2="-3.2512" y2="2.7432" width="0.1524" layer="51"/>
-<wire x1="-3.2512" y1="2.7432" x2="-3.2512" y2="-2.7432" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="-2.7432" x2="3.2512" y2="-2.7432" width="0.3048" layer="51"/>
+<wire x1="3.2512" y1="-2.7432" x2="3.2512" y2="2.7432" width="0.3048" layer="51"/>
+<wire x1="3.2512" y1="2.7432" x2="-3.2512" y2="2.7432" width="0.3048" layer="51"/>
+<wire x1="-3.2512" y1="2.7432" x2="-3.2512" y2="-2.7432" width="0.3048" layer="51"/>
 <polygon width="0.1524" layer="41">
 <vertex x="-0.635" y="2.54"/>
 <vertex x="0.635" y="2.54"/>

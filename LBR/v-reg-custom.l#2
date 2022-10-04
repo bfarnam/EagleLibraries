@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -621,15 +621,15 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <smd name="17" x="0" y="0" dx="3.1" dy="3.1" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" ratio="19">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" ratio="19">&gt;VALUE</text>
-<wire x1="-3.9" y1="2.8" x2="3.9" y2="2.8" width="0.05" layer="51"/>
-<wire x1="3.9" y1="2.8" x2="3.9" y2="-2.8" width="0.05" layer="51"/>
-<wire x1="3.9" y1="-2.8" x2="-3.9" y2="-2.8" width="0.05" layer="51"/>
-<wire x1="-3.9" y1="-2.8" x2="-3.9" y2="2.8" width="0.05" layer="51"/>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="2.8" x2="3.9" y2="2.8" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.9" y1="2.8" x2="3.9" y2="-2.8" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.9" y1="-2.8" x2="-3.9" y2="-2.8" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-3.9" y1="-2.8" x2="-3.9" y2="2.8" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.127" layer="51"/>
 <wire x1="-3.65" y1="2.921" x2="-2.2" y2="2.921" width="0.254" layer="21"/>
 <wire x1="-4.445" y1="3.175" x2="4.445" y2="3.175" width="0.127" layer="39"/>
 <wire x1="4.445" y1="3.175" x2="4.445" y2="-3.175" width="0.127" layer="39"/>
@@ -639,8 +639,9 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="1.905" y1="-2.54" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="2.54" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.905" y1="2.54" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
-<circle x="-3.81" y="3.81" radius="0.254" width="0.635" layer="25"/>
+<circle x="-3.175" y="3.81" radius="0.254" width="0.635" layer="21"/>
 <text x="-2.54" y="3.81" size="1.016" layer="25" font="vector" ratio="16">1</text>
+<circle x="-1.27" y="1.5875" radius="0.254" width="0.635" layer="51"/>
 </package>
 </packages>
 <symbols>

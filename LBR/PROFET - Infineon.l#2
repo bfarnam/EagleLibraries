@@ -3286,6 +3286,7 @@ Max Component Height - 1.15mm</description>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
 <text x="-7.62" y="13.97" size="1.778" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-8.89" y="-17.78" size="1.778" layer="95" rot="SR0">&gt;VALUE</text>
+<text x="-8.89" y="-20.32" size="1.778" layer="253" rot="SR0">&gt;MPN</text>
 </symbol>
 <symbol name="BTS7006-1EPP">
 <pin name="NC1" x="-5.08" y="-15.24" length="middle" direction="pas"/>
@@ -6453,7 +6454,7 @@ SOP65P600X115-15N-V</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BTS7004-1EPP" prefix="U">
+<deviceset name="BTS7004-1EPP" prefix="U" uservalue="yes">
 <description>BTS7004-1EPP
 &lt;p&gt;
 Smart High-Side Power Switch, 1x4 mΩ
@@ -6484,7 +6485,9 @@ SOP65P600X105-15N-1-V</description>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Infineon"/>
-<attribute name="MPN" value="BTS7004-1EPP"/>
+<attribute name="MPN" value="BTS70041-EPPXUMA1"/>
+<attribute name="PACKAGE" value="PG-TSDSO-14-22"/>
+<attribute name="SIZE" value="14-TSSOP"/>
 <attribute name="VALUE" value="BTS7004"/>
 </technology>
 </technologies>
@@ -7104,16 +7107,22 @@ Quad Channel Smart High-Side Power Switch</description>
 <technology name="030">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60302ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-DSO-14-47-EP"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6030-2"/>
 </technology>
 <technology name="050">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60502ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-DSO-14-47-EP"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6050-2"/>
 </technology>
 <technology name="100">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT61002ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-DSO-14-47-EP"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6100-2"/>
 </technology>
 </technologies>
@@ -7139,21 +7148,29 @@ Quad Channel Smart High-Side Power Switch</description>
 <technology name="010">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60101ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6010-1"/>
 </technology>
 <technology name="020">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60201ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6020-1"/>
 </technology>
 <technology name="030">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60301ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6030-1"/>
 </technology>
 <technology name="050">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60501ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6050-1"/>
 </technology>
 </technologies>
