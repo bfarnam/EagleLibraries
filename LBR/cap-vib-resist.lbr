@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
@@ -1100,7 +1100,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GCJ188R72A10
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Murata"/>
-<attribute name="MPN" value="GCJ188R92A683KA01D"/>
+<attribute name="MPN" value="GCJ188R71H472KA01D"/>
 <attribute name="RATED_V" value="50 V"/>
 <attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="4.7nF"/>

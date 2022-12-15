@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="253" name="CONFIDENTIAL" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
@@ -557,7 +557,7 @@
 <package name="C7433">
 <smd name="1" x="-2.58329375" y="0" dx="2.49999375" dy="2.941396875" layer="1" rot="R90"/>
 <smd name="2" x="2.58329375" y="0" dx="2.49999375" dy="2.941396875" layer="1" rot="R90"/>
-<polygon width="0.1524" layer="41">
+<polygon width="0.127" layer="41">
 <vertex x="-0.78424375" y="-1.554746875"/>
 <vertex x="-0.78424375" y="1.395996875"/>
 <vertex x="0.78424375" y="1.395996875"/>

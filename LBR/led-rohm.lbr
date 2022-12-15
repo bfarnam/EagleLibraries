@@ -1656,7 +1656,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12D8WT86"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Orange"/>
+<attribute name="VALUE" value="Orange SMD LED"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="605 nm"/>
 </technology>
@@ -1668,7 +1668,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Green"/>
+<attribute name="VALUE" value="Green SMD LED"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
@@ -1680,7 +1680,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Yle/Grn"/>
+<attribute name="VALUE" value="Yle/Grn SMD LED"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
@@ -1692,7 +1692,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12M8WT86C"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Yellow / Green"/>
+<attribute name="VALUE" value="Yellow / Green SMD LED"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="572 nm"/>
 </technology>
@@ -1704,7 +1704,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12P8WT86C"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Green"/>
+<attribute name="VALUE" value="Green SMD LED"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="560 nm"/>
 </technology>
@@ -1716,7 +1716,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Red"/>
+<attribute name="VALUE" value="Red SMD LED"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
@@ -1728,7 +1728,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12U8WT86C"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Red"/>
+<attribute name="VALUE" value="Red SMD LED"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="620 nm"/>
 </technology>
@@ -1740,7 +1740,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Red"/>
+<attribute name="VALUE" value="Red SMD LED"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
@@ -1752,7 +1752,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12V8WT86C"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Red"/>
+<attribute name="VALUE" value="Red SMD LED"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="630 nm"/>
 </technology>
@@ -1764,7 +1764,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12W8WT86C"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Yellow"/>
+<attribute name="VALUE" value="Yellow SMD LED"/>
 <attribute name="VF" value="2.0 V"/>
 <attribute name="WAVELENGTH" value="588 nm"/>
 </technology>
@@ -1776,7 +1776,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value=""/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Yellow"/>
+<attribute name="VALUE" value="Yellow SMD LED"/>
 <attribute name="VF" value=""/>
 <attribute name="WAVELENGTH" value=""/>
 </technology>
@@ -1788,7 +1788,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFG" value="Rohm"/>
 <attribute name="MPN" value="SML-D12Y8WT86C"/>
 <attribute name="SIZE" value="0603"/>
-<attribute name="VALUE" value="Yellow"/>
+<attribute name="VALUE" value="Yellow SMD LED"/>
 <attribute name="VF" value="2.2 V"/>
 <attribute name="WAVELENGTH" value="590 nm"/>
 </technology>

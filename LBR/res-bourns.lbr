@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -357,7 +357,7 @@ Source: RS Component / BUORNS</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RES-ARRAY" prefix="R" uservalue="yes">
+<deviceset name="RES-ARRAY-" prefix="R" uservalue="yes">
 <description>Resistor Array</description>
 <gates>
 <gate name="D" symbol="RESISTOR" x="0" y="-15.24" swaplevel="4"/>
@@ -367,7 +367,7 @@ Source: RS Component / BUORNS</description>
 <gate name="G$1" symbol="MPN_R" x="-2.54" y="9.398"/>
 </gates>
 <devices>
-<device name="-1206" package="RA1206-8">
+<device name="" package="RA1206-8">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="8"/>
@@ -382,6 +382,24 @@ Source: RS Component / BUORNS</description>
 <technology name="">
 <attribute name="MFG" value="Bournes"/>
 <attribute name="MPN" value="CAT16A-1002F4LF"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="VALUE" value="10.0K"/>
+</technology>
+<technology name="1.00K">
+<attribute name="MFG" value="Bournes"/>
+<attribute name="MPN" value="CAT16A-1001F4LF"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="VALUE" value="1.00K"/>
+</technology>
+<technology name="10.0K">
+<attribute name="MFG" value="Bournes"/>
+<attribute name="MPN" value="CAT16A-1002F4LF"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="VALUE" value="10.0K"/>
+</technology>
+<technology name="100K">
+<attribute name="MFG" value="Bournes"/>
+<attribute name="MPN" value="CAT16A-1003F4LF"/>
 <attribute name="SIZE" value="1206"/>
 <attribute name="VALUE" value="10.0K"/>
 </technology>
