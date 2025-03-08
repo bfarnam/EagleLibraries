@@ -1,0 +1,54 @@
+TECHNOLOGY -*;
+ATTRIBUTE VALUE CONSTANT;
+TECHNOLOGY 04; 
+attribute type 'Buffered Open Collector' constant;
+attribute inverting 'YES' constant;
+ATTRIBUTE vcc '4.5V to 20V' CONSTANT; 
+ATTRIBUTE output_current '15 mA max @ 25°C / 10 mA typ @ 25°C' CONSTANT; 
+ATTRIBUTE output_power_dissapation '100 mW @ 25°C / 26.8 mW @ 125°C' CONSTANT; 
+attribute vout 'VCC' constant; 
+ATTRIBUTE led_if '25 mA @ 25°C / 15 mA @ 125°C' CONSTANT; 
+ATTRIBUTE isolation_v '3750 Vrms' CONSTANT; ATTRIBUTE LED_vrev '5 V' CONSTANT; ATTRIBUTE operating_temp '-40°C to +125°C' CONSTANT; ATTRIBUTE PACKAGE_TYPE 'SOIC-6 / SO-6' CONSTANT; ATTRIBUTE VALUE 'TLX9304' CONSTANT;
+
+TECHNOLOGY 09; 
+attribute type 'Open Collector' constant;
+attribute inverting 'YES' constant;
+ATTRIBUTE vcc '-0.5V to 30V' CONSTANT; 
+ATTRIBUTE output_current '25 mA max @ 25°C' CONSTANT; 
+ATTRIBUTE output_power_dissapation '100 mW @ 25°C / 1 mW @ 125°C' CONSTANT; 
+attribute vout '-0.5V to 20V' constant; 
+ATTRIBUTE led_if '15 mA @ 25°C / 7.3 mA @ 125°C' CONSTANT; 
+ATTRIBUTE isolation_v '3750 Vrms' CONSTANT; ATTRIBUTE LED_vrev '5 V' CONSTANT; ATTRIBUTE operating_temp '-40°C to +125°C' CONSTANT; ATTRIBUTE PACKAGE_TYPE 'SOIC-6 / SO-6' CONSTANT; ATTRIBUTE VALUE 'TLX9309' CONSTANT;
+
+TECHNOLOGY 10; 
+attribute type 'Buffered Totem Pole MOSFET' constant;
+attribute inverting 'NO' constant;
+ATTRIBUTE vcc '2.7V to 5.5V' CONSTANT; 
+ATTRIBUTE output_current '10 mA max @ 25°C' CONSTANT; 
+ATTRIBUTE output_power_dissapation '20 mW max @ 25°C' CONSTANT; 
+attribute vout 'VCC' constant; 
+ATTRIBUTE led_if '8 mA @ 25°C / 7 mA @ 105°C' CONSTANT; 
+ATTRIBUTE isolation_v '3750 Vrms' CONSTANT; ATTRIBUTE LED_vrev '5V' CONSTANT; ATTRIBUTE operating_temp '-40°C to +105°C' CONSTANT; ATTRIBUTE PACKAGE_TYPE 'SOIC-6 / SO-6' CONSTANT; ATTRIBUTE VALUE 'TLX9310' CONSTANT;
+
+TECHNOLOGY 76; 
+attribute type 'Buffered Totem Pole MOSFET' constant;
+attribute inverting 'YES' constant;
+ATTRIBUTE vcc '4.5V to 5.5V' CONSTANT; 
+ATTRIBUTE output_current '10 mA max @ 25°C / 4.5 mA min @ 25°C' CONSTANT; 
+ATTRIBUTE output_power_dissapation '40 mW @ 25°C / 8.95 mW @ 125°C' CONSTANT; 
+attribute vout 'VCC' constant; 
+ATTRIBUTE led_if '25 mA @ 25°C / 15 mA @ 125°C' CONSTANT; 
+ATTRIBUTE isolation_v '3750 Vrms' CONSTANT; ATTRIBUTE LED_vrev '5V' CONSTANT; ATTRIBUTE operating_temp '-40°C to +125°C' CONSTANT; ATTRIBUTE PACKAGE_TYPE 'SOIC-6 / SO-6' CONSTANT; ATTRIBUTE VALUE 'TLX9376' CONSTANT;
+
+TECHNOLOGY 78; 
+attribute type 'Buffered Open Collector' constant;
+attribute inverting 'YES' constant;
+ATTRIBUTE vcc '4.5V to 5.5V' CONSTANT; 
+ATTRIBUTE output_current '25 mA max @ 25°C' CONSTANT; 
+ATTRIBUTE output_power_dissapation '40 mW max @ 25°C' CONSTANT; 
+attribute vout 'VCC' constant; 
+ATTRIBUTE led_if '25 mA @ 25°C / 15 mA @ 125°C' CONSTANT; 
+ATTRIBUTE isolation_v '3750 Vrms' CONSTANT; ATTRIBUTE LED_vrev '5V' CONSTANT; ATTRIBUTE operating_temp '-40°C to +125°C' CONSTANT; ATTRIBUTE PACKAGE_TYPE 'SOIC-6 / SO-6' CONSTANT; ATTRIBUTE VALUE 'TLX9378' CONSTANT;
+
+TECHNOLOGY -''
+
