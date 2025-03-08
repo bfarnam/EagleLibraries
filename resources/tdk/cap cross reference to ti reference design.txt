@@ -1,0 +1,52 @@
+Cinx
+
+Kemet C0805C104M5RACTU
+Series= X7R
+Cap= 100.0 nF
+ESR= 64.0 mOhm
+VDC= 50.0 V
+IRMS= 1.64 A
+
+TDK CGA4J2X8R1H104K125AE
+X8R
+100nF
+14.05mΩ
+50Vdc
+AEC-Q200
+
+Coutx / Coutx2
+
+MuRata GRM188R71C474KA88D
+Series= X7R
+Cap= 470.0 nF
+ESR= 10.0 mOhm
+VDC= 16.0 V
+IRMS= 0.0 A
+
+TDK CGA5L2X8R1H474K160AE
+X8R
+470nF
+11.86mΩ
+50Vdc
+AEC-Q200
+
+Cvcc / Cvccx
+Taiyo Yuden TMK212B7105KG-T alt TMK107B7105KA-T
+Series= X7R
+Cap= 1.0 uF
+ESR= 1.0 mOhm
+VDC= 25.0 V
+IRMS= 0.0 A
+@~5 MHz ~6.39mOhm
+@~10MHz ~ 7.67mOhm
+https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TMK212B7105KG-T&u=M
+
+TDK CGA4J1X8R1E105K125AE
+X8R
+1μF
+@~5 MHz 7.36mΩ
+@~10 MHz 9.14mΩ
+25Vdc
+AEC-Q200
+
+

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BODY">
+<polygon width="0.127" layer="17">
+<vertex x="0" y="0"/>
+<vertex x="0" y="1.6"/>
+<vertex x="1.9" y="1.6"/>
+<vertex x="1.9" y="0"/>
+</polygon>
+<pad name="P$9" x="1.8" y="0.8" drill="1.1" diameter="1.7"/>
+<pad name="9" x="-0.35" y="0.81" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="0"/>
+<vertex x="12.1" y="0"/>
+<vertex x="12.1" y="1.6"/>
+<vertex x="14" y="1.6"/>
+</polygon>
+<pad name="P$17" x="12.08" y="0.81" drill="1.1" diameter="1.7"/>
+<pad name="17" x="14.26" y="0.8" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="2.54"/>
+<vertex x="0" y="4.14"/>
+<vertex x="1.9" y="4.14"/>
+<vertex x="1.9" y="2.54"/>
+</polygon>
+<pad name="P$8" x="1.8" y="3.34" drill="1.1" diameter="1.7"/>
+<pad name="8" x="-0.35" y="3.35" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="2.54"/>
+<vertex x="12.1" y="2.54"/>
+<vertex x="12.1" y="4.14"/>
+<vertex x="14" y="4.14"/>
+</polygon>
+<pad name="P$16" x="12.08" y="3.35" drill="1.1" diameter="1.7"/>
+<pad name="16" x="14.26" y="3.34" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="5.08"/>
+<vertex x="0" y="6.68"/>
+<vertex x="1.9" y="6.68"/>
+<vertex x="1.9" y="5.08"/>
+</polygon>
+<pad name="P$7" x="1.8" y="5.88" drill="1.1" diameter="1.7"/>
+<pad name="7" x="-0.35" y="5.89" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="5.08"/>
+<vertex x="12.1" y="5.08"/>
+<vertex x="12.1" y="6.68"/>
+<vertex x="14" y="6.68"/>
+</polygon>
+<pad name="P$15" x="12.08" y="5.89" drill="1.1" diameter="1.7"/>
+<pad name="15" x="14.26" y="5.88" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="7.62"/>
+<vertex x="0" y="9.22"/>
+<vertex x="1.9" y="9.22"/>
+<vertex x="1.9" y="7.62"/>
+</polygon>
+<pad name="P$6" x="1.8" y="8.42" drill="1.1" diameter="1.7"/>
+<pad name="6" x="-0.35" y="8.43" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="7.62"/>
+<vertex x="12.1" y="7.62"/>
+<vertex x="12.1" y="9.22"/>
+<vertex x="14" y="9.22"/>
+</polygon>
+<pad name="P$14" x="12.08" y="8.43" drill="1.1" diameter="1.7"/>
+<pad name="14" x="14.26" y="8.42" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="10.16"/>
+<vertex x="0" y="11.76"/>
+<vertex x="1.9" y="11.76"/>
+<vertex x="1.9" y="10.16"/>
+</polygon>
+<pad name="P$5" x="1.8" y="10.96" drill="1.1" diameter="1.7"/>
+<pad name="5" x="-0.35" y="10.97" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="10.16"/>
+<vertex x="12.1" y="10.16"/>
+<vertex x="12.1" y="11.76"/>
+<vertex x="14" y="11.76"/>
+</polygon>
+<pad name="P$13" x="12.08" y="10.97" drill="1.1" diameter="1.7"/>
+<pad name="13" x="14.26" y="10.96" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="12.7"/>
+<vertex x="0" y="14.3"/>
+<vertex x="1.9" y="14.3"/>
+<vertex x="1.9" y="12.7"/>
+</polygon>
+<pad name="P$4" x="1.8" y="13.5" drill="1.1" diameter="1.7"/>
+<pad name="4" x="-0.35" y="13.51" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="12.7"/>
+<vertex x="12.1" y="12.7"/>
+<vertex x="12.1" y="14.3"/>
+<vertex x="14" y="14.3"/>
+</polygon>
+<pad name="P$12" x="12.08" y="13.51" drill="1.1" diameter="1.7"/>
+<pad name="12" x="14.26" y="13.5" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="15.24"/>
+<vertex x="0" y="16.84"/>
+<vertex x="1.9" y="16.84"/>
+<vertex x="1.9" y="15.24"/>
+</polygon>
+<pad name="P$3" x="1.8" y="16.04" drill="1.1" diameter="1.7"/>
+<pad name="3" x="-0.35" y="16.05" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="15.24"/>
+<vertex x="12.1" y="15.24"/>
+<vertex x="12.1" y="16.84"/>
+<vertex x="14" y="16.84"/>
+</polygon>
+<pad name="P$11" x="12.08" y="16.05" drill="1.1" diameter="1.7"/>
+<pad name="11" x="14.26" y="16.04" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="17.78"/>
+<vertex x="0" y="19.38"/>
+<vertex x="1.9" y="19.38"/>
+<vertex x="1.9" y="17.78"/>
+</polygon>
+<pad name="P$2" x="1.8" y="18.58" drill="1.1" diameter="1.7"/>
+<pad name="2" x="-0.35" y="18.59" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="14" y="17.78"/>
+<vertex x="12.1" y="17.78"/>
+<vertex x="12.1" y="19.38"/>
+<vertex x="14" y="19.38"/>
+</polygon>
+<pad name="P$10" x="12.08" y="18.59" drill="1.1" diameter="1.7"/>
+<pad name="10" x="14.26" y="18.58" drill="1.6" diameter="1.7"/>
+<polygon width="0.127" layer="17">
+<vertex x="0" y="20.32"/>
+<vertex x="0" y="21.92"/>
+<vertex x="1.9" y="21.92"/>
+<vertex x="1.9" y="20.32"/>
+</polygon>
+<pad name="1" x="-0.35" y="21.13" drill="1.6" diameter="1.7"/>
+<pad name="P$1" x="1.8" y="21.15" drill="1.1" diameter="1.7" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BODY">
+<wire x1="0" y1="0" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="27.94" y2="22.86" width="0.254" layer="94"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<pin name="5V" x="-5.08" y="22.86" length="middle" swaplevel="2"/>
+<pin name="AN1" x="-5.08" y="20.32" length="middle" swaplevel="2"/>
+<pin name="AN2" x="-5.08" y="17.78" length="middle" swaplevel="2"/>
+<pin name="SDA" x="-5.08" y="15.24" length="middle" swaplevel="2"/>
+<pin name="SCL" x="-5.08" y="12.7" length="middle" swaplevel="2"/>
+<pin name="GND" x="-5.08" y="10.16" length="middle" swaplevel="2"/>
+<pin name="3V3" x="-5.08" y="7.62" length="middle" swaplevel="2"/>
+<pin name="INT/GPIO3" x="-5.08" y="5.08" length="middle" swaplevel="2"/>
+<pin name="PWM/GPIO4" x="-5.08" y="2.54" length="middle" swaplevel="2"/>
+<pin name="TX" x="33.02" y="20.32" length="middle" rot="R180"/>
+<pin name="RST/GPIO2" x="33.02" y="15.24" length="middle" rot="R180"/>
+<pin name="RX" x="33.02" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO1" x="33.02" y="12.7" length="middle" rot="R180"/>
+<pin name="CS" x="33.02" y="10.16" length="middle" rot="R180"/>
+<pin name="SCLK" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="MOSI" x="33.02" y="5.08" length="middle" rot="R180"/>
+<pin name="MISO" x="33.02" y="2.54" length="middle" rot="R180"/>
+<text x="0" y="27.94" size="1.778" layer="95">S2G-1A-?</text>
+<text x="0" y="-5.08" size="1.778" layer="96">Shield2Go-S2G-1A</text>
+<text x="15.24" y="25.4" size="1.27" layer="95">Active</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BODY">
+<description>17 Pin Connector for Shield2Go Boards</description>
+<gates>
+<gate name="G$1" symbol="BODY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BODY">
+<connects>
+<connect gate="G$1" pin="3V3" pad="7 P$7"/>
+<connect gate="G$1" pin="5V" pad="1 P$1"/>
+<connect gate="G$1" pin="AN1" pad="2 P$2"/>
+<connect gate="G$1" pin="AN2" pad="3 P$3"/>
+<connect gate="G$1" pin="CS" pad="14 P$14"/>
+<connect gate="G$1" pin="GND" pad="6 P$6"/>
+<connect gate="G$1" pin="GPIO1" pad="13 P$13"/>
+<connect gate="G$1" pin="INT/GPIO3" pad="8 P$8"/>
+<connect gate="G$1" pin="MISO" pad="17 P$17"/>
+<connect gate="G$1" pin="MOSI" pad="16 P$16"/>
+<connect gate="G$1" pin="PWM/GPIO4" pad="9 P$9"/>
+<connect gate="G$1" pin="RST/GPIO2" pad="12 P$12"/>
+<connect gate="G$1" pin="RX" pad="11 P$11"/>
+<connect gate="G$1" pin="SCL" pad="5 P$5"/>
+<connect gate="G$1" pin="SCLK" pad="15 P$15"/>
+<connect gate="G$1" pin="SDA" pad="4 P$4"/>
+<connect gate="G$1" pin="TX" pad="10 P$10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

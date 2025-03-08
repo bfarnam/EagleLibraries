@@ -1,0 +1,37 @@
+edit 'ERJ-?-J-*.dev'; Prefix 'R'; Value on; 
+
+package 'R0201' '1GN';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance 'J';	attribute rcwv '25 V';	attribute max_v '50 V';	attribute power_w '0.5 A / 1 A max @ 70 C';	attribute tcr 'N/A';	attribute size '0201';	attribute operating_temp '-55 to +125 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 1';		attribute mfg 'Panasonic';	attribute mpn 'ERJ1GN0R00C';
+
+package 'R0402' '2GE';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '50 V';	attribute max_v '100 V';	attribute power_w '1 A / 2 A max @ 70 C';	attribute tcr 'N/A';	attribute size '0402';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ2GE0R00X';
+
+package 'R0603' '3GE';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '75 V';	attribute max_v '150 V';	attribute power_w '1 A / 2 A max @ 70 C';	attribute tcr 'N/A';	attribute size '0603';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ3GE0R00V';
+
+package 'R0805' '6GE';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '150 V';	attribute max_v '200 V';	attribute power_w '2 A / 4 A max @ 70 C';	attribute tcr 'N/A';	attribute size '0805';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ6GE0R00V';
+
+package 'R1206' '8GE';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '200 V';	attribute max_v '400 V';	attribute power_w '2 A / 4 A max @ 70 C';	attribute tcr 'N/A';	attribute size '1206';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ8GE0R00V';
+
+package 'R1210' '14';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '200 V';	attribute max_v '400 V';	attribute power_w '2 A / 4 A max @ 70 C';	attribute tcr 'N/A';	attribute size '1210';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ140R00U';
+
+package 'R1812' '12';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 M';	attribute tolerance '5 %';	attribute rcwv '200 V';	attribute max_v '500 V';	attribute power_w '2 A / 4 A max @ 70 C';	attribute tcr 'N/A';	attribute size '1812';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '915';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ120R00U';
+
+package 'R2010' '12Z';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '200 V';	attribute max_v '500 V';	attribute power_w '2 A / 4 A max @ 70 C';	attribute tcr 'N/A';	attribute size '2010';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ12Z0R00U';
+
+package 'R2512' '1T';	Connect '1' '1'; Connect '2' '2';												
+technology -*;	attribute value constant;	attribute tolerance constant;	attribute rcwv constant;	attribute max_v constant;	attribute power_w constant;	attribute tcr constant;	attribute size constant;	attribute operating_temp constant;	attribute pkg_code constant;	attribute aec-q200 constant;		attribute mfg constant;	attribute mpn constant;
+technology 0R;	attribute value '0.00 Ohm';	attribute tolerance '5 %';	attribute rcwv '200 V';	attribute max_v '500 V';	attribute power_w '2 A / 4 A max @ 70 C';	attribute tcr 'N/A';	attribute size '2512';	attribute operating_temp '-55 to +155 C';	attribute pkg_code '1R0';	attribute aec-q200 'Grade 0';		attribute mfg 'Panasonic';	attribute mpn 'ERJ1T0R00U';

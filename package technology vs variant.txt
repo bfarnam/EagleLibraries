@@ -1,0 +1,15 @@
+? = Package variant, * = Technology
+
+To define devices that are available in several technologies and package variants you have to use wild cards in the device name to determine the position
+of these names.
+
+*  represents   the   position   of  the   technology   name,  ?  the   package   name.
+Defining for example a device like a 7400 in two technologies (L,  LS) the
+correct device name is 74*00. The name of the package variant will be added
+at the end of the name automatically. If you wish to see the package variant's
+name, for example, at the beginning of the device name you have to use the ?
+like this: ?74*00.
+
+If no '*' character is present in the device set name, the technology will be appended to the device set name to form the full device name. Note that the technology is processed before the package variant, so if the device set name contains neither a '*' nor a '?' character, the resulting device name will consist of device_set_name+technology+package_variant.
+
+The names listed in the TECHNOLOGY command will be added to an already existing list of technologies for the current device. Starting a name with '-' will remove that name from the list of technologies. If a name shall begin with '-', it has to be enclosed in quotes. Using -* removes all technologies.
