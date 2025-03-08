@@ -1,0 +1,771 @@
+Precision Thick Film Chip Resistors 
+ERJ type 
+ERJ XG, 1G series 
+ERJ 1R, 2R, 3R, 6R series 
+ERJ 3E, 6E, 8E, 14, 12, 1T series 
+Features 
+● Small size and lightweight 
+● High reliability : Metal glaze thick film resistive element and three layers of electrodes 
+● Compatible with placement machines : Taping packaging available 
+● Suitable for both reflow and flow soldering 
+● Low resistance tolerance : ERJXG, 1G, 2R, 3E, 6E, 8E, 14, 12, 1T series ：±1 ％ 
+ERJ1R, 2R, 3R, 6R series ：±0.5 ％ 
+● Reference standard : IEC 60115-8，JIS C 5201-8，JEITA RC-2134C 
+● AEC-Q200 compliant (except ERJXG, ERJ1R) 
+● RoHS compliant 
+■ As for packaging methods, land pattern, soldering conditions and safety precautions, 
+please see data files. 
+Explanation of part numbers 
+● ERJ1R, 2R, 3R, 6R series : ±0.5 % 
+Product code Size, Power rating T.C.R.，Marking Resistance tolerance Packaging methods 
+Thick film 
+chip resistors 
+Code inch Power rating Code T.C.R. Code Tolerance Code Packaging Part No. 
+1R 0201 0.05 W H ±50 ×10–6/K (1R, 2R) D ±0.5 ％ 
+C Pressed carrier taping 
+2 mm pitch, 15,000 pcs ERJ1R 
+2R 0402 0.063 W B ±50 ×10–6/K (3R, 6R) 
+3R 0603 0.1 W K ±100 ×10–6/K (2R) 
+X Punched carrier taping 
+2 mm pitch, 10,000 pcs ERJ2R 
+6R 0805 0.1 W E ±100 ×10–6/K (3R, 6R) 
+V Punched carrier taping 
+4 mm pitch, 5,000 pcs 
+ERJ3R 
+Resistance value ERJ6R 
+The first three digits are significant 
+figures of resistance and the last one 
+denotes number of zeros following. 
+Example : 1002 → 10 KΩ 
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use. 
+Should a safety concern arise regarding this product, please be sure to contact us immediately. 2-Nov-21 
+
+1 
+
+
+2 
+
+
+3 
+
+
+4 
+
+
+5 
+
+
+6 
+
+
+7 
+
+
+8 
+
+
+9 
+
+
+10 
+
+
+11 
+
+
+12 
+
+
+E 
+
+
+R 
+
+
+J 
+
+
+3 
+
+
+R 
+
+
+B 
+
+
+Ｄ 
+
+
+1 
+
+
+0 
+
+
+0 
+
+
+2 
+
+
+V 
+
+
+(Oct. 2021) Products marked as “NRFND” are 
+
+not recommended for new design. 
+
+Target products : ERJ8E, 14, 12, 1Tseries 
+
+Please refer to the recommended alternatives with 
+
+
+”Design Support Tool” ・ 
+
+
+
+Precision Thick Film Chip Resistors 
+Explanation of part numbers 
+● ERJXGN, 1GN, 2RC, 2RK, 3EK, 6EN, 8EN, 14N, 12N, 12S, 1TN series : ±1 ％ 
+Product code Size, Power rating Resistance tolerance Resistance value Packaging methods 
+Thick film 
+chip resistors 
+Code inch Power rating Code Tolerance 
+The first three digits are significant 
+figures of resistance and the last 
+one denotes number of zeros 
+following. 
+Decimal point is expressed by "R". 
+Example : 1002 → 10 kΩ 
+Code Packaging Part No. 
+XGN 01005 0.031 W F ±1 ％ 
+Y Pressed carrier taping 
+W8P2, 20,000 pcs 
+ERJXGN 
+1GN 0201 0.05 W 
+2RC 0402 　　　0.1 W 
+U Embossed carrier taping 
+2RK 0402 　　　0.1 W W4P1, 40,000 pcs 
+3EK 0603 　　　0.1 W 
+C Pressed carrier taping 
+2 mm pitch, 15,000 pcs ERJ1GN 
+6EN 0805 0.125 W 
+8EN 1206 0.25 W 
+X Punched carrier taping 
+2 mm pitch, 10,000 pcs 
+ERJ2RC 
+14N 1210 　　　0.5 W ERJ2RK 
+12N 1812 0.75 W 
+V Punched carrier taping 
+4 mm pitch, 5,000 pcs 
+ERJ3EK 
+ERJ6EN 
+ERJ8EN 
+12S 2010 0.75 W 
+1TN 2512 1 W 
+U 
+Embossed carrier taping 
+4 mm pitch, 5,000 pcs 
+ERJ14N 
+ERJ12N 
+ERJ12S 
+Embossed carrier taping 
+4 mm pitch, 4,000 pcs ERJ1TN 
+Not recommended for new design 
+Ratings 
+＜±0.5 %＞ 
+Part No. 
+(inch size) 
+Rated power*1 
+(70 ℃) 
+(W) 
+Limiting 
+element 
+voltage*2 
+(V) 
+Maximum 
+overload 
+voltage*3 
+(V) 
+Resistance 
+tolerance 
+(%) 
+Resistance 
+range 
+(Ω) 
+T.C.R. 
+(×10-6/K) 
+Category 
+temperature 
+range 
+(℃) 
+AEC-Q200 
+Grade 
+ERJ1RH 
+0.05 15 30 ±0.5 1 k to 1 M (E24,E96) ±50 -55 to ＋125 - 
+(0201) 
+ERJ2RH 
+0.063 50 100 ±0.5 100 to 100 k (E24,E96) ±50 
+-55 to ＋155 Grade 0 
+(0402) 
+ERJ2RK 
+0.063 50 100 ±0.5 
+10 to 97.6 
+(E24,E96) ±100 
+(0402) 102 k to 1 M 
+ERJ3RB 
+0.1 75*4 150*4 ±0.5 100 to 100 k (E24,E96) ±50 
+(0603) 
+ERJ3RE 
+0.1 75*4 150*4 ±0.5 
+10 to 97.6 
+(E24,E96) ±100 
+(0603) 102 k to 1 M 
+ERJ6RB 
+0.1 150 200 ±0.5 100 to 100 k (E24,E96) ±50 
+(0805) 
+ERJ6RE 
+0.1 150 200 ±0.5 
+10 to 97.6 
+(E24,E96) ±100 
+(0805) 102 k to 1 M 
+*1 : Use it on the condition that the case temperature is below the upper category temperature. 
+*2 : Rated continuous working voltage (RCWV) shall be determined from RCWV=√Power rating × Resistance value, 
+or limiting element voltage listed above, whichever less. 
+*3 : Overload test voltage (OTV) shall be determined from OTV = specified magnification (refer to performance) × RCWV 
+or maximum overload voltage listed above, whichever less. 
+*4 : UPGRADE 
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use. 
+Should a safety concern arise regarding this product, please be sure to contact us immediately. 2-Nov-21 
+
+1 
+
+
+2 
+
+
+3 
+
+
+4 
+
+
+5 
+
+
+6 
+
+
+7 
+
+
+8 
+
+
+9 
+
+
+10 
+
+
+11 
+
+
+E 
+
+
+R 
+
+
+J 
+
+
+8 
+
+
+E 
+
+
+N 
+
+
+F 
+
+
+1 
+
+
+0 
+
+
+0 
+
+
+2 
+
+
+12 
+
+
+V 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+
+Precision Thick Film Chip Resistors 
+Ratings 
+<±1 %＞ 
+Part No. 
+(inch size) 
+Power rating*1 
+(70 ℃) 
+(W) 
+Limiting 
+element 
+voltage*2 
+(V) 
+Maximum 
+overload 
+voltage*3 
+(V) 
+Resistance 
+tolerance 
+(%) 
+Resistance 
+range 
+(Ω) 
+T.C.R. 
+(×10-6/K) 
+Category 
+temperature 
+range 
+(℃) 
+AEC-Q200 
+Grade 
+ERJXGN 0.031 15 30 ±1 10 to 1 M*4 (E24,E96) 
+R < 100 Ω : ±300 
+(01005) -55 to ＋125 - 100 Ω ≤ R : ±200 
+ERJ1GN 0.05 25 50 ±1 10 to 1 M*4 (E24,E96) ±200 -55 to ＋125 Grade 1 (0201) 
+ERJ2RC 0.1 50 100 ±1 1 to 9.76 (E24,E96) –100 to +600 -55 to ＋155 Grade 0 (0402) 
+ERJ2RK 0.1 50 100 ±1 10 to 1 M (E24,E96) ±100 -55 to ＋155 Grade 0 (0402) 
+ERJ3EK 0.1 75 150 ±1 10 to 1 M (E24,E96) ±100 -55 to ＋155 Grade 0 (0603) 
+ERJ6EN 0.125 150 200 ±1 10 to 2.2 M (E24,E96) ±100 -55 to ＋155 Grade 0 (0805) 
+ERJ8EN 0.25 200 400 ±1 10 to 2.2 M (E24,E96) ±100 -55 to ＋155 Grade 0 (1206) 
+ERJ14N 0.5 200 400 ±1 10 to 1 M (E24,E96) ±100 -55 to ＋155 Grade 0 (1210) 
+ERJ12N 0.75 200 500 ±1 10 to 1 M (E24,E96) ±100 -55 to ＋155 Grade 0 (1812) 
+ERJ12S 0.75 200 500 ±1 10 to 1 M (E24,E96) ±100 -55 to ＋155 Grade 0 (2010) 
+ERJ1TN 1 200 500 ±1 10 to 1 M (E24,E96) ±100 -55 to ＋155 Grade 0 (2512) 
+*1 : Use it on the condition that the case temperature is below the upper category temperature. 
+*2 : Rated continuous working voltage (RCWV) shall be determined from RCWV=√Power rating × Resistance value, 
+or limiting element voltage listed above, whichever less. 
+*3 : Overload test voltage (OTV) shall be determined from OTV = specified magnification (refer to performance) × RCWV 
+or maximum overload voltage listed above, whichever less. 
+*4 : Please contact us when you need a type with a resistance of less than 10 Ω. Not recommended for new design 
+Power derating curve 
+For resistors operated in ambient temperatures 
+above 70 ℃, power rating shall be derated in 
+accordance with the figure on the right. 
+Construction 
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use. 
+Should a safety concern arise regarding this product, please be sure to contact us immediately. 2-Nov-21 
+
+
+-60 
+
+
+-20 
+
+
+0 
+
+
+20 
+
+
+60 
+
+
+20 
+
+
+40 
+
+
+60 
+
+
+80 
+
+
+100 
+
+
+80 
+
+
+100 
+
+
+140 
+
+
+180 
+
+
+0 
+
+
+-40 
+
+
+40 
+
+
+160 
+
+
+120 
+
+
+-55 ℃ 
+
+
+70 ℃ 
+
+
+155 ℃ 
+
+
+Rated load (%) 
+
+
+Ambient temperature (℃) 
+
+
+125 ℃ 
+
+
+ERJXG,1G, 1R 
+
+
+Alumina substrate 
+
+
+Protective coating 
+
+
+Thick film resistive element 
+
+
+Electrode (Outer) 
+
+
+Electrode (Between) 
+
+
+Electrode (Inner) 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+
+Precision Thick Film Chip Resistors 
+Dimensions (not to scale) 
+Part No. 
+Dimensions (mm) Mass (Weight) 
+L W a b T (g/1000 pcs) 
+ERJXGN 0.40±0.02 0.20±0.02 0.10±0.03 0.10±0.03 0.13±0.02 0.04 
+ERJ1GN 
+0.60±ERJ1R□ 0.03 0.30±0.03 0.10±0.05 0.15±0.05 0.23±0.03 0.15 
+ERJ2R□ 1.00±0.05 0.50±0.05 0.20±0.10 0.25±0.05 0.35±0.05 0.8 
+ERJ3R□ 
+ERJ3EK 1.60±0.15 0.80+0.15/-0.05 0.30±0.20 0.30±0.15 0.45±0.10 2 
+ERJ6R□ 
+ERJ6EN 2.00±0.20 1.25±0.10 0.40±0.20 0.40±0.20 0.60±0.10 4 
+ERJ8EN 3.20+0.05/-0.20 1.60+0.05/-0.15 0.50±0.20 0.50±0.20 0.60±0.10 10 
+ERJ14N 3.20±0.20 2.50±0.20 0.50±0.20 0.50±0.20 0.60±0.10 16 
+ERJ12N 4.50±0.20 3.20±0.20 0.50±0.20 0.50±0.20 0.60±0.10 27 
+ERJ12S 5.00±0.20 2.50±0.20 0.60±0.20 0.60±0.20 0.60±0.10 27 
+ERJ1TN 6.40±0.20 3.20±0.20 0.65±0.20 0.60±0.20 0.60±0.10 45 
+Not recommended for new design 
+Performance 
+● ERJ1R, 2R, 3R, 6R series : ±0.5 % (D) 
+Test item Performance 
+requirements ⊿R Test conditions 
+Resistance Within specified 
+tolerance 20 ℃ 
+T. C. R. Within specified 
+T. C. R. +25 ℃ / +125 ℃ 
+Overload ±2 % Rated voltage × 2.5，5 s 
+Resistance to soldering heat ±1 % 270 ℃, 10 s 
+Rapid change of temperature ±1 % –55 ℃ (30 min.) / +155 ℃ (ERJ1R : +125 ℃)(30 min.)， 
+100 cycles 
+High temperature exposure ±1 % +155 ℃ (ERJ1R : +125 ℃), 1000 h 
+Damp heat, Steady state ±1 % 60 ℃, 90 % to 95 %RH, 1000 h 
+Load life in humidity ±2 % 60 ℃, 90 % to 95 %RH, Rated voltage, 
+ERJ1R : ±3 % 1.5 h ON / 0.5 h OFF cycle, 1000 h 
+Endurance at 70 ℃ ERJ1±R2 %: ±3 % 70 ℃，Rated voltage，1.5 h ON / 0.5 h OFF cycle，1000 h 
+● ERJXGN, 1GN, 2RC, 2RK, 3EK, 6EN, 8EN, 14N, 12N, 12S, 1TN series : ±1 ％(F) 
+Test item Performance 
+requirements ⊿R Test conditions 
+Resistance Within specified 
+tolerance 20 ℃ 
+T. C. R. Within specified 
+T. C. R. +25 ℃ / +155 ℃ (ERJXG,ERJ1G : +25℃ / +125 ℃) 
+Overload ±2 % Rated voltage × 2.5, 5 s 
+Resistance to soldering heat ±1 % 270 ℃, 10 s 
+Rapid change of temperature ±1 % –55 ℃ (30 min.)/+155 ℃ (ERJXG,ERJ1G : +125 ℃)(30 min.)， 
+100 cycles 
+High temperature exposure ±1 % +155 ℃ (ERJXG,ERJ1G : +125 ℃), 1000 h 
+Damp heat, Steady state ±1 % 60 ℃, 90 % to 95 %RH, 1000 h 
+Load life in humidity ±2 % 60 ℃, 90 % to 95 %RH, Rated voltage, 
+ERJXG,1G : ±3 % 1.5 h ON / 0.5 h OFF cycle, 1000 h 
+Endurance at 70 ℃ ERJXG±,21 G% : ±3 % 70 ℃, Rated voltage, 1.5 h ON / 0.5 h OFF cycle, 1000 h 
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use. 
+Should a safety concern arise regarding this product, please be sure to contact us immediately. 2-Nov-21 
+
+
+L 
+
+
+W 
+
+
+a 
+
+
+b 
+
+
+T 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+NRFND 
+
+
+
+Guidelines and precautions regarding the 
+technical information and use of our products 
+described in this online catalog. 
+■ If you want to use our products described in this online catalog for applications requiring special 
+qualities or reliability, or for applications where the failure or malfunction of the products may directly 
+jeopardize human life or potentially cause personal injury (e.g. aircraft and aerospace equipment, 
+traffic and transportation equipment, combustion equipment, medical equipment, accident prevention, 
+anti-crime equipment, and/or safety equipment), it is necessary to verify whether the specifications of 
+our products fit to such applications. Please ensure that you will ask and check with our inquiry desk 
+as to whether the specifications of our products fit to such applications use before you use our products. 
+■ The quality and performance of our products as described in this online catalog only apply to our 
+products when used in isolation. Therefore, please ensure you evaluate and verify our products under 
+the specific circumstances in which our products are assembled in your own products and in which our 
+products will actually be used. 
+■ If you use our products in equipment that requires a high degree of reliability, regardless of the 
+application, it is recommended that you set up protection circuits and redundancy circuits in order 
+to ensure safety of your equipment. 
+■ The products and product specifications described in this online catalog are subject to change for 
+improvement without prior notice. Therefore, please be sure to request and confirm the latest product 
+specifications which explain the specifications of our products in detail, before you finalize the design 
+of your applications, purchase, or use our products. 
+■ The technical information in this online catalog provides examples of our products' typical operations 
+and application circuits. We do not guarantee the non-infringement of third party's intellectual property 
+rights and we do not grant any license, right, or interest in our intellectual property. 
+■ If any of our products, product specifications and/or technical information in this online catalog is to 
+be exported or provided to non-residents, the laws and regulations of the exporting country, 
+especially with regard to security and export control, shall be observed. 
+<Regarding the Certificate of Compliance with 
+the EU RoHS Directive/REACH Regulations> 
+■ The switchover date for compliance with the RoHS Directive/REACH Regulations varies depending 
+on the part number or series of our products. 
+■ When you use the inventory of our products for which it is unclear whether those products are 
+compliant with the RoHS Directive/REACH Regulation, please select "Sales Inquiry" in the website 
+inquiry form and contact us. 
+We do not take any responsibility for the use of our products outside the scope of the 
+specifications, descriptions, guidelines and precautions described in this online catalog. 
+16-Apr-21 
+
+
+
+Fixed Resistors 
+　　Application Guidelines (Fixed Resistors) 
+Safety precautions 
+• When using our products, no matter what sort of equipment they might be used for, be sure to make a written 
+agreement on the specifications with us in advance. The design and specifications in this catalog are subject to 
+change without prior notice. 
+• Do not use the products beyond the specifications described in this catalog. 
+• This catalog explains the quality and performance of the products as individual components. Before use, check 
+and evaluate their operations when installed in your products under the actual conditions for use. 
+• Install the following systems for a failsafe design to ensure safety if these products are to be used in equipment 
+where a defect in these products may cause the loss of human life or other significant damage, such as 
+damage to vehicles (automobile, train, vessel), traffic lights, medical equipment, aerospace equipment, 
+electric heating appliances, combustion/gas equipment, rotating equipment, and disaster/crime prevention 
+equipment. 
+✽ Systems equipped with a protection circuit and a protection device. 
+✽ Systems equipped with a redundant circuit or other system to prevent an unsafe status in the event of a single fault. 
+✽ Systems equipped with an arresting the spread of fire or preventing glitch. 
+Precautions for use 
+• These products are designed and manufactured for general and standard use in general elec tron ic equipment. 
+(e.g. AV equipment, home electric appliances, office equipment, information and communication equipment) 
+For applications in which special quality and reliability are required, or if the failure or malfunction of the 
+products may directly jeopardize life or cause threat of personal injury (such as for aircraft and aerospace 
+equipment, traffic and transport equipment, combustion equipment, medical equipment, accident prevention 
+and anti-theft devices, and safety equipment), please be sure to consult with our sales representative in 
+advance and to exchange product specifications which conform to such applications. 
+• These products are not intended for use in the following special conditions. Before using the products, carefully 
+check the effects on their quality and performance, and determine whether or not they can be used. 
+1. In liquid, such as water, oil, chemicals, or organic solvent. 
+2. In direct sunlight, outdoors, or in dust. 
+3. In salty air or air with a high concentration of corrosive gas, such as Cl2, H2S, NH3, SO2, or NOX . 
+4. Electric Static Discharge (ESD) Environment. 
+These components are sensitive to static electricity and can be damaged under static shock (ESD). 
+　 Please take measures to avoid any of these environments. 
+Smaller components are more sensitive to ESD environment. 
+5. Electromagnetic and Radioactive Environment. 
+Avoid any environment where strong electromagnetic waves and radiation exist. 
+6. In an environment where these products cause dew condensation. 
+7. Sealing or coating of these products or a printed circuit board on which these products are mounted, with 
+resin or other materials. 
+• These products generate Joule heat when energized. Carefully position these products so that their heat will 
+not affect the other components. 
+• Carefully position these products so that their temperatures will not exceed the category temperature range 
+due to the effects of neighboring heat-generating components. Do not mount or place heat-generating 
+components or inflammables, such as vinyl-coated wires, near these products. 
+• Note that non-cleaning solder, halogen-based highly active flux, or water-soluble flux may deteriorate the 
+performance or reliability of the products. 
+• Carefully select a flux cleaning agent for use after soldering. An unsuitable agent may deteriorate the 
+performance or reliability. In particular, when using water or a water-soluble cleaning agent, be careful not to 
+leave water residues. Otherwise, the insulation performance may be deteriorated. 
+• Do not apply flux to these products after soldering. The activity of flux may be a cause of failures in these 
+products. 
+• Refer to the recommended soldering conditions and set the soldering condition. High peak temperature or 
+long heating time may impair the performance or the reliability of these products. 
+• Recommended soldering condition is for the guideline for ensuring the basic characteristics of the products, 
+not for the stable soldering conditions. Conditions for proper soldering should be set up according to individual 
+conditions. 
+• Do not reuse any products after removal from mounting boards. 
+• Do not drop these products. If these products are dropped, do not use them. Such products may have 
+received mechanical or electrical damage. 
+• If any doubt or concern to the safety on these products arise, make sure to inform us immediately and 
+conduct technical examinations at your side. 
+01-Oct-19 
+
+
+
+Fixed Resistors 
+Precautions for storage 
+The performance of these products, including the solderability, is guaranteed for a year from the date of 
+arrival at your company, provided that they remain packed as they were when delivered and stored at 
+a temperature of 5 °C to 35 °C and a relative humidity of 45 % to 85 %. 
+Even within the above guarantee periods, do not store these products in the following conditions. 
+Otherwise, their electrical performance and/or solderability may be deteriorated, and the packaging 
+materials (e.g. taping materials) may be deformed or deteriorated, resulting in mounting failures. 
+1. In salty air or in air with a high concentration of corrosive gas, such as Cl2, H2S, NH3, SO2, or NOX . 
+2. In direct sunlight. 
+＜Package markings＞ 
+Package markings include the product number, quantity, and country of origin. 
+In principle, the country of origin should be indicated in English. 
+　AEC-Q200 Compliant 
+The products are tested based on all or part of the test conditions and methods defined in AEC-Q200. 
+Please consult with Panasonic for the details of the product specification and specific evaluation test results, 
+etc., and please review and approve Panasonic's product specification before ordering. 
+01-Oct-19 
+
+
+
+Surface Mount Resistors 
+　　Application Guidelines (Surface Mount Resistors) 
+The following are precautions for individual products. Please also refer to the common precautions for Fixed 
+Resistors in this catalog. 
+1. Take measures against mechanical stress during and after mounting of Surface Mount Resistors 
+(hereafter called the resistors) so as not to damage their electrodes and protective coatings. 
+Be careful not to misplace the resistors on the land patterns. Otherwise, solder bridging may occur. 
+2. Keep the rated power and ambient temperature within the specified derating curve. 
+Some circuit boards, wiring patterns, temperatures of heat generated by adjacent components, or 
+ambient temper a tures can become factors in the rise of the temperature of the resistors, regardless of 
+the level of power applied. Therefore, check the conditions before use and op timize them so as not to 
+damage the boards and peripheral components. 
+Make sure to contact us before using the resistors under special conditions. 
+3. If a transient load (heavy load in a short time) like a pulse is expected to be applied, check and evaluate 
+the operations of the resistors when installed in your products before use. Never exceed the rated power. 
+Otherwise, the performance and/or reliability of the resistors may be impaired. 
+4. Transient voltage 
+If there is a possibility that the transient phenomenon (significantly high voltage applied in a short time) 
+may occur or that a high voltage pulse may be applied, make sure to evaluate and check the 
+characteristics of resistors mounted on your product rather than only depending on the calculated power 
+limit or steady-state conditions. 
+5. If the resistors are to be used in high frequency circuits, carefully check the operation before use. 
+Such circuits change the electrical characteristics of the resistors. 
+6.Before using halogen-based or other high-activity flux, check the possible effects of the flux residues on the 
+performance and reliability of the resistors. 
+7. When soldering with a soldering iron, never touch the resistors'bodies with the tip of the soldering iron. 
+When using a soldering iron with a high temperature tip, finish soldering as quickly as possible 
+(within three seconds at 350 °C max.). 
+8. Mounting of the resistors with excessive or insufficient wetting amount of solder may affect the 
+connection reliability or the performance of the resistors. Carefully check the effects and apply a proper 
+amount of solder for use. 
+9. When the resistors' protective coatings are chipped, flawed, or removed, the characteristics of the 
+resistors may be impaired. Take special care not to apply mechanical shock during automatic mounting 
+or cause damage during handling of the boards with the resistors mounted. 
+10. Do not apply shock to the resistors or pinch them with a hard tool (e.g. pliers and tweezers). Otherwise, 
+the resistors' protective coatings and bodies may be chipped, affecting their performance. 
+11. Avoid excessive bending of printed circuit boards in order to protect the resistors from abnormal stress. 
+12. Do not immerse the resistors in solvent for a long time. 
+Before using solvent, carefully check the effects of immersion. 
+13. Do not apply excessive tension to the terminals. 
+01-Oct-19 
+
+
+
