@@ -1,0 +1,8 @@
+
+display none VALUES names confidential ;
+group all;
+change font vector (C>0 0);
+change ratio 8 (C>0 0);
+change font proportional (C>0 0);
+change size .05 (C>0 0);
+display last;
