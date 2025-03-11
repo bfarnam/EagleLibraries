@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -242,8 +242,8 @@ precision wire wound</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CIG22L4R7MNE" constant="yes"/>
-<attribute name="VALUE" value="4.7uh 1.1A" constant="yes"/>
+<attribute name="MPN" value="CIG22L4R7MNE"/>
+<attribute name="VALUE" value="4.7uh 1.1A"/>
 </technology>
 </technologies>
 </device>
@@ -262,196 +262,196 @@ precision wire wound</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AUTOMOTIVE" value="-" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="" constant="yes"/>
-<attribute name="I_MAX" value="" constant="yes"/>
-<attribute name="I_SAT" value="" constant="yes"/>
-<attribute name="I_TEMP" value="" constant="yes"/>
-<attribute name="L_FREQ" value="" constant="yes"/>
-<attribute name="MARKING" value="" constant="yes"/>
-<attribute name="MFG" value="" constant="yes"/>
-<attribute name="MPN" value="" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="" constant="yes"/>
-<attribute name="RATED_V" value="" constant="yes"/>
-<attribute name="SIZE" value="" constant="yes"/>
-<attribute name="TOLERANCE" value="" constant="yes"/>
-<attribute name="VALUE" value="" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="-"/>
+<attribute name="DC_RESISTANCE" value=""/>
+<attribute name="I_MAX" value=""/>
+<attribute name="I_SAT" value=""/>
+<attribute name="I_TEMP" value=""/>
+<attribute name="L_FREQ" value=""/>
+<attribute name="MARKING" value=""/>
+<attribute name="MFG" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OPERATING_TEMP" value=""/>
+<attribute name="RATED_V" value=""/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value=""/>
 </technology>
 <technology name="1R0">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="42 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="4.7A" constant="yes"/>
-<attribute name="I_SAT" value="4.2A" constant="yes"/>
-<attribute name="I_TEMP" value="3.7A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="1R0" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMA1R0MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="1.0 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="42 mOhm"/>
+<attribute name="I_MAX" value="4.7A"/>
+<attribute name="I_SAT" value="4.2A"/>
+<attribute name="I_TEMP" value="3.7A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="1R0"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMA1R0MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="1.0 uH"/>
 </technology>
 <technology name="1R5">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="60 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="3.9A" constant="yes"/>
-<attribute name="I_SAT" value="3.3A" constant="yes"/>
-<attribute name="I_TEMP" value="3.1A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="1R5" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMA1R5MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="35V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="1.5 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="60 mOhm"/>
+<attribute name="I_MAX" value="3.9A"/>
+<attribute name="I_SAT" value="3.3A"/>
+<attribute name="I_TEMP" value="3.1A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="1R5"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMA1R5MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="35V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="1.5 uH"/>
 </technology>
 <technology name="2R2">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="84 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="3.3A" constant="yes"/>
-<attribute name="I_SAT" value="2.8A" constant="yes"/>
-<attribute name="I_TEMP" value="2.6A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="2R2" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMA2R2MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="16V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="2.2 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="84 mOhm"/>
+<attribute name="I_MAX" value="3.3A"/>
+<attribute name="I_SAT" value="2.8A"/>
+<attribute name="I_TEMP" value="2.6A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="2R2"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMA2R2MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="16V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="2.2 uH"/>
 </technology>
 <technology name="3R3">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="140 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="2.5A" constant="yes"/>
-<attribute name="I_SAT" value="2.1A" constant="yes"/>
-<attribute name="I_TEMP" value="2.0A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="3R3" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMA3R3MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="25V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="3.3 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="140 mOhm"/>
+<attribute name="I_MAX" value="2.5A"/>
+<attribute name="I_SAT" value="2.1A"/>
+<attribute name="I_TEMP" value="2.0A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="3R3"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMA3R3MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="3.3 uH"/>
 </technology>
 <technology name="4R7">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="200 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="2.2A" constant="yes"/>
-<attribute name="I_SAT" value="1.9A" constant="yes"/>
-<attribute name="I_TEMP" value="1.6A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="4R7" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMA4R7MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="25V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="4.7 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="200 mOhm"/>
+<attribute name="I_MAX" value="2.2A"/>
+<attribute name="I_SAT" value="1.9A"/>
+<attribute name="I_TEMP" value="1.6A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="4R7"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMA4R7MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="25V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="4.7 uH"/>
 </technology>
 <technology name="R10">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="9 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="12A" constant="yes"/>
-<attribute name="I_SAT" value="10.0A" constant="yes"/>
-<attribute name="I_TEMP" value="8.0A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="R10" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMAR10MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="0.1 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="9 mOhm"/>
+<attribute name="I_MAX" value="12A"/>
+<attribute name="I_SAT" value="10.0A"/>
+<attribute name="I_TEMP" value="8.0A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="R10"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMAR10MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="0.1 uH"/>
 </technology>
 <technology name="R15">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="11 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="10A" constant="yes"/>
-<attribute name="I_SAT" value="9.0A" constant="yes"/>
-<attribute name="I_TEMP" value="7.3A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="R15" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMAR15MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="0.15 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="11 mOhm"/>
+<attribute name="I_MAX" value="10A"/>
+<attribute name="I_SAT" value="9.0A"/>
+<attribute name="I_TEMP" value="7.3A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="R15"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMAR15MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="0.15 uH"/>
 </technology>
 <technology name="R22">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="13 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="9A" constant="yes"/>
-<attribute name="I_SAT" value="8.0A" constant="yes"/>
-<attribute name="I_TEMP" value="6.7A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="R22" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMAR22MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="0.22 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="13 mOhm"/>
+<attribute name="I_MAX" value="9A"/>
+<attribute name="I_SAT" value="8.0A"/>
+<attribute name="I_TEMP" value="6.7A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="R22"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMAR22MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="0.22 uH"/>
 </technology>
 <technology name="R33">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="18 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="7.8A" constant="yes"/>
-<attribute name="I_SAT" value="7.0A" constant="yes"/>
-<attribute name="I_TEMP" value="5.7A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="R33" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMAR33MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="0.33 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="18 mOhm"/>
+<attribute name="I_MAX" value="7.8A"/>
+<attribute name="I_SAT" value="7.0A"/>
+<attribute name="I_TEMP" value="5.7A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="R33"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMAR33MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="0.33 uH"/>
 </technology>
 <technology name="R47">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="24 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="6.5A" constant="yes"/>
-<attribute name="I_SAT" value="5.8A" constant="yes"/>
-<attribute name="I_TEMP" value="4.9A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="R47" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMAR47MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="0.47 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="24 mOhm"/>
+<attribute name="I_MAX" value="6.5A"/>
+<attribute name="I_SAT" value="5.8A"/>
+<attribute name="I_TEMP" value="4.9A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="R47"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMAR47MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="0.47 uH"/>
 </technology>
 <technology name="R68">
-<attribute name="AUTOMOTIVE" value="AEC-Q200" constant="yes"/>
-<attribute name="DC_RESISTANCE" value="34 mOhm" constant="yes"/>
-<attribute name="I_MAX" value="5.4A" constant="yes"/>
-<attribute name="I_SAT" value="4.8A" constant="yes"/>
-<attribute name="I_TEMP" value="4.1A" constant="yes"/>
-<attribute name="L_FREQ" value="1 MHz" constant="yes"/>
-<attribute name="MARKING" value="R68" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="TFM252012ALMAR68MTAA" constant="yes"/>
-<attribute name="OPERATING_TEMP" value="-55 to +150C" constant="yes"/>
-<attribute name="RATED_V" value="20V" constant="yes"/>
-<attribute name="SIZE" value="2520" constant="yes"/>
-<attribute name="TOLERANCE" value="20%" constant="yes"/>
-<attribute name="VALUE" value="0.68 uH" constant="yes"/>
+<attribute name="AUTOMOTIVE" value="AEC-Q200"/>
+<attribute name="DC_RESISTANCE" value="34 mOhm"/>
+<attribute name="I_MAX" value="5.4A"/>
+<attribute name="I_SAT" value="4.8A"/>
+<attribute name="I_TEMP" value="4.1A"/>
+<attribute name="L_FREQ" value="1 MHz"/>
+<attribute name="MARKING" value="R68"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MPN" value="TFM252012ALMAR68MTAA"/>
+<attribute name="OPERATING_TEMP" value="-55 to +150C"/>
+<attribute name="RATED_V" value="20V"/>
+<attribute name="SIZE" value="2520"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="0.68 uH"/>
 </technology>
 </technologies>
 </device>
@@ -469,64 +469,70 @@ precision wire wound</description>
 </connects>
 <technologies>
 <technology name="1R0">
-<attribute name="DCR" value="9.6 mOhm" constant="yes"/>
-<attribute name="FREQ" value="100 KHz" constant="yes"/>
-<attribute name="I" value="5.2 A" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="CLF7045T-1R0N-D" constant="yes"/>
-<attribute name="SAT" value="8.9 A" constant="yes"/>
-<attribute name="TOL" value="+/-30%" constant="yes"/>
-<attribute name="VALUE" value="1.0 uH" constant="yes"/>
+<attribute name="DCR" value="9.6 mOhm"/>
+<attribute name="FREQ" value="100 KHz"/>
+<attribute name="I" value="5.2 A"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
+<attribute name="MPN" value="CLF7045T-1R0N-D"/>
+<attribute name="SAT" value="8.9 A"/>
+<attribute name="TOL" value="+/-30%"/>
+<attribute name="VALUE" value="1.0 uH"/>
 </technology>
 <technology name="1R5">
-<attribute name="DCR" value="11.0 mOhm" constant="yes"/>
-<attribute name="FREQ" value="100 KHz" constant="yes"/>
-<attribute name="I" value="4.9 A" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="CLF7045T-1R5N-D" constant="yes"/>
-<attribute name="SAT" value="7.3 A" constant="yes"/>
-<attribute name="TOL" value="+/-30%" constant="yes"/>
-<attribute name="VALUE" value="1.5 uH" constant="yes"/>
+<attribute name="DCR" value="11.0 mOhm"/>
+<attribute name="FREQ" value="100 KHz"/>
+<attribute name="I" value="4.9 A"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
+<attribute name="MPN" value="CLF7045T-1R5N-D"/>
+<attribute name="SAT" value="7.3 A"/>
+<attribute name="TOL" value="+/-30%"/>
+<attribute name="VALUE" value="1.5 uH"/>
 </technology>
 <technology name="2R2">
-<attribute name="DCR" value="14.6 mOhm" constant="yes"/>
-<attribute name="FREQ" value="100 KHz" constant="yes"/>
-<attribute name="I" value="4.3 A" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="CLF7045T-2R2N-D" constant="yes"/>
-<attribute name="SAT" value="5.5 A" constant="yes"/>
-<attribute name="TOL" value="+/-30%" constant="yes"/>
-<attribute name="VALUE" value="2.2 uH" constant="yes"/>
+<attribute name="DCR" value="14.6 mOhm"/>
+<attribute name="FREQ" value="100 KHz"/>
+<attribute name="I" value="4.3 A"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value="810-CLF7045T-2R2N-D"/>
+<attribute name="MPN" value="CLF7045T-2R2N-D"/>
+<attribute name="SAT" value="5.5 A"/>
+<attribute name="TOL" value="+/-30%"/>
+<attribute name="VALUE" value="2.2 uH"/>
 </technology>
 <technology name="3R3">
-<attribute name="DCR" value="16.4 mOhm" constant="yes"/>
-<attribute name="FREQ" value="100 KHz" constant="yes"/>
-<attribute name="I" value="4.1 A" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="CLF7045T-3R3N-D" constant="yes"/>
-<attribute name="SAT" value="5.0 A" constant="yes"/>
-<attribute name="TOL" value="+/-30%" constant="yes"/>
-<attribute name="VALUE" value="3.3 uH" constant="yes"/>
+<attribute name="DCR" value="16.4 mOhm"/>
+<attribute name="FREQ" value="100 KHz"/>
+<attribute name="I" value="4.1 A"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
+<attribute name="MPN" value="CLF7045T-3R3N-D"/>
+<attribute name="SAT" value="5.0 A"/>
+<attribute name="TOL" value="+/-30%"/>
+<attribute name="VALUE" value="3.3 uH"/>
 </technology>
 <technology name="4R7">
-<attribute name="DCR" value="20.0 mOhm" constant="yes"/>
-<attribute name="FREQ" value="100 KHz" constant="yes"/>
-<attribute name="I" value="3.6 A" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="CLF7045T-4R7N-D" constant="yes"/>
-<attribute name="SAT" value="4.1 A" constant="yes"/>
-<attribute name="TOL" value="+/-30%" constant="yes"/>
-<attribute name="VALUE" value="4.7 uH" constant="yes"/>
+<attribute name="DCR" value="20.0 mOhm"/>
+<attribute name="FREQ" value="100 KHz"/>
+<attribute name="I" value="3.6 A"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
+<attribute name="MPN" value="CLF7045T-4R7N-D"/>
+<attribute name="SAT" value="4.1 A"/>
+<attribute name="TOL" value="+/-30%"/>
+<attribute name="VALUE" value="4.7 uH"/>
 </technology>
 <technology name="6R8">
-<attribute name="DCR" value="27.0 mOhm" constant="yes"/>
-<attribute name="FREQ" value="100 KHz" constant="yes"/>
-<attribute name="I" value="3.0 A" constant="yes"/>
-<attribute name="MFG" value="TDK" constant="yes"/>
-<attribute name="MPN" value="CLF7045T-6R8N-D" constant="yes"/>
-<attribute name="SAT" value="3.3 A" constant="yes"/>
-<attribute name="TOL" value="+/-30%" constant="yes"/>
-<attribute name="VALUE" value="6.8 uH" constant="yes"/>
+<attribute name="DCR" value="27.0 mOhm"/>
+<attribute name="FREQ" value="100 KHz"/>
+<attribute name="I" value="3.0 A"/>
+<attribute name="MFG" value="TDK"/>
+<attribute name="MOUSER_PN" value=""/>
+<attribute name="MPN" value="CLF7045T-6R8N-D"/>
+<attribute name="SAT" value="3.3 A"/>
+<attribute name="TOL" value="+/-30%"/>
+<attribute name="VALUE" value="6.8 uH"/>
 </technology>
 </technologies>
 </device>

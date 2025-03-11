@@ -165,7 +165,7 @@ precision wire wound</description>
 <wire x1="1.9812" y1="3.683" x2="-1.9812" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-3.8354" y1="-1.4224" x2="-3.8354" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="3.8354" y1="1.4224" x2="3.8354" y2="1.905" width="0.1524" layer="21"/>
-<text x="-5.2832" y="-1.27" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-5.2832" y="-1.27" size="1.27" layer="25" font="vector" ratio="10" rot="SR0">*</text>
 <text x="0" y="0" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-1.8542" y1="3.556" x2="-3.7084" y2="1.778" width="0.1524" layer="51"/>
 <wire x1="-3.7084" y1="1.778" x2="-3.7084" y2="-1.778" width="0.1524" layer="51"/>

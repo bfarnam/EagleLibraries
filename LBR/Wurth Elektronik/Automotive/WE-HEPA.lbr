@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -137,7 +137,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-HEPA_5030" urn="urn:adsk.eagle:footprint:39370766/2">
+<package name="WE-HEPA_5030">
 <description>&lt;B&gt;WE-HEPA SMT Tiny Power Inductor Automotive
 &lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 5030, SMT, 2pins
 &lt;br&gt;LxWxH=4.9x4.9x2.85mm</description>
@@ -207,7 +207,7 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <circle x="-3.5" y="2.5" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="WE-HEPA_6030" urn="urn:adsk.eagle:footprint:39370765/2">
+<package name="WE-HEPA_6030">
 <description>&lt;B&gt;WE-HEPC SMT Power Inductor
 &lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 6030, SMT, 2pins
 &lt;br&gt;LxWxH=5.9x5.9x2.85mm</description>
@@ -278,24 +278,6 @@ Copyright: Würth Elektronik</description>
 <circle x="-4.2" y="2.5" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="WE-HEPA_5030" urn="urn:adsk.eagle:package:39370769/3" type="model">
-<description>&lt;B&gt;WE-HEPA SMT Tiny Power Inductor Automotive
-&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 5030, SMT, 2pins
-&lt;br&gt;LxWxH=4.9x4.9x2.85mm</description>
-<packageinstances>
-<packageinstance name="WE-HEPA_5030"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-HEPA_6030" urn="urn:adsk.eagle:package:39370768/3" type="model">
-<description>&lt;B&gt;WE-HEPC SMT Power Inductor
-&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 6030, SMT, 2pins
-&lt;br&gt;LxWxH=5.9x5.9x2.85mm</description>
-<packageinstances>
-<packageinstance name="WE-HEPA_6030"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="L_GAP_POINT">
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
@@ -342,9 +324,6 @@ Updated by Ella Wu 2024-09-11 &lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39370769/3"/>
-</package3dinstances>
 <technologies>
 <technology name="_78408053003">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78408053003?ae"/>
@@ -457,9 +436,6 @@ Updated by Ella Wu 2024-09-11 &lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39370768/3"/>
-</package3dinstances>
 <technologies>
 <technology name="_78408063004">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78408063004?ae"/>
@@ -567,16 +543,4 @@ Updated by Ella Wu 2024-09-11 &lt;br&gt;
 </devicesets>
 </library>
 </drawing>
-<compatibility>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>

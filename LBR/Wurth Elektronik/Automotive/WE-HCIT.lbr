@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -134,7 +134,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-HCIT_1010" urn="urn:adsk.eagle:footprint:13134196/1">
+<package name="WE-HCIT_1010">
 <description>&lt;b&gt;WE-HCIT THT High Current Inductor
 &lt;br&gt;&lt;/b&gt;size: 1010
 &lt;BR&gt;L X W X H = 10.1mm X 10.1mm X 9.7mm</description>
@@ -159,7 +159,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-8.25" y="-5.35"/>
 </polygon>
 </package>
-<package name="WE-HCIT_1008" urn="urn:adsk.eagle:footprint:13134197/1">
+<package name="WE-HCIT_1008">
 <description>&lt;b&gt;WE-HCIT THT High Current Inductor
 &lt;br&gt;&lt;/b&gt;size: 1008
 &lt;BR&gt;L X W X H = 10.1mm X 10.1mm X 8.1mm</description>
@@ -193,24 +193,6 @@ Copyright: Würth Elektronik</description>
 </polygon>
 </package>
 </packages>
-<packages3d>
-<package3d name="WE-HCIT_1010" urn="urn:adsk.eagle:package:13134199/2" type="model">
-<description>&lt;b&gt;WE-HCIT THT High Current Inductor
-&lt;br&gt;&lt;/b&gt;size: 1010
-&lt;BR&gt;L X W X H = 10.1mm X 10.1mm X 9.7mm</description>
-<packageinstances>
-<packageinstance name="WE-HCIT_1010"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-HCIT_1008" urn="urn:adsk.eagle:package:13134200/2" type="model">
-<description>&lt;b&gt;WE-HCIT THT High Current Inductor
-&lt;br&gt;&lt;/b&gt;size: 1008
-&lt;BR&gt;L X W X H = 10.1mm X 10.1mm X 8.1mm</description>
-<packageinstances>
-<packageinstance name="WE-HCIT_1008"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="WE-HCIT">
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -264,9 +246,6 @@ Updated By Ella Wu  2019-09-09&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13134199/2"/>
-</package3dinstances>
 <technologies>
 <technology name="_78432010005">
 <attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/78432010005.pdf" constant="no"/>
@@ -318,9 +297,6 @@ Updated By Ella Wu  2019-09-09&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13134200/2"/>
-</package3dinstances>
 <technologies>
 <technology name="_78432018003">
 <attribute name="DATDSHEET-URL" value="https://katalog.we-online.de/am/datasheet/78432018003.pdf" constant="no"/>
@@ -339,16 +315,4 @@ Updated By Ella Wu  2019-09-09&lt;br&gt;
 </devicesets>
 </library>
 </drawing>
-<compatibility>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>

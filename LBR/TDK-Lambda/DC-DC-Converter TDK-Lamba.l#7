@@ -68,6 +68,8 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Ref_Measurements" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Ref_Mounting" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -166,38 +168,60 @@
 </polygon>
 </package>
 <package name="IC7_11_PIN_1/16_BRICK">
-<wire x1="-16.47" y1="-18.415" x2="-16.47" y2="17.145" width="0.127" layer="51"/>
-<wire x1="-16.47" y1="17.145" x2="-15.2" y2="18.415" width="0.127" layer="51"/>
-<wire x1="-15.2" y1="18.415" x2="17.57" y2="18.415" width="0.127" layer="51"/>
-<wire x1="17.57" y1="18.415" x2="17.57" y2="-18.415" width="0.127" layer="51"/>
-<wire x1="17.57" y1="-18.415" x2="-16.47" y2="-18.415" width="0.127" layer="51"/>
-<wire x1="-16.47" y1="-18.415" x2="-16.47" y2="17.145" width="0.127" layer="21"/>
-<wire x1="-16.47" y1="17.145" x2="-15.2" y2="18.415" width="0.127" layer="21"/>
-<wire x1="-15.2" y1="18.415" x2="17.57" y2="18.415" width="0.127" layer="21"/>
-<wire x1="17.57" y1="18.415" x2="17.57" y2="-18.415" width="0.127" layer="21"/>
-<wire x1="17.57" y1="-18.415" x2="-16.47" y2="-18.415" width="0.127" layer="21"/>
-<circle x="-17.22" y="7.615" radius="0.1" width="0.2" layer="21"/>
-<circle x="-17.22" y="7.615" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-17.018" y1="-18.415" x2="-17.018" y2="17.145" width="0.127" layer="51"/>
+<wire x1="-17.018" y1="17.145" x2="-15.748" y2="18.415" width="0.127" layer="51"/>
+<wire x1="-15.748" y1="18.415" x2="17.018" y2="18.415" width="0.127" layer="51"/>
+<wire x1="17.018" y1="18.415" x2="17.018" y2="-18.415" width="0.127" layer="51"/>
+<wire x1="17.018" y1="-18.415" x2="-17.018" y2="-18.415" width="0.127" layer="51"/>
+<wire x1="-17.018" y1="-18.415" x2="-17.018" y2="17.145" width="0.127" layer="21"/>
+<wire x1="-17.018" y1="17.145" x2="-15.748" y2="18.415" width="0.127" layer="21"/>
+<wire x1="-15.748" y1="18.415" x2="17.018" y2="18.415" width="0.127" layer="21"/>
+<wire x1="17.018" y1="18.415" x2="17.018" y2="-18.415" width="0.127" layer="21"/>
+<wire x1="17.018" y1="-18.415" x2="-17.018" y2="-18.415" width="0.127" layer="21"/>
+<circle x="-17.78" y="76.2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-20.32" y="7.493" radius="0.127" width="0.2" layer="51"/>
 <text x="-16.72" y="19.665" size="1.27" layer="25">&gt;NAME</text>
 <text x="-16.72" y="-19.665" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="1" x="-13.97" y="7.615" drill="1.47" shape="square"/>
-<pad name="2" x="-13.97" y="-0.005" drill="1.47"/>
-<pad name="3" x="-13.97" y="-7.625" drill="1.47"/>
-<pad name="4" x="13.97" y="-7.625" drill="2.02"/>
-<pad name="8" x="13.97" y="7.615" drill="2.02"/>
-<pad name="6" x="13.97" y="-0.005" drill="1.47"/>
-<pad name="7" x="13.97" y="3.805" drill="1.47"/>
-<pad name="5" x="13.97" y="-3.815" drill="1.47"/>
-<pad name="32" x="-1.9" y="-7.625" drill="1.47"/>
-<pad name="34" x="1.91" y="-7.625" drill="1.47"/>
+<pad name="1" x="-14.478" y="7.493" drill="1.47" shape="square"/>
+<pad name="2" x="-14.478" y="-0.127" drill="1.47"/>
+<pad name="3" x="-14.478" y="-7.747" drill="1.47"/>
+<pad name="4" x="13.462" y="-7.747" drill="2.02"/>
+<pad name="8" x="13.462" y="7.493" drill="2.02"/>
+<pad name="6" x="13.462" y="-0.127" drill="1.47"/>
+<pad name="7" x="13.462" y="3.683" drill="1.47"/>
+<pad name="5" x="13.462" y="-3.937" drill="1.47"/>
+<pad name="32" x="-2.413" y="-7.747" drill="1.47"/>
+<pad name="34" x="1.397" y="-7.747" drill="1.47"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="23"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="23"/>
 <polygon width="0.127" layer="39" pour="hatch">
-<vertex x="-17.145" y="19.05"/>
-<vertex x="-17.145" y="-19.05"/>
-<vertex x="18.415" y="-19.05"/>
-<vertex x="18.415" y="19.05"/>
+<vertex x="-17.653" y="19.05"/>
+<vertex x="-17.653" y="-19.05"/>
+<vertex x="17.653" y="-19.05"/>
+<vertex x="17.653" y="19.05"/>
 </polygon>
+<dimension x1="-2.413" y1="-7.747" x2="-14.478" y2="-7.747" x3="-8.4455" y3="-11.43" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="1.397" y1="-7.747" x2="-14.478" y2="-7.747" x3="-6.5405" y3="-15.24" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="13.462" y1="15.24" x2="-14.478" y2="15.24" x3="-0.508" y3="-21.59" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-14.478" y1="7.493" x2="-17.018" y2="7.493" x3="-15.748" y3="10.16" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="17.018" y1="-18.415" x2="-17.018" y2="-18.415" x3="0" y3="-30.48" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="17.018" y1="18.415" x2="17.018" y2="-18.415" x3="39.37" y3="0" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-17.018" y1="-18.415" x2="-17.018" y2="17.145" x3="-29.21" y3="-0.635" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="17.018" y2="0" x3="8.509" y3="-2.54" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-17.018" y1="0" x2="0" y2="0" x3="-8.509" y3="-2.54" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-15.748" y1="18.415" x2="17.018" y2="18.415" x3="0.635" y3="21.59" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-14.478" y1="18.415" x2="-14.478" y2="7.493" x3="-5.08" y3="12.954" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-14.478" y1="7.493" x2="-14.478" y2="-7.747" x3="34.29" y3="-0.127" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="13.462" y1="7.493" x2="13.462" y2="3.683" x3="20.32" y3="5.588" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="13.462" y1="7.493" x2="13.462" y2="-3.937" x3="30.48" y3="1.778" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="13.462" y1="7.493" x2="13.462" y2="-0.127" x3="25.4" y3="3.683" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="-14.478" y1="7.493" x2="-14.478" y2="-0.127" x3="-24.13" y3="3.683" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="0" y2="18.415" x3="0" y3="9.2075" textsize="1.27" layer="100" unit="inch" precision="3"/>
+<circle x="13.97" y="7.493" radius="1.4986" width="0.127" layer="101"/>
+<circle x="-14.986" y="-7.747" radius="1.4986" width="0.127" layer="101"/>
+<dimension x1="-14.986" y1="15.24" x2="13.97" y2="15.24" x3="-0.508" y3="-26.035" textsize="1.27" layer="101" unit="inch" precision="3"/>
+<dimension x1="13.97" y1="-12.7" x2="13.462" y2="-12.7" x3="13.716" y3="-12.7" textsize="1.27" layer="101" unit="inch" precision="3"/>
+<dimension x1="-14.478" y1="12.7" x2="-14.986" y2="12.7" x3="-14.732" y3="12.7" textsize="1.27" layer="101" unit="inch" precision="3"/>
 </package>
 </packages>
 <symbols>
