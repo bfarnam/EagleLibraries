@@ -6485,7 +6485,7 @@ SOP65P600X105-15N-1-V</description>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Infineon"/>
-<attribute name="MPN" value="BTS7004-1EPP"/>
+<attribute name="MPN" value="BTS70041-EPPXUMA1"/>
 <attribute name="PACKAGE" value="PG-TSDSO-14-22"/>
 <attribute name="SIZE" value="14-TSSOP"/>
 <attribute name="VALUE" value="BTS7004"/>

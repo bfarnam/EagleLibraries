@@ -315,8 +315,8 @@
 <symbol name="LABELED-PMOS">
 <description>&lt;h3&gt;P-channel MOSFET&lt;/h3&gt;
 Switches electrical signals</description>
-<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
 <pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
 <pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
@@ -391,11 +391,14 @@ Switches electronic signals</description>
 <vertex x="-1.2192" y="0.254"/>
 <vertex x="-1.2192" y="-0.254"/>
 </polygon>
-<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <text x="0.508" y="2.54" size="1.27" layer="94">D</text>
 <text x="0.508" y="-3.81" size="1.27" layer="94">S</text>
 <text x="-3.302" y="-0.508" size="1.27" layer="94" rot="R180">G</text>
+<circle x="0" y="-1.905" radius="0.254" width="0" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.254" width="0" layer="94"/>
+<circle x="2.54" y="1.778" radius="0.254" width="0" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>

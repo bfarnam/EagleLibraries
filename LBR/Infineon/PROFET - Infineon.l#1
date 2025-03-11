@@ -6488,7 +6488,7 @@ SOP65P600X105-15N-1-V</description>
 <attribute name="MPN" value="BTS7004-1EPPXUMA1"/>
 <attribute name="PACKAGE" value="PG-TSDSO-14-22"/>
 <attribute name="SIZE" value="14-TSSOP"/>
-<attribute name="VALUE" value="BTS7004"/>
+<attribute name="VALUE" value="BTS7004-1"/>
 </technology>
 </technologies>
 </device>

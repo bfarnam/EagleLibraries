@@ -1,7 +1,6 @@
 ? = Package variant, * = Technology
 
-To define devices that are available in several technologies and package variants you have to use wild cards in the device name to determine the position
-of these names.
+To define devices that are available in several technologies and package variants you have to use wild cards in the device name to determine the position of these names.
 
 *  represents   the   position   of  the   technology   name,  ?  the   package   name.
 Defining for example a device like a 7400 in two technologies (L,  LS) the

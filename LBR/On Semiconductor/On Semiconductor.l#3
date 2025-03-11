@@ -809,7 +809,7 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FDD9511L-F085" prefix="U">
+<deviceset name="FDD9511L-F085" prefix="Q">
 <gates>
 <gate name="G$1" symbol="LABELED-PMOS" x="0" y="0"/>
 </gates>

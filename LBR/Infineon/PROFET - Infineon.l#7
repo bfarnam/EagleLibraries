@@ -7104,17 +7104,17 @@ Quad Channel Smart High-Side Power Switch</description>
 <technology name="030">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60302ERAXUMA1"/>
-<attribute name="VALUE" value="BTT6030-2ERA"/>
+<attribute name="VALUE" value="BTT6030-2"/>
 </technology>
 <technology name="050">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60502ERAXUMA1"/>
-<attribute name="VALUE" value="BTT6050-2ERA"/>
+<attribute name="VALUE" value="BTT6050-2"/>
 </technology>
 <technology name="100">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT61002ERAXUMA1"/>
-<attribute name="VALUE" value="BTT6100-2ERA"/>
+<attribute name="VALUE" value="BTT6100-2"/>
 </technology>
 </technologies>
 </device>

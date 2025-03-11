@@ -7106,16 +7106,22 @@ Quad Channel Smart High-Side Power Switch</description>
 <technology name="030">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60302ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-DSO-14-47-EP"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6030-2"/>
 </technology>
 <technology name="050">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60502ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-DSO-14-47-EP"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6050-2"/>
 </technology>
 <technology name="100">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT61002ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-DSO-14-47-EP"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6100-2"/>
 </technology>
 </technologies>
@@ -7141,21 +7147,29 @@ Quad Channel Smart High-Side Power Switch</description>
 <technology name="010">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60101ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6010-1"/>
 </technology>
 <technology name="020">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60201ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6020-1"/>
 </technology>
 <technology name="030">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60301ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6030-1"/>
 </technology>
 <technology name="050">
 <attribute name="MFG" value="Infineon"/>
 <attribute name="MPN" value="BTT60501ERAXUMA1"/>
+<attribute name="PACKAGE" value="PG-TDSO-14-11"/>
+<attribute name="SIZE" value="14-SOIC"/>
 <attribute name="VALUE" value="BTT6050-1"/>
 </technology>
 </technologies>
