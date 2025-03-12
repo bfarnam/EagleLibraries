@@ -1,0 +1,164 @@
+625 = 2.00 mm
+20621 = Male SMT Box Header
+21621 = Male THT Box Header
+21721 = Male THT Angled Box Header
+22021 = Male THT Box Header with Lever
+22121 = Male THT Angled Box Header with Lever
+22323 = THT Board to Cable Transition Connector
+
+627 = 1.27 mm
+20621 = Male SMT Box Header Straight
+21621 = Male THT Box Header Straight
+21721 = Male THT Box Header Right Angle
+
+612 = 2.54 mm
+20621 = Male SMT Box Header
+21621 = Male THT Box Header
+21721 = Male THT Angled Box Header
+22323 = THT Board to Cable Transition Connector
+22021 = Male THT Box Header with Short Lever
+22121 = Male THT Angled Box Header with Short Lever
+22821 = Male THT Box Header with Long Lever
+22921 = Male THT Angled Box Header with Long Lever
+235121 = Male THT Box Header High Temperature
+235221 = Male THT Angled Box Header High Temperature
+
+Edit '6250XX22021_62501022021.dev';
+Prefix 'J';
+Description '\
+<b>WR-BHD 2.00 mm Male Box Header with Lever</b>\n\
+<BR>\n\
+<BR>\n\
+<b>KIND PROPERTIES:</b>\n\
+<BR>\n\
+<BR>Pitch 2 mm\n\
+<BR>Gender:Male\n\
+<BR>\n\
+<BR><B>MATERIAL PROPERTIES</B>:\n\
+<BR>\n\
+<BR>Insulator Material:PA6T\n\
+<BR>Insulator Flammability Rating UL94 V-0 \n\
+<BR>Insulator Color:Black\n\
+<BR>Contact Material :Copper Alloy\n\
+<BR>Contact Plating :Gold\n\
+<BR>Contact Type: Stamped \n\
+<BR>\n\
+<BR><B>GENERAL INFORMATION:</B>\n\
+<BR>\n\
+<BR>Operating Temperature:-40 °C up to +125 °C \n\
+<BR>Compliance:RoHS \n\
+<BR>Working Voltage: 250 V (AC) \n\
+<BR>Withstanding Voltage:500 V (AC) \n\
+<BR>Contact Resistance: 20 mO \n\
+<BR>Insulation Resistance:1000 MO \n\
+<BR>\n\
+<BR><B>CERTIFICATION</b>\n\
+<BR>\n\
+<BR>UL Approval:E323964\n\
+<BR>\n\
+<BR><B>PACKAGING PROPERTIES</b>\n\
+<BR>\n\
+<BR>Packaging :Tray\n\
+<BR>\n\
+<br><a href="https://www.we-online.de/katalog/media/o32934v209%20Family_WR-BHD_6250xx22021.jpg" title="Enlarge picture">\n\
+<img src="https://www.we-online.de/katalog/media/o32934v209%20Family_WR-BHD_6250xx22021.jpg" width="320"></a><p>\n\
+\n\
+Details see: <a href="https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_BOX_HEADER_WITH_LEVER_6250XX22021">https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_BOX_HEADER_WITH_LEVER_6250XX22021</a><p>\n\
+\n\
+Updated by Yingchun,Shan 2019-11-04<BR>\n\
+2019 (C) Würth Elektronik';
+Value off;
+Add 5X2MT 'G$1' next 0 (0 0);
+**********************************************************************
+Edit '6120XX235221_612008235221.dev';
+Prefix 'J';
+Description '\
+<b>WR-BHD 2.54 mm Male Angled Box Header High Temperature</b>\n\
+<BR>\n\
+<BR>\n\
+<b>KIND PROPERTIES:</b>\n\
+<BR>\n\
+<BR>Pitch 2.54 mm \n\
+<BR>Gender:Male\n\
+<BR>\n\
+<BR><B>MATERIAL PROPERTIES</B>:\n\
+<BR>\n\
+<BR>Insulator Material:PA6T\n\
+<BR>Insulator Flammability Rating UL94 V-0 \n\
+<BR>Insulator Color:Black\n\
+<BR>Contact Material :Copper Alloy\n\
+<BR>Contact Plating :Gold\n\
+<BR>Contact Type: Stamped \n\
+<BR>\n\
+<BR><B>GENERAL INFORMATION:</B>\n\
+<BR>\n\
+<BR>Operating Temperature:-40 °C up to +125 °C \n\
+<BR>Compliance:RoHS \n\
+<BR>Working Voltage: 250 V (AC) \n\
+<BR>Withstanding Voltage:500 V (AC) \n\
+<BR>Contact Resistance: 20 mO \n\
+<BR>Insulation Resistance:1000 MO \n\
+<BR>\n\
+<BR><B>PACKAGING PROPERTIES</b>\n\
+<BR>\n\
+<BR>Packaging :Tray\n\
+<BR>\n\
+<br><a href="https://www.we-online.de/katalog/media/o32907v209%20Family_WR-BHD_6120xx235221.jpg" title="Enlarge picture">\n\
+<img src="https://www.we-online.de/katalog/media/o32907v209%20Family_WR-BHD_6120xx235221.jpg" width="320"></a><p>\n\
+\n\
+Details see: <a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_HIGH_TEMPERATURE_6120XX235221">https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_HIGH_TEMPERATURE_6120XX235221</a><p>\n\
+\n\
+Updated by Yingchun,Shan 2019-10-30<BR>\n\
+2019 (C) Würth Elektronik';
+Value off;
+Add 4X2MT_1 'G$1' next 0 (0 0);
+**********************************************************************
+Edit '6270XX21721_62703021721.dev';
+Prefix 'J';
+Description '\
+<b>WR-BHD 1.27 mm Male Angled Box Header</b>\n\
+<BR>\n\
+<BR>\n\
+<b>KIND PROPERTIES:</b>\n\
+<BR>\n\
+<BR>Pitch 1.27 mm \n\
+<BR>Gender:Male\n\
+<BR>\n\
+<BR><B>MATERIAL PROPERTIES</B>:\n\
+<BR>\n\
+<BR>Insulator Material Nylon 9T \n\
+<BR>Insulator Flammability Rating UL94 V-0 \n\
+<BR>Insulator Color Black \n\
+<BR>Contact Material Brass \n\
+<BR>Contact Plating Gold over Nickel \n\
+<BR>\n\
+<BR><B>GENERAL INFORMATION:</B>\n\
+<BR>\n\
+<BR>Operating Temperature -40 up to +105 °C \n\
+<BR>Working Voltage 50 V (AC) \n\
+<BR>Withstanding Voltage 500 V (AC) \n\
+<BR>Contact Resistance 20 mO \n\
+<BR>RISO 1000 MO \n\
+<BR>\n\
+CERTIFICATION:\n\
+<BR>UL Approval E323964 \n\
+<BR>\n\
+<BR>\n\
+<br><a href="https://www.we-online.com/catalog/media/o375402v209%20Family_WR-BHD_6270xx21721.jpg" title="Enlarge picture">\n\
+<img src="https://www.we-online.com/catalog/media/o375402v209%20Family_WR-BHD_6270xx21721.jpg" width="320"></a><p>\n\
+\n\
+Details see: <a href="https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_ANGLED_BOX_HEADER">https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_ANGLED_BOX_HEADER</a><p>\n\
+\n\
+Created by Ella Wu 2021-08-24<BR>\n\
+2021 (C) Würth Elektronik';
+Value off;
+Add 15X2MT_1 'G$1' next 0 (0 0);
+**********************************************************************
+
+
+
+**********************************************************************
+
+
+
+**********************************************************************
