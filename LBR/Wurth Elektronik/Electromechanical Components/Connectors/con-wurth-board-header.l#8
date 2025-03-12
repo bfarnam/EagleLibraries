@@ -27298,7 +27298,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201021621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="20.36mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61201021621 "/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61201021621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="21721" package="61201021721">
@@ -27315,7 +27329,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201021721?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="25.44mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61201021721 "/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 61201021721 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="22021" package="61201022021">
@@ -27332,7 +27360,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201022021?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="32.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="61201022021"/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value="61201022021"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="22121" package="61201022121">
@@ -27349,7 +27391,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201022121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="32.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="61201022121"/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value="61201022121"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="22323" package="61201022323">
@@ -27366,7 +27422,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201022323?ae"/>
+<attribute name="GENDER" value="Transition"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="18.15mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61201022323 "/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61201022323 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="22821" package="61201022821">
@@ -27383,7 +27453,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201022821?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="32.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="61201022821"/>
+<attribute name="PINS" value="10"/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value="61201022821"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="22921" package="61201022921">
@@ -27400,7 +27484,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61201022921?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="32.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="61201022921"/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value="61201022921"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="235121" package="612010235121">
@@ -27417,7 +27515,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612010235121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="20.3mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="612010235121"/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value="612010235121"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 <device name="235221" package="612010235221">
@@ -27434,7 +27546,21 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612010235121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="20.3mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="612010235121"/>
+<attribute name="PINS" value=" 10 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value="612010235121"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
 </technologies>
 </device>
 </devices>

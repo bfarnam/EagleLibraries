@@ -27253,7 +27253,7 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <gate name="G$1" symbol="5X2MS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="20621" package="61201020621">
+<device name="&quot;" package="61201020621">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -27282,159 +27282,6 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <attribute name="VALUE" value=" 61201020621 "/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
 </technology>
-</technologies>
-</device>
-<device name="21621" package="61201021621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="21721" package="61201021721">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="22021" package="61201022021">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="22121" package="61201022121">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="22323" package="61201022323">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="22821" package="61201022821">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="22921" package="61201022921">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="235121" package="612010235121">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="235221" package="612010235221">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -46861,7 +46708,152 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <gate name="G$1" symbol="4X2MS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="&quot;" package="61200820621">
+<device name="20621" package="61200820621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612008235221?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="612008235221"/>
+<attribute name="PINS" value=" 8 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value="612008235221"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="21621" package="61200821621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61200821621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="17.82mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61200821621 "/>
+<attribute name="PINS" value=" 8 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61200821621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="21721" package="61200821721">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61200821721?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="17.82mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61200821721 "/>
+<attribute name="PINS" value=" 8 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 61200821721 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="22323" package="61200822323">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61200822323?ae"/>
+<attribute name="GENDER" value="Transition"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="15.61mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61200822323 "/>
+<attribute name="PINS" value=" 8 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61200822323 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="235121" package="612008235121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612008235121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="612008235121"/>
+<attribute name="PINS" value=" 8 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value="612008235121"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="235221" package="612008235221">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
