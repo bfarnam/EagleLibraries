@@ -26292,209 +26292,6 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="6120XX21621_61203921621" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32884v209%20Family_WR-BHD_6120xx21621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o32884v209%20Family_WR-BHD_6120xx21621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/BHD_2_54_MALE_BOX_HEADER_6120XX21621"&gt;https://www.we-online.com/catalog/en/BHD_2_54_MALE_BOX_HEADER_6120XX21621&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2021-3-12&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="19X2+1MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61203921621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
-<connect gate="G$1" pin="34" pad="34"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="36" pad="36"/>
-<connect gate="G$1" pin="37" pad="37"/>
-<connect gate="G$1" pin="38" pad="38"/>
-<connect gate="G$1" pin="39" pad="39"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61203921621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="58.46mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61203921621 "/>
-<attribute name="PINS" value=" 39 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61203921621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX22821_61202622821" prefix="J">
-<description>&lt;b&gt;2.54 mm Male Box Header with long lever&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o58844v209%20Family_2.54mm_long_lever_WR-BHD_6120xx22x21.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o58844v209%20Family_2.54mm_long_lever_WR-BHD_6120xx22x21.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_BOX_HEADER_WITH_LONG_LEVER_6120XX22821"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_BOX_HEADER_WITH_LONG_LEVER_6120XX22821&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202622821">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622821?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="52.52mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202622821 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61202622821 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="6120XX22921_61203422921" prefix="J">
 <description>&lt;b&gt;2.54 mm Male Angled Box Header with long lever&lt;/b&gt;
 &lt;BR&gt;
@@ -26695,195 +26492,6 @@ Updated by Yingchun,Shan 2019-10-31&lt;BR&gt;
 <attribute name="PITCH" value="2.54mm"/>
 <attribute name="TYPE" value="Straight"/>
 <attribute name="VALUE" value=" 61203422323 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX20621_61202620621" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male SMT Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PA6T
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tube
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32919v209%20Family_WR-BHD_612xxx20621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32919v209%20Family_WR-BHD_612xxx20621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_SMT_MALE_BOX_HEADER_6120XX20621"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_SMT_MALE_BOX_HEADER_6120XX20621&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202620621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202620621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="40.82mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PACKAGING" value="Tube"/>
-<attribute name="PART-NUMBER" value=" 61202620621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61202620621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX22323_61202622323" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Board to Cable Transition Connector&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Transition
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32892v209%20Family_WR-BHD_6120xx22323.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32892v209%20Family_WR-BHD_6120xx22323.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_BOARD_TO_CAB_TRANSITION_CONNECTOR_6120XX22323"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_BOARD_TO_CAB_TRANSITION_CONNECTOR_6120XX22323&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-31&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2FT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202622323">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622323?ae"/>
-<attribute name="GENDER" value="Transition"/>
-<attribute name="IR" value="1A"/>
-<attribute name="LENGTH" value="38.47mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202622323 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61202622323 "/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
 </technology>
 </technologies>
@@ -27291,98 +26899,6 @@ Updated by Yingchun,Shan 2019-10-29&lt;BR&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="6120XX235121_612026235121" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Box Header High Temperature&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PA6T
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32904v209%20Family_WR-BHD_6120xx235121.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o32904v209%20Family_WR-BHD_6120xx235121.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/BHD_2_54_MALE_BOX_HEADER_HIGH_TEMPERATURE_6120XX235121"&gt;https://www.we-online.com/catalog/en/BHD_2_54_MALE_BOX_HEADER_HIGH_TEMPERATURE_6120XX235121&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2021-03-12&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="612026235121">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612026235121?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="40.62mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value="612026235121"/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value="612026235121"/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="6120XX235121_612034235121" prefix="J">
 <description>&lt;b&gt;WR-BHD 2.54 mm Male Box Header High Temperature&lt;/b&gt;
 &lt;BR&gt;
@@ -27586,100 +27102,6 @@ Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="6120XX21721_61202621721" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Angled Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32888v209%20Family_WR-BHD_6120xx21721.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32888v209%20Family_WR-BHD_6120xx21721.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_6120XX21721"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_6120XX21721&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-29&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202621721">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202621721?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="50.84mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202621721 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value=" 61202621721 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="6120XX22821_61203422821" prefix="J">
 <description>&lt;b&gt;2.54 mm Male Box Header with long lever&lt;/b&gt;
 &lt;BR&gt;
@@ -27779,278 +27201,6 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <attribute name="TYPE" value="Straight"/>
 <attribute name="VALUE" value=" 61203422821 "/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6123XX20621_61232620621" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male SMT Box Header&lt;/b&gt;
-&lt;BR&gt;
-
-&lt;BR&gt;&lt;B&gt;
-Material Properties&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material	PA 9T; PA9T
-&lt;BR&gt;Insulator Flammability Rating	UL94 V-0
-&lt;BR&gt;Color	Black
-&lt;BR&gt;Contact Material	Copper Alloy
-&lt;BR&gt;Contact Plating	Gold
-&lt;BR&gt;Contact Type	Stamped
-&lt;BR&gt;
-
-&lt;BR&gt;&lt;B&gt;General Information&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature	-40 up to +125 °C
-&lt;BR&gt;Compliance	RoHS
-&lt;BR&gt;Working Voltage	250 V (AC)
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-&lt;BR&gt;Contact Resistance	20 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Pitch	2.54 mm
-&lt;BR&gt;Gender	Male
-&lt;BR&gt;
-
-&lt;BR&gt;&lt;B&gt;Certification&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval	E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;Packaging Properties&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging	Tape and Reel with Cap
-&lt;BR&gt;&lt;BR&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o32919v209%20Family_WR-BHD_612xxx20621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o32919v209%20Family_WR-BHD_612xxx20621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/BHD_2_54_SMT_MALE_BOX_HEADER_6120XX20621/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/BHD_2_54_SMT_MALE_BOX_HEADER_6120XX20621&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2022-09-06&lt;BR&gt;
-2022 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61232620621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61232620621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="40.64mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PACKAGING" value="Tape and Reel with Cap"/>
-<attribute name="PART-NUMBER" value=" 61232620621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61232620621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6270XX20621_62702620621" prefix="J">
-<description>&lt;b&gt;WR-BHD 1.27 mm Male SMT Box Header &lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 1.27 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material Nylon 9T 
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color Black 
-&lt;BR&gt;Contact Material Brass 
-&lt;BR&gt;Contact Plating Gold over Nickel 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +105 °C 
-&lt;BR&gt;Working Voltage 50 V (AC) 
-&lt;BR&gt;Withstanding Voltage 500 V (AC) 
-&lt;BR&gt;Contact Resistance 20 mΩ 
-&lt;BR&gt;RISO 1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval E323964 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o375406v209%20Family_WR-BHD_6270xx20621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o375406v209%20Family_WR-BHD_6270xx20621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_SMT_BOX_HEADER"&gt;https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_SMT_BOX_HEADER&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2021-08-24&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MS-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62702620621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62702620621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="1A"/>
-<attribute name="LENGTH" value="22.86mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 62702620621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="1.27mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62702620621 "/>
-<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6270XX21621_62702621621" prefix="J">
-<description>&lt;b&gt;WR-BHD 1.27 mm Male Box Header &lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 1.27 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material Nylon 9T 
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color Black 
-&lt;BR&gt;Contact Material Brass 
-&lt;BR&gt;Contact Plating Gold over Nickel 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +105 °C 
-&lt;BR&gt;Working Voltage 50 V (AC) 
-&lt;BR&gt;Withstanding Voltage 500 V (AC) 
-&lt;BR&gt;Contact Resistance 20 mΩ 
-&lt;BR&gt;RISO 1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION:
-&lt;BR&gt;
-&lt;BR&gt;UL Approval E323964 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o375404v209%20Family_WR-BHD_6270xx21621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o375404v209%20Family_WR-BHD_6270xx21621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_BOX_HEADER"&gt;https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_BOX_HEADER&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2021-08-24&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62702621621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62702621621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="1A"/>
-<attribute name="LENGTH" value="22.86mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 62702621621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="1.27mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62702621621 "/>
-<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
 </technology>
 </technologies>
 </device>
@@ -28159,189 +27309,6 @@ Updated by Ella Wu 2022-09-06&lt;BR&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="6120XX22021_61202622021" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Box Header with short lever&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o77864v209%20Family_61201022821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o77864v209%20Family_61201022821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_BOX_HEADER_WITH_SHORT_LEVER_6120XX22021"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_BOX_HEADER_WITH_SHORT_LEVER_6120XX22021&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202622021">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622021?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="52.52mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202622021 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61202622021 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6250XX21721_62502621721" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.00 mm Male Angled Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2 mm
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32929v209%20Family_WR-BHD_6250xx21721.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32929v209%20Family_WR-BHD_6250xx21721.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_ANGLED_BOX_HEADER_6250XX21721"&gt;https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_ANGLED_BOX_HEADER_6250XX21721&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62502621721">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502621721?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="2A"/>
-<attribute name="LENGTH" value="33.25mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 62502621721 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value=" 62502621721 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="6120XX20621_61203420621" prefix="J">
 <description>&lt;b&gt;WR-BHD 2.54 mm Male SMT Box Header&lt;/b&gt;
 &lt;BR&gt;
@@ -28438,192 +27405,6 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <attribute name="PITCH" value="2.54mm"/>
 <attribute name="TYPE" value="Straight"/>
 <attribute name="VALUE" value=" 61203420621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6250XX22323_62502622323" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.00 mm Board to Cable Transition Connector&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2 mm
-&lt;BR&gt;Gender:Transition
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval：E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32943v209%20Family_WR-BHD_6250xx22323.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32943v209%20Family_WR-BHD_6250xx22323.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_00_BOARD_TO_CAB_TRANSITION_CONNECTOR_6250XX22323"&gt;https://www.we-online.de/katalog/en/em/BHD_2_00_BOARD_TO_CAB_TRANSITION_CONNECTOR_6250XX22323&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2FT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62502622323">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502622323?ae"/>
-<attribute name="GENDER" value="Transition"/>
-<attribute name="IR" value="1A"/>
-<attribute name="LENGTH" value="30.1mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 62502622323 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62502622323 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX235221_612026235221" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Angled Box Header High Temperature&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PA6T
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32907v209%20Family_WR-BHD_6120xx235221.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32907v209%20Family_WR-BHD_6120xx235221.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_HIGH_TEMPERATURE_6120XX235221"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_HIGH_TEMPERATURE_6120XX235221&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="612026235221">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612026235221?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="40.62mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value="612026235221"/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value="612026235221"/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
 </technology>
 </technologies>
@@ -28828,284 +27609,6 @@ Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="6270XX21721_62702621721" prefix="J">
-<description>&lt;b&gt;WR-BHD 1.27 mm Male Angled Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 1.27 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material Nylon 9T 
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color Black 
-&lt;BR&gt;Contact Material Brass 
-&lt;BR&gt;Contact Plating Gold over Nickel 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +105 °C 
-&lt;BR&gt;Working Voltage 50 V (AC) 
-&lt;BR&gt;Withstanding Voltage 500 V (AC) 
-&lt;BR&gt;Contact Resistance 20 mΩ 
-&lt;BR&gt;RISO 1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval E323964 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o375402v209%20Family_WR-BHD_6270xx21721.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o375402v209%20Family_WR-BHD_6270xx21721.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_ANGLED_BOX_HEADER"&gt;https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_ANGLED_BOX_HEADER&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2021-08-24&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62702621721">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62702621721?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="1A"/>
-<attribute name="LENGTH" value="22.86mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 62702621721 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="1.27mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value=" 62702621721 "/>
-<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6250XX22121_62502622121" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.00 mm Male Angled Box Header w. Lever&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2 mm
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32938v209%20Family_WR-BHD_6250xx22121.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32938v209%20Family_WR-BHD_6250xx22121.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_ANGLED_BOX_HEADER_WITH_LEVER_6250XX22121"&gt;
-https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_ANGLED_BOX_HEADER_WITH_LEVER_6250XX22121&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62502622121">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502622121?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="2A"/>
-<attribute name="LENGTH" value="41.7mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 62502622121 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value=" 62502622121 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6250XX21621_62502621621" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.00 mm Male Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2 mm
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/b&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/catalog/media/o32924v209%20Family_WR-BHD_6250xx21621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/catalog/media/o32924v209%20Family_WR-BHD_6250xx21621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_BOX_HEADER_6250XX21621"&gt;https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_BOX_HEADER_6250XX21621&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2021-03-12&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62502621621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502621621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="2A"/>
-<attribute name="LENGTH" value="33.2mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 62502621621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62502621621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="6250XX22121_62503422121" prefix="J">
 <description>&lt;b&gt;WR-BHD 2.00 mm Male Angled Box Header w. Lever&lt;/b&gt;
 &lt;BR&gt;
@@ -29303,192 +27806,6 @@ Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
 <attribute name="PITCH" value="2mm"/>
 <attribute name="TYPE" value="Straight"/>
 <attribute name="VALUE" value=" 62533420621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6250XX22021_62502622021" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.00 mm Male Box Header with Lever&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2 mm
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PA6T
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o32934v209%20Family_WR-BHD_6250xx22021.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o32934v209%20Family_WR-BHD_6250xx22021.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_BOX_HEADER_WITH_LEVER_6250XX22021"&gt;https://www.we-online.de/katalog/en/em/BHD_2_00_MALE_BOX_HEADER_WITH_LEVER_6250XX22021&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62502622021">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502622021?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="2A"/>
-<attribute name="LENGTH" value="41.7mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 62502622021 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62502622021 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6253XX20621_62532620621" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.00 mm Male SMT Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2 mm
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PA9T
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tape and Reel with Cap
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/catalog/media/o32950v209%20Family_WR-BHD_6253xx20621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/catalog/media/o32950v209%20Family_WR-BHD_6253xx20621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;BR&gt;
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_00_SMT_MALE_BOX_HEADER_6253XX20621"&gt;https://www.we-online.de/katalog/en/em/BHD_2_00_SMT_MALE_BOX_HEADER_6253XX20621&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-11-04&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62532620621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62532620621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="2A"/>
-<attribute name="LENGTH" value="33.25mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PACKAGING" value="Tape and Reel with Cap"/>
-<attribute name="PART-NUMBER" value=" 62532620621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62532620621 "/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
 </technology>
 </technologies>
@@ -30083,375 +28400,6 @@ Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
 <attribute name="TYPE" value="Angled"/>
 <attribute name="VALUE" value=" 61203422121 "/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX22921_61202622921" prefix="J">
-<description>&lt;b&gt;2.54 mm Male Angled Box Header with long lever&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o58851v209%20Family_long_lever_WR-BHD_6120xx22x21.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o58851v209%20Family_long_lever_WR-BHD_6120xx22x21.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_WITH_LONG_LEVER_6120XX22921"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_ANGLED_BOX_HEADER_WITH_LONG_LEVER_6120XX22921&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-31&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202622921">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622921?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="52.52mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202622921 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value=" 61202622921 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX22121_61202622121" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Box Header with short lever&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o77864v209%20Family_61201022821.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o77864v209%20Family_61201022821.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_BOX_HEADER_WITH_SHORT_LEVER_6120XX22021"&gt;https://www.we-online.de/katalog/en/em/BHD_2_54_MALE_BOX_HEADER_WITH_SHORT_LEVER_6120XX22021&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun,Shan 2019-10-30&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202622121">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622121?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="52.52mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202622121 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Angled"/>
-<attribute name="VALUE" value=" 61202622121 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6120XX21621_61202621621" prefix="J">
-<description>&lt;b&gt;WR-BHD 2.54 mm Male Box Header&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 2.54 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color:Black
-&lt;BR&gt;Contact Material :Copper Alloy
-&lt;BR&gt;Contact Plating :Gold
-&lt;BR&gt;Contact Type: Stamped 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 °C up to +125 °C 
-&lt;BR&gt;Compliance:RoHS 
-&lt;BR&gt;Working Voltage: 250 V (AC) 
-&lt;BR&gt;Withstanding Voltage:500 V (AC) 
-&lt;BR&gt;Contact Resistance: 20 mΩ 
-&lt;BR&gt;Insulation Resistance:1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Packaging :Tray
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32884v209%20Family_WR-BHD_6120xx21621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o32884v209%20Family_WR-BHD_6120xx21621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/BHD_2_54_MALE_BOX_HEADER_6120XX21621"&gt;https://www.we-online.com/catalog/en/BHD_2_54_MALE_BOX_HEADER_6120XX21621&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2021-3-12&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="61202621621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202621621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="3A"/>
-<attribute name="LENGTH" value="40.68mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value=" 61202621621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="2.54mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 61202621621 "/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6273XX20621_62732620621" prefix="J">
-<description>&lt;b&gt;WR-BHD 1.27 mm Male SMT Box Header &lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pitch 1.27 mm 
-&lt;BR&gt;Gender:Male
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material Nylon 9T 
-&lt;BR&gt;Insulator Flammability Rating UL94 V-0 
-&lt;BR&gt;Insulator Color Black 
-&lt;BR&gt;Contact Material Brass 
-&lt;BR&gt;Contact Plating Gold over Nickel 
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +105 °C 
-&lt;BR&gt;Working Voltage 50 V (AC) 
-&lt;BR&gt;Withstanding Voltage 500 V (AC) 
-&lt;BR&gt;Contact Resistance 20 mΩ 
-&lt;BR&gt;RISO 1000 MΩ 
-&lt;BR&gt;
-CERTIFICATION:
-&lt;BR&gt;UL Approval E323964 
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o375406v209%20Family_WR-BHD_6270xx20621.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o375406v209%20Family_WR-BHD_6270xx20621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_SMT_BOX_HEADER"&gt;https://www.we-online.com/catalog/en/WR_BHD_1_27_MM_MALE_SMT_BOX_HEADER&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2021-08-24&lt;BR&gt;
-2021 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="13X2MS-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="62732620621">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62732620621?ae"/>
-<attribute name="GENDER" value="Male"/>
-<attribute name="IR" value="1A"/>
-<attribute name="LENGTH" value="22.86mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 62732620621 "/>
-<attribute name="PINS" value=" 26 "/>
-<attribute name="PITCH" value="1.27mm"/>
-<attribute name="TYPE" value="Straight"/>
-<attribute name="VALUE" value=" 62732620621 "/>
-<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
 </technology>
 </technologies>
 </device>
@@ -38879,6 +36827,1077 @@ Created by Ella Wu 2021-08-24&lt;BR&gt;
 <attribute name="PITCH" value="2.00 mm"/>
 <attribute name="TYPE" value="Straight"/>
 <attribute name="VALUE" value=" 62503022323 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="34POS-*MM-?" prefix="X">
+<description>&lt;b&gt;Wurth Elektronik WR-BHD Male Box Headers&lt;/b&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="26POS-*MM-?" prefix="X">
+<description>&lt;b&gt;Wurth Elektronik WR-BHD Male Box Headers&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="13X2MT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="61202622821" package="61202622821">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622821?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="52.52mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202622821 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61202622821 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202620621" package="61202620621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202620621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="40.82mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGING" value="Tube"/>
+<attribute name="PART-NUMBER" value=" 61202620621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61202620621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202622323" package="61202622323">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622323?ae"/>
+<attribute name="GENDER" value="Transition"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="38.47mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202622323 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61202622323 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="612026235121" package="612026235121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612026235121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="40.62mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="612026235121"/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value="612026235121"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202621721" package="61202621721">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202621721?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="50.84mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202621721 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 61202621721 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61232620621" package="61232620621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61232620621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="40.64mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap"/>
+<attribute name="PART-NUMBER" value=" 61232620621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61232620621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202622021" package="61202622021">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622021?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="52.52mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202622021 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61202622021 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="612026235221" package="612026235221">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/612026235221?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="40.62mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value="612026235221"/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value="612026235221"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62702620621" package="62702620621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="1.27">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62702620621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="22.86mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 62702620621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="1.27 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62702620621 "/>
+<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62702621621" package="62702621621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="1.27">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62702621621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="22.86mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 62702621621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="1.27 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62702621621 "/>
+<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62502621721" package="62502621721">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.00">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502621721?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="2A"/>
+<attribute name="LENGTH" value="33.25mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 62502621721 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.00 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 62502621721 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62502622323" package="62502622323">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.00">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502622323?ae"/>
+<attribute name="GENDER" value="Transition"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="30.1mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 62502622323 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.00 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62502622323 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62702621721" package="62702621721">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="1.27">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62702621721?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="22.86mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 62702621721 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="1.27 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 62702621721 "/>
+<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62502622121" package="62502622121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.00">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502622121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="2A"/>
+<attribute name="LENGTH" value="41.7mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 62502622121 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.00 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 62502622121 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62502621621" package="62502621621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.00">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502621621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="2A"/>
+<attribute name="LENGTH" value="33.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 62502621621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.00 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62502621621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62502622021" package="62502622021">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.00">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62502622021?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="2A"/>
+<attribute name="LENGTH" value="41.7mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 62502622021 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.00 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62502622021 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62532620621" package="62532620621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.00">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62532620621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="2A"/>
+<attribute name="LENGTH" value="33.25mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap"/>
+<attribute name="PART-NUMBER" value=" 62532620621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.00 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62532620621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202622921" package="61202622921">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622921?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="52.52mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202622921 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 61202622921 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202622121" package="61202622121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202622121?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="52.52mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202622121 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value=" 61202622121 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="61202621621" package="61202621621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61202621621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="40.68mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61202621621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61202621621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="62732620621" package="62732620621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="1.27">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/62732620621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="1A"/>
+<attribute name="LENGTH" value="22.86mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 62732620621 "/>
+<attribute name="PINS" value=" 26 "/>
+<attribute name="PITCH" value="1.27 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 62732620621 "/>
+<attribute name="WORKING-VOLTAGE" value="50V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="39POS-*MM-?" prefix="X">
+<description>&lt;b&gt;Wurth Elektronik WR-BHD Male Box Headers&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="19X2+1MT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="61203921621" package="61203921621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="2.54">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61203921621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="58.46mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tray"/>
+<attribute name="PART-NUMBER" value=" 61203921621 "/>
+<attribute name="PINS" value=" 39 "/>
+<attribute name="PITCH" value="2.54 mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61203921621 "/>
 <attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
 </technology>
 </technologies>
