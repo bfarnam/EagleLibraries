@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -134,7 +134,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-HCFA_2818">
+<package name="WE-HCFA_2818" urn="urn:adsk.eagle:footprint:13133216/2">
 <description>&lt;b&gt;WE-HCFA High Current Flat Wire Inductor
 &lt;br&gt;&lt;/b&gt;Size : 2818
 &lt;br&gt;L X W X H = 27.5mm X 27.5mm X 17mm</description>
@@ -184,6 +184,16 @@ Copyright: Würth Elektronik</description>
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="WE-HCFA_2818" urn="urn:adsk.eagle:package:13133218/3" type="model">
+<description>&lt;b&gt;WE-HCFA High Current Flat Wire Inductor
+&lt;br&gt;&lt;/b&gt;Size : 2818
+&lt;br&gt;L X W X H = 27.5mm X 27.5mm X 17mm</description>
+<packageinstances>
+<packageinstance name="WE-HCFA_2818"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="WE-HCFA">
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -235,6 +245,9 @@ Updated By Ella Wu  2020-03-18&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13133218/3"/>
+</package3dinstances>
 <technologies>
 <technology name="_78436432010">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78436432010.pdf" constant="no"/>
@@ -303,4 +316,16 @@ Updated By Ella Wu  2020-03-18&lt;br&gt;
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

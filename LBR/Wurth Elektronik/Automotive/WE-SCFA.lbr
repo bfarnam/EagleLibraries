@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -134,7 +134,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-SCFA_78631271515">
+<package name="WE-SCFA_78631271515" urn="urn:adsk.eagle:footprint:12135314/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0315
 &lt;br&gt;3.2x1.5x1.5mm</description>
@@ -159,7 +159,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.25" y="-1.05"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631452070">
+<package name="WE-SCFA_78631452070" urn="urn:adsk.eagle:footprint:12135307/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 1670
 &lt;br&gt;4.5x2x7mm</description>
@@ -183,7 +183,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.35" y="-2.1"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631271520">
+<package name="WE-SCFA_78631271520" urn="urn:adsk.eagle:footprint:12135313/2">
 <description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0320
 &lt;br&gt;2.7x1.5x2mm</description>
@@ -205,7 +205,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-1.85" y="-1.75"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631503040">
+<package name="WE-SCFA_78631503040" urn="urn:adsk.eagle:footprint:12135304/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 2140
 &lt;br&gt;5x3x4mm</description>
@@ -227,7 +227,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-3.25" y="-1.8"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631302030">
+<package name="WE-SCFA_78631302030" urn="urn:adsk.eagle:footprint:12135306/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 1730
 &lt;br&gt;3x2x3mm</description>
@@ -248,7 +248,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-1.85" y="-1.2"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631452048">
+<package name="WE-SCFA_78631452048" urn="urn:adsk.eagle:footprint:12135315/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0148
 &lt;br&gt;4.7x2x5mm</description>
@@ -272,7 +272,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-3.25" y="1.4"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631302035">
+<package name="WE-SCFA_78631302035" urn="urn:adsk.eagle:footprint:12135305/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 1735
 &lt;br&gt;3x2x3.5mm</description>
@@ -293,7 +293,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2" y="-1.2"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631452535">
+<package name="WE-SCFA_78631452535" urn="urn:adsk.eagle:footprint:12135302/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0135
 &lt;br&gt;4.7x2.5x3.5mm</description>
@@ -315,7 +315,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.55" y="-1.55"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631603010">
+<package name="WE-SCFA_78631603010" urn="urn:adsk.eagle:footprint:12135311/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0610
 &lt;br&gt;6x3x10mm</description>
@@ -339,7 +339,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-4.5" y="-2.5"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631402053">
+<package name="WE-SCFA_78631402053" urn="urn:adsk.eagle:footprint:20381578/1">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0453
 &lt;br&gt;4.1x2x5.3mm</description>
@@ -360,7 +360,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-3.5" y="-2"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631602040">
+<package name="WE-SCFA_78631602040" urn="urn:adsk.eagle:footprint:12135303/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 2240
 &lt;br&gt;6x2x4mm</description>
@@ -382,7 +382,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-4.5" y="-2"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631302025">
+<package name="WE-SCFA_78631302025" urn="urn:adsk.eagle:footprint:12135310/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0825
 &lt;br&gt;3x2x2.5mm</description>
@@ -406,7 +406,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.25" y="-1.5"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631352540">
+<package name="WE-SCFA_78631352540" urn="urn:adsk.eagle:footprint:12135309/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 1440
 &lt;br&gt;3.5x2.5x4mm</description>
@@ -424,7 +424,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-1.95" y="-1.55"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631603012">
+<package name="WE-SCFA_78631603012" urn="urn:adsk.eagle:footprint:20381577/1">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0610
 &lt;br&gt;6x3x10mm</description>
@@ -448,7 +448,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-4.5" y="-2.5"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631702513">
+<package name="WE-SCFA_78631702513" urn="urn:adsk.eagle:footprint:12135308/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 1613
 &lt;br&gt;7x2.5x13mm</description>
@@ -472,7 +472,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-5.25" y="-2.25"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631702562">
+<package name="WE-SCFA_78631702562" urn="urn:adsk.eagle:footprint:12135316/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 1562
 &lt;br&gt;7x2.5x6.2mm</description>
@@ -496,7 +496,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-4.25" y="1.75"/>
 </polygon>
 </package>
-<package name="WE-SCFA_78631472057">
+<package name="WE-SCFA_78631472057" urn="urn:adsk.eagle:footprint:12135317/2">
 <description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
 &lt;/b&gt;&lt;br&gt;Size: 0557
 &lt;br&gt;4.7x2x5.7mm</description>
@@ -518,6 +518,144 @@ Copyright: Würth Elektronik</description>
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="WE-SCFA_78631271515" urn="urn:adsk.eagle:package:20381594/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0315
+&lt;br&gt;3.2x1.5x1.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631271515"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631271520" urn="urn:adsk.eagle:package:20381595/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0320
+&lt;br&gt;2.7x1.5x2mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631271520"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631452070" urn="urn:adsk.eagle:package:20381588/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1670
+&lt;br&gt;4.5x2x7mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631452070"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631302030" urn="urn:adsk.eagle:package:20381586/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1730
+&lt;br&gt;3x2x3mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631302030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631503040" urn="urn:adsk.eagle:package:20381585/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2140
+&lt;br&gt;5x3x4mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631503040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631302035" urn="urn:adsk.eagle:package:20381591/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1735
+&lt;br&gt;3x2x3.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631302035"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631452048" urn="urn:adsk.eagle:package:20381596/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0148
+&lt;br&gt;4.7x2x5mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631452048"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631402053" urn="urn:adsk.eagle:package:20381581/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0453
+&lt;br&gt;4.1x2x5.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631402053"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631452535" urn="urn:adsk.eagle:package:20381583/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0135
+&lt;br&gt;4.7x2.5x3.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631452535"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631603010" urn="urn:adsk.eagle:package:20381592/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0610
+&lt;br&gt;6x3x10mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631603010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631352540" urn="urn:adsk.eagle:package:20381590/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1440
+&lt;br&gt;3.5x2.5x4mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631352540"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631602040" urn="urn:adsk.eagle:package:20381584/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2240
+&lt;br&gt;6x2x4mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631602040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631302025" urn="urn:adsk.eagle:package:20381582/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0825
+&lt;br&gt;3x2x2.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631302025"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631603012" urn="urn:adsk.eagle:package:20381580/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0610
+&lt;br&gt;6x3x10mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631603012"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631702513" urn="urn:adsk.eagle:package:20381587/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1613
+&lt;br&gt;7x2.5x13mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631702513"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631472057" urn="urn:adsk.eagle:package:20381593/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0557
+&lt;br&gt;4.7x2x5.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631472057"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SCFA_78631702562" urn="urn:adsk.eagle:package:20381589/2" type="model">
+<description>&lt;b&gt;WE-SCFA SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1562
+&lt;br&gt;7x2.5x6.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SCFA_78631702562"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="GNDPIN">
 <pin name="GND" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
@@ -568,6 +706,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381594/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631271515.pdf"/>
@@ -585,6 +726,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381595/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631271520.pdf"/>
@@ -602,6 +746,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381582/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631302025.pdf"/>
@@ -619,6 +766,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381586/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631302030.pdf"/>
@@ -636,6 +786,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381591/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631302035.pdf"/>
@@ -653,6 +806,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381590/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631352540.pdf"/>
@@ -670,6 +826,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381581/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631402053.pdf"/>
@@ -687,6 +846,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381596/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631452048.pdf"/>
@@ -704,6 +866,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381588/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631452070.pdf"/>
@@ -721,6 +886,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381583/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631452535.pdf"/>
@@ -738,6 +906,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381593/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631472057.pdf"/>
@@ -755,6 +926,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381585/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631503040.pdf"/>
@@ -772,6 +946,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381584/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631602040.pdf"/>
@@ -789,6 +966,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381592/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631603010.pdf"/>
@@ -806,6 +986,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381580/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631603012.pdf"/>
@@ -823,6 +1006,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381587/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631702513.pdf"/>
@@ -840,6 +1026,9 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20381589/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78631702562.pdf"/>
@@ -858,4 +1047,16 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-SCFA"&gt;https:
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

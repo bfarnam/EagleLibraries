@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -134,7 +134,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-XHMA_8080">
+<package name="WE-XHMA_8080" urn="urn:adsk.eagle:footprint:30715992/2">
 <description>&lt;b&gt;WE-XHMA SMD Power Inductor
 &lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: &lt;/b&gt;8080, SMT, 2pins
@@ -171,7 +171,7 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-5.5" y="2.5" radius="0.2" width="0.6" layer="21"/>
 </package>
-<package name="WE-XHMA_1510">
+<package name="WE-XHMA_1510" urn="urn:adsk.eagle:footprint:30715995/2">
 <description>&lt;b&gt;WE-XHMA SMD Power Inductor
 &lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: &lt;/b&gt;1510, SMT, 2pins
@@ -208,7 +208,7 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-9.5" y="5.8" radius="0.3" width="0.6" layer="21"/>
 </package>
-<package name="WE-XHMA_6030">
+<package name="WE-XHMA_6030" urn="urn:adsk.eagle:footprint:30715994/2">
 <description>&lt;b&gt;WE-XHMA SMD Power Inductor
 &lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: &lt;/b&gt;6030, SMT, 2pins
@@ -245,7 +245,7 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-4.2" y="2.5" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="WE-XHMA_1090">
+<package name="WE-XHMA_1090" urn="urn:adsk.eagle:footprint:30715996/2">
 <description>&lt;b&gt;WE-XHMA SMD Power Inductor
 &lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: &lt;/b&gt;1090, SMT, 2pins
@@ -282,7 +282,7 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-7" y="4.2" radius="0.3" width="0.6" layer="21"/>
 </package>
-<package name="WE-XHMA_6060">
+<package name="WE-XHMA_6060" urn="urn:adsk.eagle:footprint:30715993/2">
 <description>&lt;b&gt;WE-XHMA SMD Power Inductor
 &lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: &lt;/b&gt;6060, SMT, 2pins
@@ -320,6 +320,53 @@ Copyright: Würth Elektronik</description>
 <circle x="-4.2" y="2.5" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="WE-XHMA_8080" urn="urn:adsk.eagle:package:30715998/4" type="model">
+<description>&lt;b&gt;WE-XHMA SMD Power Inductor
+&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: &lt;/b&gt;8080, SMT, 2pins
+&lt;br&gt;L X W X H = 8.8mm X 8.3mm X 8mm</description>
+<packageinstances>
+<packageinstance name="WE-XHMA_8080"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-XHMA_1510" urn="urn:adsk.eagle:package:30716001/4" type="model">
+<description>&lt;b&gt;WE-XHMA SMD Power Inductor
+&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: &lt;/b&gt;1510, SMT, 2pins
+&lt;br&gt;L X W X H = 16.4mm X 15.4mm X 10mm</description>
+<packageinstances>
+<packageinstance name="WE-XHMA_1510"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-XHMA_6030" urn="urn:adsk.eagle:package:30716000/4" type="model">
+<description>&lt;b&gt;WE-XHMA SMD Power Inductor
+&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: &lt;/b&gt;6030, SMT, 2pins
+&lt;br&gt;L X W X H = 6.65mm X 6.45mm X 3.3mm</description>
+<packageinstances>
+<packageinstance name="WE-XHMA_6030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-XHMA_1090" urn="urn:adsk.eagle:package:30716002/4" type="model">
+<description>&lt;b&gt;WE-XHMA SMD Power Inductor
+&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: &lt;/b&gt;1090, SMT, 2pins
+&lt;br&gt;L X W X H = 11.6mm X 10.5mm X 9.1mm</description>
+<packageinstances>
+<packageinstance name="WE-XHMA_1090"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-XHMA_6060" urn="urn:adsk.eagle:package:30715999/4" type="model">
+<description>&lt;b&gt;WE-XHMA SMD Power Inductor
+&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: &lt;/b&gt;6060, SMT, 2pins
+&lt;br&gt;L X W X H = 6.65mm X 6.45mm X 6.1mm</description>
+<packageinstances>
+<packageinstance name="WE-XHMA_6060"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="L_POINT_GAP">
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -377,6 +424,9 @@ Created by Ella Wu  2022-02-10&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30715998/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_78439358010">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78439358010.pdf"/>
@@ -473,6 +523,9 @@ Created by Ella Wu  2022-02-10&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30716000/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784393440018">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/784393440018.pdf"/>
@@ -599,6 +652,9 @@ Created by Ella Wu  2022-02-10&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30716001/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_78439370047">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78439370047.pdf"/>
@@ -715,6 +771,9 @@ Created by Ella Wu  2022-02-10&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30716002/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_78439369022">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78439369022.pdf"/>
@@ -841,6 +900,9 @@ Created by Ella Wu  2022-02-10&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30715999/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_78439346047">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78439346047.pdf"/>
@@ -899,4 +961,16 @@ Created by Ella Wu  2022-02-10&lt;br&gt;
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -144,7 +145,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="658158303064">
+<package name="658158303064" urn="urn:adsk.eagle:footprint:14787746/1">
 <description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;1.00 mm Male Vertical SMT 8.35 Plug 64 Pins</description>
 <smd name="2" x="15.5" y="1.85" dx="2.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="1" x="15.5" y="-1.85" dx="2.7" dy="0.6" layer="1" rot="R270"/>
@@ -235,7 +236,7 @@ Copyright: Würth Elektronik</description>
 <text x="-19.06" y="0.99" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-19.31" y="-1.91" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
-<package name="658101003064">
+<package name="658101003064" urn="urn:adsk.eagle:footprint:14787750/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt;&lt;BR&gt; 1.00 mm Female Vertical SMT 10.30 Receptacle 64 Pins</description>
 <smd name="2" x="-15.5" y="1.85" dx="2.7" dy="0.6" layer="1" rot="R270"/>
 <smd name="1" x="-15.5" y="-1.85" dx="2.7" dy="0.6" layer="1" rot="R90"/>
@@ -326,7 +327,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-18.25" y="-3.4"/>
 </polygon>
 </package>
-<package name="658105303064">
+<package name="658105303064" urn="urn:adsk.eagle:footprint:14787749/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt;&lt;BR&gt; 1.00 mm Female Vertical SMT 5.30 Receptacle 64 Pins</description>
 <smd name="2" x="-15.5" y="1.85" dx="2.7" dy="0.6" layer="1" rot="R270"/>
 <smd name="1" x="-15.5" y="-1.85" dx="2.7" dy="0.6" layer="1" rot="R90"/>
@@ -417,7 +418,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-18.25" y="-3.4"/>
 </polygon>
 </package>
-<package name="658807713040">
+<package name="658807713040" urn="urn:adsk.eagle:footprint:14787742/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 7.75 Receptacle w. Chamfer 40 Pins</description>
 <smd name="2" x="-7.6" y="2.4" dx="2.4" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-7.6" y="-2.4" dx="2.4" dy="0.5" layer="1" rot="R270"/>
@@ -496,7 +497,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-11.2" y="-3.8"/>
 </polygon>
 </package>
-<package name="658807713080">
+<package name="658807713080" urn="urn:adsk.eagle:footprint:14787741/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 7.75 Receptacle w. Chamfer 80 Pins</description>
 <smd name="2" x="-15.6" y="2.4" dx="2.4" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-15.6" y="-2.4" dx="2.4" dy="0.5" layer="1" rot="R270"/>
@@ -615,7 +616,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="19.2" y="3.8"/>
 </polygon>
 </package>
-<package name="658857603080">
+<package name="658857603080" urn="urn:adsk.eagle:footprint:14787736/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Male Vertical SMT 7.60 Plug 80 Pins</description>
 <smd name="2" x="-15.6" y="-2.2" dx="2" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-15.6" y="2.2" dx="2" dy="0.5" layer="1" rot="R270"/>
@@ -722,7 +723,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-19.2" y="-3.4"/>
 </polygon>
 </package>
-<package name="658807713100">
+<package name="658807713100" urn="urn:adsk.eagle:footprint:14787740/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 7.75 Receptacle w. Chamfer 100 Pins</description>
 <smd name="2" x="-19.6" y="2.4" dx="2.4" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-19.6" y="-2.4" dx="2.4" dy="0.5" layer="1" rot="R270"/>
@@ -861,7 +862,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-23.2" y="2.21"/>
 </polygon>
 </package>
-<package name="658107303064">
+<package name="658107303064" urn="urn:adsk.eagle:footprint:14787748/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt;&lt;BR&gt; 1.00 mm Female Vertical SMT 7.30 Receptacle 64 Pins</description>
 <smd name="2" x="-15.5" y="1.85" dx="2.7" dy="0.6" layer="1" rot="R270"/>
 <smd name="1" x="-15.5" y="-1.85" dx="2.7" dy="0.6" layer="1" rot="R90"/>
@@ -952,7 +953,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-18.25" y="-3.4"/>
 </polygon>
 </package>
-<package name="658855603100">
+<package name="658855603100" urn="urn:adsk.eagle:footprint:14787737/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt; 0.80 mm Male Vertical SMT 5.60 Plug 100 Pins</description>
 <smd name="1" x="-19.6" y="2.2" dx="2" dy="0.5" layer="1" rot="R90"/>
 <smd name="2" x="-19.6" y="-2.2" dx="2" dy="0.5" layer="1" rot="R270"/>
@@ -1079,7 +1080,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-23.2" y="-3.4"/>
 </polygon>
 </package>
-<package name="658156303064">
+<package name="658156303064" urn="urn:adsk.eagle:footprint:14787747/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;1.00 mm Male Vertical SMT 6.35 Plug 64 Pins</description>
 <smd name="2" x="15.5" y="1.85" dx="2.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="1" x="15.5" y="-1.85" dx="2.7" dy="0.6" layer="1" rot="R270"/>
@@ -1170,7 +1171,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-18.25" y="-3.4"/>
 </polygon>
 </package>
-<package name="658854613080">
+<package name="658854613080" urn="urn:adsk.eagle:footprint:14787739/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Male Vertical SMT 4.60 Plug w. Chamfer 80 Pins</description>
 <smd name="2" x="-15.6" y="-2.2" dx="2" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-15.6" y="2.2" dx="2" dy="0.5" layer="1" rot="R270"/>
@@ -1279,7 +1280,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-19.2" y="-3.5"/>
 </polygon>
 </package>
-<package name="658803713080">
+<package name="658803713080" urn="urn:adsk.eagle:footprint:14787743/1">
 <description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 3.75 Receptacle w. Chamfer 80 Pins</description>
 <smd name="2" x="-15.6" y="2.2" dx="2" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-15.6" y="-2.2" dx="2" dy="0.5" layer="1" rot="R270"/>
@@ -1396,7 +1397,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-17.72" y="3.7"/>
 </polygon>
 </package>
-<package name="658801103040">
+<package name="658801103040" urn="urn:adsk.eagle:footprint:14787745/1">
 <description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 11.75 Receptacle 40 Pins</description>
 <smd name="2" x="-7.6" y="2.4" dx="2.4" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-7.6" y="-2.4" dx="2.4" dy="0.5" layer="1" rot="R270"/>
@@ -1472,7 +1473,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-11.2" y="-3.8"/>
 </polygon>
 </package>
-<package name="658801103080">
+<package name="658801103080" urn="urn:adsk.eagle:footprint:14787744/1">
 <description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 11.75 Receptacle 80 Pins</description>
 <smd name="2" x="-15.6" y="2.4" dx="2.4" dy="0.5" layer="1" rot="R90"/>
 <smd name="1" x="-15.6" y="-2.4" dx="2.4" dy="0.5" layer="1" rot="R270"/>
@@ -1588,7 +1589,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-19.2" y="-3.8"/>
 </polygon>
 </package>
-<package name="658855603040">
+<package name="658855603040" urn="urn:adsk.eagle:footprint:14787738/1">
 <description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Male Vertical SMT 5.60 Plug 40 Pins</description>
 <smd name="1" x="-7.6" y="2.2" dx="2" dy="0.5" layer="1" rot="R90"/>
 <smd name="2" x="-7.6" y="-2.2" dx="2" dy="0.5" layer="1" rot="R270"/>
@@ -1656,6 +1657,98 @@ Copyright: Würth Elektronik</description>
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="658854613080" urn="urn:adsk.eagle:package:14787762/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Male Vertical SMT 4.60 Plug w. Chamfer 80 Pins</description>
+<packageinstances>
+<packageinstance name="658854613080"/>
+</packageinstances>
+</package3d>
+<package3d name="658101003064" urn="urn:adsk.eagle:package:14787773/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt;&lt;BR&gt; 1.00 mm Female Vertical SMT 10.30 Receptacle 64 Pins</description>
+<packageinstances>
+<packageinstance name="658101003064"/>
+</packageinstances>
+</package3d>
+<package3d name="658158303064" urn="urn:adsk.eagle:package:14787769/2" type="model">
+<description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;1.00 mm Male Vertical SMT 8.35 Plug 64 Pins</description>
+<packageinstances>
+<packageinstance name="658158303064"/>
+</packageinstances>
+</package3d>
+<package3d name="658807713040" urn="urn:adsk.eagle:package:14787765/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 7.75 Receptacle w. Chamfer 40 Pins</description>
+<packageinstances>
+<packageinstance name="658807713040"/>
+</packageinstances>
+</package3d>
+<package3d name="658105303064" urn="urn:adsk.eagle:package:14787772/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt;&lt;BR&gt; 1.00 mm Female Vertical SMT 5.30 Receptacle 64 Pins</description>
+<packageinstances>
+<packageinstance name="658105303064"/>
+</packageinstances>
+</package3d>
+<package3d name="658807713080" urn="urn:adsk.eagle:package:14787764/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 7.75 Receptacle w. Chamfer 80 Pins</description>
+<packageinstances>
+<packageinstance name="658807713080"/>
+</packageinstances>
+</package3d>
+<package3d name="658857603080" urn="urn:adsk.eagle:package:14787759/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Male Vertical SMT 7.60 Plug 80 Pins</description>
+<packageinstances>
+<packageinstance name="658857603080"/>
+</packageinstances>
+</package3d>
+<package3d name="658807713100" urn="urn:adsk.eagle:package:14787763/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 7.75 Receptacle w. Chamfer 100 Pins</description>
+<packageinstances>
+<packageinstance name="658807713100"/>
+</packageinstances>
+</package3d>
+<package3d name="658107303064" urn="urn:adsk.eagle:package:14787771/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt;&lt;BR&gt; 1.00 mm Female Vertical SMT 7.30 Receptacle 64 Pins</description>
+<packageinstances>
+<packageinstance name="658107303064"/>
+</packageinstances>
+</package3d>
+<package3d name="658855603100" urn="urn:adsk.eagle:package:14787760/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt; 0.80 mm Male Vertical SMT 5.60 Plug 100 Pins</description>
+<packageinstances>
+<packageinstance name="658855603100"/>
+</packageinstances>
+</package3d>
+<package3d name="658156303064" urn="urn:adsk.eagle:package:14787770/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;1.00 mm Male Vertical SMT 6.35 Plug 64 Pins</description>
+<packageinstances>
+<packageinstance name="658156303064"/>
+</packageinstances>
+</package3d>
+<package3d name="658801103040" urn="urn:adsk.eagle:package:14787768/2" type="model">
+<description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 11.75 Receptacle 40 Pins</description>
+<packageinstances>
+<packageinstance name="658801103040"/>
+</packageinstances>
+</package3d>
+<package3d name="658855603040" urn="urn:adsk.eagle:package:14787761/2" type="model">
+<description>&lt;B&gt;Con-BTB&lt;/B&gt; &lt;BR&gt;0.80 mm Male Vertical SMT 5.60 Plug 40 Pins</description>
+<packageinstances>
+<packageinstance name="658855603040"/>
+</packageinstances>
+</package3d>
+<package3d name="658801103080" urn="urn:adsk.eagle:package:14787767/2" type="model">
+<description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 11.75 Receptacle 80 Pins</description>
+<packageinstances>
+<packageinstance name="658801103080"/>
+</packageinstances>
+</package3d>
+<package3d name="658803713080" urn="urn:adsk.eagle:package:14787766/2" type="model">
+<description>&lt;B&gt;Con-BTB &lt;/B&gt; &lt;BR&gt;0.80 mm Female Vertical SMT 3.75 Receptacle w. Chamfer 80 Pins</description>
+<packageinstances>
+<packageinstance name="658803713080"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="40X2MALE">
 <wire x1="50.8" y1="2.54" x2="-53.34" y2="2.54" width="0.254" layer="94"/>
@@ -3465,7 +3558,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97278v209%20Family_WR-BTB_658158303064.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97278v209%20Family_WR-BTB_658158303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97278v209%20Family_WR-BTB_658158303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_1_00_MALE_SMT_VERTICAL_PLUG_H8_35_658158303XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_1_00_MALE_SMT_VERTICAL_PLUG_H8_35_658158303XXX&lt;/a&gt;&lt;p&gt;
 
@@ -3542,6 +3635,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787769/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658158303064.pdf"/>
@@ -3593,7 +3689,7 @@ Updated by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97297v209%20Family_WR-BTB_658105303064.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97297v209%20Family_WR-BTB_658105303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97297v209%20Family_WR-BTB_658105303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_1_00_FEMALE_SMT_VERTICAL_RECEPTACLE_H5_30_658105303XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_1_00_FEMALE_SMT_VERTICAL_RECEPTACLE_H5_30_658105303XXX&lt;/a&gt;&lt;p&gt;
 
@@ -3670,6 +3766,9 @@ Updated  by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787772/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658105303064.pdf"/>
@@ -3722,7 +3821,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97285v209%20Family_WR-BTB_658101003064.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97285v209%20Family_WR-BTB_658101003064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97285v209%20Family_WR-BTB_658101003064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_1_00_FEMALE_SMT_VERTICAL_RECEPTACLE_H10_30_658101003XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_1_00_FEMALE_SMT_VERTICAL_RECEPTACLE_H10_30_658101003XXX&lt;/a&gt;&lt;p&gt;
 
@@ -3799,6 +3898,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787773/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658101003064.pdf"/>
@@ -3850,7 +3952,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97332v209%20Family_WR-BTB_658807703040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97332v209%20Family_WR-BTB_658807703040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97332v209%20Family_WR-BTB_658807703040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_75_W_CHAMFER_658807713XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_75_W_CHAMFER_658807713XXX&lt;/a&gt;&lt;p&gt;
 
@@ -3903,6 +4005,9 @@ Updated  by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787765/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658807713040.pdf"/>
@@ -3954,7 +4059,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97332v209%20Family_WR-BTB_658807703040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97332v209%20Family_WR-BTB_658807703040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97332v209%20Family_WR-BTB_658807703040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_75_W_CHAMFER_658807713XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_75_W_CHAMFER_658807713XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4047,6 +4152,9 @@ Updated  by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="80" pad="80"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787764/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658807713080.pdf"/>
@@ -4098,7 +4206,7 @@ Updated  by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97303v209%20Family_WR-BTB_658857603080.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97303v209%20Family_WR-BTB_658857603080.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97303v209%20Family_WR-BTB_658857603080.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H7_60_658857603XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H7_60_658857603XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4191,6 +4299,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="80" pad="80"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787759/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658857603080.pdf"/>
@@ -4242,7 +4353,7 @@ Updated by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97332v209%20Family_WR-BTB_658807703040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97332v209%20Family_WR-BTB_658807703040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97332v209%20Family_WR-BTB_658807703040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_75_W_CHAMFER_658807713XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_75_W_CHAMFER_658807713XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4355,6 +4466,9 @@ Updated  by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="98" pad="98"/>
 <connect gate="G$1" pin="99" pad="99"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787763/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658807713100.pdf"/>
@@ -4406,7 +4520,7 @@ Updated  by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97310v209%20Family_WR-BTB_658855603040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97310v209%20Family_WR-BTB_658855603040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97310v209%20Family_WR-BTB_658855603040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H5_60_658855603XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H5_60_658855603XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4519,6 +4633,9 @@ Updated  by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="98" pad="98"/>
 <connect gate="G$1" pin="99" pad="99"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787760/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658855603100.pdf"/>
@@ -4570,7 +4687,7 @@ Updated  by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97274v209%20Family_WR-BTB_658156303064.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97274v209%20Family_WR-BTB_658156303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97274v209%20Family_WR-BTB_658156303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_1_00_MALE_SMT_VERTICAL_PLUG_H6_35_658156303XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_1_00_MALE_SMT_VERTICAL_PLUG_H6_35_658156303XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4647,6 +4764,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787770/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658156303064.pdf"/>
@@ -4698,7 +4818,7 @@ Updated by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97290v209%20Family_WR-BTB_658107303064.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97290v209%20Family_WR-BTB_658107303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97290v209%20Family_WR-BTB_658107303064.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_1_00_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_30_658107303XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_1_00_FEMALE_SMT_VERTICAL_RECEPTACLE_H7_30_658107303XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4775,6 +4895,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787771/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658107303064.pdf"/>
@@ -4826,7 +4949,7 @@ Updated by Yingchun,Shan 2019-10-15
 &lt;BR&gt;&lt;/B&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97317v209%20Family_WR-BTB_658854603080.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97317v209%20Family_WR-BTB_658854603080.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97317v209%20Family_WR-BTB_658854603080.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H4_60_W_CHAMFER_658854613XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H4_60_W_CHAMFER_658854613XXX&lt;/a&gt;&lt;p&gt;
 
@@ -4919,6 +5042,9 @@ Updated by Ellla Wu 2021-11-16
 <connect gate="G$1" pin="80" pad="80"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787762/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658854613080.pdf"/>
@@ -4970,7 +5096,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97327v209%20Family_WR-BTB_658803703080.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97327v209%20Family_WR-BTB_658803703080.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97327v209%20Family_WR-BTB_658803703080.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H3_75_W_CHAMFER_658803713XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H3_75_W_CHAMFER_658803713XXX&lt;/a&gt;&lt;p&gt;
 
@@ -5063,6 +5189,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="80" pad="80"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787766/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658803713080.pdf"/>
@@ -5114,7 +5243,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97322v209%20Family_WR-BTB_658801103040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97322v209%20Family_WR-BTB_658801103040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97322v209%20Family_WR-BTB_658801103040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H11_75_658801103XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H11_75_658801103XXX&lt;/a&gt;&lt;p&gt;
 
@@ -5207,6 +5336,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="80" pad="80"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787767/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658801103080.pdf"/>
@@ -5258,7 +5390,7 @@ PACKAGING PROPERTIES:
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97322v209%20Family_WR-BTB_658801103040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97322v209%20Family_WR-BTB_658801103040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97322v209%20Family_WR-BTB_658801103040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H11_75_658801103XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_FEMALE_SMT_VERTICAL_RECEPTACLE_H11_75_658801103XXX&lt;/a&gt;&lt;p&gt;
 
@@ -5311,6 +5443,9 @@ Updated by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787768/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658801103040.pdf"/>
@@ -5362,7 +5497,7 @@ Updated by Yingchun,Shan 2019-10-15
 &lt;BR&gt;Packaging Tape and Reel with Cap 
 &lt;BR&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o97310v209%20Family_WR-BTB_658855603040.jpg" title="Enlarge picture"&gt;
-&lt;img src="o97310v209%20Family_WR-BTB_658855603040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o97310v209%20Family_WR-BTB_658855603040.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H5_60_658855603XXX"&gt;https://www.we-online.com/katalog/en/em/BTB_0_80_MALE_SMT_VERTICAL_PLUG_H5_60_658855603XXX&lt;/a&gt;&lt;p&gt;
 
@@ -5415,6 +5550,9 @@ Updated  by Yingchun,Shan 2019-10-15
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787761/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/658855603040.pdf"/>
@@ -5433,4 +5571,16 @@ Updated  by Yingchun,Shan 2019-10-15
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

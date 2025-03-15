@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -138,7 +138,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-MAIA_4020">
+<package name="WE-MAIA_4020" urn="urn:adsk.eagle:footprint:13154110/4">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:4020, SMT, 2pins
 &lt;br&gt;L X W X H = 4.1mm X 4.1mm X 2.1mm</description>
@@ -165,7 +165,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.685" y1="-1.85" x2="0.685" y2="1.85" layer="43"/>
 <rectangle x1="-0.685" y1="-1.85" x2="0.685" y2="1.85" layer="41"/>
 </package>
-<package name="WE-MAIA_3020">
+<package name="WE-MAIA_3020" urn="urn:adsk.eagle:footprint:13154111/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:3020, SMT, 2pins
 &lt;br&gt;L X W X H = 3mm X 3mm X 2mm</description>
@@ -192,7 +192,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="43"/>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="41"/>
 </package>
-<package name="WE-MAIA_2506">
+<package name="WE-MAIA_2506" urn="urn:adsk.eagle:footprint:13154118/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:2506, SMT, 2pins
 &lt;br&gt;L X W X H = 2.5mm X 2mm X 0.6mm</description>
@@ -215,7 +215,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="43"/>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="41"/>
 </package>
-<package name="WE-MAIA_1610">
+<package name="WE-MAIA_1610" urn="urn:adsk.eagle:footprint:17587170/4">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;br&gt;&lt;/b&gt;Size:1610, SMT, 2pins
 &lt;br&gt;L X W X H = 1.6mm X 1.6mm X 1mm</description>
@@ -236,7 +236,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.2" y1="-0.9" x2="0.2" y2="0.9" layer="43"/>
 <rectangle x1="-0.2" y1="-0.9" x2="0.2" y2="0.9" layer="41"/>
 </package>
-<package name="WE-MAIA_2508">
+<package name="WE-MAIA_2508" urn="urn:adsk.eagle:footprint:13154117/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:2508, SMT, 2pins
 &lt;br&gt;L X W X H = 2.5mm X 2mm X 0.8mm</description>
@@ -263,7 +263,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="43"/>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="41"/>
 </package>
-<package name="WE-MAIA_2512HT">
+<package name="WE-MAIA_2512HT" urn="urn:adsk.eagle:footprint:45308759/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:2512HT, SMT, 2pins
 &lt;br&gt;L X W X H = 2.5mm X 2mm X 1.2mm</description>
@@ -290,7 +290,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="43"/>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="41"/>
 </package>
-<package name="WE-MAIA_3015">
+<package name="WE-MAIA_3015" urn="urn:adsk.eagle:footprint:13154112/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:3015, SMT, 2pins
 &lt;br&gt;L X W X H = 3mm X 3mm X 1.5mm</description>
@@ -317,7 +317,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="43"/>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="41"/>
 </package>
-<package name="WE-MAIA_3020HT">
+<package name="WE-MAIA_3020HT" urn="urn:adsk.eagle:footprint:45308756/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:3020HT, SMT, 2pins
 &lt;br&gt;L X W X H = 3mm X 3mm X 2mm</description>
@@ -344,7 +344,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="43"/>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="41"/>
 </package>
-<package name="WE-MAIA_3010">
+<package name="WE-MAIA_3010" urn="urn:adsk.eagle:footprint:13154114/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:3010, SMT, 2pins
 &lt;br&gt;L X W X H = 3mm X 3mm X 1mm</description>
@@ -367,7 +367,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="43"/>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="41"/>
 </package>
-<package name="WE-MAIA_2010">
+<package name="WE-MAIA_2010" urn="urn:adsk.eagle:footprint:45308762/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size:2010,SMT,2pins
 &lt;br&gt;LXWXH=2X1.6X1mm</description>
@@ -388,7 +388,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.3" y1="-0.95" x2="0.3" y2="0.95" layer="41"/>
 <rectangle x1="-0.3" y1="-0.95" x2="0.3" y2="0.95" layer="43"/>
 </package>
-<package name="WE-MAIA_6030HT">
+<package name="WE-MAIA_6030HT" urn="urn:adsk.eagle:footprint:45308760/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:6030HT, SMT, 2pins
 &lt;br&gt;L X W X H = 6.6mm X 6.6mm X 3.1mm</description>
@@ -412,7 +412,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-1.3" y1="-3.45" x2="1.3" y2="3.45" layer="41"/>
 <rectangle x1="-1.3" y1="-3.45" x2="1.3" y2="3.45" layer="43"/>
 </package>
-<package name="WE-MAIA_4020HT">
+<package name="WE-MAIA_4020HT" urn="urn:adsk.eagle:footprint:45308758/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:4020HT, SMT, 2pins
 &lt;br&gt;L X W X H = 4.1mm X 4.1mm X 2.1mm</description>
@@ -439,7 +439,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.685" y1="-1.85" x2="0.685" y2="1.85" layer="43"/>
 <rectangle x1="-0.685" y1="-1.85" x2="0.685" y2="1.85" layer="41"/>
 </package>
-<package name="WE-MAIA_5020">
+<package name="WE-MAIA_5020" urn="urn:adsk.eagle:footprint:17587168/4">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:5020, SMT, 2pins
 &lt;br&gt;L X W X H = 5.4mm X 5.4mm X 2.1mm</description>
@@ -464,7 +464,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="43"/>
 <rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="41"/>
 </package>
-<package name="WE-MAIA_5030">
+<package name="WE-MAIA_5030" urn="urn:adsk.eagle:footprint:17587167/4">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:5030, SMT, 2pins
 &lt;br&gt;L X W X H = 5.4mm X 5.4mm X 2.1mm</description>
@@ -489,7 +489,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="43"/>
 <rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="41"/>
 </package>
-<package name="WE-MAIA_4030">
+<package name="WE-MAIA_4030" urn="urn:adsk.eagle:footprint:13154109/5">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:4030, SMT, 2pins
 &lt;br&gt;L X W X H = 4mm X 4mm X 3mm</description>
@@ -516,7 +516,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.685" y1="-1.85" x2="0.685" y2="1.85" layer="43"/>
 <rectangle x1="-0.685" y1="-1.85" x2="0.685" y2="1.85" layer="41"/>
 </package>
-<package name="WE-MAIA_2510">
+<package name="WE-MAIA_2510" urn="urn:adsk.eagle:footprint:13154116/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:2510, SMT, 2pins
 &lt;br&gt;L X W X H = 2.5mm X 2mm X 1mm</description>
@@ -543,7 +543,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="43"/>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="41"/>
 </package>
-<package name="WE-MAIA_3015HT">
+<package name="WE-MAIA_3015HT" urn="urn:adsk.eagle:footprint:45308757/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:3015HT, SMT, 2pins
 &lt;br&gt;L X W X H = 3mm X 3mm X 1.5mm</description>
@@ -570,7 +570,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="43"/>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="41"/>
 </package>
-<package name="WE-MAIA_2512">
+<package name="WE-MAIA_2512" urn="urn:adsk.eagle:footprint:13154115/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:2512, SMT, 2pins
 &lt;br&gt;L X W X H = 2.5mm X 2mm X 1.2mm</description>
@@ -597,7 +597,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="43"/>
 <rectangle x1="-0.55" y1="-1.15" x2="0.55" y2="1.15" layer="41"/>
 </package>
-<package name="WE-MAIA_4012">
+<package name="WE-MAIA_4012" urn="urn:adsk.eagle:footprint:45308761/1">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size:4012,SMT,2pins
 &lt;br&gt;LXWXH=4.1X4.1X1.3mm</description>
@@ -623,7 +623,7 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.695" y1="-1.85" x2="0.695" y2="1.85" layer="41"/>
 <rectangle x1="-0.695" y1="-1.85" x2="0.695" y2="1.85" layer="43"/>
 </package>
-<package name="WE-MAIA_3012">
+<package name="WE-MAIA_3012" urn="urn:adsk.eagle:footprint:13154113/3">
 <description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size:3012, SMT, 2pins
 &lt;br&gt;L X W X H = 3mm X 3mm X 1.2mm</description>
@@ -651,6 +651,168 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.4" y1="-1.7" x2="0.4" y2="1.7" layer="41"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="WE-MAIA_4020" urn="urn:adsk.eagle:package:13154121/5" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:4020, SMT, 2pins
+&lt;br&gt;L X W X H = 4.1mm X 4.1mm X 2.1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_4020"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_3020" urn="urn:adsk.eagle:package:13154122/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:3020, SMT, 2pins
+&lt;br&gt;L X W X H = 3mm X 3mm X 2mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_3020"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_2506" urn="urn:adsk.eagle:package:13154129/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:2506, SMT, 2pins
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 0.6mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_2506"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_1610" urn="urn:adsk.eagle:package:17587175/5" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Size:1610, SMT, 2pins
+&lt;br&gt;L X W X H = 1.6mm X 1.6mm X 1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_1610"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_2508" urn="urn:adsk.eagle:package:13154128/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:2508, SMT, 2pins
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 0.8mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_2508"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_2512HT" urn="urn:adsk.eagle:package:45308766/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:2512HT, SMT, 2pins
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_2512HT"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_3010" urn="urn:adsk.eagle:package:13154125/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:3010, SMT, 2pins
+&lt;br&gt;L X W X H = 3mm X 3mm X 1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_3010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_3015" urn="urn:adsk.eagle:package:13154123/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:3015, SMT, 2pins
+&lt;br&gt;L X W X H = 3mm X 3mm X 1.5mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_3015"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_3020HT" urn="urn:adsk.eagle:package:45308763/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:3020HT, SMT, 2pins
+&lt;br&gt;L X W X H = 3mm X 3mm X 2mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_3020HT"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_2010" urn="urn:adsk.eagle:package:45308769/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size:2010,SMT,2pins
+&lt;br&gt;LXWXH=2X1.6X1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_2010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_6030HT" urn="urn:adsk.eagle:package:45308767/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:6030HT, SMT, 2pins
+&lt;br&gt;L X W X H = 6.6mm X 6.6mm X 3.1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_6030HT"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_4020HT" urn="urn:adsk.eagle:package:45308765/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:4020HT, SMT, 2pins
+&lt;br&gt;L X W X H = 4.1mm X 4.1mm X 2.1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_4020HT"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_5020" urn="urn:adsk.eagle:package:17587173/5" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:5020, SMT, 2pins
+&lt;br&gt;L X W X H = 5.4mm X 5.4mm X 2.1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_5020"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_4030" urn="urn:adsk.eagle:package:13154120/7" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:4030, SMT, 2pins
+&lt;br&gt;L X W X H = 4mm X 4mm X 3mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_4030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_5030" urn="urn:adsk.eagle:package:17587172/5" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:5030, SMT, 2pins
+&lt;br&gt;L X W X H = 5.4mm X 5.4mm X 2.1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_5030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_2510" urn="urn:adsk.eagle:package:13154127/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:2510, SMT, 2pins
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 1mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_2510"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_3012" urn="urn:adsk.eagle:package:13154124/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:3012, SMT, 2pins
+&lt;br&gt;L X W X H = 3mm X 3mm X 1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_3012"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_3015HT" urn="urn:adsk.eagle:package:45308764/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:3015HT, SMT, 2pins
+&lt;br&gt;L X W X H = 3mm X 3mm X 1.5mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_3015HT"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_4012" urn="urn:adsk.eagle:package:45308768/2" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size:4012,SMT,2pins
+&lt;br&gt;LXWXH=4.1X4.1X1.3mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_4012"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MAIA_2512" urn="urn:adsk.eagle:package:13154126/4" type="model">
+<description>&lt;b&gt;WE-MAIA SMT Power Inductor &lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size:2512, SMT, 2pins
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-MAIA_2512"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="L-GAP_POINT">
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
@@ -721,6 +883,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154121/5"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383560033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383560033?ae"/>
@@ -910,6 +1075,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154122/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383360033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383360033?ae"/>
@@ -1099,6 +1267,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154129/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383210047">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383210047?ae"/>
@@ -1171,6 +1342,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17587175/5"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383130033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383130033?ae"/>
@@ -1334,6 +1508,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154128/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383220047">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383220047?ae"/>
@@ -1419,6 +1596,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308766/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383240033HT">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383240033HT?ae"/>
@@ -1573,6 +1753,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154123/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383350047">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383350047?ae"/>
@@ -1788,6 +1971,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308763/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383360068HT">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383360068HT?ae"/>
@@ -1930,6 +2116,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154125/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_78438333022">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438333022?ae"/>
@@ -2015,6 +2204,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308767/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383770033HT">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383770033HT?ae"/>
@@ -2121,6 +2313,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308769/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383430033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383430033?ae"/>
@@ -2275,6 +2470,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308765/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383560033HT">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383560033HT?ae"/>
@@ -2477,6 +2675,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17587173/5"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383660082">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383660082?ae"/>
@@ -2601,6 +2802,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17587172/5"/>
+</package3dinstances>
 <technologies>
 <technology name="_78438367010">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438367010?ae"/>
@@ -2738,6 +2942,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154120/7"/>
+</package3dinstances>
 <technologies>
 <technology name="_78438357010">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438357010?ae"/>
@@ -2927,6 +3134,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154127/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383230033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383230033?ae"/>
@@ -3142,6 +3352,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308764/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383350056HT">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383350056HT?ae"/>
@@ -3284,6 +3497,9 @@ Created By Ella 2024-09-13
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45308768/2"/>
+</package3dinstances>
 <technologies>
 <technology name="_7843835400033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843835400033?ae"/>
@@ -3354,6 +3570,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154126/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383240047">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383240047?ae"/>
@@ -3569,6 +3788,9 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154124/4"/>
+</package3dinstances>
 <technologies>
 <technology name="_784383340033">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784383340033?ae"/>
@@ -3733,4 +3955,16 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-MAIA/?utm_source=eagle_mod
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

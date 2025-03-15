@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -135,7 +135,7 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="643240100404">
+<package name="643240100404" urn="urn:adsk.eagle:footprint:29961142/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Female Angled 90° Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="-1.767765625" y="1.767765625" drill="1.2" rot="R180"/>
@@ -224,7 +224,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="3.9"/>
 </polygon>
 </package>
-<package name="643270100308">
+<package name="643270100308" urn="urn:adsk.eagle:footprint:29961182/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Angled 90° Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -310,7 +310,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="10" y="4.3"/>
 </polygon>
 </package>
-<package name="643250100304">
+<package name="643250100304" urn="urn:adsk.eagle:footprint:29961172/3">
 <description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="1.767765625" y="1.767765625" drill="1"/>
@@ -363,7 +363,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">3</text>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
-<package name="643240100408">
+<package name="643240100408" urn="urn:adsk.eagle:footprint:29961141/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Female Angled 90° Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -459,7 +459,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="4.3"/>
 </polygon>
 </package>
-<package name="643240100405">
+<package name="643240100405" urn="urn:adsk.eagle:footprint:29961143/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Female Angled 90° Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1.2"/>
@@ -550,7 +550,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="3.9"/>
 </polygon>
 </package>
-<package name="643210100405">
+<package name="643210100405" urn="urn:adsk.eagle:footprint:29961157/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -605,7 +605,7 @@ Copyright: Würth Elektronik</description>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643210100608">
+<package name="643210100608" urn="urn:adsk.eagle:footprint:29961153/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -666,7 +666,7 @@ Copyright: Würth Elektronik</description>
 <text x="-4" y="0.38" size="1.016" layer="21" align="center-right">3</text>
 <text x="4" y="0.38" size="1.016" layer="21" align="center-left">7</text>
 </package>
-<package name="643230100408">
+<package name="643230100408" urn="urn:adsk.eagle:footprint:29961144/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Angled 90° Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -758,7 +758,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="4.3"/>
 </polygon>
 </package>
-<package name="643270100304">
+<package name="643270100304" urn="urn:adsk.eagle:footprint:29961181/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Angled 90° Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="1.767765625" y="1.767765625" drill="1.2"/>
@@ -839,7 +839,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="10" y="4.3"/>
 </polygon>
 </package>
-<package name="643220100608">
+<package name="643220100608" urn="urn:adsk.eagle:footprint:29961147/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -900,7 +900,7 @@ Copyright: Würth Elektronik</description>
 <text x="4" y="0.38" size="1.016" layer="21" align="center-left">3</text>
 <text x="-4" y="0.38" size="1.016" layer="21" align="center-right">7</text>
 </package>
-<package name="643230100404">
+<package name="643230100404" urn="urn:adsk.eagle:footprint:29961145/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Angled 90° Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="1.767765625" y="1.767765625" drill="1.2"/>
@@ -985,7 +985,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="3.9"/>
 </polygon>
 </package>
-<package name="643220100604">
+<package name="643220100604" urn="urn:adsk.eagle:footprint:29961149/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="-1.767765625" y="1.767765625" drill="1" rot="R180"/>
@@ -1038,7 +1038,7 @@ Copyright: Würth Elektronik</description>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">3</text>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
-<package name="643280100304">
+<package name="643280100304" urn="urn:adsk.eagle:footprint:29961185/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Angled 90° Female Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="-1.767765625" y="1.767765625" drill="1.2" rot="R180"/>
@@ -1118,7 +1118,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="10" y="4.3"/>
 </polygon>
 </package>
-<package name="643280100308">
+<package name="643280100308" urn="urn:adsk.eagle:footprint:29961184/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Angled 90° Female Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -1192,7 +1192,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="4.3"/>
 </polygon>
 </package>
-<package name="643260100604">
+<package name="643260100604" urn="urn:adsk.eagle:footprint:29961178/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Female Metal PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="-1.767765625" y="1.767765625" drill="1" rot="R180"/>
@@ -1245,7 +1245,7 @@ Copyright: Würth Elektronik</description>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">3</text>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
-<package name="643210100604">
+<package name="643210100604" urn="urn:adsk.eagle:footprint:29961155/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="1.767765625" y="1.767765625" drill="1"/>
@@ -1298,7 +1298,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">3</text>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
-<package name="643250100604">
+<package name="643250100604" urn="urn:adsk.eagle:footprint:29961175/3">
 <description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="1.767765625" y="1.767765625" drill="1"/>
@@ -1351,7 +1351,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">3</text>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
-<package name="643220100405">
+<package name="643220100405" urn="urn:adsk.eagle:footprint:29961152/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -1406,7 +1406,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643220100408">
+<package name="643220100408" urn="urn:adsk.eagle:footprint:29961150/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -1467,7 +1467,7 @@ Copyright: Würth Elektronik</description>
 <text x="4" y="0.38" size="1.016" layer="21" align="center-left">3</text>
 <text x="-4" y="0.38" size="1.016" layer="21" align="center-right">7</text>
 </package>
-<package name="643210100408">
+<package name="643210100408" urn="urn:adsk.eagle:footprint:29961156/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -1528,7 +1528,7 @@ Copyright: Würth Elektronik</description>
 <text x="-4" y="0.38" size="1.016" layer="21" align="center-right">3</text>
 <text x="4" y="0.38" size="1.016" layer="21" align="center-left">7</text>
 </package>
-<package name="643250100608">
+<package name="643250100608" urn="urn:adsk.eagle:footprint:29961176/3">
 <description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -1589,7 +1589,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-8.34" y="5.9"/>
 </polygon>
 </package>
-<package name="643210100605">
+<package name="643210100605" urn="urn:adsk.eagle:footprint:29961154/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -1644,7 +1644,7 @@ Copyright: Würth Elektronik</description>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643250100308">
+<package name="643250100308" urn="urn:adsk.eagle:footprint:29961173/3">
 <description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -1705,7 +1705,7 @@ Copyright: Würth Elektronik</description>
 <text x="3.8" y="0.38" size="1.016" layer="21" align="center-left">7</text>
 <text x="-3.8" y="0.38" size="1.016" layer="21" align="center-right">3</text>
 </package>
-<package name="643210100404">
+<package name="643210100404" urn="urn:adsk.eagle:footprint:29961158/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="1.767765625" y="1.767765625" drill="1"/>
@@ -1758,7 +1758,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">3</text>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
-<package name="643250100305">
+<package name="643250100305" urn="urn:adsk.eagle:footprint:29961171/3">
 <description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -1813,7 +1813,7 @@ Copyright: Würth Elektronik</description>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643280100305">
+<package name="643280100305" urn="urn:adsk.eagle:footprint:29961183/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Angled 90° Female Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1.2"/>
@@ -1883,7 +1883,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="4.3"/>
 </polygon>
 </package>
-<package name="643230100405">
+<package name="643230100405" urn="urn:adsk.eagle:footprint:29961146/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Angled 90° Plastic M16&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1.2"/>
@@ -1970,7 +1970,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="9.2" y="3.9"/>
 </polygon>
 </package>
-<package name="643260100608">
+<package name="643260100608" urn="urn:adsk.eagle:footprint:29961179/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Female Metal PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 8pins</description>
 <pad name="8" x="0" y="0" drill="1"/>
@@ -2031,7 +2031,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="-8.34" y="5.9"/>
 </polygon>
 </package>
-<package name="643220100605">
+<package name="643220100605" urn="urn:adsk.eagle:footprint:29961148/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -2086,7 +2086,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643270100305">
+<package name="643270100305" urn="urn:adsk.eagle:footprint:29961180/4">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Angled 90° Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1.2"/>
@@ -2168,7 +2168,7 @@ Copyright: Würth Elektronik</description>
 <vertex x="10" y="4.3"/>
 </polygon>
 </package>
-<package name="643250100605">
+<package name="643250100605" urn="urn:adsk.eagle:footprint:29961174/3">
 <description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -2223,7 +2223,7 @@ Copyright: Würth Elektronik</description>
 <text x="1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643260100605">
+<package name="643260100605" urn="urn:adsk.eagle:footprint:29961177/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Female Metal PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 5pins</description>
 <pad name="5" x="0" y="0" drill="1"/>
@@ -2278,7 +2278,7 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 <text x="0" y="1.2" size="1.016" layer="21" align="bottom-center">5</text>
 </package>
-<package name="643220100404">
+<package name="643220100404" urn="urn:adsk.eagle:footprint:29961151/3">
 <description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;THT, 4pins</description>
 <pad name="1" x="-1.767765625" y="1.767765625" drill="1" rot="R180"/>
@@ -2332,6 +2332,239 @@ Copyright: Würth Elektronik</description>
 <text x="-1.76" y="-4" size="1.016" layer="21" align="bottom-center">4</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="643240100408" urn="urn:adsk.eagle:package:29961198/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Female Angled 90° Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643240100408"/>
+</packageinstances>
+</package3d>
+<package3d name="643240100404" urn="urn:adsk.eagle:package:29961199/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Female Angled 90° Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643240100404"/>
+</packageinstances>
+</package3d>
+<package3d name="643240100405" urn="urn:adsk.eagle:package:29961200/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Female Angled 90° Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643240100405"/>
+</packageinstances>
+</package3d>
+<package3d name="643210100405" urn="urn:adsk.eagle:package:29961214/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643210100405"/>
+</packageinstances>
+</package3d>
+<package3d name="643210100608" urn="urn:adsk.eagle:package:29961210/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643210100608"/>
+</packageinstances>
+</package3d>
+<package3d name="643220100608" urn="urn:adsk.eagle:package:29961204/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643220100608"/>
+</packageinstances>
+</package3d>
+<package3d name="643270100308" urn="urn:adsk.eagle:package:29961186/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Angled 90° Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643270100308"/>
+</packageinstances>
+</package3d>
+<package3d name="643230100408" urn="urn:adsk.eagle:package:29961201/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Angled 90° Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643230100408"/>
+</packageinstances>
+</package3d>
+<package3d name="643250100304" urn="urn:adsk.eagle:package:29961196/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643250100304"/>
+</packageinstances>
+</package3d>
+<package3d name="643270100304" urn="urn:adsk.eagle:package:29961187/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Angled 90° Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643270100304"/>
+</packageinstances>
+</package3d>
+<package3d name="643230100404" urn="urn:adsk.eagle:package:29961202/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Angled 90° Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643230100404"/>
+</packageinstances>
+</package3d>
+<package3d name="643280100304" urn="urn:adsk.eagle:package:29961218/6" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Angled 90° Female Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643280100304"/>
+</packageinstances>
+</package3d>
+<package3d name="643220100604" urn="urn:adsk.eagle:package:29961206/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643220100604"/>
+</packageinstances>
+</package3d>
+<package3d name="643280100308" urn="urn:adsk.eagle:package:29961217/7" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Angled 90° Female Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643280100308"/>
+</packageinstances>
+</package3d>
+<package3d name="643250100604" urn="urn:adsk.eagle:package:29961193/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643250100604"/>
+</packageinstances>
+</package3d>
+<package3d name="643210100604" urn="urn:adsk.eagle:package:29961212/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643210100604"/>
+</packageinstances>
+</package3d>
+<package3d name="643220100408" urn="urn:adsk.eagle:package:29961207/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643220100408"/>
+</packageinstances>
+</package3d>
+<package3d name="643220100405" urn="urn:adsk.eagle:package:29961209/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643220100405"/>
+</packageinstances>
+</package3d>
+<package3d name="643260100604" urn="urn:adsk.eagle:package:29961190/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Female Metal PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643260100604"/>
+</packageinstances>
+</package3d>
+<package3d name="643250100308" urn="urn:adsk.eagle:package:29961195/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643250100308"/>
+</packageinstances>
+</package3d>
+<package3d name="643210100408" urn="urn:adsk.eagle:package:29961213/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643210100408"/>
+</packageinstances>
+</package3d>
+<package3d name="643250100608" urn="urn:adsk.eagle:package:29961192/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643250100608"/>
+</packageinstances>
+</package3d>
+<package3d name="643230100405" urn="urn:adsk.eagle:package:29961203/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Angled 90° Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643230100405"/>
+</packageinstances>
+</package3d>
+<package3d name="643210100605" urn="urn:adsk.eagle:package:29961211/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643210100605"/>
+</packageinstances>
+</package3d>
+<package3d name="643260100608" urn="urn:adsk.eagle:package:29961189/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Female Metal PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 8pins</description>
+<packageinstances>
+<packageinstance name="643260100608"/>
+</packageinstances>
+</package3d>
+<package3d name="643210100404" urn="urn:adsk.eagle:package:29961215/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic M16&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643210100404"/>
+</packageinstances>
+</package3d>
+<package3d name="643250100305" urn="urn:adsk.eagle:package:29961197/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643250100305"/>
+</packageinstances>
+</package3d>
+<package3d name="643220100605" urn="urn:adsk.eagle:package:29961205/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643220100605"/>
+</packageinstances>
+</package3d>
+<package3d name="643280100305" urn="urn:adsk.eagle:package:29961216/6" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Angled 90° Female Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643280100305"/>
+</packageinstances>
+</package3d>
+<package3d name="643260100605" urn="urn:adsk.eagle:package:29961191/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector Female Metal PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643260100605"/>
+</packageinstances>
+</package3d>
+<package3d name="643270100305" urn="urn:adsk.eagle:package:29961188/5" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Angled 90° Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643270100305"/>
+</packageinstances>
+</package3d>
+<package3d name="643250100605" urn="urn:adsk.eagle:package:29961194/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Panel Connector PCB Metal M12&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 5pins</description>
+<packageinstances>
+<packageinstance name="643250100605"/>
+</packageinstances>
+</package3d>
+<package3d name="643220100404" urn="urn:adsk.eagle:package:29961208/4" type="model">
+<description>&lt;b&gt;WR-CIRCM12 Screw Mating Panel Connector PCB Male Plastic PG9&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;THT, 4pins</description>
+<packageinstances>
+<packageinstance name="643220100404"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="FEMALE_8PINS">
 <pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
@@ -2691,7 +2924,7 @@ Copyright: Würth Elektronik</description>
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722380v209%20family-wr-circm12-6432401004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722380v209%20family-wr-circm12-6432401004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722380v209%20family-wr-circm12-6432401004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_ANGLED_90_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_ANGLED_90_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -2708,6 +2941,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961199/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643240100404?ae"/>
@@ -2759,7 +2995,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722372v209%20family-wr-circm12-6432701003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722372v209%20family-wr-circm12-6432701003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722372v209%20family-wr-circm12-6432701003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_ANGLED_90_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_ANGLED_90_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -2781,6 +3017,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="SHIELD" pad="S1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961186/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643270100308?ae"/>
@@ -2832,7 +3071,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722380v209%20family-wr-circm12-6432401004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722380v209%20family-wr-circm12-6432401004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722380v209%20family-wr-circm12-6432401004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_ANGLED_90_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_ANGLED_90_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -2850,6 +3089,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961200/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643240100405?ae"/>
@@ -2901,7 +3143,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722380v209%20family-wr-circm12-6432401004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722380v209%20family-wr-circm12-6432401004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722380v209%20family-wr-circm12-6432401004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_ANGLED_90_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_ANGLED_90_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -2922,6 +3164,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961198/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643240100408?ae"/>
@@ -2973,7 +3218,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722357v209%20family-wr-circm12-6432501003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722357v209%20family-wr-circm12-6432501003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722357v209%20family-wr-circm12-6432501003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -2990,6 +3235,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961196/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643250100304?ae"/>
@@ -3041,7 +3289,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722372v209%20family-wr-circm12-6432701003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722372v209%20family-wr-circm12-6432701003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722372v209%20family-wr-circm12-6432701003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_ANGLED_90_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_ANGLED_90_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -3059,6 +3307,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="SHIELD" pad="S1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961187/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643270100304?ae"/>
@@ -3110,7 +3361,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722351v209%20family-wr-circm12-6432101006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722351v209%20family-wr-circm12-6432101006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722351v209%20family-wr-circm12-6432101006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -3131,6 +3382,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961210/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643210100608?ae"/>
@@ -3182,7 +3436,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722376v209%20family-wr-circm12-6432201006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722376v209%20family-wr-circm12-6432201006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722376v209%20family-wr-circm12-6432201006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -3203,6 +3457,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961204/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643220100608?ae"/>
@@ -3254,7 +3511,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722350v209%20family-wr-circm12-6432101004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722350v209%20family-wr-circm12-6432101004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722350v209%20family-wr-circm12-6432101004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -3272,6 +3529,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961214/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643210100405?ae"/>
@@ -3323,7 +3583,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722353v209%20family-wr-circm12-6432301004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722353v209%20family-wr-circm12-6432301004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722353v209%20family-wr-circm12-6432301004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_ANGLED_PLASTICM16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_ANGLED_PLASTICM16&lt;/a&gt;&lt;p&gt;
 
@@ -3344,6 +3604,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961201/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643230100408?ae"/>
@@ -3395,7 +3658,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722376v209%20family-wr-circm12-6432201006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722376v209%20family-wr-circm12-6432201006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722376v209%20family-wr-circm12-6432201006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -3412,6 +3675,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961206/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643220100604?ae"/>
@@ -3463,7 +3729,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722353v209%20family-wr-circm12-6432301004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722353v209%20family-wr-circm12-6432301004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722353v209%20family-wr-circm12-6432301004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_ANGLED_PLASTICM16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_ANGLED_PLASTICM16&lt;/a&gt;&lt;p&gt;
 
@@ -3480,6 +3746,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961202/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643230100404?ae"/>
@@ -3531,7 +3800,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_ANGLED_90_FEMALE_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_ANGLED_90_FEMALE_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -3549,6 +3818,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="SHIELD" pad="S1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961218/6"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643280100304?ae"/>
@@ -3600,7 +3872,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722384v209%20family-wr-circ-m12-6432601006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722384v209%20family-wr-circ-m12-6432601006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722384v209%20family-wr-circ-m12-6432601006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_FEMALE_METAL_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_FEMALE_METAL_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -3617,6 +3889,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961190/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643260100604?ae"/>
@@ -3668,7 +3943,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722351v209%20family-wr-circm12-6432101006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722351v209%20family-wr-circm12-6432101006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722351v209%20family-wr-circm12-6432101006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -3685,6 +3960,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961212/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643210100604?ae"/>
@@ -3736,7 +4014,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722364v209%20family-wrcircm12-6432501006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722364v209%20family-wrcircm12-6432501006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722364v209%20family-wrcircm12-6432501006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -3753,6 +4031,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961193/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643250100604?ae"/>
@@ -3804,7 +4085,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_ANGLED_90_FEMALE_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_ANGLED_90_FEMALE_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -3826,6 +4107,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="SHIELD" pad="S1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961217/7"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643280100308?ae"/>
@@ -3877,7 +4161,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722375v209%20family-wr-circm12-6432201004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722375v209%20family-wr-circm12-6432201004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722375v209%20family-wr-circm12-6432201004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -3898,6 +4182,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961207/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643220100408?ae"/>
@@ -3949,7 +4236,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722350v209%20family-wr-circm12-6432101004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722350v209%20family-wr-circm12-6432101004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722350v209%20family-wr-circm12-6432101004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -3970,6 +4257,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961213/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643210100408?ae"/>
@@ -4021,7 +4311,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722375v209%20family-wr-circm12-6432201004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722375v209%20family-wr-circm12-6432201004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722375v209%20family-wr-circm12-6432201004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -4039,6 +4329,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961209/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643220100405?ae"/>
@@ -4090,7 +4383,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722364v209%20family-wrcircm12-6432501006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722364v209%20family-wrcircm12-6432501006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722364v209%20family-wrcircm12-6432501006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -4111,6 +4404,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961192/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643250100608?ae"/>
@@ -4162,7 +4458,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722351v209%20family-wr-circm12-6432101006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722351v209%20family-wr-circm12-6432101006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722351v209%20family-wr-circm12-6432101006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -4180,6 +4476,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961211/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643210100605?ae"/>
@@ -4231,7 +4530,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722357v209%20family-wr-circm12-6432501003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722357v209%20family-wr-circm12-6432501003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722357v209%20family-wr-circm12-6432501003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -4252,6 +4551,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961195/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643250100308?ae"/>
@@ -4303,7 +4605,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722350v209%20family-wr-circm12-6432101004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722350v209%20family-wr-circm12-6432101004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722350v209%20family-wr-circm12-6432101004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -4320,6 +4622,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961215/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643210100404?ae"/>
@@ -4371,7 +4676,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722384v209%20family-wr-circ-m12-6432601006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722384v209%20family-wr-circ-m12-6432601006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722384v209%20family-wr-circ-m12-6432601006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_FEMALE_METAL_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_FEMALE_METAL_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -4392,6 +4697,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961189/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643260100608?ae"/>
@@ -4443,7 +4751,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722386v209%20family-wr-circ-m12a-6432801003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_ANGLED_90_FEMALE_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_ANGLED_90_FEMALE_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -4462,6 +4770,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="SHIELD" pad="S1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961216/6"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643280100305?ae"/>
@@ -4513,7 +4824,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722384v209%20family-wr-circ-m12-6432601006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722384v209%20family-wr-circ-m12-6432601006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722384v209%20family-wr-circ-m12-6432601006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_FEMALE_METAL_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_FEMALE_METAL_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -4531,6 +4842,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961191/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643260100605?ae"/>
@@ -4582,7 +4896,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722353v209%20family-wr-circm12-6432301004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722353v209%20family-wr-circm12-6432301004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722353v209%20family-wr-circm12-6432301004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_ANGLED_PLASTICM16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_MALE_ANGLED_PLASTICM16&lt;/a&gt;&lt;p&gt;
 
@@ -4600,6 +4914,9 @@ Created by Ella 2023-03-14&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961203/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643230100405?ae"/>
@@ -4651,7 +4968,7 @@ Created by Ella 2023-03-14&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722357v209%20family-wr-circm12-6432501003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722357v209%20family-wr-circm12-6432501003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722357v209%20family-wr-circm12-6432501003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -4669,6 +4986,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961197/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643250100305?ae"/>
@@ -4720,7 +5040,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722376v209%20family-wr-circm12-6432201006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722376v209%20family-wr-circm12-6432201006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722376v209%20family-wr-circm12-6432201006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -4738,6 +5058,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961205/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643220100605?ae"/>
@@ -4789,7 +5112,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722372v209%20family-wr-circm12-6432701003xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722372v209%20family-wr-circm12-6432701003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722372v209%20family-wr-circm12-6432701003xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_ANGLED_90_METAL_M12"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_ANGLED_90_METAL_M12&lt;/a&gt;&lt;p&gt;
 
@@ -4808,6 +5131,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="SHIELD" pad="S1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961188/5"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643270100305?ae"/>
@@ -4859,7 +5185,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722364v209%20family-wrcircm12-6432501006xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722364v209%20family-wrcircm12-6432501006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722364v209%20family-wrcircm12-6432501006xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_PG9"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_METAL_PG9&lt;/a&gt;&lt;p&gt;
 
@@ -4877,6 +5203,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961194/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643250100605?ae"/>
@@ -4928,7 +5257,7 @@ Created by Ella 2023-11-30&lt;BR&gt;
 &lt;BR&gt;&lt;BR&gt;
 
 &lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o722375v209%20family-wr-circm12-6432201004xx.jpg" title="Enlarge picture"&gt;
-&lt;img src="o722375v209%20family-wr-circm12-6432201004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="https://www.we-online.com/components/media/o722375v209%20family-wr-circm12-6432201004xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 
 Details see: &lt;a href="https://www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_M16"&gt;www.we-online.com/en/components/products/WR-CIRCM12_PANEL_CONNECTOR_PCB_FEMALE_PLASTIC_M16&lt;/a&gt;&lt;p&gt;
 
@@ -4945,6 +5274,9 @@ Created by Ella 2023-11-30&lt;BR&gt;
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29961208/4"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/643220100404?ae"/>
@@ -4965,4 +5297,16 @@ Created by Ella 2023-11-30&lt;BR&gt;
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
